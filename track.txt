@@ -1,0 +1,2 @@
+||*.baidupcs.com/monitor.jpg^
+||*baidu-tongji*
