@@ -1,0 +1,6 @@
+||api.bilibili.com/x/player/carousel.so
+
+||tieba.baidu.com/tbapp/user/getRecommendApp
+||tieba.baidu.com/p/getLikeForum
+
+||pan.baidu.com/share/hotrec
