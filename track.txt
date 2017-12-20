@@ -1,2 +1,3 @@
 ||*.baidupcs.com/monitor.jpg^
 ||*baidu-tongji*
+||pan.baidu.com/pcloud/counter/refreshcount
