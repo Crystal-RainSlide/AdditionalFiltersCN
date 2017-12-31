@@ -1,10 +1,14 @@
+||hm.baidu.com/hm.js
 ||*.baidupcs.com/monitor.jpg^
 ||*baidu-tongji*
 
 ||pan.baidu.com/pcloud/counter/refreshcount
 
+! From mail.qq.com
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||localhost.ptlogin2.qq.com:*/pt_get_uins
 ||ssl.ptlogin2.qq.com/check
 ||rl.mail.qq.com/cgi-bin/getinvestigate
+
+
