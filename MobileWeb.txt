@@ -1,5 +1,4 @@
 ! 百度统计&数据收集
-||hm.baidu.com/hm.js
 ||m.baidu.com/se/static/js/dep/fingerprint2.min_*.js
 ||m.baidu.com/se/static/pmd/pmd/deps/detect_*.js
 ||m.baidu.com/se/static/js/log/*
