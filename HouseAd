@@ -1,0 +1,20 @@
+! 网易有道 Netease Youdao
+||dict.youdao.com/infoline
+||ke.youdao.com/api/course/*
+||www.huihui.cn/deals/channel.json
+||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
+! 备用 Backup
+! ||oimage*.ydstatic.com/image?id=*&product=*$image
+
+www.youdao.com##li:has-text(/背单词|精品课|人工翻译|惠惠/)
+www.youdao.com###more
+www.youdao.com###wljb
+www.youdao.com###margin3
+www.youdao.com###doc2
+www.youdao.com###callback
+
+fanyi.youdao.com##li:has(/有道翻译蛋|人工翻译/)
+fanyi.youdao.com##.rengong__guide
+fanyi.youdao.com###transMan
+fanyi.youdao.com##.inside__products
+fanyi.youdao.com##.side__nav
