@@ -1,3 +1,5 @@
+! Title: AdditionalFiltersCN - Data Collection
+! Baidu
 ||hm.baidu.com/hm.js
 ||*.baidupcs.com/monitor.jpg^
 ||*baidu-tongji*
