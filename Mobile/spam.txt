@@ -1,0 +1,11 @@
+! 百度搜索 百度APP Bottom Banner
+||m.baidu.com/se/static/js/modules/invoke/app/*
+||gss0.bdstatic.com/*/static/itemrep/bottomBanner/*
+||s.bdstatic.com/common/openjs/bdbanner.js
+! 百度搜索 用户头像旁广告
+m.baidu.com##.index-banner
+! 百度主页新闻流及相关
+||feed.baidu.com/feed/api/wise/feedlist
+||feed.baidu.com/feed/api/tab/gettabinfo
+||gss0.bdstatic.com/*/static/wiseindex/js/package/newsActivity_*.js
+||sm.bdimg.com/static/wiseindex/*
