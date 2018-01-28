@@ -11,8 +11,12 @@
 ||ssl.ptlogin2.qq.com/check
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 
+! Netease Youdao
 ! ||rlogs.youdao.com^
 ! ||*/rlog/*$script
 ||rlogs.youdao.com/rlog.php
 ||rlogs.youdao.com/rlog.js
 ||shared.ydstatic.com/js/rlog/*
+
+!KaFan
+||a.ikafan.com/9/tj.js
