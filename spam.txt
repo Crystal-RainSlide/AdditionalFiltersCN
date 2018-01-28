@@ -1,3 +1,5 @@
+! Title: AdditionalFiltersCN - SPAM
+
 ||api.bilibili.com/x/player/carousel.so
 
 ||tieba.baidu.com/tbapp/user/getRecommendApp
