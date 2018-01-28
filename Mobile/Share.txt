@@ -1,0 +1,3 @@
+! 百度搜索
+!||m.baidu.com/se/static/pmd/pmd/share/share_*.js
+!||m.baidu.com/static/searchbox/openjs/share.js
