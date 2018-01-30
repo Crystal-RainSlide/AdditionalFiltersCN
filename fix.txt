@@ -1,0 +1,7 @@
+!Sina Blog
+@@||simg.sinajs.cn/blog7style/*$domain=blog.sina.com.cn
+@@||simg.sinajs.cn/blog7newtpl/*$domain=blog.sina.com.cn
+
+Stnts
+pan.stnts.com#@#.share-header
+pan.stnts.com#@#.share-container
