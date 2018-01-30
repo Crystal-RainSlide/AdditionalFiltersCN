@@ -5,13 +5,21 @@
 
 Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for spy, advertising and interruption.
 Including some obvious trackers which could be found&confirmed by novices in network development, and should been listed&blocked YEARS ago.
-Data Collection
+
+### Data Collection
+
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/DC.txt
-Disturbing elements & content
+
+### elements & content
+
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt
-House advertisement which won't be blocked by common Adblock lists
+
+### House advertisement which won't be blocked by common Adblock lists
+
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/HouseAd.txt
-Fix 4 Fanboy+Easylist-Merged Ultimate List
+
+### Fix 4 Fanboy+Easylist-Merged Ultimate List
+
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/fix.txt
 
 ## Q:Why these mess are listed here but not EasyList China?
