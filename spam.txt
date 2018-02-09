@@ -6,3 +6,4 @@
 ||tieba.baidu.com/p/getLikeForum
 
 ||pan.baidu.com/share/hotrec
+||pan.baidu.com/disk/cmsdata
