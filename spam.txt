@@ -7,3 +7,13 @@
 
 ||pan.baidu.com/share/hotrec
 ||pan.baidu.com/disk/cmsdata
+
+www.hao123.com###head-wise
+www.hao123.com###headJoke
+www.hao123.com###sethome
+www.hao123.com##.g_tips-r
+www.hao123.com##.tips
+www.hao123.com##.tvtip
+www.hao123.com##.hot-icon
+www.hao123.com##.pic_icon
+www.hao123.com##.coolsiteresource-tip
