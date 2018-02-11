@@ -23,3 +23,7 @@
 
 !KaFan
 ||a.ikafan.com/9/tj.js
+
+!||user.hao123.com/static/mapping/hao.php
+!||hao123.baidu.com/static/mapping/bd.php
+/static/mapping/*php
