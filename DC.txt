@@ -4,7 +4,6 @@
 ||*.baidupcs.com/monitor.jpg^
 ||*baidu-tongji*
 
-||pan.baidu.com/box-static/disk-share/widget/log/*
 ||pan.baidu.com/pcloud/counter/refreshcount
 
 ||image.baidu.com/pv/pv.gif
