@@ -1,4 +1,6 @@
 ! Title: AdditionalFiltersCN - Data Collection
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+
 ! Baidu
 ||hm.baidu.com/hm.js
 ||*.baidupcs.com/monitor.jpg^
