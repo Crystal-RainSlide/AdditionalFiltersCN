@@ -1,0 +1,7 @@
+! Title: AdditionalFiltersCN - Premium Content Promotion
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+
+||ctfile.com/premium_inpage.php
+||pipipan.com/premium_inpage.php
+||ctfile.com/iajax_guest.php
+ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
