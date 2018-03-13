@@ -5,3 +5,8 @@
 Stnts
 pan.stnts.com#@#.share-header
 pan.stnts.com#@#.share-container
+
+Baidu Jingyan
+jingyan.baidu.com#@#.follow-btn
+jingyan.baidu.com#@##like-btn
+
