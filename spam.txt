@@ -2,11 +2,7 @@
 
 ||api.bilibili.com/x/player/carousel.so
 
-||tieba.baidu.com/tbapp/user/getRecommendApp
-||tieba.baidu.com/p/getLikeForum
-
-||pan.baidu.com/share/hotrec
-||pan.baidu.com/disk/cmsdata
+||baike.baidu.com/cms/global/home_config.json
 
 ||jingyan.baidu.com/asyncreq/log
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
@@ -21,6 +17,12 @@ jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
 jingyan.baidu.com###w-share
+
+||tieba.baidu.com/tbapp/user/getRecommendApp
+||tieba.baidu.com/p/getLikeForum
+
+||pan.baidu.com/share/hotrec
+||pan.baidu.com/disk/cmsdata
 
 www.hao123.com###head-wise
 www.hao123.com###headJoke
