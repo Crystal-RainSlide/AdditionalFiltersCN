@@ -17,3 +17,5 @@ www.hao123.com##.tvtip
 www.hao123.com##.hot-icon
 www.hao123.com##.pic_icon
 www.hao123.com##.coolsiteresource-tip
+
+www.bilibili.com##.v-live-recommend
