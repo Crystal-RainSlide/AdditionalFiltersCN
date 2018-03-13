@@ -3,7 +3,7 @@
 为中国大陆网络服务制作的额外过滤列表，分别针对隐私、广告和干扰；适用于例如 [uBlock Origin](https://github.com/gorhill/uBlock) 的浏览器拓展。
 包含一些长期未被处理的、显而易见的数据收集与追踪；哪怕初级网络开发者都能轻易发现并判定它们。
 
-Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for spy, advertising and interruption.
+Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
 Including some obvious trackers which could be found&confirmed by novices in network development easily, and should been listed&blocked YEARS ago.
 
 #### Suggestions:
@@ -12,17 +12,25 @@ jCleanList: https://raw.githubusercontent.com/jiayiming/jCleanList/master/jClean
 
 N2OList China : https://n2o.io/p/adblock/ (Blocked 2345 and 360)
 
+## Privacy
+
 ### Data Collection
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/DC.txt
 
-### elements & content
+## Advertisement
 
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt
+### House advertisement
 
-### House advertisement which won't be blocked by common Adblock lists
+House advertisement may not being included by common Adblock lists' blocking policy.
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/HouseAd.txt
+
+## Spam
+
+### interrupting elements & content
+
+https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt
 
 ### Fix 4 Fanboy+Easylist-Merged Ultimate List
 
