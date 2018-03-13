@@ -32,3 +32,6 @@
 !||user.hao123.com/static/mapping/hao.php
 !||hao123.baidu.com/static/mapping/bd.php
 /static/mapping/*php
+
+||static.ctfile.com/js/bd_stat.js
+*/bd_stat.js
