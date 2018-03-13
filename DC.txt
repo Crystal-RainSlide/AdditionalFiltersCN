@@ -6,6 +6,8 @@
 ||*.baidupcs.com/monitor.jpg^
 ||*baidu-tongji*
 
+||gss0.baidu.com/*/static/api/js/trans/logger.js
+
 ||pan.baidu.com/pcloud/counter/refreshcount
 
 ||image.baidu.com/pv/pv.gif
