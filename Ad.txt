@@ -1,6 +1,8 @@
 ! Title: AdditionalFiltersCN - Advertisement
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
+||doubleclick.ctfile.com^
+
 ! Userstyles.org
 userstyles.org##.navigation_ad
 userstyles.org##.adLong
