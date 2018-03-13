@@ -1,0 +1,4 @@
+! Userstyles.org
+userstyles.org##.navigation_ad
+userstyles.org##.adLong
+userstyles.org##.style_card_long:has(.adContainer)
