@@ -35,3 +35,11 @@ www.hao123.com##.pic_icon
 www.hao123.com##.coolsiteresource-tip
 
 www.bilibili.com##.v-live-recommend
+
+ctfile.com###infoModal
+ctfile.com##.modal-backdrop
+ctfile.com##.navbar
+ctfile.com##.text-center
+ctfile.com##hr
+ctfile.com##.row-fluid:has(.span6 > .speedydown-info-box)
+ctfile.com##.help-dialog
