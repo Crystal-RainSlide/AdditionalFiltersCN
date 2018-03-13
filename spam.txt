@@ -8,6 +8,20 @@
 ||pan.baidu.com/share/hotrec
 ||pan.baidu.com/disk/cmsdata
 
+||jingyan.baidu.com/asyncreq/log
+||exp.bdstatic.com/static/article/lib/share/logger_*.js
+||exp.bdstatic.com/static/article/lib/share/bds_*.js
+!||exp.bdstatic.com/static/common-jquery/widget/js/logic/log/*
+||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/*
+||exp.bdstatic.com/static/activity/widget/ui/redbox/*
+jingyan.baidu.com###my-income
+jingyan.baidu.com##.wgt-common-nav
+jingyan.baidu.com##.new-icon
+jingyan.baidu.com###auto-app-placehold
+jingyan.baidu.com##.wgt-income-money
+jingyan.baidu.com##.magzine-list
+jingyan.baidu.com###w-share
+
 www.hao123.com###head-wise
 www.hao123.com###headJoke
 www.hao123.com###sethome
