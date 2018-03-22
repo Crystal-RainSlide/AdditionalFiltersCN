@@ -30,6 +30,9 @@ wenku.baidu.com###my-wkHome-vip-tips
 wenku.baidu.com##a:has(#user-vip-ic)
 wenku.baidu.com##.top-ads-banner
 
+! Baidu Wenku Search
+wenku.baidu.com##.topicBox
+
 
 ||ctfile.com/premium_inpage.php
 ||pipipan.com/premium_inpage.php
