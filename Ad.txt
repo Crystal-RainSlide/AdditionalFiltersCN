@@ -4,6 +4,8 @@
 !Baidu Wenku
 wenku.baidu.com##.item-owner
 wenku.baidu.com##.gl-display
+!Baidu Wenku Search
+wenku.baidu.com##.search-aside-newadWrap
 
 ||doubleclick.ctfile.com^
 
