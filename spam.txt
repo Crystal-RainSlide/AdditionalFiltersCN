@@ -1,6 +1,6 @@
 ! Title: AdditionalFiltersCN - SPAM
 
-! Hot & New
+! Red Dot & Hot & New
 www.hao123.com##.hot-icon
 jingyan.baidu.com##.new-icon
 wenku.baidu.com##.ui-bz-hot-ic
