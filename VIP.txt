@@ -1,6 +1,20 @@
 ! Title: AdditionalFiltersCN - Premium Content Promotion
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
+
+||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
+||pan.baidu.com/box-static/disk-header/header/img/user-level1.png
+||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_*.png
+||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_*.png
+pan.baidu.com##.JS-user-level
+pan.baidu.com##.vip-notice
+pan.baidu.com##.vip-privilege
+pan.baidu.com##.JS-nativeupload-tip
+pan.baidu.com##.icon-menu-vip
+pan.baidu.com###show-buyvip-pack
+pan.baidu.com##.buyvip-pack
+
+
 ||ctfile.com/premium_inpage.php
 ||pipipan.com/premium_inpage.php
 ||ctfile.com/iajax_guest.php
