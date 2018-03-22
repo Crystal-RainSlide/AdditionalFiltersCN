@@ -1,10 +1,10 @@
 ! Title: AdditionalFiltersCN - Advertisement
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
-!Baidu Wenku
+! Baidu Wenku
 wenku.baidu.com##.item-owner
 wenku.baidu.com##.gl-display
-!Baidu Wenku Search
+! Baidu Wenku Search
 wenku.baidu.com##.search-aside-newadWrap
 
 ||doubleclick.ctfile.com^
