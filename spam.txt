@@ -3,11 +3,12 @@
 ! Red Dot & Hot & New
 pan.baidu.com##.find-light-icon
 pan.baidu.com##.newIcon
-
-www.hao123.com##.hot-icon
 jingyan.baidu.com##.new-icon
+wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
+www.hao123.com##.hot-icon
+
 
 ||api.bilibili.com/x/player/carousel.so
 
