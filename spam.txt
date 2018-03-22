@@ -1,5 +1,11 @@
 ! Title: AdditionalFiltersCN - SPAM
 
+! Hot & New
+www.hao123.com##.hot-icon
+jingyan.baidu.com##.new-icon
+wenku.baidu.com##.ui-bz-hot-ic
+wenku.baidu.com##.ui-bz-new-ic
+
 ||api.bilibili.com/x/player/carousel.so
 
 ||baike.baidu.com/cms/global/home_config.json
@@ -12,7 +18,6 @@
 ||exp.bdstatic.com/static/activity/widget/ui/redbox/*
 jingyan.baidu.com###my-income
 jingyan.baidu.com##.wgt-common-nav
-jingyan.baidu.com##.new-icon
 jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
@@ -24,13 +29,13 @@ jingyan.baidu.com###w-share
 ||pan.baidu.com/share/hotrec
 ||pan.baidu.com/disk/cmsdata
 
+
 www.hao123.com###head-wise
 www.hao123.com###headJoke
 www.hao123.com###sethome
 www.hao123.com##.g_tips-r
 www.hao123.com##.tips
 www.hao123.com##.tvtip
-www.hao123.com##.hot-icon
 www.hao123.com##.pic_icon
 www.hao123.com##.coolsiteresource-tip
 
