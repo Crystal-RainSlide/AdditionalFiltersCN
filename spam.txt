@@ -7,7 +7,12 @@ jingyan.baidu.com##.new-icon
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
+wenku.baidu.com##.hot-box
+wenku.baidu.com##span.newhotword
+index.baidu.com##.new
 www.hao123.com##.hot-icon
+www.4399.com##.i_new
+www.4399.com##.i_hot
 
 ! Premium Content Promotion
 ! Baidu Netdisk
