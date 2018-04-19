@@ -12,6 +12,11 @@
 
 ||image.baidu.com/pv/pv.gif
 
+! wenku.baidu.com
+||wkctj.baidu.com^
+||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
+||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
+
 ! From mail.qq.com
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||xui.ptlogin2.qq.com/ptui_ver.js
