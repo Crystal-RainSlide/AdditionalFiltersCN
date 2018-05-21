@@ -12,6 +12,8 @@ wenku.baidu.com##.search-aside-newadWrap
 
 ||doubleclick.ctfile.com^
 
+segmentfault.com##.mb25
+
 ! Userstyles.org
 userstyles.org##.navigation_ad
 userstyles.org##.adLong
