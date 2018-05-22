@@ -17,6 +17,9 @@ www.liaoxuefeng.com###ul-navbar > li > img
 
 ! Premium Content Promotion
 ! Baidu Netdisk
+
+pan.baidu.com##.module-hot-rec
+
 ||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
 ||pan.baidu.com/box-static/disk-header/header/img/user-level1.png
 ||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_*.png
