@@ -13,6 +13,7 @@ pan.baidu.com##.JS-nativeupload-tip
 pan.baidu.com##.icon-menu-vip
 pan.baidu.com###show-buyvip-pack
 pan.baidu.com##.buyvip-pack
+pan.baidu.com##.module-header-wrapper a[title="会员中心"]
 
 wenku.baidu.com##.ico-wkvip
 
