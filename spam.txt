@@ -13,6 +13,7 @@ index.baidu.com##.new
 www.hao123.com##.hot-icon
 www.4399.com##.i_new
 www.4399.com##.i_hot
+www.liaoxuefeng.com###ul-navbar > li > img
 
 ! Premium Content Promotion
 ! Baidu Netdisk
@@ -27,6 +28,23 @@ pan.baidu.com##.JS-nativeupload-tip
 pan.baidu.com##.icon-menu-vip
 pan.baidu.com###show-buyvip-pack
 pan.baidu.com##.buyvip-pack
+
+
+tieba.baidu.com###hot_thread
+tieba.baidu.com###hot_forum
+tieba.baidu.com##.banner
+tieba.baidu.com###celebrity
+tieba.baidu.com##.user_score
+tieba.baidu.com##.rank
+tieba.baidu.com##.member_rank
+tieba.baidu.com###media_item
+tieba.baidu.com###adide_platform
+tieba.baidu.com##.r-top-sec
+tieba.baidu.com###spage_liveshow_slide
+tieba.baidu.com##.tbui_fbar_down
+tieba.baidu.com##.tbui_fbar_share
+tieba.baidu.com##.top-sec
+
 
 wenku.baidu.com##.ico-wkvip
 wenku.baidu.com###wk-user-icon-home
