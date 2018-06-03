@@ -13,7 +13,6 @@
 ||image.baidu.com/pv/pv.gif
 
 ! pan.baidu.com
-||update.pan.baidu.com/statistics
 ||pan.baidu.com/box-static/disk-system/js/alog.js
 ||pan.baidu.com/box-static/disk-system/js/log.js
 ||pan.baidu.com/box-static/disk-system/js/dp.js
