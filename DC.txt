@@ -46,3 +46,7 @@
 
 ||static.ctfile.com/js/bd_stat.js
 */bd_stat.js
+
+! Google Analytics Proxy
+||ga.giuem.com/^
+/?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
