@@ -6,9 +6,13 @@
 Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
 Including some obvious trackers which could be found&confirmed by novices in network development easily, and should been listed&blocked YEARS ago.
 
-##### International
+##### Optional Rules
 
-Anti Data Collection & Ads included.
+https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Optional.md
+
+##### International Rules
+
+Anti Data Collection & Ads included. I'd better add them into Easylist by some means...
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/intl/All.txt
 
