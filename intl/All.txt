@@ -1,0 +1,72 @@
+
+! Title: AdditionalFiltersCN - Data Collection
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+! Data Collection Start
+! Microsoft Outlook
+||footprintc.azureedge.net/r.gif
+||outlook.live.com/apc/trans.gif
+||outlook.live.com/owa/plt1.ashx
+||outlook.live.com/owa/ping.owa
+||go.trouter.io/v2/h
+||drip.trouter.io^
+||r4.res.office365.com/footprint/v2.0/scripts/fp.js
+*/scripts/microsoft.owa.ariaanalytics.js
+! Data Collection End
+
+! Ads Start
+! Twitter
+twitter.com##.Footer-adsModule
+twitter.com##.import-prompt
+
+! Microsoft Outlook
+||r1.res.office365.com/adbar/*$xmlhttprequest,important
+outlook.live.com##._n_X.hiddenOverflow.ms-bgc-nlr > div:first-child:style(height: 40px !important)
+outlook.live.com##div[autoid=_n_c]:style(top: 40px !important)
+outlook.live.com##._n_X4._n_05:style(bottom: 40px !important)
+outlook.live.com##._lvv_61 > div > div:has(.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x)
+outlook.live.com##._lvv_61 > div > div:has(.__Microsoft_Owa_MessageListAds_ListView_templates_cs_E .fbAdIcon)
+
+! SourceForge
+sourceforge.net##.sterling,.banner-sterling,banner-sterling
+sourceforge.net###project-nel
+sourceforge.net##.can-truncate.standard.nel
+sourceforge.net##.stackcommerce-widget
+! Textnow
+www.textnow.com###bannerContainer
+www.textnow.com##.rotation-manager-slot
+www.textnow.com##.notification-priming-modal
+www.textnow.com##.toast-mask
+www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
+
+! iFixit
+||ifixit-assets.??.ifixit.com/Assets/Admin/Shared-Campaigns-campaign_banners-*
+www.ifixit.com##.campaign-banner-generic
+
+www.newgrounds.com##.header-deck
+www.newgrounds.com##.GAR_header_topbar
+www.newgrounds.com##.pod:has-text(/MMO RPGs|Featured web games!/)
+www.newgrounds.com##.footer-ad-space
+www.newgrounds.com##.footer-shim.body-guts
+||www.newgrounds.com/support/*$image
+
+||server.cpmstar.com^$important
+
+www.plazmaburst2.com##[class^="gads"]
+
+forum.xda-developers.com###honor-launch-banner
+
+t.me,telegram.me,telegram.cat##.tgme_head_dl_button
+
+||bandcamp.com/stat_record
+
+userscloud.com##.innerTB > center
+
+winaero.com##.recommended-inline
+
+! Aff
+! VULTR
+||www.vultr.com/dist/img/brand/banner_?.png
+||www.vultr.com/media/banner_?.png
+! Ads End
