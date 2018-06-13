@@ -9,10 +9,19 @@
 ||outlook.live.com/apc/trans.gif
 ||outlook.live.com/owa/plt1.ashx
 ||outlook.live.com/owa/ping.owa
+! trouter.io is for what and #why
 ||go.trouter.io/v2/h
 ||drip.trouter.io^
 ||r4.res.office365.com/footprint/v2.0/scripts/fp.js
 */scripts/microsoft.owa.ariaanalytics.js
+
+! Duckduckgo #why
+||duckduckgo.com/daily/
+||duckduckgo.com/weekly/
+||duckduckgo.com/monthly/
+
+! Bandcamp
+||bandcamp.com/stat_record
 ! Data Collection End
 
 ! Ads Start
@@ -33,6 +42,7 @@ sourceforge.net##.sterling,.banner-sterling,banner-sterling
 sourceforge.net###project-nel
 sourceforge.net##.can-truncate.standard.nel
 sourceforge.net##.stackcommerce-widget
+
 ! Textnow
 www.textnow.com###bannerContainer
 www.textnow.com##.rotation-manager-slot
@@ -43,7 +53,7 @@ www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
 ! iFixit
 ||ifixit-assets.??.ifixit.com/Assets/Admin/Shared-Campaigns-campaign_banners-*
 www.ifixit.com##.campaign-banner-generic
-
+! NewGrounds
 www.newgrounds.com##.header-deck
 www.newgrounds.com##.GAR_header_topbar
 www.newgrounds.com##.pod:has-text(/MMO RPGs|Featured web games!/)
@@ -58,8 +68,6 @@ www.plazmaburst2.com##[class^="gads"]
 forum.xda-developers.com###honor-launch-banner
 
 t.me,telegram.me,telegram.cat##.tgme_head_dl_button
-
-||bandcamp.com/stat_record
 
 userscloud.com##.innerTB > center
 
