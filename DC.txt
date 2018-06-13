@@ -4,7 +4,13 @@
 ! Baidu
 ||hm.baidu.com/hm.js
 ||*.baidupcs.com/monitor.jpg^
-||*baidu-tongji*
+*/baidu-tongji/*
+
+||msite.baidu.com/sdk/c.js
+||ae.bdstatic.com/msite/static/sdk/*
+||xiongzhang.baidu.com/xzhstatistics/rp
+
+||nc.baidu.com/api/blades/cp
 
 ||gss0.baidu.com/*/static/api/js/trans/logger.js
 
@@ -16,7 +22,7 @@
 ||pan.baidu.com/box-static/disk-system/js/alog.js
 ||pan.baidu.com/box-static/disk-system/js/log.js
 ||pan.baidu.com/box-static/disk-system/js/dp.js
-
+||pan.baidu.com/api/report/user
 
 ! wenku.baidu.com
 ||wkctj.baidu.com^
