@@ -59,6 +59,7 @@ www.newgrounds.com##.GAR_header_topbar
 www.newgrounds.com##.pod:has-text(/MMO RPGs|Featured web games!/)
 www.newgrounds.com##.footer-ad-space
 www.newgrounds.com##.footer-shim.body-guts
+www.newgrounds.com##div[class^=ng-ad-container]
 ||www.newgrounds.com/support/*$image
 
 ||server.cpmstar.com^$important
