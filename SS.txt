@@ -1,0 +1,23 @@
+! Title: AdditionalFiltersCN - Social&Share
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+
+! 百度分享
+||bdimg.share.baidu.com^
+! ||bdimg.share.baidu.com/static/api/js/trans/logger.js
+*/baiduShare/*
+*/bdshare/*
+###bdshare
+
+baike.baidu.com###side-share
+
+www.sohu.com###share
+
+*/bdshare2.0.js
+! ||www.4399.com/jss/bdshare2.0.js
+
+
+club.kdnet.net##.new-share-main
+
+www.juzimi.com###jushare
