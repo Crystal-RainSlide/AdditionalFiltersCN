@@ -1,15 +1,18 @@
 ! Title: AdditionalFiltersCN - SPAM
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
 
 ! Red Dot & Hot & New
+index.baidu.com##.new
+jingyan.baidu.com##.new-icon
 pan.baidu.com##.find-light-icon
 pan.baidu.com##.newIcon
-jingyan.baidu.com##.new-icon
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
 wenku.baidu.com##.hot-box
 wenku.baidu.com##span.newhotword
-index.baidu.com##.new
+zhidao.baidu.com##.menu-title-icon
 
 www.hao123.com##.hot-icon
 
