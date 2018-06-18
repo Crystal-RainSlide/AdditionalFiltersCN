@@ -36,6 +36,14 @@
 ||ssl.ptlogin2.qq.com/check
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 
+! mp.weixin.qq.com
+||mp.weixin.qq.com/mp/appmsgreport
+||mp.weixin.qq.com/mp/report
+||mp.weixin.qq.com/mp/jsmonitor
+||mp.weixin.qq.com/mp/getappmsgext
+||mp.weixin.qq.com/mp/jsreport
+||mp.weixin.qq.com/mp/fereport
+
 ! Netease Youdao
 ! ||rlogs.youdao.com^
 ! ||*/rlog/*$script
