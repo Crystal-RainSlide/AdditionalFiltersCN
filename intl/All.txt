@@ -20,6 +20,17 @@
 ||duckduckgo.com/weekly/
 ||duckduckgo.com/monthly/
 
+! Yandex
+! ||yastatic.net/nearest.js
+
+! Yandex.Search
+||yandex.com/clck/*
+||yandex.com/ick/r
+||yastatic.net/web4/_/*.gif$image
+
+! Yandex.Disk
+||yadi.sk/monitoring.txt/*
+
 ! Bandcamp
 ||bandcamp.com/stat_record
 ! Data Collection End
