@@ -114,6 +114,10 @@ wenku.baidu.com###share-tips
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
 
+! 去除高亮显示关键词
+||gh.bdstatic.com/static/gh/js/ll/m_word.js
+! ||entry.baidu.com/rp/wordner
+
 www.hao123.com###head-wise
 www.hao123.com###headJoke
 www.hao123.com###sethome
