@@ -111,6 +111,7 @@ wenku.baidu.com###share-tips
 
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/question/api/hao123word
+||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
 
 www.hao123.com###head-wise
