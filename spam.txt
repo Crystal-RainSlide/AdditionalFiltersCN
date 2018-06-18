@@ -10,10 +10,24 @@ wenku.baidu.com##.ui-bz-new-ic
 wenku.baidu.com##.hot-box
 wenku.baidu.com##span.newhotword
 index.baidu.com##.new
+
 www.hao123.com##.hot-icon
+
 www.4399.com##.i_new
 www.4399.com##.i_hot
+
 www.liaoxuefeng.com###ul-navbar > li > img
+
+music.163.com##.hot
+
+www.oschina.net###icon_mayun
+www.oschina.net##.icon_mayun
+www.oschina.net##.mayun.event.menu-item:style(font-weight: 400 !important; color: #fff !important)
+
+gitee.com##.label.red.ui
+
+9gag.com##.nav-menu .new::after
+
 
 ! Premium Content Promotion
 ! Baidu Netdisk
