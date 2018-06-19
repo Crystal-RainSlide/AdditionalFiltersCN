@@ -17,6 +17,8 @@ www.sohu.com###share
 */bdshare2.0.js
 ! ||www.4399.com/jss/bdshare2.0.js
 
+www.chinaz.com##.cz-leftside-title
+www.chinaz.com##.cz_share
 
 club.kdnet.net##.new-share-main
 
