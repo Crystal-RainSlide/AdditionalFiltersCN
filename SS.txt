@@ -20,6 +20,8 @@ www.sohu.com###share
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
 
+www.panduoduo.net##.share-bar
+
 club.kdnet.net##.new-share-main
 
 www.juzimi.com###jushare
