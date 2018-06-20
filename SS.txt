@@ -8,14 +8,17 @@
 ! ||bdimg.share.baidu.com/static/api/js/trans/logger.js
 */baiduShare/*
 */bdshare/*
+*/bdshare2.0.js
+! ||www.4399.com/jss/bdshare2.0.js
 ###bdshare
 
 baike.baidu.com###side-share
 
-www.sohu.com###share
+||exp.bdstatic.com/static/article/lib/share/*
+jingyan.baidu.com###w-share
 
-*/bdshare2.0.js
-! ||www.4399.com/jss/bdshare2.0.js
+
+www.sohu.com###share
 
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
