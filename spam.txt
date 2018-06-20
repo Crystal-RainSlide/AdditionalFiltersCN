@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
-! Red Dot & Hot & New
+! Red Dot & Hot & New End
 index.baidu.com##.new
 jingyan.baidu.com##.new-icon
 pan.baidu.com##.find-light-icon
@@ -25,16 +25,21 @@ music.163.com##.hot
 
 www.oschina.net###icon_mayun
 www.oschina.net##.icon_mayun
-www.oschina.net##.mayun.event.menu-item:style(font-weight: 400 !important; color: #fff !important)
 
 gitee.com##.label.red.ui
 
 9gag.com##.nav-menu .new::after
+! Red Dot & Hot & New End
 
+! Highlight Start
+www.oschina.net##.mayun.event.menu-item:style(font-weight: 400 !important; color: #fff !important)
 
-! Premium Content Promotion
-! Baidu Netdisk
+www.panduoduo.net##.announcement-bar > a:style(color: #336699 !important; font-weight: normal !important;)
+! Highlight End
 
+! Baidu Netdisk Start
+||pan.baidu.com/share/hotrec
+||pan.baidu.com/disk/cmsdata
 pan.baidu.com##.module-hot-rec
 
 ||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
@@ -42,14 +47,27 @@ pan.baidu.com##.module-hot-rec
 ||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_*.png
 ||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_*.png
 pan.baidu.com##.JS-user-level
-pan.baidu.com##.vip-notice
-pan.baidu.com##.vip-privilege
-pan.baidu.com##.JS-nativeupload-tip
-pan.baidu.com##.icon-menu-vip
 pan.baidu.com###show-buyvip-pack
 pan.baidu.com##.buyvip-pack
 
+pan.baidu.com##.module-header-wrapper a[title="会员中心"]
+pan.baidu.com##.vip-notice
+pan.baidu.com##.vip-privilege
 
+pan.baidu.com##.get-capacity
+pan.baidu.com##.bar > div:has-text(扩容至5T)
+
+pan.baidu.com##.context-menu > .list > li.separate[data-group="1"]
+pan.baidu.com##.context-menu > .list > li:has(.icon-menu-vip)
+! pan.baidu.com##.icon-menu-vip
+
+pan.baidu.com##.context-menu > .list > li.separate[data-group="2"]
+pan.baidu.com##.context-menu > .list > li:has-text(云冲印)
+pan.baidu.com##.context-menu > .list > li:has-text(制作照片电影)
+pan.baidu.com##.context-menu > .list > li:has-text(美化)
+! Baidu Netdisk End
+
+! Premium Content Promotion
 tieba.baidu.com###hot_thread
 tieba.baidu.com###hot_forum
 tieba.baidu.com##.banner
@@ -91,8 +109,6 @@ ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
 ||baike.baidu.com/cms/global/home_config.json
 
 ||jingyan.baidu.com/asyncreq/log
-||exp.bdstatic.com/static/article/lib/share/logger_*.js
-||exp.bdstatic.com/static/article/lib/share/bds_*.js
 !||exp.bdstatic.com/static/common-jquery/widget/js/logic/log/*
 ||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/*
 ||exp.bdstatic.com/static/activity/widget/ui/redbox/*
@@ -101,13 +117,9 @@ jingyan.baidu.com##.wgt-common-nav
 jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
-jingyan.baidu.com###w-share
 
 ||tieba.baidu.com/tbapp/user/getRecommendApp
 ||tieba.baidu.com/p/getLikeForum
-
-||pan.baidu.com/share/hotrec
-||pan.baidu.com/disk/cmsdata
 
 wenku.baidu.com###banurl
 wenku.baidu.com###share-tips
@@ -117,7 +129,7 @@ wenku.baidu.com###share-tips
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
 
-! 去除高亮显示关键词
+! 百度知道 去除高亮显示关键词
 ||gh.bdstatic.com/static/gh/js/ll/m_word.js
 ! ||entry.baidu.com/rp/wordner
 
