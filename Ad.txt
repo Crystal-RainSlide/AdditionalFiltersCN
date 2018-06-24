@@ -1,5 +1,6 @@
 ! Title: AdditionalFiltersCN - Advertisement
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
 
 ! Baidu Wenku
 wenku.baidu.com##.item-owner
@@ -12,11 +13,26 @@ wenku.baidu.com##.search-aside-newadWrap
 
 zhidao.baidu.com##.product-container
 
+www.zybang.com##.wgt_carousel_aniUnit
+||img.zuoyebang.cc^
+
+
 www.xiami.com##.promotion-block
 
 ||doubleclick.ctfile.com^
 
 segmentfault.com##.mb25
+
+www.panduoduo.net##.sep15
+www.panduoduo.net##^.sep15 > script
+! 哪位老哥写的居中啊，.footer 上 text-align: center 不是用得好好的吗？修了。
+www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
+www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
+www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
+www.panduoduo.net##.container > .index-page > div > .total-hint:style(width： auto !important; margin-bottom: 10px; text-align: center)
+
+! ChinaZ
+www.chinaz.com##^div[id^="ad_code"]
 
 ! All ChinaZ Tools
 chinaz.com##.topTsCenter
@@ -34,6 +50,44 @@ ping.chinaz.com##.col-1:style(width: 15% !important)
 ping.chinaz.com##.col-2:style(width: 15% !important)
 ! ping.chinaz.com##.col-2:style(width: 20% !important)
 ping.chinaz.com##.col-4:style(width: 40% !important)
+
+! www.ttrar.com
+||www.ttrar.com/static/api/js/*
+||www.ttrar.com/statics/pos_js/*
+! ||www.ttrar.com/statics/pos_js/ydggw.js
+! ||www.ttrar.com/statics/pos_js/ydggw2.js
+
+www.ttrar.com##.main_yxtj
+www.ttrar.com###ruanj .lj
+
+www.ttrar.com##.hot_word
+
+www.ttrar.com##.share
+! www.ttrar.com##.list_bt
+www.ttrar.com##.xzsbox
+www.ttrar.com##.link_yq
+
+www.ttrar.com##.sj
+www.ttrar.com##.header > .sous:style(float: right !important)
+
+www.ttrar.com##.list_lf
+www.ttrar.com##.list_md:style(width: unset !important; float: none !important)
+www.ttrar.com##.fllist:style(width: 640px; float: left)
+www.ttrar.com##.fllist > p:style(line-height: normal !important; width: 210px !important)
+www.ttrar.com##.md_bt:style(margin-top: 0 !important; float: right)
+www.ttrar.com##.list_rg
+
+www.ttrar.com##.xzsbox
+www.ttrar.com##.xzdz_rg
+www.ttrar.com##.sort_list > .clearfix:first-child
+! www.ttrar.com##.sort_list > .clearfix:has(.yc_xzq_aurl)
+! www.ttrar.com##.yc_xzq_aurl
+www.ttrar.com#@#a[href*=".downok.com"]
+www.ttrar.com##.sort_list > dl.der > dd:style(border-top: 1px solid #a6d990 !important)
+www.ttrar.com##.link_yq
+
+! 携程推广
+||u.ctrip.com/union/CtripRedirect.aspx
 
 ! Userstyles.org
 userstyles.org##.navigation_ad
