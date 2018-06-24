@@ -12,10 +12,16 @@ fanyi.baidu.com##.download-app
 tieba.baidu.com##.u_app
 
 wenku.baidu.com##.reader-download-app
+wenku.baidu.com##.qrHover
 
 zhidao.baidu.com##.zhidao-app
 
 www.zybang.com##.app-download
+
+||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
+||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
+||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
+
 
 www.zhihu.com##.AppBanner
 
@@ -24,7 +30,14 @@ coolapk.com###head
 coolapk.com##.left_download
 coolapk.com##.apk_right
 
+www.chinaz.com##.cz-weixin
+
+www.ttrar.com##.ewm
+
+www.xiami.com###qrcode
+
 ! 果酱音乐
+||www.jammyfm.com/wordpress/wp-content/themes/pinboard/scripts/qrcode.min.js
 www.jammyfm.com##.app-promote-btn
 www.jammyfm.com##.app-pro-container
 www.jammyfm.com##.qr-section
