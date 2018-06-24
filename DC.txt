@@ -1,22 +1,28 @@
 ! Title: AdditionalFiltersCN - Data Collection
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+*/static/api/js/*/logger.js
+! ||gss0.baidu.com/*/static/api/js/trans/logger.js
 
 ! Baidu
 ||hm.baidu.com/hm.js
 ||*.baidupcs.com/monitor.jpg^
 */baidu-tongji/*
+*/baidutongji.js
 
-||msite.baidu.com/sdk/c.js
-||ae.bdstatic.com/msite/static/sdk/*
+||ae.bdstatic.com/msite/*
+||msite.baidu.com^
+! ||msite.baidu.com/sdk/c.js
 ||xiongzhang.baidu.com/xzhstatistics/rp
+
+||www.baidu.com/con
 
 ||nc.baidu.com/api/blades/cp
 
-||gss0.baidu.com/*/static/api/js/trans/logger.js
+||image.baidu.com/pv/pv.gif
 
 ||pan.baidu.com/pcloud/counter/refreshcount
-
-||image.baidu.com/pv/pv.gif
 
 ! pan.baidu.com
 ||pan.baidu.com/box-static/disk-system/js/alog.js
@@ -28,6 +34,10 @@
 ||wkctj.baidu.com^
 ||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
 ||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
+
+||report.url.cn^
+||report.huatuo.qq.com^
+||dj.captcha.qq.com/caplog
 
 ! From mail.qq.com
 ||ui.ptlogin2.qq.com/cgi-bin/report
@@ -60,6 +70,8 @@
 
 ||static.ctfile.com/js/bd_stat.js
 */bd_stat.js
+
+||log.mix.sina.com.cn^
 
 ! Google Analytics Proxy
 ||ga.giuem.com/^
