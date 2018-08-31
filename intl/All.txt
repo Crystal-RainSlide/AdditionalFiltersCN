@@ -4,16 +4,6 @@
 ! Expire: 7 days
 
 ! Data Collection Start
-! Microsoft Outlook
-||footprintc.azureedge.net/r.gif
-||outlook.live.com/apc/trans.gif
-||outlook.live.com/owa/plt1.ashx
-||outlook.live.com/owa/ping.owa
-! trouter.io is for what and #why
-||go.trouter.io/v2/h
-||drip.trouter.io^
-||r4.res.office365.com/footprint/v2.0/scripts/fp.js
-*/scripts/microsoft.owa.ariaanalytics.js
 
 ! Duckduckgo #why
 ||duckduckgo.com/daily/
@@ -42,11 +32,8 @@ twitter.com##.import-prompt
 
 ! Microsoft Outlook
 ||r1.res.office365.com/adbar/*$xmlhttprequest,important
-outlook.live.com##._n_X.hiddenOverflow.ms-bgc-nlr > div:first-child:style(height: 40px !important)
-outlook.live.com##div[autoid=_n_c]:style(top: 40px !important)
-outlook.live.com##._n_X4._n_05:style(bottom: 40px !important)
-outlook.live.com##._lvv_61 > div > div:has(.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x)
-outlook.live.com##._lvv_61 > div > div:has(.__Microsoft_Owa_MessageListAds_ListView_templates_cs_E .fbAdIcon)
+||acdn.adnxs.com/ast/static/*/ast.js$important
+/owa.vendors~MessageAdList.
 
 ! SourceForge
 sourceforge.net##.sterling,.banner-sterling,banner-sterling
