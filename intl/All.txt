@@ -1,4 +1,3 @@
-
 ! Title: AdditionalFiltersCN - International
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
@@ -77,3 +76,8 @@ winaero.com##.recommended-inline
 ||www.vultr.com/dist/img/brand/banner_?.png
 ||www.vultr.com/media/banner_?.png
 ! Ads End
+
+! APP&Download Start
+Yandex.Disk
+disk.yandex.com##.ns-view-dialogWelcome
+
