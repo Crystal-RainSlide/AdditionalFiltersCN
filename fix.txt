@@ -1,6 +1,9 @@
 ! Title: AdditionalFiltersCN - Fix for Fanboy's lists
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
+! Google Blog
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
 
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*
