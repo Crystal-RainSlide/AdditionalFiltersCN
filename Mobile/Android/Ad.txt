@@ -4,8 +4,6 @@
 ! Baidu
 ! 首页
 m.baidu.com##.page-banner
-||gss0.bdstatic.com/*/static/wiseindex/js/plugin/baiduappAd_*.js
-m.baidu.com##.baiduapp-ad-container
 m.baidu.com##.logined-banner
 m.baidu.com##.blank-frame
 m.baidu.com###bottom
@@ -23,17 +21,8 @@ m.baidu.com###page-relative
 m.baidu.com###foot-blank
 
 ! AppStore
-! Coolapk
-www.coolapk.com##body > a[href="javascript:void(0);"]
-
-!　AppChina
-m.appchina.com###yyh-bottom
-m.appchina.com##.high-speed-down-btn
-m.appchina.com##.normal-down-btn:style(width:100%!important;line-height:34px!important;background-color:#53bf1d!important;color:#FFF!important;border-radius:2px!important;font-size:14px!important;margin:unset!important)
-m.appchina.com##.b-text
 
 ! Apkpure
-m.apkpure.com##.aegon-warp
 m.apkpure.com##.ad-box
 
 ! Uptodown
