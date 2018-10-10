@@ -1,0 +1,87 @@
+! Title: AdditionalFiltersCN - Android Advertisement
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! Baidu
+! 首页
+m.baidu.com##.page-banner
+||gss0.bdstatic.com/*/static/wiseindex/js/plugin/baiduappAd_*.js
+m.baidu.com##.baiduapp-ad-container
+m.baidu.com##.logined-banner
+m.baidu.com##.blank-frame
+m.baidu.com###bottom
+! 搜索框内
+m.baidu.com##.se-bearicon
+m.baidu.com##.callicon-wrap
+! 搜索结果前
+m.baidu.com##.se-tabitem:has-text(职位)
+m.baidu.com##.rs-toprq-wrapper-atom
+! 搜索结果后
+m.baidu.com##.c-result.result:has(.wa-recommend-list)
+m.baidu.com##.result.c-result:has(.c-result-content)
+m.baidu.com###page-relative
+! 底部
+m.baidu.com###foot-blank
+
+! AppStore
+! Coolapk
+www.coolapk.com##body > a[href="javascript:void(0);"]
+
+!　AppChina
+m.appchina.com###yyh-bottom
+m.appchina.com##.high-speed-down-btn
+m.appchina.com##.normal-down-btn:style(width:100%!important;line-height:34px!important;background-color:#53bf1d!important;color:#FFF!important;border-radius:2px!important;font-size:14px!important;margin:unset!important)
+m.appchina.com##.b-text
+
+! Apkpure
+m.apkpure.com##.aegon-warp
+m.apkpure.com##.ad-box
+
+! Uptodown
+uptodown.com##.banner-download
+uptodown.com###sticky_ad
+uptodown.com##.banner-custom
+uptodown.com###content_lower_ad
+
+
+! Netdisk
+! ||performance.typekit.net^$xmlhttprequest
+||use.fontawesome.com^$domain=androidfilehost.com,important
+androidfilehost.com##.community-menu
+
+www.mediafire.com##.m-ad
+www.mediafire.com###upsellBox
+
+||yadi.sk/monitoring.txt
+yadi.sk##.mobile-badges
+
+userscloud.com##.innerTB > center
+userscloud.com##.container > center
+userscloud.com##.list-group
+
+uploadocean.com##.strip_right:has(a[href="https://uploadocean.com/premium-features.html"])
+uploadocean.com##.down1_holder div:has(.twitter-follow-button)
+
+dropapk.com###pay_modes
+
+uplod.org##.fmore
+||www.youtube.com^$domain=uplod.org
+||www.facebook.com^$domain=uplod.org
+uplod.org##a[href="https://www.instagram.com/rashed.me/"]
+
+douploads.com##.leftcol
+douploads.com##.adsbygoogle
+douploads.com##.paymentoffersone1
+douploads.com##.socialmedia
+douploads.com##td:has(#sharebuttons)
+douploads.com###sidebar
+
+||connect.facebook.net^$domain=userstyles.org
+||apis.google.com/js/plusone.js$domain=userstyles.org
+||platform.twitter.com/widgets.js$domain=userstyles.org
+||assets.pinterest.com^$domain=userstyles.org
+||fonts.googleapis.com^$domain=userstyles.org
+upload4earn.net##.mngez_premium
+upload4earn.com##.mngez_premium
+upload4earn.com###socialmedia
+upload4earn.com##.mngez_freedown
+upload4earn.com##.sharebuttons
