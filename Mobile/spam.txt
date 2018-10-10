@@ -1,10 +1,6 @@
-! °Ù¶ÈËÑË÷ °Ù¶ÈAPP Bottom Banner
-||m.baidu.com/se/static/js/modules/invoke/app/*
-||gss0.bdstatic.com/*/static/itemrep/bottomBanner/*
-||s.bdstatic.com/common/openjs/bdbanner.js
-! °Ù¶ÈËÑË÷ ÓÃ»§Í·ÏñÅÔ¹ã¸æ
+! ç™¾åº¦æœç´¢ ç”¨æˆ·å¤´åƒæ—å¹¿å‘Š
 m.baidu.com##.index-banner
-! °Ù¶ÈÖ÷Ò³ĞÂÎÅÁ÷¼°Ïà¹Ø
+! ç™¾åº¦ä¸»é¡µæ–°é—»æµåŠç›¸å…³
 ||feed.baidu.com/feed/api/wise/feedlist
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||gss0.bdstatic.com/*/static/wiseindex/js/package/newsActivity_*.js
