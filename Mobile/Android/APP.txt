@@ -1,0 +1,26 @@
+! Title: AdditionalFiltersCN - Android APP Advertisement
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+! 百度搜索 百度APP Bottom Banner
+||m.baidu.com/se/static/js/modules/invoke/app/*
+||gss0.bdstatic.com/*/static/itemrep/bottomBanner/*
+||s.bdstatic.com/common/openjs/bdbanner.js
+
+||gss0.bdstatic.com/*/static/wiseindex/js/plugin/baiduappAd_*.js
+m.baidu.com##.baiduapp-ad-container
+
+
+! AppStore
+
+! Coolapk
+www.coolapk.com##body > a[href="javascript:void(0);"]
+
+!　AppChina
+m.appchina.com###yyh-bottom
+m.appchina.com##.high-speed-down-btn
+m.appchina.com##.normal-down-btn:style(width:100%!important;line-height:34px!important;background-color:#53bf1d!important;color:#FFF!important;border-radius:2px!important;font-size:14px!important;margin:unset!important)
+m.appchina.com##.b-text
+
+! Apkpure
+m.apkpure.com##.aegon-warp
