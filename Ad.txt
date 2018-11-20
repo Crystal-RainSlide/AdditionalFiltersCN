@@ -2,6 +2,9 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
+! Chrome Ad 4 Firefox
+google.com##.gb_g.gb_aa
+
 ! Baidu Wenku
 wenku.baidu.com##.item-owner
 wenku.baidu.com##.gl-display
@@ -22,6 +25,11 @@ www.xiami.com##.promotion-block
 ||doubleclick.ctfile.com^
 
 segmentfault.com##.mb25
+
+||super1.kdnet.net/?c=ad
+club.kdnet.net##a[href^="//super1.kdnet.net//"]
+club.kdnet.net##.ad-banner-left
+club.kdnet.net##.links
 
 www.panduoduo.net##.sep15
 www.panduoduo.net##^.sep15 > script
