@@ -93,3 +93,16 @@ www.ttrar.com##.link_yq
 userstyles.org##.navigation_ad
 userstyles.org##.adLong
 userstyles.org##.style_card_long:has(.adContainer)
+
+! 亿品元素
+@@||a.epinv.com^$script
+
+www.epinv.com##iframe
+www.epinv.com##[class^="epinv_"]
+www.epinv.com##.nobg.topblock
+www.epinv.com###content > .space
+www.epinv.com##.footbar
+www.epinv.com##.bdlianjie
+
+||b.epinv.com^$subdocument
+
