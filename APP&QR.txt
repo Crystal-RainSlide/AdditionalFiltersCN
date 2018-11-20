@@ -42,8 +42,10 @@ www.chinaz.com##.cz-weixin
 
 www.ttrar.com##.ewm
 
+! 虾米
 www.xiami.com###qrcode
 
+! 凯迪
 club.kdnet.net##.web-right
 
 ! 果酱音乐
@@ -52,3 +54,5 @@ www.jammyfm.com##.app-promote-btn
 www.jammyfm.com##.app-pro-container
 www.jammyfm.com##.qr-section
 
+! Google Translate
+translate.google.cn###gt-cn
