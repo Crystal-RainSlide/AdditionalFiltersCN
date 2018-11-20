@@ -9,6 +9,8 @@ eyun.baidu.com##.client-download
 
 fanyi.baidu.com##.download-app
 
+passport.baidu.com##.app-download-link
+
 tieba.baidu.com##.u_app
 
 wenku.baidu.com##.reader-download-app
@@ -22,8 +24,14 @@ www.zybang.com##.app-download
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
 
+userstyles.org##.overlay_background
 
+! 知乎
 www.zhihu.com##.AppBanner
+
+! 知乎日报
+daily.zhihu.com##.qr
+daily.zhihu.com##.download
 
 ! Coolapk
 coolapk.com###head
@@ -36,8 +44,11 @@ www.ttrar.com##.ewm
 
 www.xiami.com###qrcode
 
+club.kdnet.net##.web-right
+
 ! 果酱音乐
 ||www.jammyfm.com/wordpress/wp-content/themes/pinboard/scripts/qrcode.min.js
 www.jammyfm.com##.app-promote-btn
 www.jammyfm.com##.app-pro-container
 www.jammyfm.com##.qr-section
+
