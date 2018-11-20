@@ -57,3 +57,5 @@ blog.csdn.net##.bdsharebuttonbox
 www.icourse163.org###j-share.j-share
 www.icourse163.org###j-courseshare
 www.icourse163.org##.m-coulshar
+
+www.360doc.com###fenxiangLayer.sharelist_new
