@@ -86,6 +86,9 @@
 ||log.study.163.com^
 ||netease.com/track/*
 
+! CSDN
+||g.csdnimg.cn/track/*
+
 ! U77
 ||www.u77.com/log/*
 
