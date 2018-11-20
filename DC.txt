@@ -9,6 +9,7 @@
 ||hm.baidu.com/hm.js
 ||*.baidupcs.com/monitor.jpg^
 */baidu-tongji/*
+*/baidu-tongji.js
 */baidutongji.js
 
 ||ae.bdstatic.com/msite/*
@@ -64,14 +65,29 @@
 !KaFan
 ||a.ikafan.com/9/tj.js
 
-!||user.hao123.com/static/mapping/hao.php
-!||hao123.baidu.com/static/mapping/bd.php
+! CNBeta
+||www.cnbeta.com/static/api/js/trans/logger.js
+
+||tracking.kdnet.net
+! ||tracking.kdnet.net/about/log.js
+
+! ||user.hao123.com/static/mapping/hao.php
+! ||hao123.baidu.com/static/mapping/bd.php
 /static/mapping/*php
 
 ||static.ctfile.com/js/bd_stat.js
 */bd_stat.js
 
 ||log.mix.sina.com.cn^
+
+! Netease
+||hubble-js-bucket.nosdn.127.net/DATracker.sync
+||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
+||log.study.163.com^
+||netease.com/track/*
+
+! U77
+||www.u77.com/log/*
 
 ! Google Analytics Proxy
 ||ga.giuem.com/^
