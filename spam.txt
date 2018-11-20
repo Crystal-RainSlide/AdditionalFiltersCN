@@ -5,8 +5,8 @@
 ! Red Dot & Hot & New End
 index.baidu.com##.new
 jingyan.baidu.com##.new-icon
-pan.baidu.com##.find-light-icon
-pan.baidu.com##.newIcon
+pan.baidu.com,yun.baidu.com##.find-light-icon
+pan.baidu.com,yun.baidu.com##.newIcon
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
@@ -40,31 +40,12 @@ www.panduoduo.net##.announcement-bar > a:style(color: #336699 !important; font-w
 ! Baidu Netdisk Start
 ||pan.baidu.com/share/hotrec
 ||pan.baidu.com/disk/cmsdata
-pan.baidu.com##.module-hot-rec
+pan.baidu.com,yun.baidu.com##.module-hot-rec
 
-||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
-||pan.baidu.com/box-static/disk-header/header/img/user-level1.png
-||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_*.png
-||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_*.png
-pan.baidu.com##.JS-user-level
-pan.baidu.com###show-buyvip-pack
-pan.baidu.com##.buyvip-pack
-
-pan.baidu.com##.module-header-wrapper a[title="会员中心"]
-pan.baidu.com##.vip-notice
-pan.baidu.com##.vip-privilege
-
-pan.baidu.com##.get-capacity
-pan.baidu.com##.bar > div:has-text(扩容至5T)
-
-pan.baidu.com##.context-menu > .list > li.separate[data-group="1"]
-pan.baidu.com##.context-menu > .list > li:has(.icon-menu-vip)
-! pan.baidu.com##.icon-menu-vip
-
-pan.baidu.com##.context-menu > .list > li.separate[data-group="2"]
-pan.baidu.com##.context-menu > .list > li:has-text(云冲印)
-pan.baidu.com##.context-menu > .list > li:has-text(制作照片电影)
-pan.baidu.com##.context-menu > .list > li:has-text(美化)
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li.separate[data-group="2"]
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(云冲印)
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(制作照片电影)
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
 ! Baidu Netdisk End
 
 ! Premium Content Promotion
