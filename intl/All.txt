@@ -26,6 +26,8 @@
 
 ! Ads Start
 ! Twitter
+||twitter.com/i/users/prompts
+||twitter.com/i/promoted_content/log.json
 twitter.com##.Footer-adsModule
 twitter.com##.import-prompt
 
@@ -47,9 +49,15 @@ www.textnow.com##.notification-priming-modal
 www.textnow.com##.toast-mask
 www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
 
+! TechCrunch
+techcrunch.com##.sidebar
+techcrunch.com##.content-wrap .content:style(width:auto !important)
+techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !important)
+
 ! iFixit
 ||ifixit-assets.??.ifixit.com/Assets/Admin/Shared-Campaigns-campaign_banners-*
 www.ifixit.com##.campaign-banner-generic
+
 ! NewGrounds
 www.newgrounds.com##.header-deck
 www.newgrounds.com##.GAR_header_topbar
@@ -71,6 +79,24 @@ userscloud.com##.innerTB > center
 
 winaero.com##.recommended-inline
 
+uptodown.com##.banner-download
+uptodown.com##.gad
+
+! Ghacks
+www.ghacks.net##.ghacks_ad_code
+
+! Slant.co
+www.slant.co##._MasterComparePageContentAdView
+www.slant.co##._TMSAdsSidebarAdView
+www.slant.co##._MasterComparePageTopContentAdView
+www.slant.co##.AdContainer
+www.slant.co##._has-ads
+
+compass-style.org##.advertisement
+
+win7gadgets.com##.ads_subtitle
+win7gadgets.com##.gads
+
 ! Aff
 ! VULTR
 ||www.vultr.com/dist/img/brand/banner_?.png
@@ -78,6 +104,17 @@ winaero.com##.recommended-inline
 ! Ads End
 
 ! APP&Download Start
-Yandex.Disk
+! Yandex.Disk
 disk.yandex.com##.ns-view-dialogWelcome
+! APP&Download End
 
+! Social&Share Start
+techcrunch.com##.share-main
+www.buzzfeed.com##.connect-with-us
+chinadigitaltimes.net###footer_social
+minidayz.com##.social-widget
+duckduckgo.com##.social
+duckduckgo.com#@#.social__link
+duckduckgo.com#@#.social__icon
+freestyler.ws##.follow-us-block
+! Social&Share End
