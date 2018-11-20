@@ -114,3 +114,15 @@ www.epinv.com##.bdlianjie
 
 ||b.epinv.com^$subdocument
 
+! 博客园
+www.cnblogs.com###ad_t2
+www.cnblogs.com###ad_text_under_commentbox
+www.cnblogs.com##.c_ad_block:not(.itnews)
+
+! CSDN Blog
+blog.csdn.net##.recommend-ad-box
+blog.csdn.net##body > div:has(.adblock)
+
+!Jianshu
+www.jianshu.com###web-note-ad-fixed
+
