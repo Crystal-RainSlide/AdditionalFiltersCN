@@ -3,16 +3,23 @@
 ! Expire: 7 days
 
 ! Red Dot & Hot & New End
+developer.baidu.com##.hot-icon
+fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
 jingyan.baidu.com##.new-icon
 pan.baidu.com,yun.baidu.com##.find-light-icon
 pan.baidu.com,yun.baidu.com##.newIcon
+site.baidu.com##.dot
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
 wenku.baidu.com##.hot-box
 wenku.baidu.com##span.newhotword
 zhidao.baidu.com##.menu-title-icon
+
+fanyi.sogou.com##.icon-free
+help.sogou.com##img[alt="new"]
+pic.sogou.com##img[src="/home/images/hot.png"]
 
 www.hao123.com##.hot-icon
 
@@ -29,6 +36,8 @@ www.oschina.net##.icon_mayun
 gitee.com##.label.red.ui
 
 9gag.com##.nav-menu .new::after
+
+club.kdnet.net##.nav-t-new.icon-try-con
 ! Red Dot & Hot & New End
 
 ! Highlight Start
