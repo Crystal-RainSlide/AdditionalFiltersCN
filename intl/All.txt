@@ -79,6 +79,10 @@ userscloud.com##.innerTB > center
 
 winaero.com##.recommended-inline
 
+www.heidisql.com##.bordered-box:has-text(Ads)
+
+www.accuweather.com###offers
+
 uptodown.com##.banner-download
 uptodown.com##.gad
 
