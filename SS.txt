@@ -4,6 +4,11 @@
 
 
 ! 百度分享
+
+*/static/api/js/share.js
+! ||bdimg.share.baidu.com/static/api/js/share.js
+! ||csdnimg.cn/static/api/js/share.js
+
 ||bdimg.share.baidu.com^
 ! ||bdimg.share.baidu.com/static/api/js/trans/logger.js
 */baiduShare/*
