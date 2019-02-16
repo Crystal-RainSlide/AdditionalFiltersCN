@@ -3,7 +3,8 @@
 ! Expire: 7 days
 
 ! gss0.baidu.com/*/static/api/js/trans/logger.js
-*/static/api/js/*/logger.js
+! www.cnbeta.com/static/api/js/trans/logger.js
+*/static/api/js/trans/logger.js
 
 ! Baidu
 ||hm.baidu.com/hm.js
@@ -120,7 +121,6 @@ baidu.com/static/mapping/*.php
 ||a.ikafan.com/9/tj.js
 
 ! CNBeta
-||www.cnbeta.com/static/api/js/trans/logger.js
 ! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
 ||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
 
