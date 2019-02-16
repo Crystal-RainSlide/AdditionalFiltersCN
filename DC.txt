@@ -2,19 +2,19 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
+! gss0.baidu.com/*/static/api/js/trans/logger.js
 */static/api/js/*/logger.js
-! ||gss0.baidu.com/*/static/api/js/trans/logger.js
 
 ! Baidu
 ||hm.baidu.com/hm.js
-||*.baidupcs.com/monitor.jpg^
+*.baidupcs.com/monitor.jpg^
 */baidu-tongji/*
 */baidu-tongji.js
 */baidutongji.js
 
 ||ae.bdstatic.com/msite/*
 ||msite.baidu.com^
-! ||msite.baidu.com/sdk/c.js
+! msite.baidu.com/sdk/c.js
 ||xiongzhang.baidu.com/xzhstatistics/rp
 
 ||www.baidu.com/con
@@ -23,19 +23,33 @@
 
 ||image.baidu.com/pv/pv.gif
 
-||pan.baidu.com/pcloud/counter/refreshcount
+! ||zz.bdstatic.com/linksubmit/push.js
+||zz.bdstatic.com^
 
 ! pan.baidu.com
+||pan.baidu.com/api/report/user
 ||pan.baidu.com/box-static/disk-system/js/alog.js
 ||pan.baidu.com/box-static/disk-system/js/log.js
 ||pan.baidu.com/box-static/disk-system/js/dp.js
-||pan.baidu.com/api/report/user
+||pan.baidu.com/pcloud/counter/refreshcount
 
 ! wenku.baidu.com
 ||wkctj.baidu.com^
 ||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
 ||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
 
+! ||user.hao123.com/static/mapping/hao.php
+! ||hao123.baidu.com/static/mapping/bd.php
+hao123.com/static/mapping/*.php
+baidu.com/static/mapping/*.php
+
+! iqiyi
+||msg.qy.net^
+
+||static.ctfile.com/js/bd_stat.js
+*/bd_stat.js
+
+! Tencent
 ||report.url.cn^
 ||report.huatuo.qq.com^
 ||dj.captcha.qq.com/caplog
@@ -47,38 +61,40 @@
 ||ssl.ptlogin2.qq.com/check
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 
-! mp.weixin.qq.com
-||mp.weixin.qq.com/mp/appmsgreport
+! From mp.weixin.qq.com
+! mp.weixin.qq.com/mp/appmsgreport
+! mp.weixin.qq.com/mp/jsreport
+! mp.weixin.qq.com/mp/fereport
+||mp.weixin.qq.com/mp/*report
 ||mp.weixin.qq.com/mp/report
 ||mp.weixin.qq.com/mp/jsmonitor
 ||mp.weixin.qq.com/mp/getappmsgext
-||mp.weixin.qq.com/mp/jsreport
-||mp.weixin.qq.com/mp/fereport
 
-! Netease Youdao
-! ||rlogs.youdao.com^
-! ||*/rlog/*$script
-||rlogs.youdao.com/rlog.php
-||rlogs.youdao.com/rlog.js
-||shared.ydstatic.com/js/rlog/*
+! From guanjia.qq.com
+||s.pc.qq.com/guanjia/js/tj.js
+||guanjia.qq.com/assets/js/*$script
+||tajs.qq.com/stats$important
 
-!KaFan
-||a.ikafan.com/9/tj.js
+! Ali
+*.mmstat.com/*$important
 
-! CNBeta
-||www.cnbeta.com/static/api/js/trans/logger.js
+||g.alicdn.com/alilog/mlog/xwj_heat.js
+! g.alicdn.com/alilog/mlog/aplus_v2.js
+||g.alicdn.com/pecdn/mlog/agp_heat.min.js
+! s.tbcdn.cn/s/aplus_v2.js
+||g.alicdn.com/alilog/*
+*/mlog/*
+*/aplus_v2.js
 
-||tracking.kdnet.net
-! ||tracking.kdnet.net/about/log.js
+! aeu.alicdn.com/js/cj/110.js
+! af.alicdn.com/js/cj/110.js
+*.alicdn.com/js/cj/110.js
 
-! ||user.hao123.com/static/mapping/hao.php
-! ||hao123.baidu.com/static/mapping/bd.php
-/static/mapping/*php
+||ynuf.alipay.com/uid
+||g.alicdn.com/security/umscript/*/um.js
+||g.alicdn.com/sd/ctl/ctl.js
 
-||static.ctfile.com/js/bd_stat.js
-*/bd_stat.js
-
-||log.mix.sina.com.cn^
+||ynuf.alipay.com/service/um.json$xmlhttprequest,domain=v.youku.com
 
 ! Netease
 ||hubble-js-bucket.nosdn.127.net/DATracker.sync
@@ -86,11 +102,71 @@
 ||log.study.163.com^
 ||netease.com/track/*
 
+||music.163.com/weapi/feedback/weblog
+
+! Netease Youdao
+! rlogs.youdao.com/rlog.php
+! rlogs.youdao.com/rlog.js
+||rlogs.youdao.com^
+^rlog/*$script
+||shared.ydstatic.com/js/rlog/*
+
+! Sina
+||log.mix.sina.com.cn^
+
+! ---
+
+!KaFan
+||a.ikafan.com/9/tj.js
+
+! CNBeta
+||www.cnbeta.com/static/api/js/trans/logger.js
+! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
+||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
+
+! KDNet
+! tracking.kdnet.net/about/log.js
+||tracking.kdnet.net
+
 ! CSDN
 ||g.csdnimg.cn/track/*
 
+! 盛天网盘
+||webtracksdk.stnts.com
+
+! 携程
+||u.ctrip.com/union/*$third-party
+
+! 17173
+! 这什么人涂的破站啊，乱成这样，服了
+||www.17173.com/2014/new/shouyoushanwan.js
+||www.17173.com/2015/new/news-v-daka.js
+||news.17173.com/2014/popupnews.config.js
+||ue.17173cdn.com/a/lib/stats/setlink.min.js
+||ue.17173cdn.com/a/money/*
+||ue.17173cdn.com/a/news/final/2014/js/tpl.min.js
+||ue.17173cdn.com/a/site/a/appcode/production.js
+||ue.17173cdn.com/a/www/index/2016/js/ping.js
+||ue.17173cdn.com/a/www/index/2016v2/js/tgmonitor.js
+||ue.17173cdn.com/a/www/index/2016v2/js/forsetlink.js
+||ue.17173cdn.com/cache/lib/v2/odvmonitor/lp.min.js
+
 ! U77
 ||www.u77.com/log/*
+
+! doc88
+||static.doc88.com/assets/pv.swf$important
+
+! Chaoxing
+||fystat-ans.chaoxing.com/log/*
+
+! 跟谁学
+! click.genshuixue.com/*.gif
+||click.genshuixue.com^
+! Easylist China 误杀
+@@||cdns.genshuixue.com^$script
+
+||www.ruanyifeng.com/blog/stats.js
 
 ! Google Analytics Proxy
 ||ga.giuem.com/^
