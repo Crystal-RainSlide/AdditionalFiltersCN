@@ -4,39 +4,57 @@
 
 
 ! 百度分享
+! gss0.baidu.com/*/static/api/js/share/share_api.js
+! bdimg.share.baidu.com/static/api/js/share.js
+! csdnimg.cn/static/api/js/share.js
+*/static/api/js/share
 
-*/static/api/js/share.js
-! ||bdimg.share.baidu.com/static/api/js/share.js
-! ||csdnimg.cn/static/api/js/share.js
+! exp.bdstatic.com/static/article/lib/share/*
+*/lib/share/*
 
 ||bdimg.share.baidu.com^
 ! ||bdimg.share.baidu.com/static/api/js/trans/logger.js
-*/baiduShare/*
+*/baidushare/*
 */bdshare/*
-*/bdshare2.0.js
 ! ||www.4399.com/jss/bdshare2.0.js
+*/bdshare2.0.js
 ###bdshare
 
-##.bshare-custom
-##a.bshareDiv
-||static.bshare.cn/^
-! ||static.bshare.cn/b/button.js
-||static.bshare.cn/b/buttonLite.js$important
-! ||static.bshare.cn/b/bshareC0.js
-
-baike.baidu.com###side-share
-
-||exp.bdstatic.com/static/article/lib/share/*
-jingyan.baidu.com###w-share
+! likexia.gitee.io##.bdsharebuttonbox
+! blog.csdn.net##.bdsharebuttonbox
+##.bdsharebuttonbox
 
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/*
-||gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/css/share_style*.css
-||gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/share/share_api.js
+||gss0.baidu.com/*/static/api/css/share_style*.css
+baike.baidu.com###side-share
+
+jingyan.baidu.com###w-share
+
+wenku.baidu.com##.share-btn-wrap
 
 zhidao.baidu.com##.share-area
 zhidao.baidu.com##.jump-share
 
+! bshare
+! ||static.bshare.cn/b/bshareC0.js
+! ||static.bshare.cn/b/button.js
+||static.bshare.cn/^$third-party
+||static.bshare.cn/b/buttonLite.js$important
+##.bshare-custom
+##a.bshareDiv
+
+||news.sina.com.cn/268/2014/0919/bshare_update.js
 www.sohu.com###share
+
+photo.blog.sina.com.cn###sharePhoto
+
+! Video Site Start
+v.youku.com##.fn-share
+
+www.iqiyi.com##.footer-shareBox
+
+v.qq.com##.action_share.action_item
+! Video Site End
 
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
@@ -45,17 +63,18 @@ www.panduoduo.net##.share-bar
 
 club.kdnet.net##.new-share-main
 
+2014.renren.com##.jiathis_style
+
+public.renren.com###Share
+
 www.juzimi.com###jushare
-
-v.qq.com##.action_share.action_item
-
-www.iqiyi.com##.footer-shareBox
 
 www.jammyfm.com##.share-toolbox
 
 www.dongqiudi.com###share
 
-blog.csdn.net##.bdsharebuttonbox
+www.4399.com###sharebtn
+www.7k7k.com##.start-game-share
 
 ||ue.17173cdn.com/a/lib/*/share/index.js
 
