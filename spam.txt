@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
-! Red Dot & Hot & New End
+! Red Dot & Hot & New Start
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
@@ -16,6 +16,8 @@ wenku.baidu.com##.ui-bz-new-ic
 wenku.baidu.com##.hot-box
 wenku.baidu.com##span.newhotword
 zhidao.baidu.com##.menu-title-icon
+
+www.nuomi.com##.new-item-hot
 
 fanyi.sogou.com##.icon-free
 help.sogou.com##img[alt="new"]
@@ -38,6 +40,10 @@ gitee.com##.label.red.ui
 9gag.com##.nav-menu .new::after
 
 club.kdnet.net##.nav-t-new.icon-try-con
+
+www.17173.com##.ico-game-hot1
+
+diy.zol.com.cn##.icon-hot
 ! Red Dot & Hot & New End
 
 ! Highlight Start
@@ -132,6 +138,8 @@ www.hao123.com##.tvtip
 www.hao123.com##.pic_icon
 www.hao123.com##.coolsiteresource-tip
 
+
+
 www.bilibili.com##.v-live-recommend
 
 ctfile.com###infoModal
@@ -141,3 +149,6 @@ ctfile.com##.text-center
 ctfile.com##hr
 ctfile.com##.row-fluid:has(.span6 > .speedydown-info-box)
 ctfile.com##.help-dialog
+
+! 超星
+*.chaoxing.com/richvideo/initdatawithviewer
