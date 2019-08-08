@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/D
 
 ### House advertisement
 
-House advertisement may not being included by common Adblock lists' blocking policy.
+House advertisement & in-place self advertising, which is often ignored by common lists.
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/HouseAd.txt
 
@@ -48,6 +48,6 @@ https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/f
 
 ## Q:Why these mess are listed here but not EasyList China?
 
-A:I DON'T accept submitting filters in forums and chat rooms including Fanboy's forum. Those place are for discussion, and they will make the maintenance harder when posts stacked.
+A:I DON'T accept submitting filters in forums or chat rooms. Forums and chat rooms are designed for discussion, not massive list data maintenance. Those places don't have enough capacity to match the lists. Obsolete rules are never mentioned after they were created,  undetermined rules are stacked, and the list view don't support tag-based filtering.
 
 Despite the unbelievable simplicity in catching these trackers out, I'll also type a guide for capping trackers in the [wiki](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/wiki) (may move to other place someday… I'll update this link anyway) to … try to minimize the possibility of occurrence, of those serious negligences.
