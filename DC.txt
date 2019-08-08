@@ -117,7 +117,10 @@ baidu.com/static/mapping/*.php
 
 ! ---
 
-!KaFan
+! Zhihu
+||sugar.zhihu.com^
+
+! KaFan
 ||a.ikafan.com/9/tj.js
 
 ! CNBeta
