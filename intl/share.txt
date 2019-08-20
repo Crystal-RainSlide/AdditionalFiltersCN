@@ -1,0 +1,35 @@
+||connect.facebook.net^
+||graph.facebook.com^
+||platform.twitter.com/widgets.js$script
+||apis.google.com/js/platform.js$script
+||apis.google.com/js/plusone.js$script
+||widget.pushbullet.com/dynamic.js$script
+||vk.com/js/api/share.js$script
+
+! APKPure
+||cdnpure.com/static/share-button/*
+
+
+! BBC
+www.bbc.com##.sharetools
+www.bbc.com##.share-tools--event-tag
+www.bbc.com##.share
+www.bbc.com##.share + div:style(margin-top: 32px)
+
+! Bloomberg
+www.bloomberg.com##.share-article-button
+
+! Fox News
+www.foxnews.com##.social-icons
+www.foxnews.com##.article-social
+
+! South China Morning Post
+www.scmp.com##.share
+
+blog.twitter.com##div[class$="__share--icons"]
+
+! mediabiasfactcheck.com
+*/add-to-any/addtoany.min.js$script
+mediabiasfactcheck.com##.addtoany_content
+*/sharedaddy/sharing.min.js$script
+mediabiasfactcheck.com##.sharedaddy
