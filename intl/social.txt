@@ -1,0 +1,30 @@
+! Buzzfeed
+www.buzzfeed.com##.connect-with-us
+
+! Duckduckgo
+duckduckgo.com##.social
+duckduckgo.com#@#.social__link
+duckduckgo.com#@#.social__icon
+
+ubuntu.com##.p-footer__nav-col:has(.twitter-icon)
+canonical.com##.p-divider__block:has(a[href="https://twitter.com/Canonical"])
+
+! Fox News
+www.foxnews.com##.footer-lower > .social-icons
+
+! APKPure
+apkpure.com##.facebook-like
+apkpure.com##.social-network
+
+! APKMirror
+www.apkmirror.com##^#sidebar > .listWidget:has(.pushbullet-subscribe-widget)
+www.apkmirror.com##^#sidebar > .gooWidget
+
+||freestyler.ws/php/sharrre.php$xmlhttprequest
+freestyler.ws##.follow-us-block
+
+fanboy.co.nz##.sf-menu > li:has( > ul > li > a[href="https://twitter.com/fanboynz"])
+
+chinadigitaltimes.net###footer_social
+
+minidayz.com##.social-widget
