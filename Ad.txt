@@ -14,11 +14,15 @@ wenku.baidu.com##.top-ads-banner-wrap
 ! Baidu Wenku Search
 wenku.baidu.com##.search-aside-newadWrap
 
+! Baidu Zhidao
 zhidao.baidu.com##.product-container
 
 www.zybang.com##.wgt_carousel_aniUnit
 ||img.zuoyebang.cc^
 
+! Netease
+! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
+*/js/sspAd.*.min.js
 
 www.xiami.com##.promotion-block
 
@@ -33,7 +37,7 @@ club.kdnet.net##.links
 
 www.panduoduo.net##.sep15
 www.panduoduo.net##^.sep15 > script
-! 哪位老哥写的居中啊，.footer 上 text-align: center 不是用得好好的吗？修了。
+! 哪位老哥写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？修了。
 www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
 www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
 www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
