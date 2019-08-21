@@ -6,41 +6,41 @@
 Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
 Including some obvious trackers which could be found&confirmed by novices in network development easily, and should been listed&blocked YEARS ago.
 
-##### Optional Rules
+#### Optional Rules
 
 https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Optional.md
 
-##### International Rules
+#### International Rules
 
 Anti Data Collection & Ads included. I'd better add them into Easylist by some means...
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/intl/All.txt
 
-#### Suggestions:
+### Suggestions:
 
 jCleanList: https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt
 
-N2OList China : https://n2o.io/p/adblock/ (Blocked 2345 and 360)
+N2OList China : https://n2o.io/p/adblock/ (Blocks 2345 and 360)
 
-## Privacy
-
-### Data Collection
+## Data Collection
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/DC.txt
 
 ## Advertisement
 
-### House advertisement
-
-House advertisement & in-place self advertising, which is often ignored by common lists.
-
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/HouseAd.txt
+https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Ad.txt
 
 ## Spam
 
-### interrupting elements & content
-
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt
+
+## Share buttons
+
+https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/share.txt
+
+## Social icons
+
+https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/social.txt
 
 ### Fix 4 Fanboy+Easylist-Merged Ultimate List
 
