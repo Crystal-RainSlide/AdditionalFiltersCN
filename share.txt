@@ -54,13 +54,11 @@ www.sohu.com###share
 
 photo.blog.sina.com.cn###sharePhoto
 
-! Video Site Start
-v.youku.com##.fn-share
 
-www.iqiyi.com##.footer-shareBox
+www.iplaysoft.com###share_toolbar
+www.iplaysoft.com###share_toolbar_wrapper
 
-v.qq.com##.action_share.action_item
-! Video Site End
+techcrunch.cn##.social-share
 
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
@@ -90,4 +88,10 @@ www.icourse163.org##.m-coulshar
 
 www.360doc.com###fenxiangLayer.sharelist_new
 
-techcrunch.cn##.social-share
+! Video Site Start
+v.youku.com##.fn-share
+
+www.iqiyi.com##.footer-shareBox
+
+v.qq.com##.action_share.action_item
+! Video Site End
