@@ -91,7 +91,7 @@ baidu.com/static/mapping/*.php
 */aplus_v2.js
 
 ! aeu.alicdn.com/js/cj/110.js
-! af.alicdn.com/js/cj/110.js
+!  af.alicdn.com/js/cj/110.js
 *.alicdn.com/js/cj/110.js
 
 ||ynuf.alipay.com/uid
@@ -179,7 +179,6 @@ baidu.com/static/mapping/*.php
 ||fystat-ans.chaoxing.com/log/*
 
 ! 跟谁学
-! click.genshuixue.com/*.gif
 ||click.genshuixue.com^
 ! Easylist China 误杀
 @@||cdns.genshuixue.com^$script
