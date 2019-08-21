@@ -2,6 +2,9 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
+! ||www.163.com/special/*/performance.js
+*/performance.js
+
 ! gss0.baidu.com/*/static/api/js/trans/logger.js
 !   www.cnbeta.com/static/api/js/trans/logger.js
 */static/api/js/trans/logger.js
@@ -98,10 +101,15 @@ baidu.com/static/mapping/*.php
 ||ynuf.alipay.com/service/um.json$xmlhttprequest,domain=v.youku.com
 
 ! Netease
-||hubble-js-bucket.nosdn.127.net/DATracker.sync
-||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
+||analytics.126.net^
 ||log.study.163.com^
 ||netease.com/track/*
+
+||hubble-js-bucket.nosdn.127.net/DATracker.sync
+||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
+
+||g.163.com/a$image
+||vmonitor.ws.netease.com/web/performance$image
 
 ! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
 */antanalysis.min.js
@@ -120,6 +128,7 @@ baidu.com/static/mapping/*.php
 
 ! Sina
 ||log.mix.sina.com.cn^
+||sbeacon.sina.com.cn^
 
 ! ---
 
@@ -147,7 +156,7 @@ baidu.com/static/mapping/*.php
 ||u.ctrip.com/union/*$third-party
 
 ! 17173
-! 这什么人涂的破站啊，乱成这样，服了
+! 这都什么人涂的破站啊，乱成这样，服了
 ||www.17173.com/2014/new/shouyoushanwan.js
 ||www.17173.com/2015/new/news-v-daka.js
 ||news.17173.com/2014/popupnews.config.js
