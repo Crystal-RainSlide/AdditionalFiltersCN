@@ -1,6 +1,6 @@
 # AdditionalFiltersCN
 
-为中国大陆网络服务制作的额外过滤列表，分别针对隐私、广告和干扰；适用于例如 [uBlock Origin](https://github.com/gorhill/uBlock) 的浏览器拓展。
+为中国大陆网络服务制作的额外过滤列表，分别针对隐私、广告和干扰；主要适用于浏览器拓展 [uBlock Origin](https://github.com/gorhill/uBlock)。其他支持 AdBlock Plus 规则的
 包含一些长期未被处理的、显而易见的数据收集与追踪；哪怕初级网络开发者都能轻易发现并判定它们。
 
 Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
