@@ -83,3 +83,5 @@ www.icourse163.org###j-courseshare
 www.icourse163.org##.m-coulshar
 
 www.360doc.com###fenxiangLayer.sharelist_new
+
+techcrunch.cn##.social-share
