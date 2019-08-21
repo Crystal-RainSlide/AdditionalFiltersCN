@@ -2,18 +2,25 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
+! bshare
+! ||static.bshare.cn/b/bshareC0.js
+! ||static.bshare.cn/b/button.js
+||static.bshare.cn/^$third-party
+||static.bshare.cn/b/buttonLite.js$important
+##.bshare-custom
+##a.bshareDiv
 
 ! 百度分享
-! gss0.baidu.com/*/static/api/js/share/share_api.js
+!      gss0.baidu.com/*/static/api/js/share/share_api.js
 ! bdimg.share.baidu.com/static/api/js/share.js
-! csdnimg.cn/static/api/js/share.js
-*/static/api/js/share
+!            csdnimg.cn/static/api/js/share.js
+||bdimg.share.baidu.com^
+*/static/api/js/share/*
+*/static/api/js/share.js
 
 ! exp.bdstatic.com/static/article/lib/share/*
 */lib/share/*
 
-||bdimg.share.baidu.com^
-! ||bdimg.share.baidu.com/static/api/js/trans/logger.js
 */baidushare/*
 */bdshare/*
 ! ||www.4399.com/jss/bdshare2.0.js
@@ -35,13 +42,12 @@ wenku.baidu.com##.share-btn-wrap
 zhidao.baidu.com##.share-area
 zhidao.baidu.com##.jump-share
 
-! bshare
-! ||static.bshare.cn/b/bshareC0.js
-! ||static.bshare.cn/b/button.js
-||static.bshare.cn/^$third-party
-||static.bshare.cn/b/buttonLite.js$important
-##.bshare-custom
-##a.bshareDiv
+||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
+news.163.com##.post_topshare
+
+sina.com.cn##.tool-wb
+sina.com.cn##.tool-wx
+sina.com.cn##.tool-share
 
 ||news.sina.com.cn/268/2014/0919/bshare_update.js
 www.sohu.com###share
