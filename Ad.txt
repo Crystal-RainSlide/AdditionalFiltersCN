@@ -130,3 +130,43 @@ blog.csdn.net##body > div:has(.adblock)
 !Jianshu
 www.jianshu.com###web-note-ad-fixed
 
+
+! Premium Content Promotion Start
+tieba.baidu.com###hot_thread
+tieba.baidu.com###hot_forum
+tieba.baidu.com##.banner
+tieba.baidu.com###celebrity
+tieba.baidu.com##.user_score
+tieba.baidu.com##.rank
+tieba.baidu.com##.member_rank
+tieba.baidu.com###media_item
+tieba.baidu.com###adide_platform
+tieba.baidu.com##.r-top-sec
+tieba.baidu.com##.top-sec
+tieba.baidu.com###spage_liveshow_slide
+tieba.baidu.com##.tbui_fbar_down
+tieba.baidu.com##.tbui_fbar_share
+
+wenku.baidu.com##.ico-wkvip
+wenku.baidu.com###wk-user-icon-home
+wenku.baidu.com##li:has(#my-wkHome-vip-tips)
+wenku.baidu.com###my-wkHome-vip-tips
+wenku.baidu.com##a:has(#user-vip-ic)
+wenku.baidu.com##.top-ads-banner
+
+! Baidu Wenku Search
+wenku.baidu.com##.topicBox
+
+ctfile.com###infoModal
+ctfile.com##.modal-backdrop
+ctfile.com##.navbar
+ctfile.com##.text-center
+ctfile.com##hr
+ctfile.com##.row-fluid:has(.span6 > .speedydown-info-box)
+ctfile.com##.help-dialog
+
+||ctfile.com/premium_inpage.php
+||pipipan.com/premium_inpage.php
+ctfile.com/iajax_guest.php?*action=premium*$xmlhttprequest
+ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
+! Premium Content Promotion End
