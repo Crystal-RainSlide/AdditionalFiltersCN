@@ -3,7 +3,7 @@
 ! Expire: 7 days
 
 ! gss0.baidu.com/*/static/api/js/trans/logger.js
-! www.cnbeta.com/static/api/js/trans/logger.js
+!   www.cnbeta.com/static/api/js/trans/logger.js
 */static/api/js/trans/logger.js
 
 ! Baidu
@@ -102,6 +102,12 @@ baidu.com/static/mapping/*.php
 ||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
 ||log.study.163.com^
 ||netease.com/track/*
+
+! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
+*/antanalysis.min.js
+
+! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
+*/analysis/js/analysis*.js
 
 ||music.163.com/weapi/feedback/weblog
 
