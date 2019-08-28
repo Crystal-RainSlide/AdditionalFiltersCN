@@ -1,0 +1,34 @@
+! Title: AdditionalFiltersIntl - Data Collection
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+! Duckduckgo #why
+||duckduckgo.com/daily/
+||duckduckgo.com/weekly/
+||duckduckgo.com/monthly/
+
+! Yandex
+! ||yastatic.net/nearest.js
+
+! Yandex.Search
+||yandex.com/clck/*
+||yandex.com/ick/r
+||yastatic.net/web4/_/*.gif$image
+
+! Yandex.Disk
+||yadi.sk/monitoring.txt/*
+
+! Bandcamp
+||bandcamp.com/stat_record
+
+! Grammarly
+||f-log-editor.grammarly.io^
+
+! Quora
+||log.quora.com^
+
+! FreeStyler.ws
+||freestyler.ws/style/tracking
+
+! Disqus
+||disqus.com/count.js$script
