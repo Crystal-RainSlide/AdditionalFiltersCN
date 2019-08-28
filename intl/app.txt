@@ -1,0 +1,17 @@
+! Title: AdditionalFiltersIntl - App & Client
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+! Yandex.Disk
+disk.yandex.com##.ns-view-dialogWelcome
+
+! Userstyles.org
+userstyles.org##.overlay_background
+userstyles.org##.us-stylecard--short:has(> .fallbackDiv)
+userstyles.org##.us-stylecard--long:has(> .fallbackDiv)
+userstyles.org##.fallbackDiv
+userstyles.org##img.fallbackImg
+userstyles.org###top_android_button
+userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
+userstyles.org##.walking
