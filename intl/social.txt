@@ -1,3 +1,7 @@
+! Title: AdditionalFiltersIntl - Social
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
 ! Buzzfeed
 www.buzzfeed.com##.connect-with-us
 
@@ -19,6 +23,10 @@ apkpure.com##.social-network
 ! APKMirror
 www.apkmirror.com##^#sidebar > .listWidget:has(.pushbullet-subscribe-widget)
 www.apkmirror.com##^#sidebar > .gooWidget
+
+! MDN
+developer.mozilla.org##.footer-social:has(.icon-twitter)
+developer.mozilla.org##.footer-social:has(.icon-instagram)
 
 ||freestyler.ws/php/sharrre.php$xmlhttprequest
 freestyler.ws##.follow-us-block

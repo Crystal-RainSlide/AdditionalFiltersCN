@@ -2,6 +2,9 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
+! YouTube
+||www.youtube.com/youtubei/v1/log_event
+
 ! Duckduckgo #why
 ||duckduckgo.com/daily/
 ||duckduckgo.com/weekly/

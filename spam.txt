@@ -110,5 +110,8 @@ www.hao123.com##.tvtip
 www.hao123.com##.pic_icon
 www.hao123.com##.coolsiteresource-tip
 
+! Zhihu
+||www.zhihu.com/api/v4/hot_recommendation$xmlhttprequest
+
 ! 超星
 *.chaoxing.com/richvideo/initdatawithviewer

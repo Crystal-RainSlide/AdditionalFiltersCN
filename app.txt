@@ -1,4 +1,4 @@
-! Title: AdditionalFiltersCN - Download Client & QRCode
+! Title: AdditionalFiltersCN - App & Client
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 
@@ -24,7 +24,9 @@ www.zybang.com##.app-download
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
 
-userstyles.org##.overlay_background
+! 网易新闻
+news.163.com##.newsapp-qrcode
+news.163.com##.ntes-nav-mobile-title
 
 ! 知乎
 www.zhihu.com##.AppBanner
@@ -32,6 +34,10 @@ www.zhihu.com##.AppBanner
 ! 知乎日报
 daily.zhihu.com##.qr
 daily.zhihu.com##.download
+
+! 简书
+www.jianshu.com###note-fixed-ad-container
+www.jianshu.com##.app-download-btn
 
 ! Coolapk
 coolapk.com###head

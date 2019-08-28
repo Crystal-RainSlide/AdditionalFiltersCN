@@ -1,4 +1,3 @@
-
 ### 全局
 
 干掉常见于各种个人网站上的“网页粒子背景插件” [canvas-nest.js](https://github.com/hustcc/canvas-nest.js) （[Demo](https://git.hust.cc/canvas-nest.js/)）
@@ -10,8 +9,8 @@
 
 Block Userstyles.org offical's dazzling userstyles
 ```
-userstyles.org##.style_card:has(a[href="/users/394989"])
-userstyles.org##.style_card_long:has(a[href="/users/394989"])
+userstyles.org##.us-stylecard--short:has(a[href="/users/394989"])
+userstyles.org##.us-stylecard--long:has(a[href="/users/394989"])
 ```
 Block annoying carousel on Userstyles.org's homepage
 ```

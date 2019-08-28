@@ -1,3 +1,9 @@
+! Title: AdditionalFiltersIntl - Advertisement
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+! Chrome Ad 4 Firefox
+google.com##.gb_g.gb_aa
 
 ! Twitter
 ||twitter.com/i/users/prompts

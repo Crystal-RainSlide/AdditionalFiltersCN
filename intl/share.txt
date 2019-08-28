@@ -1,9 +1,30 @@
-||connect.facebook.net^
-||graph.facebook.com^
+! Title: AdditionalFiltersIntl - Share
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+
+||api-read.facebook.com/restserver.php?api_key=$third-party
+||api.facebook.com^$third-party
+||badge.facebook.com^$third-party
+||connect.facebook.com^$third-party,domain=~facebook.net|~fb.com
+||connect.facebook.net^$third-party,domain=~facebook.com|~fb.com
+||facebook.com/connect/$third-party
+||facebook.com/plugins/$third-party
+||facebook.com/widgets/$third-party
+||facebook.com/restserver.php?*.getStats&$third-party
+||facebook.com/whitepages/wpminiprofile.php$third-party
+||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
+||graph.facebook.com^$third-party
+
 ||platform.twitter.com/widgets.js$script
-||apis.google.com/js/platform.js$script
-||apis.google.com/js/plusone.js$script
+
+! ||apis.google.com/js/platform.js$script
+! ||apis.google.com/js/plusone.js$script
+||apis.google.com/js/$third-party
+
+||static.addtoany.com^$script
+
 ||widget.pushbullet.com/dynamic.js$script
+
 ||vk.com/js/api/share.js$script
 
 ! APKPure
