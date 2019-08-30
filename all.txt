@@ -1,0 +1,712 @@
+! Title: AdditionalFiltersCN
+! Expire: 7 days
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+
+! Baidu Wenku
+wenku.baidu.com##.item-owner
+wenku.baidu.com##.gl-display
+wenku.baidu.com##.reader-fc-owner
+wenku.baidu.com##.top-ads-banner-wrap
+
+! Baidu Wenku Search
+wenku.baidu.com##.search-aside-newadWrap
+
+! Baidu Zhidao
+zhidao.baidu.com##.product-container
+
+www.zybang.com##.wgt_carousel_aniUnit
+||img.zuoyebang.cc^
+
+! Netease
+! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
+*/js/sspAd.*.min.js
+
+www.xiami.com##.promotion-block
+
+||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+
+! 携程推广
+||u.ctrip.com/union/CtripRedirect.aspx
+
+||doubleclick.ctfile.com^
+
+segmentfault.com##.mb25
+
+www.easyicon.net##.page_big_adv
+
+||super1.kdnet.net/?c=ad
+club.kdnet.net##a[href^="//super1.kdnet.net//"]
+club.kdnet.net##.ad-banner-left
+club.kdnet.net##.links
+
+www.panduoduo.net##.sep15
+www.panduoduo.net##^.sep15 > script
+! 哪位老哥写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？修了。
+www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
+www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
+www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
+www.panduoduo.net##.container > .index-page > div > .total-hint:style(width： auto !important; margin-bottom: 10px; text-align: center)
+
+! 博客园
+www.cnblogs.com###ad_t2
+www.cnblogs.com###ad_text_under_commentbox
+www.cnblogs.com##.c_ad_block:not(.itnews)
+
+! CSDN Blog
+blog.csdn.net##.recommend-ad-box
+blog.csdn.net##body > div:has(.adblock)
+
+!Jianshu
+www.jianshu.com###web-note-ad-fixed
+
+! ChinaZ
+www.chinaz.com##^div[id^="ad_code"]
+
+! All ChinaZ Tools
+chinaz.com##.topTsCenter
+chinaz.com##.topTsRight
+chinaz.com###navAfter.ToolsWrapIM > div
+chinaz.com##.mt10.wrapper
+
+! ping.chinaz.com
+||css.tools.chinaz.com/tools/images/public/agg.gif
+||css.tools.chinaz.com/tools/images/public/agg01.gif
+ping.chinaz.com##.col-2:last-child
+! ping.chinaz.com##.adSpon
+ping.chinaz.com##.col-1:style(width: 15% !important)
+! ping.chinaz.com##.col-1:style(width: 10% !important)
+ping.chinaz.com##.col-2:style(width: 15% !important)
+! ping.chinaz.com##.col-2:style(width: 20% !important)
+ping.chinaz.com##.col-4:style(width: 40% !important)
+
+! 软件No1
+@@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
+@@||rjno1.com^$csp=script-src 'self' *;style-src
+
+www.rjno1.com##body > img:first-of-type
+www.rjno1.com##body > div:first-of-type
+www.rjno1.com###rinocheckaaa
+www.rjno1.com###rjnocheckbbb
+www.rjno1.com###whitebox:style(height: auto !important)
+
+www.rjno1.com##^style
+www.rjno1.com##^script:not([src])
+
+www.rjno1.com##.article-top-ad-1:style(margin: 0 !important)
+www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi:style(float: unset !important; width: auto !important)
+www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi > ul:style(display: flex !important; justify-content: space-between)
+
+||img.rjno1.com/images/logo/juanzeng.png$image
+
+! www.ttrar.com
+||www.ttrar.com/static/api/js/*
+||www.ttrar.com/statics/pos_js/*
+! ||www.ttrar.com/statics/pos_js/ydggw.js
+! ||www.ttrar.com/statics/pos_js/ydggw2.js
+
+www.ttrar.com##.main_yxtj
+www.ttrar.com###ruanj .lj
+
+www.ttrar.com##.hot_word
+
+www.ttrar.com##.share
+! www.ttrar.com##.list_bt
+www.ttrar.com##.xzsbox
+www.ttrar.com##.link_yq
+
+www.ttrar.com##.sj
+www.ttrar.com##.header > .sous:style(float: right !important)
+
+www.ttrar.com##.list_lf
+www.ttrar.com##.list_md:style(width: unset !important; float: none !important)
+www.ttrar.com##.fllist:style(width: 640px; float: left)
+www.ttrar.com##.fllist > p:style(line-height: normal !important; width: 210px !important)
+www.ttrar.com##.md_bt:style(margin-top: 0 !important; float: right)
+www.ttrar.com##.list_rg
+
+www.ttrar.com##.xzsbox
+www.ttrar.com##.xzdz_rg
+www.ttrar.com##.sort_list > .clearfix:first-child
+! www.ttrar.com##.sort_list > .clearfix:has(.yc_xzq_aurl)
+! www.ttrar.com##.yc_xzq_aurl
+www.ttrar.com#@#a[href*=".downok.com"]
+www.ttrar.com##.sort_list > dl.der > dd:style(border-top: 1px solid #a6d990 !important)
+www.ttrar.com##.link_yq
+
+
+! 亿品元素
+@@||a.epinv.com^$script
+||b.epinv.com^$subdocument
+
+www.epinv.com##iframe
+www.epinv.com##[class^="epinv_"]
+www.epinv.com##.nobg.topblock
+www.epinv.com###content > .space
+www.epinv.com##.footbar
+www.epinv.com##.bdlianjie
+
+
+! Premium Content Promotion Start
+||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
+||pan.baidu.com/box-static/disk-header/header/img/user-level1.png
+||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_
+||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_
+pan.baidu.com,yun.baidu.com##.JS-user-level
+pan.baidu.com,yun.baidu.com###show-buyvip-pack
+pan.baidu.com,yun.baidu.com##.buyvip-pack
+
+pan.baidu.com,yun.baidu.com##.module-header-wrapper a[title="会员中心"]
+pan.baidu.com,yun.baidu.com##.vip-notice
+pan.baidu.com,yun.baidu.com##.vip-privilege
+
+pan.baidu.com,yun.baidu.com##.get-capacity
+pan.baidu.com,yun.baidu.com##.bar > div:has-text(扩容至5T)
+
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li.separate[data-group="1"]
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has(.icon-menu-vip)
+! pan.baidu.com,yun.baidu.com##.icon-menu-vip
+
+tieba.baidu.com###hot_thread
+tieba.baidu.com###hot_forum
+tieba.baidu.com##.banner
+tieba.baidu.com###celebrity
+tieba.baidu.com##.user_score
+tieba.baidu.com##.rank
+tieba.baidu.com##.member_rank
+tieba.baidu.com###media_item
+tieba.baidu.com###adide_platform
+tieba.baidu.com##.r-top-sec
+tieba.baidu.com##.top-sec
+tieba.baidu.com###spage_liveshow_slide
+tieba.baidu.com##.tbui_fbar_down
+tieba.baidu.com##.tbui_fbar_share
+
+wenku.baidu.com##.ico-wkvip
+wenku.baidu.com###wk-user-icon-home
+wenku.baidu.com##li:has(#my-wkHome-vip-tips)
+wenku.baidu.com###my-wkHome-vip-tips
+wenku.baidu.com##a:has(#user-vip-ic)
+wenku.baidu.com##.top-ads-banner
+
+! Baidu Wenku Search
+wenku.baidu.com##.topicBox
+
+ctfile.com###infoModal
+ctfile.com##.modal-backdrop
+ctfile.com##.navbar
+ctfile.com##.text-center
+ctfile.com##hr
+ctfile.com##.row-fluid:has(.span6 > .speedydown-info-box)
+ctfile.com##.help-dialog
+
+||ctfile.com/premium_inpage.php
+||pipipan.com/premium_inpage.php
+ctfile.com/iajax_guest.php?*action=premium*$xmlhttprequest
+ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
+! Premium Content Promotion End
+
+! House Advertisement Start
+! 网易有道 Netease Youdao
+||dict.youdao.com/infoline
+||ke.youdao.com/api/course/*
+||www.huihui.cn/deals/channel.json
+||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
+! 备用 Backup
+! ||oimage*.ydstatic.com/image?id=*&product=*$image
+
+www.youdao.com##li:has-text(/背单词|精品课|人工翻译|惠惠/)
+www.youdao.com###more
+www.youdao.com###wljb
+www.youdao.com###margin3
+www.youdao.com###doc2
+www.youdao.com###callback
+
+fanyi.youdao.com##li:has-text(/有道翻译蛋|人工翻译/)
+fanyi.youdao.com##.rengong__guide
+fanyi.youdao.com###transMan
+fanyi.youdao.com##.inside__products
+fanyi.youdao.com##.side__nav
+
+www.iplaysoft.com##.entry-recommend-posts
+! House Advertisement End
+www.baidu.com###qrcode
+
+pan.baidu.com##.app-download
+eyun.baidu.com##.client-download
+
+fanyi.baidu.com##.download-app
+
+passport.baidu.com##.app-download-link
+
+tieba.baidu.com##.u_app
+
+wenku.baidu.com##.reader-download-app
+wenku.baidu.com##.qrHover
+
+zhidao.baidu.com##.zhidao-app
+
+www.zybang.com##.app-download
+
+||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
+||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
+||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
+
+! 网易新闻
+news.163.com##.newsapp-qrcode
+news.163.com##.ntes-nav-mobile-title
+
+! 知乎
+www.zhihu.com##.AppBanner
+
+! 知乎日报
+daily.zhihu.com##.qr
+daily.zhihu.com##.download
+
+! 简书
+www.jianshu.com###note-fixed-ad-container
+www.jianshu.com##.app-download-btn
+
+! Coolapk
+coolapk.com###head
+coolapk.com##.left_download
+coolapk.com##.apk_right
+
+www.chinaz.com##.cz-weixin
+
+www.ttrar.com##.ewm
+
+! 虾米
+www.xiami.com###qrcode
+
+! 凯迪
+club.kdnet.net##.web-right
+
+! 果酱音乐
+||www.jammyfm.com/wordpress/wp-content/themes/pinboard/scripts/qrcode.min.js
+www.jammyfm.com##.app-promote-btn
+www.jammyfm.com##.app-pro-container
+www.jammyfm.com##.qr-section
+
+! Google Translate
+translate.google.cn###gt-cn
+! ||www.163.com/special/*/performance.js
+*/performance.js
+
+! gss0.baidu.com/*/static/api/js/trans/logger.js
+!   www.cnbeta.com/static/api/js/trans/logger.js
+*/static/api/js/trans/logger.js
+
+! Baidu
+||hm.baidu.com/hm.js
+*.baidupcs.com/monitor.jpg^
+*/baidu-tongji/*
+*/baidu-tongji.js
+*/baidutongji.js
+
+||ae.bdstatic.com/msite/*
+||msite.baidu.com^
+! msite.baidu.com/sdk/c.js
+||xiongzhang.baidu.com/xzhstatistics/rp
+
+||www.baidu.com/con
+
+||nc.baidu.com/api/blades/cp
+
+||image.baidu.com/pv/pv.gif
+
+! ||zz.bdstatic.com/linksubmit/push.js
+||zz.bdstatic.com^
+
+! pan.baidu.com
+||pan.baidu.com/api/report/user
+||pan.baidu.com/box-static/disk-system/js/alog.js
+||pan.baidu.com/box-static/disk-system/js/log.js
+||pan.baidu.com/box-static/disk-system/js/dp.js
+||pan.baidu.com/pcloud/counter/refreshcount
+
+! wenku.baidu.com
+||wkctj.baidu.com^
+||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
+||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
+
+! ||user.hao123.com/static/mapping/hao.php
+! ||hao123.baidu.com/static/mapping/bd.php
+hao123.com/static/mapping/*.php
+baidu.com/static/mapping/*.php
+
+! iqiyi
+||msg.qy.net^
+
+||static.ctfile.com/js/bd_stat.js
+*/bd_stat.js
+
+! Tencent
+||report.url.cn^
+||report.huatuo.qq.com^
+||dj.captcha.qq.com/caplog
+
+! From mail.qq.com
+||ui.ptlogin2.qq.com/cgi-bin/report
+||xui.ptlogin2.qq.com/ptui_ver.js
+||localhost.ptlogin2.qq.com:*/pt_get_uins
+||ssl.ptlogin2.qq.com/check
+||rl.mail.qq.com/cgi-bin/getinvestigate
+
+! From mp.weixin.qq.com
+! mp.weixin.qq.com/mp/appmsgreport
+! mp.weixin.qq.com/mp/jsreport
+! mp.weixin.qq.com/mp/fereport
+||mp.weixin.qq.com/mp/*report
+||mp.weixin.qq.com/mp/report
+||mp.weixin.qq.com/mp/jsmonitor
+||mp.weixin.qq.com/mp/getappmsgext
+
+! From guanjia.qq.com
+||s.pc.qq.com/guanjia/js/tj.js
+||guanjia.qq.com/assets/js/*$script
+||tajs.qq.com/stats$important
+
+! Ali
+*.mmstat.com/*$important
+
+||g.alicdn.com/alilog/mlog/xwj_heat.js
+! g.alicdn.com/alilog/mlog/aplus_v2.js
+||g.alicdn.com/pecdn/mlog/agp_heat.min.js
+! s.tbcdn.cn/s/aplus_v2.js
+||g.alicdn.com/alilog/*
+*/mlog/*
+*/aplus_v2.js
+
+! aeu.alicdn.com/js/cj/110.js
+!  af.alicdn.com/js/cj/110.js
+*.alicdn.com/js/cj/110.js
+
+||ynuf.alipay.com/uid
+||g.alicdn.com/security/umscript/*/um.js
+||g.alicdn.com/sd/ctl/ctl.js
+
+||ynuf.alipay.com/service/um.json$xmlhttprequest,domain=v.youku.com
+
+! Netease
+||analytics.126.net^
+||log.study.163.com^
+||netease.com/track/*
+
+||hubble-js-bucket.nosdn.127.net/DATracker.sync
+||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
+
+||g.163.com/a$image
+||vmonitor.ws.netease.com/web/performance$image
+
+! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
+*/antanalysis.min.js
+
+! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
+*/analysis/js/analysis*.js
+
+||music.163.com/weapi/feedback/weblog
+
+! Netease Youdao
+! rlogs.youdao.com/rlog.php
+! rlogs.youdao.com/rlog.js
+||rlogs.youdao.com^
+^rlog/*$script
+||shared.ydstatic.com/js/rlog/*
+
+! Sina
+||log.mix.sina.com.cn^
+||sbeacon.sina.com.cn^
+
+! ---
+
+! Zhihu
+||sugar.zhihu.com^
+
+! KaFan
+||a.ikafan.com/9/tj.js
+
+! CNBeta
+! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
+||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
+
+! KDNet
+! tracking.kdnet.net/about/log.js
+||tracking.kdnet.net
+
+! CSDN
+||g.csdnimg.cn/track/*
+
+! 盛天网盘
+||webtracksdk.stnts.com
+
+! 携程
+||u.ctrip.com/union/*$third-party
+
+! 17173
+! 这都什么人涂的破站啊，乱成这样，服了
+||www.17173.com/2014/new/shouyoushanwan.js
+||www.17173.com/2015/new/news-v-daka.js
+||news.17173.com/2014/popupnews.config.js
+||ue.17173cdn.com/a/lib/stats/setlink.min.js
+||ue.17173cdn.com/a/money/*
+||ue.17173cdn.com/a/news/final/2014/js/tpl.min.js
+||ue.17173cdn.com/a/site/a/appcode/production.js
+||ue.17173cdn.com/a/www/index/2016/js/ping.js
+||ue.17173cdn.com/a/www/index/2016v2/js/tgmonitor.js
+||ue.17173cdn.com/a/www/index/2016v2/js/forsetlink.js
+||ue.17173cdn.com/cache/lib/v2/odvmonitor/lp.min.js
+
+! U77
+||www.u77.com/log/*
+
+! doc88
+||static.doc88.com/assets/pv.swf$important
+
+! Chaoxing
+||fystat-ans.chaoxing.com/log/*
+
+! 跟谁学
+||click.genshuixue.com^
+! Easylist China 误杀
+@@||cdns.genshuixue.com^$script
+
+||www.ruanyifeng.com/blog/stats.js
+
+! Google Analytics Proxy
+||ga.giuem.com/^
+/?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
+! Google Blog
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
+
+! Userstyles
+@@||userstyles.org/ui/images/icons/*
+
+! Zhihu
+www.zhihu.com#@#.FollowButton
+
+! Baidu Jingyan
+jingyan.baidu.com#@#.follow-btn
+jingyan.baidu.com#@##like-btn
+! bshare
+! ||static.bshare.cn/b/bshareC0.js
+! ||static.bshare.cn/b/button.js
+||static.bshare.cn/^$third-party
+||static.bshare.cn/b/buttonLite.js$important
+##.bshare-custom
+##a.bshareDiv
+
+! 百度分享
+!      gss0.baidu.com/*/static/api/js/share/share_api.js
+! bdimg.share.baidu.com/static/api/js/share.js
+!            csdnimg.cn/static/api/js/share.js
+||bdimg.share.baidu.com^
+*/static/api/js/share/*
+*/static/api/js/share.js
+
+! exp.bdstatic.com/static/article/lib/share/*
+*/lib/share/*
+
+*/baidushare/*
+*/bdshare/*
+! ||www.4399.com/jss/bdshare2.0.js
+*/bdshare2.0.js
+###bdshare
+
+! likexia.gitee.io##.bdsharebuttonbox
+! blog.csdn.net##.bdsharebuttonbox
+##.bdsharebuttonbox
+
+||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/*
+||gss0.baidu.com/*/static/api/css/share_style*.css
+baike.baidu.com###side-share
+
+jingyan.baidu.com###w-share
+
+wenku.baidu.com##.share-btn-wrap
+
+zhidao.baidu.com##.share-area
+zhidao.baidu.com##.jump-share
+
+||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
+news.163.com##.post_topshare
+
+sina.com.cn##.tool-wb
+sina.com.cn##.tool-wx
+sina.com.cn##.tool-share
+
+||news.sina.com.cn/268/2014/0919/bshare_update.js
+www.sohu.com###share
+
+photo.blog.sina.com.cn###sharePhoto
+
+
+www.iplaysoft.com###share_toolbar
+www.iplaysoft.com###share_toolbar_wrapper
+
+techcrunch.cn##.social-share
+
+www.chinaz.com##.cz-leftside-title
+www.chinaz.com##.cz_share
+
+www.panduoduo.net##.share-bar
+
+club.kdnet.net##.new-share-main
+
+2014.renren.com##.jiathis_style
+
+public.renren.com###Share
+
+www.juzimi.com###jushare
+
+www.jammyfm.com##.share-toolbox
+
+www.dongqiudi.com###share
+
+www.4399.com###sharebtn
+www.7k7k.com##.start-game-share
+
+||ue.17173cdn.com/a/lib/*/share/index.js
+
+www.icourse163.org###j-share.j-share
+www.icourse163.org###j-courseshare
+www.icourse163.org##.m-coulshar
+
+www.360doc.com###fenxiangLayer.sharelist_new
+
+! Video Site Start
+v.youku.com##.fn-share
+
+www.iqiyi.com##.footer-shareBox
+
+v.qq.com##.action_share.action_item
+! Video Site End
+techcrunch.cn##.sticky-nav-social > li:has( > .sprite-social)
+techcrunch.cn##.header-social > .sprite-social
+techcrunch.cn##.footer-social
+
+! www.iplaysoft.com
+www.iplaysoft.com###sidebar_scroll_wb
+www.iplaysoft.com###sidebar_scroll_wx
+
+www.iplaysoft.com###elevator_social:style(width: 230px !important;)
+www.iplaysoft.com###elevator_social > .float-left:nth-of-type(1)
+www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 100% !important)
+www.iplaysoft.com###elevator_social > .float-left > .elevator_social_title:has( > .ipsicon-weibo)
+www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"]
+www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"] + hr
+www.iplaysoft.com##.popWxgzh
+www.iplaysoft.com###ft_6
+! Red Dot & Hot & New Start
+developer.baidu.com##.hot-icon
+fanyi.baidu.com##.icon-hotlk
+index.baidu.com##.new
+jingyan.baidu.com##.new-icon
+pan.baidu.com,yun.baidu.com##.find-light-icon
+pan.baidu.com,yun.baidu.com##.newIcon
+site.baidu.com##.dot
+wenku.baidu.com##.new b
+wenku.baidu.com##.ui-bz-hot-ic
+wenku.baidu.com##.ui-bz-new-ic
+wenku.baidu.com##.hot-box
+wenku.baidu.com##span.newhotword
+zhidao.baidu.com##.menu-title-icon
+
+www.nuomi.com##.new-item-hot
+
+fanyi.sogou.com##.icon-free
+help.sogou.com##img[alt="new"]
+pic.sogou.com##img[src="/home/images/hot.png"]
+
+www.hao123.com##.hot-icon
+
+www.4399.com##.i_new
+www.4399.com##.i_hot
+
+www.liaoxuefeng.com###ul-navbar > li > img
+
+music.163.com##.hot
+
+www.oschina.net###icon_mayun
+www.oschina.net##.icon_mayun
+
+gitee.com##.label.red.ui
+
+9gag.com##.nav-menu .new::after
+
+club.kdnet.net##.nav-t-new.icon-try-con
+
+www.17173.com##.ico-game-hot1
+
+diy.zol.com.cn##.icon-hot
+! Red Dot & Hot & New End
+
+
+
+! Highlight Start
+www.oschina.net##.mayun.event.menu-item:style(font-weight: 400 !important; color: #fff !important)
+
+www.panduoduo.net##.announcement-bar > a:style(color: #336699 !important; font-weight: normal !important;)
+! Highlight End
+
+
+
+! Baidu Netdisk Start
+||pan.baidu.com/share/hotrec
+||pan.baidu.com/disk/cmsdata
+pan.baidu.com,yun.baidu.com##.module-hot-rec
+
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li.separate[data-group="2"]
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(云冲印)
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(制作照片电影)
+pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
+! Baidu Netdisk End
+
+
+
+||api.bilibili.com/x/player/carousel.so
+www.bilibili.com##.v-live-recommend
+
+||video.sina.com.cn/interface/search_hot.php
+
+||baike.baidu.com/cms/global/home_config.json
+
+||jingyan.baidu.com/asyncreq/log
+!||exp.bdstatic.com/static/common-jquery/widget/js/logic/log/*
+||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/*
+||exp.bdstatic.com/static/activity/widget/ui/redbox/*
+jingyan.baidu.com###my-income
+jingyan.baidu.com##.wgt-common-nav
+jingyan.baidu.com###auto-app-placehold
+jingyan.baidu.com##.wgt-income-money
+jingyan.baidu.com##.magzine-list
+
+||tieba.baidu.com/tbapp/user/getRecommendApp
+||tieba.baidu.com/p/getLikeForum
+
+wenku.baidu.com###banurl
+wenku.baidu.com###share-tips
+
+||zhidao.baidu.com/question/api/recommend
+||zhidao.baidu.com/question/api/hao123word
+||zhidao.baidu.com/s/toutu/questionnaire.js
+zhidao.baidu.com##.shop-entrance
+
+! 百度知道 去除高亮显示关键词
+||gh.bdstatic.com/static/gh/js/ll/m_word.js
+! ||entry.baidu.com/rp/wordner
+
+www.hao123.com###head-wise
+www.hao123.com###headJoke
+www.hao123.com###sethome
+www.hao123.com##.g_tips-r
+www.hao123.com##.tips
+www.hao123.com##.tvtip
+www.hao123.com##.pic_icon
+www.hao123.com##.coolsiteresource-tip
+
+! Zhihu
+||www.zhihu.com/api/v4/hot_recommendation$xmlhttprequest
+
+! 超星
+*.chaoxing.com/richvideo/initdatawithviewer

@@ -1,6 +1,6 @@
 ! Title: AdditionalFiltersIntl - Social
-! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
 ! Buzzfeed
 www.buzzfeed.com##.connect-with-us
@@ -15,6 +15,9 @@ canonical.com##.p-divider__block:has(a[href="https://twitter.com/Canonical"])
 
 ! Fox News
 www.foxnews.com##.footer-lower > .social-icons
+
+! SourceForge
+sourceforge.net##.social-icons
 
 ! APKPure
 apkpure.com##.facebook-like

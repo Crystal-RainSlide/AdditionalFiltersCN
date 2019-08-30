@@ -1,6 +1,6 @@
 ! Title: AdditionalFiltersCN - Social
-! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
 techcrunch.cn##.sticky-nav-social > li:has( > .sprite-social)
 techcrunch.cn##.header-social > .sprite-social

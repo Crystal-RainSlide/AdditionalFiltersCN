@@ -1,6 +1,6 @@
 ! Title: AdditionalFiltersCN - Social&Share
-! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
