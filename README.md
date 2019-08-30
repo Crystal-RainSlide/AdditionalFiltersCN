@@ -46,6 +46,10 @@ https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/s
 
 https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/fix.txt
 
+## All
+
+https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/all.txt
+
 ## Q:Why these mess are listed here but not EasyList China?
 
 A:I DON'T accept submitting filters in forums or chat rooms. Forums and chat rooms are designed for discussion, not massive list data maintenance. Those places don't have enough capacity to match the lists. Obsolete rules are never mentioned after they were created,  undetermined rules are stacked, and the list view don't support tag-based filtering.
