@@ -1,4 +1,5 @@
-----------
+Name | Domain
+-----|-----
 Baidu | *.baidu.com
 Tencent | *.tencent.com
 Netease | *.163.com
