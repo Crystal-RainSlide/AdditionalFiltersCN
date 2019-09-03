@@ -7,14 +7,16 @@ Additional Filters for browser extension based adblockers like [uBlock Origin](h
 Including some obvious trackers which could be found&confirmed by novices in network development easily, and should been listed&blocked YEARS ago.
 
 Variant         | Link
-----------------------
+--------------- | ----
 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/all.txt)
 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/DC.txt)
 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Ad.txt)
 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt)
 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/share.txt)
 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/social.txt)
-Fix 4 [Fanboy+Easylist-Merged Ultimate List](https://fanboy.co.nz/r/fanboy-complete.txt) | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/fix.txt)
+Fixes           |    [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/fix.txt)
+
+P.S. Fixes is for [Easylist filter lists](https://easylist.to/) and [Fanboy Lists](https://fanboy.co.nz/).
 
 ### Other Rules:
 
