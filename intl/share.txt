@@ -21,15 +21,15 @@
 ! ||apis.google.com/js/plusone.js$script
 ||apis.google.com/js/$third-party
 
+||badges.instagram.com^$third-party
+||assets.pinterest.com/js/pinit.js$third-party
+||sharethis.com^$script,third-party
 ||static.addtoany.com^$script
-
 ||widget.pushbullet.com/dynamic.js$script
-
 ||vk.com/js/api/share.js$script
 
 ! APKPure
 ||cdnpure.com/static/share-button/*
-
 
 ! BBC
 www.bbc.com##.sharetools

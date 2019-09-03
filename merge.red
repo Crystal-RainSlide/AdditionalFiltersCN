@@ -4,8 +4,8 @@ Red [
 ]
 ; do %/D/Work/Project/AdditionalFiltersCN/merge.red
 
-; for each file, the splitter and those text before it will be removed
-; before merge.
+comment { for each file, the splitter and those text before it will be removed
+before merge. }
 splitter: {
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 

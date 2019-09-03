@@ -11,10 +11,10 @@
 
 ! Baidu
 ||hm.baidu.com/hm.js
-*.baidupcs.com/monitor.jpg^
-*/baidu-tongji/*
-*/baidu-tongji.js
-*/baidutongji.js
+.baidupcs.com/monitor.jpg
+/baidu-tongji/
+/baidu-tongji.js
+/baidutongji.js
 
 ||ae.bdstatic.com/msite/*
 ||msite.baidu.com^
@@ -28,7 +28,11 @@
 ||image.baidu.com/pv/pv.gif
 
 ! ||zz.bdstatic.com/linksubmit/push.js
-||zz.bdstatic.com^
+||zz.bdstatic.com^$script,third-party
+||push.zhanzhang.baidu.com^
+
+! ||fex.bdstatic.com/hunter/alog/speed.min.js
+/alog/$script
 
 ! pan.baidu.com
 ||pan.baidu.com/api/report/user
@@ -130,24 +134,27 @@ baidu.com/static/mapping/*.php
 ||log.mix.sina.com.cn^
 ||sbeacon.sina.com.cn^
 
-! ---
+! 芒果 TV
+||log.mgtv.com^
 
 ! Zhihu
 ||sugar.zhihu.com^
-
-! KaFan
-||a.ikafan.com/9/tj.js
 
 ! CNBeta
 ! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
 ||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
 
+! CSDN
+||g.csdnimg.cn/track/*
+
+! ---
+
+! KaFan
+||a.ikafan.com/9/tj.js
+
 ! KDNet
 ! tracking.kdnet.net/about/log.js
 ||tracking.kdnet.net
-
-! CSDN
-||g.csdnimg.cn/track/*
 
 ! 盛天网盘
 ||webtracksdk.stnts.com

@@ -6,52 +6,39 @@
 Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
 Including some obvious trackers which could be found&confirmed by novices in network development easily, and should been listed&blocked YEARS ago.
 
-#### Optional Rules
+Variant         | Link
+----------------------
+All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/all.txt)
+Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/DC.txt)
+Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Ad.txt)
+Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt)
+Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/share.txt)
+Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/social.txt)
+Fix 4 [Fanboy+Easylist-Merged Ultimate List](https://fanboy.co.nz/r/fanboy-complete.txt) | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/fix.txt)
 
-https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Optional.md
+### Other Rules:
 
-#### International Rules
-
-Anti Data Collection & Ads included. I'd better add them into Easylist by some means...
-
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/intl/All.txt
-
-### Suggestions:
+乘风 广告过滤规则: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt
 
 jCleanList: https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt
 
 N2OList China : https://n2o.io/p/adblock/ (Blocks 2345 and 360)
 
-## Data Collection
+#### Optional Rules
 
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/DC.txt
+https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Optional.md
 
-## Advertisement
+#### International Rules (WIP/TBD)
 
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Ad.txt
+https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/intl/
 
-## Spam
+#### Rules Merger
 
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/spam.txt
+https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/merge.red
+https://github.com/Crystal-RainSlide/AdditionalFiltersCN/wiki/merge.red
 
-## Share buttons
+## Q:Why these are listed here but not EasyList China?
 
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/share.txt
+A:I DON'T approve submitting filters in forums or chat rooms. Forums and chat rooms are designed for discussion, not massive list data maintenance. Those places don't have enough capacity to match the lists. Obsolete rules are never mentioned after they were created,  undetermined rules are stacked, and the list view don't support tag-based filtering.
 
-## Social icons
-
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/social.txt
-
-### Fix 4 Fanboy+Easylist-Merged Ultimate List
-
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/fix.txt
-
-## All
-
-https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/all.txt
-
-## Q:Why these mess are listed here but not EasyList China?
-
-A:I DON'T accept submitting filters in forums or chat rooms. Forums and chat rooms are designed for discussion, not massive list data maintenance. Those places don't have enough capacity to match the lists. Obsolete rules are never mentioned after they were created,  undetermined rules are stacked, and the list view don't support tag-based filtering.
-
-Despite the unbelievable simplicity in catching these trackers out, I'll also type a guide for capping trackers in the [wiki](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/wiki) (may move to other place someday… I'll update this link anyway) to … try to minimize the possibility of occurrence, of those serious negligences.
+Despite the unbelievable simplicity in catching these trackers out, I'll also type a guide for capping trackers in the [wiki](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/wiki) (may move to other place someday... I'll update this link anyway) to ... try to minimize the possibility of occurrence, of those serious negligences.
