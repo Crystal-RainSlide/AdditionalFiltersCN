@@ -2,6 +2,15 @@
 ! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
+||getadblock.com/js/log.js
+||getadblock.com/js/user.js
+||getadblockpremium.com/js/log.js
+||getadblockpremium.com/js/user.js
+
+||log.getadblock.com/v2/record_log.php
+! stats.js from most version in http://code.getadblock.com/releases/
+||ping.getadblock.com/stats/
+
 ! ||www.163.com/special/*/performance.js
 */performance.js
 
