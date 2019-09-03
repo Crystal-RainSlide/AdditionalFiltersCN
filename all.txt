@@ -289,6 +289,15 @@ www.jammyfm.com##.qr-section
 
 ! Google Translate
 translate.google.cn###gt-cn
+||getadblock.com/js/log.js
+||getadblock.com/js/user.js
+||getadblockpremium.com/js/log.js
+||getadblockpremium.com/js/user.js
+
+||log.getadblock.com/v2/record_log.php
+! stats.js from most version in http://code.getadblock.com/releases/
+||ping.getadblock.com/stats/
+
 ! ||www.163.com/special/*/performance.js
 */performance.js
 
@@ -298,10 +307,10 @@ translate.google.cn###gt-cn
 
 ! Baidu
 ||hm.baidu.com/hm.js
-*.baidupcs.com/monitor.jpg^
-*/baidu-tongji/*
-*/baidu-tongji.js
-*/baidutongji.js
+.baidupcs.com/monitor.jpg
+/baidu-tongji/
+/baidu-tongji.js
+/baidutongji.js
 
 ||ae.bdstatic.com/msite/*
 ||msite.baidu.com^
@@ -315,7 +324,11 @@ translate.google.cn###gt-cn
 ||image.baidu.com/pv/pv.gif
 
 ! ||zz.bdstatic.com/linksubmit/push.js
-||zz.bdstatic.com^
+||zz.bdstatic.com^$script,third-party
+||push.zhanzhang.baidu.com^
+
+! ||fex.bdstatic.com/hunter/alog/speed.min.js
+/alog/$script
 
 ! pan.baidu.com
 ||pan.baidu.com/api/report/user
@@ -417,24 +430,27 @@ baidu.com/static/mapping/*.php
 ||log.mix.sina.com.cn^
 ||sbeacon.sina.com.cn^
 
-! ---
+! 芒果 TV
+||log.mgtv.com^
 
 ! Zhihu
 ||sugar.zhihu.com^
-
-! KaFan
-||a.ikafan.com/9/tj.js
 
 ! CNBeta
 ! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
 ||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
 
+! CSDN
+||g.csdnimg.cn/track/*
+
+! ---
+
+! KaFan
+||a.ikafan.com/9/tj.js
+
 ! KDNet
 ! tracking.kdnet.net/about/log.js
 ||tracking.kdnet.net
-
-! CSDN
-||g.csdnimg.cn/track/*
 
 ! 盛天网盘
 ||webtracksdk.stnts.com
@@ -501,23 +517,23 @@ jingyan.baidu.com#@##like-btn
 ! bdimg.share.baidu.com/static/api/js/share.js
 !            csdnimg.cn/static/api/js/share.js
 ||bdimg.share.baidu.com^
-*/static/api/js/share/*
-*/static/api/js/share.js
+/static/api/js/share/
+/static/api/js/share.js
 
 ! exp.bdstatic.com/static/article/lib/share/*
-*/lib/share/*
+/lib/share/
 
-*/baidushare/*
-*/bdshare/*
+/baidushare/
+/bdshare/
 ! ||www.4399.com/jss/bdshare2.0.js
-*/bdshare2.0.js
+/bdshare$script
 ###bdshare
 
 ! likexia.gitee.io##.bdsharebuttonbox
 ! blog.csdn.net##.bdsharebuttonbox
 ##.bdsharebuttonbox
 
-||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/*
+||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/
 ||gss0.baidu.com/*/static/api/css/share_style*.css
 baike.baidu.com###side-share
 
