@@ -10,6 +10,9 @@ duckduckgo.com##.social
 duckduckgo.com#@#.social__link
 duckduckgo.com#@#.social__icon
 
+! Archive.org
+archive.org##.social_button
+
 ubuntu.com##.p-footer__nav-col:has(.twitter-icon)
 canonical.com##.p-divider__block:has(a[href="https://twitter.com/Canonical"])
 
@@ -30,6 +33,10 @@ www.apkmirror.com##^#sidebar > .gooWidget
 ! MDN
 developer.mozilla.org##.footer-social:has(.icon-twitter)
 developer.mozilla.org##.footer-social:has(.icon-instagram)
+
+www.mediafire.com##.social-cont
+
+winaero.com##.social-media-container
 
 ||freestyler.ws/php/sharrre.php$xmlhttprequest
 freestyler.ws##.follow-us-block

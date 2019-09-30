@@ -1,18 +1,18 @@
 Red [
-	title: "Merge for AdditionalFilters"
-	author: "Crystal RainSlide"
+	Title: "Merger for AdditionalFilters"
+	Author: "Crystal RainSlide"
 ]
-; do %/D/Work/Project/AdditionalFiltersCN/merge.red
 
 comment { for each file, the splitter and those text before it will be removed
 before merge. }
 splitter: {
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
-
 }
 
 ; setup output
 output-file: %all.txt ; to-file "all.txt"
+
+comment {
 
 either file? output-file [
 	if exists? output-file [
@@ -26,15 +26,19 @@ either file? output-file [
 				" Will auto append the file name when input is a dir,"
 				" but won't check existence again: "
 			]
-			output-file: to-file input
-			if dir? output-file [
-				output-file: append copy new-path output-file
+			new-output-file: to-file input
+			either (dir? output-file) [
+				output-file: append (copy new-output-file) output-file
+			] [
+				output-file: copy new-output-file
 			]
 		]
 	]
 ] [
 	print "The output file variable is not a valid file!, check output-file"
 ]
+
+}
 
 output-result: copy append {! Title: AdditionalFiltersCN
 ! Expire: 7 days} splitter ; use the splitter for convenience
@@ -43,9 +47,17 @@ output-result: copy append {! Title: AdditionalFiltersCN
 foreach item read %. [
 	if all [
 		%.txt = suffix? item ; is *.txt
-		output-file <> item  ; is not output-file
+		output-file <> item  ; is not output-file itself
 	] [
-		append output-result remove split read item splitter
+		; read file into string
+		; split it with the splitter
+		; remove the 1st part, or the part before the splitter
+		; append the parsed string to the tail of output-result
+		append output-result (
+			remove (
+				split ( read item ) splitter
+			)
+		)
 	]
 ]
 

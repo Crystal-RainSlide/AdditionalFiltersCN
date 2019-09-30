@@ -12,6 +12,7 @@ fanyi.baidu.com##.download-app
 passport.baidu.com##.app-download-link
 
 tieba.baidu.com##.u_app
+tieba.baidu.com##.app_download_box
 
 wenku.baidu.com##.reader-download-app
 wenku.baidu.com##.qrHover
@@ -43,6 +44,17 @@ www.jianshu.com##.app-download-btn
 coolapk.com###head
 coolapk.com##.left_download
 coolapk.com##.apk_right
+
+! Userstyles.org
+userstyles.org##.overlay_background
+userstyles.org##.us-stylecard--short:has(.fallbackDiv)
+userstyles.org##.us-stylecard--long:has(.fallbackDiv)
+userstyles.org##.fallbackDiv
+userstyles.org##img.fallbackImg
+userstyles.org###top_android_button
+userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
+userstyles.org##.walking
 
 www.chinaz.com##.cz-weixin
 

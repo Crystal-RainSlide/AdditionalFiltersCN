@@ -28,6 +28,8 @@
 ||widget.pushbullet.com/dynamic.js$script
 ||vk.com/js/api/share.js$script
 
+##.sharedaddy
+
 ! APKPure
 ||cdnpure.com/static/share-button/*
 
@@ -54,3 +56,8 @@ blog.twitter.com##div[class$="__share--icons"]
 mediabiasfactcheck.com##.addtoany_content
 */sharedaddy/sharing.min.js$script
 mediabiasfactcheck.com##.sharedaddy
+
+neocities.org###shareButton
+knowyourmeme.com##.tb-share-custom
+knowyourmeme.com###ctoolbar
+www.softwareok.com##form[name="Testform"]

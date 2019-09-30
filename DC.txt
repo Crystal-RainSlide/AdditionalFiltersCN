@@ -41,7 +41,7 @@
 ||push.zhanzhang.baidu.com^
 
 ! ||fex.bdstatic.com/hunter/alog/speed.min.js
-/alog/$script
+*/alog/*$script
 
 ! pan.baidu.com
 ||pan.baidu.com/api/report/user
@@ -72,17 +72,12 @@ baidu.com/static/mapping/*.php
 ||dj.captcha.qq.com/caplog
 
 ! From mail.qq.com
-||ui.ptlogin2.qq.com/cgi-bin/report
-||xui.ptlogin2.qq.com/ptui_ver.js
-||localhost.ptlogin2.qq.com:*/pt_get_uins
-||ssl.ptlogin2.qq.com/check
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 
 ! From mp.weixin.qq.com
-! mp.weixin.qq.com/mp/appmsgreport
-! mp.weixin.qq.com/mp/jsreport
-! mp.weixin.qq.com/mp/fereport
-||mp.weixin.qq.com/mp/*report
+||mp.weixin.qq.com/mp/appmsgreport
+||mp.weixin.qq.com/mp/jsreport
+||mp.weixin.qq.com/mp/fereport
 ||mp.weixin.qq.com/mp/report
 ||mp.weixin.qq.com/mp/jsmonitor
 ||mp.weixin.qq.com/mp/getappmsgext

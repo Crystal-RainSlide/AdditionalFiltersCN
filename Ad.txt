@@ -79,6 +79,26 @@ ping.chinaz.com##.col-2:style(width: 15% !important)
 ! ping.chinaz.com##.col-2:style(width: 20% !important)
 ping.chinaz.com##.col-4:style(width: 40% !important)
 
+! 华军
+||soft.onlinedown.net/js/suggest.js
+||soft.onlinedown.net/js/popbox3.js
+
+soft.onlinedown.net##.hotSearch
+
+soft.onlinedown.net###NavWYPL
+soft.onlinedown.net###ItemWYPL
+soft.onlinedown.net###ItemCNXH
+soft.onlinedown.net###softjs
+
+soft.onlinedown.net##.soft_rightA
+soft.onlinedown.net##.soft_rightB
+soft.onlinedown.net##.softDownIf > .left:style(float: none;margin: 0 auto)
+soft.onlinedown.net##.sortsList.downdecail > .left:style(float: none;margin: 0 auto)
+! 华军推荐
+soft.onlinedown.net##.Friendlink
+! 弹框软件推荐
+soft.onlinedown.net###bzPopBox
+
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
 @@||rjno1.com^$csp=script-src 'self' *;style-src
@@ -193,10 +213,13 @@ wenku.baidu.com##.topicBox
 
 ctfile.com###infoModal
 ctfile.com##.modal-backdrop
+
+ctfile.com###page-content #.download-box + .text-center
+ctfile.com###page-content > hr
+ctfile.com###page-content > hr + .row-fluid
+! ctfile.com##.row-fluid:has(.speedydown-info-box)
+
 ctfile.com##.navbar
-ctfile.com##.text-center
-ctfile.com##hr
-ctfile.com##.row-fluid:has(.span6 > .speedydown-info-box)
 ctfile.com##.help-dialog
 
 ||ctfile.com/premium_inpage.php

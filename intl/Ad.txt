@@ -11,6 +11,10 @@ google.com##.gb_g.gb_aa
 twitter.com##.Footer-adsModule
 twitter.com##.import-prompt
 
+! Microsoft
+www.microsoft.com##.switchOfficeHeroFirst
+www.microsoft.com##.m-hero
+
 ! Microsoft Outlook
 ||r1.res.office365.com/adbar/*$xmlhttprequest,important
 ||acdn.adnxs.com/ast/static/*/ast.js$important
@@ -60,6 +64,11 @@ forum.xda-developers.com###honor-launch-banner
 t.me,telegram.me,telegram.cat##.tgme_head_dl_button
 
 userscloud.com##.innerTB > center
+
+www.mediafire.com###adwrapper
+www.mediafire.com##.header:style(position: static !important;margin: 12px auto 0 !important)
+www.mediafire.com##.center:style(position: static !important;margin: 0 auto)
+www.mediafire.com##.DLExtraInfo-wrap:style(position: static !important;margin: 0 auto)
 
 winaero.com##.recommended-inline
 

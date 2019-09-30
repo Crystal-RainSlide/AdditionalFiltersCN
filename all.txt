@@ -79,6 +79,26 @@ ping.chinaz.com##.col-2:style(width: 15% !important)
 ! ping.chinaz.com##.col-2:style(width: 20% !important)
 ping.chinaz.com##.col-4:style(width: 40% !important)
 
+! 华军
+||soft.onlinedown.net/js/suggest.js
+||soft.onlinedown.net/js/popbox3.js
+
+soft.onlinedown.net##.hotSearch
+
+soft.onlinedown.net###NavWYPL
+soft.onlinedown.net###ItemWYPL
+soft.onlinedown.net###ItemCNXH
+soft.onlinedown.net###softjs
+
+soft.onlinedown.net##.soft_rightA
+soft.onlinedown.net##.soft_rightB
+soft.onlinedown.net##.softDownIf > .left:style(float: none;margin: 0 auto)
+soft.onlinedown.net##.sortsList.downdecail > .left:style(float: none;margin: 0 auto)
+! 华军推荐
+soft.onlinedown.net##.Friendlink
+! 弹框软件推荐
+soft.onlinedown.net###bzPopBox
+
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
 @@||rjno1.com^$csp=script-src 'self' *;style-src
@@ -193,10 +213,13 @@ wenku.baidu.com##.topicBox
 
 ctfile.com###infoModal
 ctfile.com##.modal-backdrop
+
+ctfile.com###page-content #.download-box + .text-center
+ctfile.com###page-content > hr
+ctfile.com###page-content > hr + .row-fluid
+! ctfile.com##.row-fluid:has(.speedydown-info-box)
+
 ctfile.com##.navbar
-ctfile.com##.text-center
-ctfile.com##hr
-ctfile.com##.row-fluid:has(.span6 > .speedydown-info-box)
 ctfile.com##.help-dialog
 
 ||ctfile.com/premium_inpage.php
@@ -229,6 +252,7 @@ fanyi.youdao.com##.side__nav
 
 www.iplaysoft.com##.entry-recommend-posts
 ! House Advertisement End
+
 www.baidu.com###qrcode
 
 pan.baidu.com##.app-download
@@ -239,6 +263,7 @@ fanyi.baidu.com##.download-app
 passport.baidu.com##.app-download-link
 
 tieba.baidu.com##.u_app
+tieba.baidu.com##.app_download_box
 
 wenku.baidu.com##.reader-download-app
 wenku.baidu.com##.qrHover
@@ -271,6 +296,17 @@ coolapk.com###head
 coolapk.com##.left_download
 coolapk.com##.apk_right
 
+! Userstyles.org
+userstyles.org##.overlay_background
+userstyles.org##.us-stylecard--short:has(.fallbackDiv)
+userstyles.org##.us-stylecard--long:has(.fallbackDiv)
+userstyles.org##.fallbackDiv
+userstyles.org##img.fallbackImg
+userstyles.org###top_android_button
+userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
+userstyles.org##.walking
+
 www.chinaz.com##.cz-weixin
 
 www.ttrar.com##.ewm
@@ -289,6 +325,7 @@ www.jammyfm.com##.qr-section
 
 ! Google Translate
 translate.google.cn###gt-cn
+
 ||getadblock.com/js/log.js
 ||getadblock.com/js/user.js
 ||getadblockpremium.com/js/log.js
@@ -328,7 +365,7 @@ translate.google.cn###gt-cn
 ||push.zhanzhang.baidu.com^
 
 ! ||fex.bdstatic.com/hunter/alog/speed.min.js
-/alog/$script
+*/alog/*$script
 
 ! pan.baidu.com
 ||pan.baidu.com/api/report/user
@@ -359,17 +396,12 @@ baidu.com/static/mapping/*.php
 ||dj.captcha.qq.com/caplog
 
 ! From mail.qq.com
-||ui.ptlogin2.qq.com/cgi-bin/report
-||xui.ptlogin2.qq.com/ptui_ver.js
-||localhost.ptlogin2.qq.com:*/pt_get_uins
-||ssl.ptlogin2.qq.com/check
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 
 ! From mp.weixin.qq.com
-! mp.weixin.qq.com/mp/appmsgreport
-! mp.weixin.qq.com/mp/jsreport
-! mp.weixin.qq.com/mp/fereport
-||mp.weixin.qq.com/mp/*report
+||mp.weixin.qq.com/mp/appmsgreport
+||mp.weixin.qq.com/mp/jsreport
+||mp.weixin.qq.com/mp/fereport
 ||mp.weixin.qq.com/mp/report
 ||mp.weixin.qq.com/mp/jsmonitor
 ||mp.weixin.qq.com/mp/getappmsgext
@@ -491,6 +523,7 @@ baidu.com/static/mapping/*.php
 ! Google Analytics Proxy
 ||ga.giuem.com/^
 /?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
+
 ! Google Blog
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
@@ -504,6 +537,7 @@ www.zhihu.com#@#.FollowButton
 ! Baidu Jingyan
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
+
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
 ! ||static.bshare.cn/b/button.js
@@ -597,6 +631,7 @@ www.iqiyi.com##.footer-shareBox
 
 v.qq.com##.action_share.action_item
 ! Video Site End
+
 techcrunch.cn##.sticky-nav-social > li:has( > .sprite-social)
 techcrunch.cn##.header-social > .sprite-social
 techcrunch.cn##.footer-social
@@ -613,6 +648,7 @@ www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xfor
 www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"] + hr
 www.iplaysoft.com##.popWxgzh
 www.iplaysoft.com###ft_6
+
 ! Red Dot & Hot & New Start
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk

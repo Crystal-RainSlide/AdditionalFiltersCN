@@ -1,0 +1,17 @@
+! Title: AdditionalFiltersCN - Fixes
+! Expire: 7 days
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+
+! Google Blog
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
+
+! Userstyles
+@@||userstyles.org/ui/images/icons/*
+
+! Zhihu
+www.zhihu.com#@#.FollowButton
+
+! Baidu Jingyan
+jingyan.baidu.com#@#.follow-btn
+jingyan.baidu.com#@##like-btn
