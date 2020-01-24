@@ -1,0 +1,34 @@
+! Title: AdditionalFiltersIntl - SPAM
+! Expire: 7 days
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+
+! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
+! Google 怎么想的啊。
+||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+TC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+SC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+HK$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+JP$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+TC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+SC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+HK$stylesheet
+||fonts.gstatic.com/s/notosansjp/*
+||fonts.gstatic.com/s/notosanskr/*
+||fonts.gstatic.com/s/notosanstc/*
+||fonts.gstatic.com/s/notosanssc/*
+||fonts.gstatic.com/s/notosanshk/*
+||fonts.gstatic.com/s/notoserifjp/*
+||fonts.gstatic.com/s/notoseriftc/*
+||fonts.gstatic.com/s/notoserifsc/*
+||fonts.gstatic.com/s/notoserifhk/*
+
+fandom.com###WikiaBar
+fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
+
+fandom.com###mixed-content-footer
+
+www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
+www.experts-exchange.com##.interceptContainer
+
+9gag.com##.nav-menu .new::after

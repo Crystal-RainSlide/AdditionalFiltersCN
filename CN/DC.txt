@@ -21,13 +21,18 @@
 ! Baidu
 ||hm.baidu.com/hm.js
 .baidupcs.com/monitor.jpg
-/baidu-tongji/
+*/baidu-tongji/*
 /baidu-tongji.js
 /baidutongji.js
 
+! ||static.ctfile.com/js/bd_stat.js
+*/bd_stat.js
+
+||passport.baidu.com/viewlog
+
 ||ae.bdstatic.com/msite/*
-||msite.baidu.com^
 ! msite.baidu.com/sdk/c.js
+||msite.baidu.com/
 ||xiongzhang.baidu.com/xzhstatistics/rp
 
 ||www.baidu.com/con
@@ -51,7 +56,8 @@
 ||pan.baidu.com/pcloud/counter/refreshcount
 
 ! wenku.baidu.com
-||wkctj.baidu.com^
+||wkctj.baidu.com/
+||wenku.baidu.com/doc/interface/docCount
 ||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
 ||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
 
@@ -61,15 +67,14 @@ hao123.com/static/mapping/*.php
 baidu.com/static/mapping/*.php
 
 ! iqiyi
-||msg.qy.net^
-
-||static.ctfile.com/js/bd_stat.js
-*/bd_stat.js
+||msg.qy.net/
 
 ! Tencent
 ||report.url.cn^
 ||report.huatuo.qq.com^
 ||dj.captcha.qq.com/caplog
+||stdl.qq.com/stdl/qb/js/qblog.js
+||baas.browser.qq.com/report/functions/report$image
 
 ! From mail.qq.com
 ||rl.mail.qq.com/cgi-bin/getinvestigate
@@ -131,24 +136,39 @@ baidu.com/static/mapping/*.php
 ! rlogs.youdao.com/rlog.php
 ! rlogs.youdao.com/rlog.js
 ||rlogs.youdao.com^
-^rlog/*$script
-||shared.ydstatic.com/js/rlog/*
+! ||shared.ydstatic.com/js/rlog/*
+*/rlog/*$script
+
+! ||js.passport.qihucdn.com/11.0.1.js
+||js.passport.qihucdn.com/*$script,third-party
+||jspassport.ssl.qhimg.com^$script,third-party
+
+! Bilibili
+||s1.hdslb.com/bfs/seed/log/
+||cm.bilibili.com/cm/api/$xhr
 
 ! Sina
-||log.mix.sina.com.cn^
-||sbeacon.sina.com.cn^
+||log.mix.sina.com.cn/
+||sbeacon.sina.com.cn/
+
+! Domain parking
+||cdn.dragonstatic.com/parking/js/track.js
+||park.zunmi.cn^
 
 ! 芒果 TV
-||log.mgtv.com^
+||log.mgtv.com/
 
 ! Zhihu
-||sugar.zhihu.com^
+||sugar.zhihu.com/
 
 ! CNBeta
 ! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
 ||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
 
 ! CSDN
+! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
+! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
+||event.csdn.net/logstores/*$xmlhttprequest
 ||g.csdnimg.cn/track/*
 
 ! ---
@@ -158,10 +178,10 @@ baidu.com/static/mapping/*.php
 
 ! KDNet
 ! tracking.kdnet.net/about/log.js
-||tracking.kdnet.net
+||tracking.kdnet.net/
 
 ! 盛天网盘
-||webtracksdk.stnts.com
+||webtracksdk.stnts.com/
 
 ! 携程
 ||u.ctrip.com/union/*$third-party
@@ -190,12 +210,14 @@ baidu.com/static/mapping/*.php
 ||fystat-ans.chaoxing.com/log/*
 
 ! 跟谁学
-||click.genshuixue.com^
+||click.genshuixue.com/
 ! Easylist China 误杀
 @@||cdns.genshuixue.com^$script
 
 ||www.ruanyifeng.com/blog/stats.js
 
+||skype.gmw.cn/
+
 ! Google Analytics Proxy
-||ga.giuem.com/^
-/?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
+||ga.giuem.com/
+*/?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*

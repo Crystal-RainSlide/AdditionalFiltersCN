@@ -10,14 +10,18 @@ jingyan.baidu.com##.new-icon
 pan.baidu.com,yun.baidu.com##.find-light-icon
 pan.baidu.com,yun.baidu.com##.newIcon
 site.baidu.com##.dot
+
+zhidao.baidu.com##.menu-title-icon
+dwz.cn##.new-icon > img
+
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
 wenku.baidu.com##.hot-box
 wenku.baidu.com##span.newhotword
-zhidao.baidu.com##.menu-title-icon
-
-www.nuomi.com##.new-item-hot
+wenku.baidu.com##.havenew-ic
+! 文档可以转存到百度网盘啦！
+wenku.baidu.com##.wangpan-tip
 
 fanyi.sogou.com##.icon-free
 help.sogou.com##img[alt="new"]
@@ -28,18 +32,23 @@ www.hao123.com##.hot-icon
 www.4399.com##.i_new
 www.4399.com##.i_hot
 
-www.liaoxuefeng.com###ul-navbar > li > img
-
 music.163.com##.hot
 
 www.oschina.net###icon_mayun
 www.oschina.net##.icon_mayun
 
 gitee.com##.label.red.ui
+www.oschina.net##.label.red.ui
+www.oschina.net##.giteetip
+www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
 
-9gag.com##.nav-menu .new::after
+www.w3cschool.cn##.hot-icon
+
+www.liaoxuefeng.com###ul-navbar > li > img
 
 club.kdnet.net##.nav-t-new.icon-try-con
+
+www.nuomi.com##.new-item-hot
 
 www.17173.com##.ico-game-hot1
 
@@ -47,13 +56,11 @@ diy.zol.com.cn##.icon-hot
 ! Red Dot & Hot & New End
 
 
-
 ! Highlight Start
 www.oschina.net##.mayun.event.menu-item:style(font-weight: 400 !important; color: #fff !important)
 
 www.panduoduo.net##.announcement-bar > a:style(color: #336699 !important; font-weight: normal !important;)
 ! Highlight End
-
 
 
 ! Baidu Netdisk Start
@@ -68,9 +75,20 @@ pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
 ! Baidu Netdisk End
 
 
+! 去你妈的注册弹窗 Start
+www.douban.com##.ui-overlay-mask
+www.douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)
+! 去你妈的注册弹窗 End
 
+
+cn.bing.com###b_opalpers
+cn.bing.com###ev_talkbox_wrapper
+
+! B站播放器上部滚动内容
 ||api.bilibili.com/x/player/carousel.so
 www.bilibili.com##.v-live-recommend
+! 搜索框 Placeholder
+||api.bilibili.com/x/web-interface/search/default
 
 ||video.sina.com.cn/interface/search_hot.php
 
@@ -111,7 +129,20 @@ www.hao123.com##.pic_icon
 www.hao123.com##.coolsiteresource-tip
 
 ! Zhihu
-||www.zhihu.com/api/v4/hot_recommendation$xmlhttprequest
+||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
+www.zhihu.com##.Popover-content:has-text(知乎热搜)
+
+music.163.com##.brand-vip.brand-tag
+
+! 绑定手机号
+www.icourse163.org##.bind-phone-modal
+! 隐私协议
+www.icourse163.org##.privacy-info-container
+mooc.study.163.com##.ui-common-privacy
+! 搜索框 Placeholder
+mooc.study.163.com##.j-search > .j-label
+
+www.jianshu.com##header span[aria-label="简书钻"]
 
 ! 超星
 *.chaoxing.com/richvideo/initdatawithviewer

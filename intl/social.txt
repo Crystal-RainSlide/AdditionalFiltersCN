@@ -16,6 +16,9 @@ archive.org##.social_button
 ubuntu.com##.p-footer__nav-col:has(.twitter-icon)
 canonical.com##.p-divider__block:has(a[href="https://twitter.com/Canonical"])
 
+! Reuters
+www.reuters.com##.SocialTool_container
+
 ! Fox News
 www.foxnews.com##.footer-lower > .social-icons
 
@@ -34,7 +37,13 @@ www.apkmirror.com##^#sidebar > .gooWidget
 developer.mozilla.org##.footer-social:has(.icon-twitter)
 developer.mozilla.org##.footer-social:has(.icon-instagram)
 
+fandom.com##.wds-is-follow-us
+
+chinadigitaltimes.net###footer_social
+
 www.mediafire.com##.social-cont
+
+surviv.io###social-share-block-wrapper
 
 winaero.com##.social-media-container
 
@@ -42,7 +51,5 @@ winaero.com##.social-media-container
 freestyler.ws##.follow-us-block
 
 fanboy.co.nz##.sf-menu > li:has( > ul > li > a[href="https://twitter.com/fanboynz"])
-
-chinadigitaltimes.net###footer_social
 
 minidayz.com##.social-widget

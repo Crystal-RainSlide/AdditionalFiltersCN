@@ -5,6 +5,9 @@
 ! YouTube
 ||www.youtube.com/youtubei/v1/log_event
 
+! Microsoft Skype
+||cdn.skype.com/*/telemetry$script
+
 ! Duckduckgo #why
 ||duckduckgo.com/daily/
 ||duckduckgo.com/weekly/
@@ -35,3 +38,8 @@
 
 ! Disqus
 ||disqus.com/count.js$script
+
+@@||readthedocs.org*/sustainability/
+||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
+
+||wikia.nocookie.net/*/search_tracking_js

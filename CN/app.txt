@@ -20,10 +20,22 @@ wenku.baidu.com##.qrHover
 zhidao.baidu.com##.zhidao-app
 
 www.zybang.com##.app-download
-
 ||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
+
+! Google 翻译
+translate.google.cn##.app-download-bar
+
+! 必应词典
+cn.bing.com##.ap_aArea
+cn.bing.com##.ap_iArea
+cn.bing.com##.ap_logo
+cn.bing.com##.ap_dtxt
+
+! Bilibili
+www.bilibili.com###fixed_app_download.home-app-download
+www.bilibili.com##.mobile
 
 ! 网易新闻
 news.163.com##.newsapp-qrcode
@@ -39,6 +51,15 @@ daily.zhihu.com##.download
 ! 简书
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn
+
+! 爱词霸
+www.iciba.com##.common-top-nav-hot
+www.iciba.com##.info-product
+www.iciba.com##.product
+www.iciba.com##.sentence
+
+! OSChina
+www.oschina.net###btnDownloadApp
 
 ! Coolapk
 coolapk.com###head
@@ -58,10 +79,12 @@ userstyles.org##.walking
 
 www.chinaz.com##.cz-weixin
 
-www.ttrar.com##.ewm
-
 ! 虾米
 www.xiami.com###qrcode
+
+dl.3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
+
+music.taihe.com###__qianqian_pop
 
 ! 凯迪
 club.kdnet.net##.web-right

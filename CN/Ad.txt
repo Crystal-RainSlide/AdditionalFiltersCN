@@ -2,7 +2,16 @@
 ! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 
+! Bilibili
+! 相关推荐首条内容 黑板报与手游广告
+||api.bilibili.com/x/web-interface/archive/special/recommend
+! 手游广告的元素
+www.bilibili.com##.video-page-game-card
+
 ! Baidu Wenku
+! ||wenku.baidu.com/coupon/promotion/vippop
+||wenku.baidu.com/coupon/*
+wenku.baidu.com##.yuedu-recommend-wrap
 wenku.baidu.com##.item-owner
 wenku.baidu.com##.gl-display
 wenku.baidu.com##.reader-fc-owner
@@ -11,41 +20,28 @@ wenku.baidu.com##.top-ads-banner-wrap
 ! Baidu Wenku Search
 wenku.baidu.com##.search-aside-newadWrap
 
+pan.baidu.com###bd > .bd-aside > img
+pan.baidu.com##.module-header a[href="http://photo.baidu.com/"]
+pan.baidu.com##.phone-banner
+
 ! Baidu Zhidao
 zhidao.baidu.com##.product-container
 
 www.zybang.com##.wgt_carousel_aniUnit
-||img.zuoyebang.cc^
+||img.zuoyebang.cc/
 
 ! Netease
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
 
+||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+
 www.xiami.com##.promotion-block
 
-||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+cnbeta.com##body > div:has-text(请将我们加入广告屏蔽插件的白名单)
 
 ! 携程推广
 ||u.ctrip.com/union/CtripRedirect.aspx
-
-||doubleclick.ctfile.com^
-
-segmentfault.com##.mb25
-
-www.easyicon.net##.page_big_adv
-
-||super1.kdnet.net/?c=ad
-club.kdnet.net##a[href^="//super1.kdnet.net//"]
-club.kdnet.net##.ad-banner-left
-club.kdnet.net##.links
-
-www.panduoduo.net##.sep15
-www.panduoduo.net##^.sep15 > script
-! 哪位老哥写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？修了。
-www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
-www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
-www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
-www.panduoduo.net##.container > .index-page > div > .total-hint:style(width： auto !important; margin-bottom: 10px; text-align: center)
 
 ! 博客园
 www.cnblogs.com###ad_t2
@@ -56,8 +52,15 @@ www.cnblogs.com##.c_ad_block:not(.itnews)
 blog.csdn.net##.recommend-ad-box
 blog.csdn.net##body > div:has(.adblock)
 
-!Jianshu
+! Jianshu
 www.jianshu.com###web-note-ad-fixed
+
+! 中国大学 MOOC
+www.icourse163.org##.coupon
+www.icourse163.org##.j-kaoyan-link
+www.icourse163.org##.j-learning-plan
+www.icourse163.org###j-recommend-content
+www.icourse163.org##.um-recommend-modal
 
 ! ChinaZ
 www.chinaz.com##^div[id^="ad_code"]
@@ -79,6 +82,38 @@ ping.chinaz.com##.col-2:style(width: 15% !important)
 ! ping.chinaz.com##.col-2:style(width: 20% !important)
 ping.chinaz.com##.col-4:style(width: 40% !important)
 
+||doubleclick.ctfile.com/
+
+! 掘金
+juejin.im##.recommend-box
+
+! 道客巴巴
+www.doc88.com##.columns-ad
+
+www.jb51.net##.sidebox-recomm
+
+segmentfault.com##.mb25
+
+! www.zhangxinxu.com
+! www.zhangxinxu.com##div[id*=ecomm]
+www.zhangxinxu.com##[class^="top_da_out"]
+www.zhangxinxu.com##body > [class*="da_bottom"]
+
+www.easyicon.net##.page_big_adv
+
+||super1.kdnet.net/?c=ad
+club.kdnet.net##a[href^="//super1.kdnet.net//"]
+club.kdnet.net##.ad-banner-left
+club.kdnet.net##.links
+
+www.panduoduo.net##.sep15
+www.panduoduo.net##^.sep15 > script
+! 哪位老哥写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？顺便修了…
+www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
+www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
+www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
+www.panduoduo.net##.container > .index-page > div > .total-hint:style(width： auto !important; margin-bottom: 10px; text-align: center)
+
 ! 华军
 ||soft.onlinedown.net/js/suggest.js
 ||soft.onlinedown.net/js/popbox3.js
@@ -98,6 +133,32 @@ soft.onlinedown.net##.sortsList.downdecail > .left:style(float: none;margin: 0 a
 soft.onlinedown.net##.Friendlink
 ! 弹框软件推荐
 soft.onlinedown.net###bzPopBox
+
+! 西西软件园
+www.cr173.com###full_downad
+www.cr173.com###downhelp
+www.cr173.com##.m-soft-ad
+www.cr173.com##.downurl
+www.cr173.com##.down_link_main:style(width: 100% !important)
+
+! 非凡软件站
+www.crsky.com##.Gs_d
+www.crsky.com##.Adown_dli
+www.crsky.com##.Imdown
+www.crsky.com##.genral_li li a:style(color: initial !important)
+www.crsky.com##.hot
+
+! 多特
+||img2.2345.com/duoteimg/js/newjs/clickdown_stat_ajax.js
+www.duote.com##.fast-down-btn
+www.duote.com##.hot-words
+
+! 闪电下载吧
+www.sdbeta.com##a[href^="https://www.sdbeta.com/zhdown.php"]
+
+! ZOL
+xiazai.zol.com.cn##.box-top-xiazai
+xiazai.zol.com.cn##.down-dxlt
 
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
@@ -153,6 +214,8 @@ www.ttrar.com#@#a[href*=".downok.com"]
 www.ttrar.com##.sort_list > dl.der > dd:style(border-top: 1px solid #a6d990 !important)
 www.ttrar.com##.link_yq
 
+www.pc0359.cn##.ad-download
+www.pc0359.cn###gaosuxiazai
 
 ! 亿品元素
 @@||a.epinv.com^$script
@@ -208,8 +271,17 @@ wenku.baidu.com###my-wkHome-vip-tips
 wenku.baidu.com##a:has(#user-vip-ic)
 wenku.baidu.com##.top-ads-banner
 
+! VIP新客立减2元
+wenku.baidu.com###my-wkHome-vip-tips
+wenku.baidu.com###my-wkHome-vip-tips-search-bar-no-login
+wenku.baidu.com##a[title="VIP"]
+
 ! Baidu Wenku Search
 wenku.baidu.com##.topicBox
+
+! 码云
+gitee.com##.wallet-banner
+gitee.com##.ent-poster
 
 ctfile.com###infoModal
 ctfile.com##.modal-backdrop
@@ -229,6 +301,7 @@ ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
 ! Premium Content Promotion End
 
 ! House Advertisement Start
+
 ! 网易有道 Netease Youdao
 ||dict.youdao.com/infoline
 ||ke.youdao.com/api/course/*
@@ -249,6 +322,14 @@ fanyi.youdao.com##.rengong__guide
 fanyi.youdao.com###transMan
 fanyi.youdao.com##.inside__products
 fanyi.youdao.com##.side__nav
+
+! 中国大学 MOOC
+www.icourse163.org###j-activityBanner
+www.icourse163.org###j-activityRightBanner
+
+! 网易公开课
+open.163.com##.advertisement
+open.163.com##.comment:style(margin-top: 0 !important)
 
 www.iplaysoft.com##.entry-recommend-posts
 ! House Advertisement End

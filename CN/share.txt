@@ -42,8 +42,12 @@ wenku.baidu.com##.share-btn-wrap
 zhidao.baidu.com##.share-area
 zhidao.baidu.com##.jump-share
 
+||g.csdnimg.cn/??sharewx/*/sharewx.js
+
 ||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
 news.163.com##.post_topshare
+
+people.com.cn###ops_share
 
 sina.com.cn##.tool-wb
 sina.com.cn##.tool-wx
@@ -62,6 +66,8 @@ techcrunch.cn##.social-share
 
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
+
+www.doc88.com##.share
 
 www.panduoduo.net##.share-bar
 
@@ -85,6 +91,9 @@ www.7k7k.com##.start-game-share
 www.icourse163.org###j-share.j-share
 www.icourse163.org###j-courseshare
 www.icourse163.org##.m-coulshar
+www.icourse163.org##.course-share
+www.icourse163.org###j-coushare
+mooc.study.163.com###j-coushare
 
 www.360doc.com###fenxiangLayer.sharelist_new
 

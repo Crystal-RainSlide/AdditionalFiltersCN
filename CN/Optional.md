@@ -1,7 +1,7 @@
 ### 全局
 
-干掉常见于各种个人网站上的“网页粒子背景插件” [canvas-nest.js](https://github.com/hustcc/canvas-nest.js) （[Demo](https://git.hust.cc/canvas-nest.js/)）
-```
+干掉常见于各种个人网站上的“网页粒子背景插件” [canvas-nest.js](https://github.com/hustcc/canvas-nest.js)（[Demo](https://git.hust.cc/canvas-nest.js/)）
+``` Adblock
 */canvas-nest.min.js$script
 ```
 
@@ -35,4 +35,11 @@ baidu.com##.tang-pass-footerBarPhoenixItem:style(left: 6px !important)
 ```
 www.baidu.com##.fk
 www.baidu.com###page > strong, #page > a[href^="/s"]:style(height:36px !important)
+```
+
+### Bilibili
+
+带会员
+```
+www.bilibili.com##.nav-menu li.nav-item[report-id="big_tab_click"]
 ```
