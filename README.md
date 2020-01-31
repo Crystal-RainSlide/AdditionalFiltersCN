@@ -8,7 +8,7 @@ Including some obvious trackers which could be found&confirmed by novices in net
 
 ## CN
 
-　　　　类别 Variant         | 链接 Link
+　　类别 Variant         | 链接 Link
 ---------------------------- | ---------
 　　　　全部 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
@@ -25,7 +25,7 @@ P.S. Fixes is mainly for [Easylist filter lists](https://easylist.to/) and [Fanb
 
 ## Intl
 
-　　　　类别 Variant         | 链接 Link
+　　类别 Variant         | 链接 Link
 ---------------------------- | ---------
 　　　　全部 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
@@ -50,7 +50,9 @@ APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.co
 [jCleanList](https://github.com/jiayiming/jCleanList) | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
 [N2OList China](https://n2o.io/p/quarklist/) | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
 [yiclear](https://www.yiclear.com/) | [ChinaList2.0.txt](http://tools.yiclear.com/ChinaList2.0.txt)
-[qiumiaojingxi](https://github.com/qiumiaojingxi/qiumiaojingxi) | [QiumiaojingxiList.txt](https://raw.githubusercontent.com/qiumiaojingxi/qiumiaojingxi/master/QiumiaojingxiList.txt)
+~~[qiumiaojingxi](https://github.com/qiumiaojingxi/qiumiaojingxi)~~ | ~~[QiumiaojingxiList.txt](https://raw.githubusercontent.com/qiumiaojingxi/qiumiaojingxi/master/QiumiaojingxiList.txt)~~
+
+qiumiaojingxi 已经消失。且含有误杀，如 `##div[class$="gg"]` 和 `baike.baidu.com##[target="blank"]`。
 
 #### Rules Merger
 
