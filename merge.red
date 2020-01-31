@@ -51,7 +51,11 @@ before merge. }
 	change-dir old-dir
 
 	; write the output
-	write output-file output-result
+	; Till now, 2020-1-24
+	; there is no offical way to write a text file with specified line break
+	; as far as I know, and this binary trick will write text file with LF perfectly
+	write/binary output-file to-binary output-result
+	; write output-file output-result ; CRLF on Windows
 
 ]
 
