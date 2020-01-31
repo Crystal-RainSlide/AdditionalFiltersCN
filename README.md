@@ -8,7 +8,7 @@ Including some obvious trackers which could be found&confirmed by novices in net
 
 ## CN
 
-　　类别 Variant         | 链接 Link
+    　　类别 Variant         | 链接 Link
 ---------------------------- | ---------
 　　　　全部 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
@@ -25,7 +25,7 @@ P.S. Fixes is mainly for [Easylist filter lists](https://easylist.to/) and [Fanb
 
 ## Intl
 
-　　类别 Variant         | 链接 Link
+    　　类别 Variant         | 链接 Link
 ---------------------------- | ---------
 　　　　全部 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
