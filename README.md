@@ -1,14 +1,17 @@
 # AdditionalFiltersCN
 
-为中国大陆网络服务制作的额外过滤列表，分别针对隐私、广告和干扰；主要适用于浏览器拓展 [uBlock Origin](https://github.com/gorhill/uBlock)。其他支持 AdBlock Plus 规则的
+为中国大陆网络服务制作的额外过滤列表，分别针对隐私、广告和干扰；
+主要适用于浏览器拓展 [uBlock Origin](https://github.com/gorhill/uBlock)。未对其他广告屏蔽器优化，仅可保证标准 AdBlock Plus 规则可用。
 包含一些长期未被处理的、显而易见的数据收集与追踪；哪怕初级网络开发者都能轻易发现并判定它们。
 
-Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock), mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
-Including some obvious trackers which could be found&confirmed by novices in network development easily, and should been listed&blocked YEARS ago.
+Additional Filters for browser extension based adblockers like [uBlock Origin](https://github.com/gorhill/uBlock).
+Mainly for Chinese mainland internet service, respectively for privacy, advertisement and interruption elements.
+Including some obvious trackers which could be found & confirmed by novices in network development easily,
+and should been listed & blocked YEARS ago.
 
 ## CN
 
-    　　类别 Variant         | 链接 Link
+　　类别 Variant             | 链接 Link
 ---------------------------- | ---------
 　　　　全部 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
@@ -25,7 +28,7 @@ P.S. Fixes is mainly for [Easylist filter lists](https://easylist.to/) and [Fanb
 
 ## Intl
 
-    　　类别 Variant         | 链接 Link
+　　类别 Variant             | 链接 Link
 ---------------------------- | ---------
 　　　　全部 All             |    [all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
@@ -46,11 +49,11 @@ APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.co
 
 主页 Homepage | 链接 Link
 ------------- | ---------
-[乘风 广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule) | [ABP-FX.txt](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt)
-[jCleanList](https://github.com/jiayiming/jCleanList) | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
-[N2OList China](https://n2o.io/p/quarklist/) | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
-[yiclear](https://www.yiclear.com/) | [ChinaList2.0.txt](http://tools.yiclear.com/ChinaList2.0.txt)
-~~[qiumiaojingxi](https://github.com/qiumiaojingxi/qiumiaojingxi)~~ | ~~[QiumiaojingxiList.txt](https://raw.githubusercontent.com/qiumiaojingxi/qiumiaojingxi/master/QiumiaojingxiList.txt)~~
+[乘风 广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule) |         [ABP-FX.txt](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt)
+       [jCleanList](https://github.com/jiayiming/jCleanList)      | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
+    [N2OList China](https://n2o.io/p/quarklist/)                  |      [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
+          [yiclear](https://www.yiclear.com/)                     |   [ChinaList2.0.txt](http://tools.yiclear.com/ChinaList2.0.txt)
+  ~~[qiumiaojingxi](https://github.com/qiumiaojingxi/qiumiaojingxi)~~ | ~~[QiumiaojingxiList.txt](https://raw.githubusercontent.com/qiumiaojingxi/qiumiaojingxi/master/QiumiaojingxiList.txt)~~
 
 qiumiaojingxi 已经消失。且含有误杀，如 `##div[class$="gg"]` 和 `baike.baidu.com##[target="blank"]`。
 
