@@ -49,10 +49,10 @@ APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.co
 
 主页 Homepage | 链接 Link
 ------------- | ---------
-[乘风 广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule) |         [ABP-FX.txt](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt)
-       [jCleanList](https://github.com/jiayiming/jCleanList)      | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
-    [N2OList China](https://n2o.io/p/quarklist/)                  |      [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
-          [yiclear](https://www.yiclear.com/)                     |   [ChinaList2.0.txt](http://tools.yiclear.com/ChinaList2.0.txt)
+[乘风 广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule) | [ABP-FX.txt](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt)
+[jCleanList](https://github.com/jiayiming/jCleanList)             | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
+[N2OList China](https://n2o.io/p/quarklist/)                      | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
+[yiclear](https://www.yiclear.com/)                               | [ChinaList2.0.txt](http://tools.yiclear.com/ChinaList2.0.txt)
   ~~[qiumiaojingxi](https://github.com/qiumiaojingxi/qiumiaojingxi)~~ | ~~[QiumiaojingxiList.txt](https://raw.githubusercontent.com/qiumiaojingxi/qiumiaojingxi/master/QiumiaojingxiList.txt)~~
 
 qiumiaojingxi 已经消失。且含有误杀，如 `##div[class$="gg"]` 和 `baike.baidu.com##[target="blank"]`。
