@@ -42,6 +42,8 @@ wenku.baidu.com##.share-btn-wrap
 zhidao.baidu.com##.share-area
 zhidao.baidu.com##.jump-share
 
+*/needsharebutton/needsharebutton.js$script
+
 ||g.csdnimg.cn/??sharewx/*/sharewx.js
 
 ||static.ws.126.net/f2e/news/res/js/share_to.*.min.js

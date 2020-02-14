@@ -31,6 +31,9 @@ outlook.live.com##.ms-FocusZone.customScrollBar.disableTextSelection + div:has(b
 
 outlook.live.com###app div[tabindex][role="region"][aria-label] + div div[role="region"][aria-label][data-min-width][data-max-width] div[tabindex] div[draggable="true"][role="complementary"][tabindex][data-skip-link-name] > div[tabindex][role="listbox"][aria-multiselectable][aria-label] > div.customScrollBar > div[class] > div[class]:first-child
 
+! Add the Microsoft Rewards extension
+www.bing.com###b_opalpers
+
 ! SourceForge
 sourceforge.net##.sterling
 sourceforge.net##.banner-sterling
@@ -74,6 +77,8 @@ www.newgrounds.com##div[class^=ng-ad-container]
 
 ||server.cpmstar.com^$important
 
+||platformbot.xyz^
+
 www.plazmaburst2.com##[class^="gads"]
 
 forum.xda-developers.com###honor-launch-banner
@@ -82,7 +87,7 @@ thepiratebay.org##a[href="https://www.azirevpn.com/landing"]
 
 fandom.com##.mcf-card-sponsored-content
 
-t.me,telegram.me,telegram.cat##.tgme_head_dl_button
+css-tricks.com###all-ads
 
 userscloud.com##.innerTB > center
 

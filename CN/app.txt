@@ -33,6 +33,9 @@ cn.bing.com##.ap_iArea
 cn.bing.com##.ap_logo
 cn.bing.com##.ap_dtxt
 
+! 搜狗问问小程序
+wenwen.sogou.com##.sgww-xcx
+
 ! Bilibili
 www.bilibili.com###fixed_app_download.home-app-download
 www.bilibili.com##.mobile

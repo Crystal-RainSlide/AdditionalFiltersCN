@@ -151,9 +151,26 @@ baidu.com/static/mapping/*.php
 ||log.mix.sina.com.cn/
 ||sbeacon.sina.com.cn/
 
+! Sougu
+||dlweb.sogoucdn.com/hhytrace/trace_*.js
+
+! Bing
+||bing.com/fd/ls/
+
+||skype.gmw.cn/
+
 ! Domain parking
 ||cdn.dragonstatic.com/parking/js/track.js
 ||park.zunmi.cn^
+
+! Google Analytics Proxy
+||ga.giuem.com/
+*/?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
+
+||busuanzi.ibruce.info/busuanzi/*$script
+
+! Chaoxing
+||fystat-ans.chaoxing.com/log/*
 
 ! 芒果 TV
 ||log.mgtv.com/
@@ -206,18 +223,11 @@ baidu.com/static/mapping/*.php
 ! doc88
 ||static.doc88.com/assets/pv.swf$important
 
-! Chaoxing
-||fystat-ans.chaoxing.com/log/*
+||www.ruanyifeng.com/blog/stats.js
 
 ! 跟谁学
 ||click.genshuixue.com/
 ! Easylist China 误杀
 @@||cdns.genshuixue.com^$script
 
-||www.ruanyifeng.com/blog/stats.js
-
-||skype.gmw.cn/
-
-! Google Analytics Proxy
-||ga.giuem.com/
-*/?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
+||www.souid.com/templets/js/tongji2.js

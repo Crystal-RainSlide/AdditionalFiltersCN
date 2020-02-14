@@ -38,7 +38,8 @@ www.zybang.com##.wgt_carousel_aniUnit
 
 www.xiami.com##.promotion-block
 
-cnbeta.com##body > div:has-text(请将我们加入广告屏蔽插件的白名单)
+! Add the Microsoft Rewards extension
+cn.bing.com###b_opalpers
 
 ! 携程推广
 ||u.ctrip.com/union/CtripRedirect.aspx
@@ -228,6 +229,12 @@ www.epinv.com###content > .space
 www.epinv.com##.footbar
 www.epinv.com##.bdlianjie
 
+www.4243.net###mainshadow
+www.4243.net##a[href^="https://w.url.cn/"]
+www.4243.net##.jianju
+
+||www.souid.com/templets/js/bmh-content-media.js
+||mhtj.baomihua.com^
 
 ! Premium Content Promotion Start
 ||pan.baidu.com/box-static/disk-header/header/img/user-level0.png

@@ -74,15 +74,21 @@ pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(制作照片电
 pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
 ! Baidu Netdisk End
 
+! 请别对评论区作出这等限制了
+cnbeta.com##body > div:has-text(请将我们加入广告屏蔽插件的白名单)
 
-! 去你妈的注册弹窗 Start
-www.douban.com##.ui-overlay-mask
-www.douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)
-! 去你妈的注册弹窗 End
+! 去你妈的注册弹窗
+douban.com##body > .ui-overlay-mask
+douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)
 
+! 去你妈的网友推荐
+dl.3dmgame.com##.downlwrap > .downl_L > .downl_list > .list_r
 
-cn.bing.com###b_opalpers
+! 你一个搜索引擎话怎么这么多
 cn.bing.com###ev_talkbox_wrapper
+
+! 取消各种限制
+www.souid.com##+js(ra.js, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
 
 ! B站播放器上部滚动内容
 ||api.bilibili.com/x/player/carousel.so

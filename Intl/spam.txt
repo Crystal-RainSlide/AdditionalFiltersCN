@@ -32,3 +32,7 @@ www.experts-exchange.com##.answer > .content.interceptContentScroll:style(displa
 www.experts-exchange.com##.interceptContainer
 
 9gag.com##.nav-menu .new::after
+
+! Larger Close Button
+npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
+npm.runkit.com###register-banner > *:style(vertical-align: middle)
