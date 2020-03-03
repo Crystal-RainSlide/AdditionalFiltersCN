@@ -28,6 +28,9 @@
 ! ||static.ctfile.com/js/bd_stat.js
 */bd_stat.js
 
+! Abclite
+||dlswbr.baidu.com/heicha/mw/abclite-*-s.js
+
 ||passport.baidu.com/viewlog
 
 ||ae.bdstatic.com/msite/*
@@ -167,10 +170,22 @@ baidu.com/static/mapping/*.php
 ||ga.giuem.com/
 */?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
 
+! 卜算子
 ||busuanzi.ibruce.info/busuanzi/*$script
 
-! Chaoxing
+||edu-cms.nosdn.127.net/topics/js/sentry*$script
+
+! 超星
 ||fystat-ans.chaoxing.com/log/*
+
+! 智慧树
+! ||collector.zhihuishu.com/video/web/collect$xhr
+||collector.zhihuishu.com^
+! ||hilog.zhihuishu.com/public/jsonp/collect$xhr
+||hilog.zhihuishu.com^
+! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com/logstores/doc-preview-f2e/track$xhr
+! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com^
+||log.aliyuncs.com^
 
 ! 芒果 TV
 ||log.mgtv.com/

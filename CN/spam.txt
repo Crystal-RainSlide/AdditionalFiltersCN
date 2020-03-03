@@ -42,6 +42,8 @@ www.oschina.net##.label.red.ui
 www.oschina.net##.giteetip
 www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
 
+www.chinaz.com##.hot
+
 www.w3cschool.cn##.hot-icon
 
 www.liaoxuefeng.com###ul-navbar > li > img
@@ -83,6 +85,7 @@ douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !import
 
 ! 去你妈的网友推荐
 dl.3dmgame.com##.downlwrap > .downl_L > .downl_list > .list_r
+down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
 
 ! 你一个搜索引擎话怎么这么多
 cn.bing.com###ev_talkbox_wrapper
@@ -138,6 +141,10 @@ www.hao123.com##.coolsiteresource-tip
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
 www.zhihu.com##.Popover-content:has-text(知乎热搜)
 
+! 右侧相关推荐
+www.zhihu.com##.RelatedCommodities-title
+www.zhihu.com##.RelatedCommodities-list
+
 music.163.com##.brand-vip.brand-tag
 
 ! 绑定手机号
@@ -151,4 +158,5 @@ mooc.study.163.com##.j-search > .j-label
 www.jianshu.com##header span[aria-label="简书钻"]
 
 ! 超星
-*.chaoxing.com/richvideo/initdatawithviewer
+||chaoxing.com/richvideo/initdatawithviewer
+||chaoxing.com/ananas/space/exam/js/enc_js_work.js

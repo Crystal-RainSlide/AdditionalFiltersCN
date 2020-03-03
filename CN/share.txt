@@ -1,4 +1,4 @@
-! Title: AdditionalFiltersCN - Social&Share
+! Title: AdditionalFiltersCN - Social & Share
 ! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 

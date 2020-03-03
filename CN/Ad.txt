@@ -31,10 +31,16 @@ www.zybang.com##.wgt_carousel_aniUnit
 ||img.zuoyebang.cc/
 
 ! Netease
+||shared.ydstatic.com/js/yadk/*$script
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
 
+! 知乎
 ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+
+! 文内购物广告
+www.zhihu.com##.RichText-MCNLinkCardContainer
+
 
 www.xiami.com##.promotion-block
 
@@ -56,13 +62,6 @@ blog.csdn.net##body > div:has(.adblock)
 ! Jianshu
 www.jianshu.com###web-note-ad-fixed
 
-! 中国大学 MOOC
-www.icourse163.org##.coupon
-www.icourse163.org##.j-kaoyan-link
-www.icourse163.org##.j-learning-plan
-www.icourse163.org###j-recommend-content
-www.icourse163.org##.um-recommend-modal
-
 ! ChinaZ
 www.chinaz.com##^div[id^="ad_code"]
 
@@ -75,6 +74,7 @@ chinaz.com##.mt10.wrapper
 ! ping.chinaz.com
 ||css.tools.chinaz.com/tools/images/public/agg.gif
 ||css.tools.chinaz.com/tools/images/public/agg01.gif
+ping.chinaz.com##.adSpon
 ping.chinaz.com##.col-2:last-child
 ! ping.chinaz.com##.adSpon
 ping.chinaz.com##.col-1:style(width: 15% !important)
@@ -84,6 +84,24 @@ ping.chinaz.com##.col-2:style(width: 15% !important)
 ping.chinaz.com##.col-4:style(width: 40% !important)
 
 ||doubleclick.ctfile.com/
+
+! 中国大学 MOOC
+www.icourse163.org##.coupon
+www.icourse163.org##.j-kaoyan-link
+www.icourse163.org##.j-learning-plan
+www.icourse163.org###j-recommend-content
+www.icourse163.org##.um-recommend-modal
+
+! 一整个侧边栏
+www.icourse163.org##.u-s-imgRec
+www.icourse163.org##.main-box:style(width: 100% !important;float: none !important;)
+www.icourse163.org##.g-mn2c:style(margin-right: 0 !important)
+www.icourse163.org##.course-panel-body-wrapper:style(width: 100% !important;)
+www.icourse163.org##.m-hometop:style(margin-bottom: 10px !important)
+www.icourse163.org##.course-panel-wrapper > .course-panel-foot-wrapper:style(margin-top: 10px !important)
+
+! 煎蛋
+jandan.net###comments > .commentlist > .row
 
 ! 掘金
 juejin.im##.recommend-box
@@ -160,6 +178,11 @@ www.sdbeta.com##a[href^="https://www.sdbeta.com/zhdown.php"]
 ! ZOL
 xiazai.zol.com.cn##.box-top-xiazai
 xiazai.zol.com.cn##.down-dxlt
+
+! 谁家的下载代理叫 5566 来着…
+www.soft5566.com##.gameicon
+www.soft5566.com##.n1_content > span:first-of-type
+www.soft5566.com###sharebtn
 
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party

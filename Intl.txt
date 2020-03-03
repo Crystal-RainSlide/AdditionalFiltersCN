@@ -30,8 +30,8 @@ www.microsoft.com##.m-hero
 outlook.live.com##div:last-child:last-of-type:has(> div > div > div#owaadbar0)
 ! 左侧 Office 365 广告
 outlook.live.com##.ms-FocusZone.customScrollBar.disableTextSelection + div:has(button img[src$="/premium-diamond-01.svg"])
-
-outlook.live.com###app div[tabindex][role="region"][aria-label] + div div[role="region"][aria-label][data-min-width][data-max-width] div[tabindex] div[draggable="true"][role="complementary"][tabindex][data-skip-link-name] > div[tabindex][role="listbox"][aria-multiselectable][aria-label] > div.customScrollBar > div[class] > div[class]:first-child
+! 邮件列表广告
+outlook.live.com###app div[role="region"][aria-label][tabindex="-1"][data-min-width][data-min-height][data-max-width][data-max-height] > div[tabindex="-1"][class]:not([id]) > div[class]:not([id]) > div[draggable="true"][class]:not([id]) > div[role="complementary"][aria-multiselectable][aria-label][class]:not([id]) > div.customScrollBar[class]:not([id]) > div[class]:not([id]) > div[class]:not([id]):first-child
 
 ! Add the Microsoft Rewards extension
 www.bing.com###b_opalpers
@@ -78,6 +78,13 @@ www.newgrounds.com##div[class^=ng-ad-container]
 ||www.newgrounds.com/support/*$image
 
 ||server.cpmstar.com^$important
+
+www.agame.com##.advert
+www.agame.com##.show-sidebar .label-wrapper .mainContent, .show-sidebar .label-wrapper .bottomContent:style(margin-right: 0 !important)
+www.agame.com##.label-page-sidebar
+
+tvtropes.org##.proper-ad-unit
+tvtropes.org##.ad
 
 ||platformbot.xyz^
 
