@@ -1,6 +1,7 @@
 ! Title: AdditionalFiltersIntl - Data Collection
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ! YouTube
 ||www.youtube.com/youtubei/v1/log_event

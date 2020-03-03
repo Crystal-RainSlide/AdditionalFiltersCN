@@ -1,8 +1,10 @@
 ! Title: AdditionalFiltersIntl - SPAM
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
+! （每个约 20 MB）
 ! Google 怎么想的啊。
 ||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
 ||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet

@@ -1,6 +1,13 @@
 ! Title: AdditionalFiltersCN
-! Expire: 7 days
+! Description: 
+!     Additional Filters for browser extension based adblockers like
+!         https://github.com/gorhill/uBlock
+!     mainly for Chinese sites, including some obvious trackers
+!     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! Last updated: 3-Mar-2020
+! Last Modified: 3-Mar-2020/16:35:28+08:00
 
 ! Bilibili
 ! 相关推荐首条内容 黑板报与手游广告

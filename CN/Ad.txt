@@ -1,6 +1,7 @@
 ! Title: AdditionalFiltersCN - Advertisement
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ! Bilibili
 ! 相关推荐首条内容 黑板报与手游广告

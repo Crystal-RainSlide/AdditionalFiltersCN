@@ -1,6 +1,7 @@
 ! Title: AdditionalFiltersIntl - Advertisement
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ||o.aolcdn.com/ads/*$important
 

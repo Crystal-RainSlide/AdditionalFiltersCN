@@ -1,6 +1,7 @@
 ! Title: AdditionalFiltersIntl - App & Client
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ! APKPure
 apkpure.com##.aegon-link

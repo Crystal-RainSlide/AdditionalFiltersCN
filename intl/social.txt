@@ -1,6 +1,7 @@
 ! Title: AdditionalFiltersIntl - Social
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ! Buzzfeed
 www.buzzfeed.com##.connect-with-us

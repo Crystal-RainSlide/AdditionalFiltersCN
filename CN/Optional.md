@@ -1,6 +1,6 @@
 ### 全局
 
-干掉常见于各种个人网站上的“网页粒子背景插件” [canvas-nest.js](https://github.com/hustcc/canvas-nest.js)（[Demo](https://git.hust.cc/canvas-nest.js/)）
+干掉时见于各种个人网站上的“网页粒子背景插件” [canvas-nest.js](https://github.com/hustcc/canvas-nest.js)（[Demo](https://git.hust.cc/canvas-nest.js/)）
 ``` Adblock
 */canvas-nest.min.js$script
 ```

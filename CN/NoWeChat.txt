@@ -1,6 +1,6 @@
-
 ! Title: AdditionalFiltersCN - No WeChat!
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ||res.wx.qq.com/open/js/jweixin-*$jscript

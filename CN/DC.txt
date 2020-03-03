@@ -1,6 +1,7 @@
 ! Title: AdditionalFiltersCN - Data Collection
-! Expire: 7 days
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
 
 ||getadblock.com/js/log.js
 ||getadblock.com/js/user.js

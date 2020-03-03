@@ -38,10 +38,17 @@ APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.co
 　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/share.txt)
 社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/social.txt)
 
+
 #### 可选规则 Optional Rules
 
   [CN](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/CN/Optional.md)
 [Intl](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Intl/Optional.md)
+
+### 镜像 Mirror Services
+
+https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
+
+https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 
 ### 其他规则列表 Other Rulesets
 
@@ -60,9 +67,3 @@ qiumiaojingxi 已经消失。且含有误杀，如 `##div[class$="gg"]` 和 `bai
 #### Rules Merger
 
 [merge.red](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/merge.red)
-
-### Q: Why these are listed here but not EasyList China?
-
-A: I DON'T approve submitting filters in forums or chat rooms. Forums and chat rooms are designed for discussion, not massive list data maintenance. Those places don't have enough capacity to match the lists. Obsolete rules are never mentioned after they were created,  undetermined rules are stacked, and the list view don't support tag-based filtering.
-
-Despite the unbelievable simplicity in catching these trackers out, I'll also type a guide for capping trackers in the [wiki](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/wiki) (may move to other place someday... I'll update this link anyway) to ... try to minimize the possibility of occurrence, of those serious negligences.
