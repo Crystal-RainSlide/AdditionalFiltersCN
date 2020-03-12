@@ -5,6 +5,7 @@ Red [
 
 make-metadata: function [
 	metadata-series [series!]
+	return: [object!]
 ] [
 	ms: copy metadata-series
 	make object! [
@@ -17,13 +18,15 @@ make-metadata: function [
 
 rejoin-metadata: function [
 	metadata [object!]
+	suffix [string!]
+	return: [string!]
 ] [
 	rejoin [
-		"! Title: "       metadata/title       LF
-		"! Description: " metadata/description LF
-		"! Homepage: "    metadata/homepage    LF
-		"! Expire: "      metadata/expire      LF
-; Hey, how could you two managed to hold two different formats on this tiny little timestamp.
+		"! Title: "       metadata/title suffix LF
+		"! Description: " metadata/description  LF
+		"! Homepage: "    metadata/homepage     LF
+		"! Expire: "      metadata/expire       LF
+; Hey, how could you two managed to hold two different names on this tiny little timestamp.
 		"! Last updated: "  ( to string! now/date ) LF ; uBlock filters
 		"! Last Modified: " ( to string! now )      LF ; AdBlock Plus
 	]
@@ -57,9 +60,7 @@ merge-rulesets: function [
 		cause-error 'access 'cannot-open [ working-dir ]
 	]
 
-	append metadata/title ruleset-name
-
-	output-result: rejoin-metadata metadata
+	output-result: rejoin-metadata metadata ruleset-name
 
 	old-dir: what-dir
 	change-dir working-dir
@@ -105,5 +106,6 @@ metadata-additional-filters: make-metadata [
 ]
 
 foreach ruleset [ "CN" "Intl" ] [
+	print metadata-additional-filters/title
 	merge-rulesets ruleset metadata-additional-filters
 ]

@@ -1,4 +1,4 @@
-! Title: AdditionalFiltersCNIntl
+! Title: AdditionalFiltersIntl
 ! Description: 
 !     Additional Filters for browser extension based adblockers like
 !         https://github.com/gorhill/uBlock
@@ -7,7 +7,7 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 ! Last updated: 12-Mar-2020
-! Last Modified: 12-Mar-2020/16:32:10+08:00
+! Last Modified: 12-Mar-2020/17:21:31+08:00
 
 ||o.aolcdn.com/ads/*$important
 
