@@ -25,12 +25,15 @@ www.microsoft.com##.m-hero
 ||res.office365.com/owamail/*/scripts/owa.Ads*$script
 ! ||res.office365.com/owamail/*/scripts/owa.vendors~Ads$script
 ||onerm.olsvc.com/api/*/promo$xmlhttprequest
-! 右侧广告空白
-outlook.live.com##div:last-child:last-of-type:has(> div > div > div#owaadbar0)
+
 ! 左侧 Office 365 广告
-outlook.live.com##.ms-FocusZone.customScrollBar.disableTextSelection + div:has(button img[src$="/premium-diamond-01.svg"])
+outlook.live.com###app .ms-FocusZone.customScrollBar.disableTextSelection + div:has(button img[src$="/premium-diamond-01.svg"])
 ! 邮件列表广告
-outlook.live.com###app div[role="region"][aria-label][tabindex="-1"][data-min-width][data-min-height][data-max-width][data-max-height] > div[tabindex="-1"][class]:not([id]) > div[class]:not([id]) > div[draggable="true"][class]:not([id]) > div[role="complementary"][aria-multiselectable][aria-label][class]:not([id]) > div.customScrollBar[class]:not([id]) > div[class]:not([id]) > div[class]:not([id]):first-child
+outlook.live.com###app div[role="region"][aria-label][tabindex][data-min-width][data-min-height][data-max-width][data-max-height] > div[tabindex][class] > div[class]:only-child > div[draggable][class]:only-child > div[role="complementary"][aria-multiselectable][aria-label][class]:only-child > div.customScrollBar:only-child > div[class]:only-child > div[class]:first-child
+! 右侧广告空白
+outlook.live.com###app div[tabindex][role="region"][aria-label] ~ div[class]:last-child:has(> div[class]:only-child > div > #owaadbar0)
+! 底部广告空白
+outlook.live.com###app div[class]:last-child:has(> div[class]:only-child > div > #owaadbar1)
 
 ! Add the Microsoft Rewards extension
 www.bing.com###b_opalpers
@@ -39,7 +42,8 @@ www.bing.com###b_opalpers
 sourceforge.net##.sterling
 sourceforge.net##.banner-sterling
 sourceforge.net###project-nel
-sourceforge.net##.can-truncate.standard.nel
+! sourceforge.net##.can-truncate.standard.nel
+sourceforge.net##.nel
 sourceforge.net##.stackcommerce-widget
 
 ! Textnow

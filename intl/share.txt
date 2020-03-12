@@ -53,12 +53,18 @@ www.scmp.com##.share
 blog.twitter.com##div[class$="__share--icons"]
 
 ! mediabiasfactcheck.com
+*/sharedaddy/sharing.min.js$script
 */add-to-any/addtoany.min.js$script
 mediabiasfactcheck.com##.addtoany_content
-*/sharedaddy/sharing.min.js$script
 mediabiasfactcheck.com##.sharedaddy
 
+userstyle.org###share_div
+
 neocities.org###shareButton
+
 knowyourmeme.com##.tb-share-custom
 knowyourmeme.com###ctoolbar
+
 www.softwareok.com##form[name="Testform"]
+
+||kongcdn.com/compiled-assets/shared/facebookconnect_*

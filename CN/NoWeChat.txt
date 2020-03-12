@@ -3,4 +3,6 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-||res.wx.qq.com/open/js/jweixin-*$jscript
+||res.wx.qq.com/open/js/jweixin-*$script
+
+||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js

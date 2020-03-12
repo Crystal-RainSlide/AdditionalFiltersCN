@@ -3,6 +3,7 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
 
 pan.baidu.com##.app-download

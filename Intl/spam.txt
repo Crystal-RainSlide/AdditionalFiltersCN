@@ -38,3 +38,5 @@ www.experts-exchange.com##.interceptContainer
 ! Larger Close Button
 npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
+
+userstyle.org###stylish-code:style(font-family: monospace !important)

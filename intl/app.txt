@@ -22,3 +22,5 @@ userstyles.org##.android_button_banner
 userstyles.org##.walking
 
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
+
+itch.io##.app_banner

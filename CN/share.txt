@@ -61,6 +61,8 @@ www.sohu.com###share
 
 photo.blog.sina.com.cn###sharePhoto
 
+www.cnbeta.com##.article-share-code
+
 
 www.iplaysoft.com###share_toolbar
 www.iplaysoft.com###share_toolbar_wrapper

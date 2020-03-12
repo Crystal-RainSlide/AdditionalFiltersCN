@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 3-Mar-2020
-! Last Modified: 3-Mar-2020/16:35:28+08:00
+! Last updated: 12-Mar-2020
+! Last Modified: 12-Mar-2020/16:32:10+08:00
 
 ! Bilibili
 ! 相关推荐首条内容 黑板报与手游广告
@@ -38,9 +38,34 @@ www.zybang.com##.wgt_carousel_aniUnit
 ||img.zuoyebang.cc/
 
 ! Netease
-||shared.ydstatic.com/js/yadk/*$script
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
+
+! 网易有道 Netease Youdao
+! youdao ad sdk
+||shared.ydstatic.com/js/yadk/*
+! yadk template sdk
+||shared.ydstatic.com/js/yatdk/*
+
+||dict.youdao.com/infoline
+||ke.youdao.com/api/course/*
+||www.huihui.cn/deals/channel.json
+||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
+! 备用 Backup
+! ||oimage*.ydstatic.com/image?id=*&product=*$image
+
+www.youdao.com##li:has-text(/背单词|精品课|人工翻译|惠惠/)
+www.youdao.com###more
+www.youdao.com###wljb
+www.youdao.com###margin3
+www.youdao.com###doc2
+www.youdao.com###callback
+
+fanyi.youdao.com##li:has-text(/有道翻译蛋|人工翻译/)
+fanyi.youdao.com##.rengong__guide
+fanyi.youdao.com###transMan
+fanyi.youdao.com##.inside__products
+fanyi.youdao.com##.side__nav
 
 ! 知乎
 ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
@@ -48,7 +73,7 @@ www.zybang.com##.wgt_carousel_aniUnit
 ! 文内购物广告
 www.zhihu.com##.RichText-MCNLinkCardContainer
 
-
+! 虾米
 www.xiami.com##.promotion-block
 
 ! Add the Microsoft Rewards extension
@@ -57,14 +82,19 @@ cn.bing.com###b_opalpers
 ! 携程推广
 ||u.ctrip.com/union/CtripRedirect.aspx
 
+! InfoQ
+www.infoq.cn##.nav .static
+
 ! 博客园
 www.cnblogs.com###ad_t2
 www.cnblogs.com###ad_text_under_commentbox
 www.cnblogs.com##.c_ad_block:not(.itnews)
 
-! CSDN Blog
+! CSDN
 blog.csdn.net##.recommend-ad-box
 blog.csdn.net##body > div:has(.adblock)
+
+bbs.csdn.net##.bbs_feed_ad_box
 
 ! Jianshu
 www.jianshu.com###web-note-ad-fixed
@@ -113,11 +143,18 @@ jandan.net###comments > .commentlist > .row
 ! 掘金
 juejin.im##.recommend-box
 
+! V2EX
+v2ex.com##.box:has(.inner > a:only-child > img[src*="/assets/sidebar/"])
+
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
+! 脚本之家
 www.jb51.net##.sidebox-recomm
 
+www.cnbeta.com##body:style(padding-bottom: 0 !important)
+
+! SegmentFault
 segmentfault.com##.mb25
 
 ! www.zhangxinxu.com
@@ -134,7 +171,7 @@ club.kdnet.net##.links
 
 www.panduoduo.net##.sep15
 www.panduoduo.net##^.sep15 > script
-! 哪位老哥写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？顺便修了…
+! 哪位写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？顺便修了…
 www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
 www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
 www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
@@ -159,6 +196,9 @@ soft.onlinedown.net##.sortsList.downdecail > .left:style(float: none;margin: 0 a
 soft.onlinedown.net##.Friendlink
 ! 弹框软件推荐
 soft.onlinedown.net###bzPopBox
+
+||www.zdfans.com/js/common.js
+www.zdfans.com###myaas
 
 ! 西西软件园
 www.cr173.com###full_downad
@@ -190,6 +230,11 @@ xiazai.zol.com.cn##.down-dxlt
 www.soft5566.com##.gameicon
 www.soft5566.com##.n1_content > span:first-of-type
 www.soft5566.com###sharebtn
+
+||www.opdown.com/js/record.js
+||www.opdown.com/js/op.js
+
+www.3h3.com##.list-down > h3:has-text(高速下载)
 
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
@@ -224,7 +269,6 @@ www.ttrar.com##.hot_word
 www.ttrar.com##.share
 ! www.ttrar.com##.list_bt
 www.ttrar.com##.xzsbox
-www.ttrar.com##.link_yq
 
 www.ttrar.com##.sj
 www.ttrar.com##.header > .sous:style(float: right !important)
@@ -339,27 +383,6 @@ ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
 
 ! House Advertisement Start
 
-! 网易有道 Netease Youdao
-||dict.youdao.com/infoline
-||ke.youdao.com/api/course/*
-||www.huihui.cn/deals/channel.json
-||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
-! 备用 Backup
-! ||oimage*.ydstatic.com/image?id=*&product=*$image
-
-www.youdao.com##li:has-text(/背单词|精品课|人工翻译|惠惠/)
-www.youdao.com###more
-www.youdao.com###wljb
-www.youdao.com###margin3
-www.youdao.com###doc2
-www.youdao.com###callback
-
-fanyi.youdao.com##li:has-text(/有道翻译蛋|人工翻译/)
-fanyi.youdao.com##.rengong__guide
-fanyi.youdao.com###transMan
-fanyi.youdao.com##.inside__products
-fanyi.youdao.com##.side__nav
-
 ! 中国大学 MOOC
 www.icourse163.org###j-activityBanner
 www.icourse163.org###j-activityRightBanner
@@ -371,6 +394,7 @@ open.163.com##.comment:style(margin-top: 0 !important)
 www.iplaysoft.com##.entry-recommend-posts
 ! House Advertisement End
 
+||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
 
 pan.baidu.com##.app-download
@@ -470,14 +494,8 @@ www.jammyfm.com##.qr-section
 ! Google Translate
 translate.google.cn###gt-cn
 
-||getadblock.com/js/log.js
-||getadblock.com/js/user.js
-||getadblockpremium.com/js/log.js
-||getadblockpremium.com/js/user.js
-
-||log.getadblock.com/v2/record_log.php
-! stats.js from most version in http://code.getadblock.com/releases/
-||ping.getadblock.com/stats/
+! ||www.taoyisou.com/js/visit$xhr
+*/js/visit$xhr
 
 ! ||www.163.com/special/*/performance.js
 */performance.js
@@ -715,12 +733,19 @@ baidu.com/static/mapping/*.php
 
 ||www.souid.com/templets/js/tongji2.js
 
+||data-xxt.aichaoxing.com/analysis/datalog
+
+||www.3h3.com/template/3h3/js/dxinfo.js
+
 ! Google Blog
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
 
 ! Userstyles
-@@||userstyles.org/ui/images/icons/*
+@@||userstyles.org/ui/images/icons/*$image
+
+! wikiHow
+@@||www.wikihow.com/images/*$image
 
 ! Zhihu
 www.zhihu.com#@#.FollowButton
@@ -735,18 +760,20 @@ jingyan.baidu.com#@##like-btn
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
 ! 但这条规则，为保留一个有用的内联脚本，特意计算一个 hash
-! 结果 hash 根本顶不了多久，加个空格就变了
+! 其实，hash 根本顶不了多久，加个空格就变了
 ! 还搞得浏览器拓展插入的内容脚本没法运行
 ! 哪天要是这条破 CSP 规则更新了，我这还得跟着更新这条 badfilter 规则
 ! Fuck !
 ||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws=',badfilter
 www.ruanyifeng.com###container::before
-www.ruanyifeng.com##+js(nostif.js, checker)
+www.ruanyifeng.com##+js(nostif, checker)
 
 ! 批改网光标样式
 www.pigai.org##body:style(cursor: unset !important)
 
-||res.wx.qq.com/open/js/jweixin-*$jscript
+||res.wx.qq.com/open/js/jweixin-*$script
+
+||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js
 
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
@@ -805,6 +832,8 @@ sina.com.cn##.tool-share
 www.sohu.com###share
 
 photo.blog.sina.com.cn###sharePhoto
+
+www.cnbeta.com##.article-share-code
 
 
 www.iplaysoft.com###share_toolbar
@@ -871,6 +900,7 @@ www.iplaysoft.com##.popWxgzh
 www.iplaysoft.com###ft_6
 
 ! Red Dot & Hot & New Start
+www.baidu.com##.dot::before
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
@@ -1023,8 +1053,26 @@ mooc.study.163.com##.ui-common-privacy
 ! 搜索框 Placeholder
 mooc.study.163.com##.j-search > .j-label
 
+! 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]
 
 ! 超星
 ||chaoxing.com/richvideo/initdatawithviewer
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js
+
+! PCBeta
+||www.pcbeta.com/data/cache/ggk.js
+
+! 文字链脚本
+||static.yxdown.com/all/js/pb2.js
+
+! CSDN 论坛加在每条发言下的关联推荐
+bbs.csdn.net##.post_recommend
+bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
+bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
+
+! 殁飘遥，你个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
+www.cnbeta.com##.pageFooter .media > .links a[href="https://www.laomoit.com/"]
+
+! 去提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')

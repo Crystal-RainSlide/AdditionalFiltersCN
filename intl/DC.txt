@@ -34,13 +34,41 @@
 ! Quora
 ||log.quora.com^
 
-! FreeStyler.ws
-||freestyler.ws/style/tracking
+! Pinterest
+||assets.pinterest.com/js/pinit.js
 
 ! Disqus
 ||disqus.com/count.js$script
 
-@@||readthedocs.org*/sustainability/
+! FreeStyler.ws
+||freestyler.ws/style/tracking
+
+||widget.uservoice.com^$script,3p
+
+! ||ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/ga.js
+||unity3d.com/*/ga.js
+
+@@|https://readthedocs.org/api/*/sustainability/
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 
-||wikia.nocookie.net/*/search_tracking_js
+||wikia.nocookie.net/*/search_tracking_js*
+! ||wikia.nocookie.net/*/abtesting,oasis_blocking,universal_analytics_js,adengine3_top_js,tracking_opt_in_js,qualaroo_blocking_js
+||wikia.nocookie.net/*/*adengine3*
+||wikia.nocookie.net/*/*analytics*
+||wikia.nocookie.net/*/*tracking*
+
+konggames.com##+js(acis, window.NREUM)
+konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
+||cdn2.kongcdn.com/compiled-assets/metriks_*
+||www.kongregate.com/*/metrics.json
+
+||getadblock.com/js/log.js
+! ||getadblock.com/js/user.js
+||getadblockpremium.com/js/log.js
+! ||getadblockpremium.com/js/user.js
+
+! ||log.getadblock.com/v2/record_log.php
+||log.getadblock.com^
+! From stats.js in http://code.getadblock.com/releases/
+! ||ping.getadblock.com/stats/
+||ping.getadblock.com^

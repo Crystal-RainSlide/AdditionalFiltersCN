@@ -1,4 +1,4 @@
-! Title: AdditionalFiltersIntl
+! Title: AdditionalFiltersCNIntl
 ! Description: 
 !     Additional Filters for browser extension based adblockers like
 !         https://github.com/gorhill/uBlock
@@ -6,5 +6,397 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 3-Mar-2020
-! Last Modified: 3-Mar-2020/16:35:28+08:00
+! Last updated: 12-Mar-2020
+! Last Modified: 12-Mar-2020/16:32:10+08:00
+
+||o.aolcdn.com/ads/*$important
+
+! Chrome Ad on Firefox
+google.com##.gb_g.gb_aa
+
+! Twitter
+||twitter.com/i/users/prompts
+||twitter.com/i/promoted_content/log.json
+twitter.com##.Footer-adsModule
+twitter.com##.import-prompt
+
+! Microsoft
+www.microsoft.com##.switchOfficeHeroFirst
+www.microsoft.com##.m-hero
+
+! Microsoft Outlook
+||acdn.adnxs.com/ast/static/*/ast.js$script
+||^/owamail/*/scripts/owa.MessageAdList.js$script
+||res.office365.com/owamail/*/scripts/owa.initializeAdCmp.js$script
+||res.office365.com/owamail/*/scripts/owa.Ads*$script
+! ||res.office365.com/owamail/*/scripts/owa.vendors~Ads$script
+||onerm.olsvc.com/api/*/promo$xmlhttprequest
+
+! 左侧 Office 365 广告
+outlook.live.com###app .ms-FocusZone.customScrollBar.disableTextSelection + div:has(button img[src$="/premium-diamond-01.svg"])
+! 邮件列表广告
+outlook.live.com###app div[role="region"][aria-label][tabindex][data-min-width][data-min-height][data-max-width][data-max-height] > div[tabindex][class] > div[class]:only-child > div[draggable][class]:only-child > div[role="complementary"][aria-multiselectable][aria-label][class]:only-child > div.customScrollBar:only-child > div[class]:only-child > div[class]:first-child
+! 右侧广告空白
+outlook.live.com###app div[tabindex][role="region"][aria-label] ~ div[class]:last-child:has(> div[class]:only-child > div > #owaadbar0)
+! 底部广告空白
+outlook.live.com###app div[class]:last-child:has(> div[class]:only-child > div > #owaadbar1)
+
+! Add the Microsoft Rewards extension
+www.bing.com###b_opalpers
+
+! SourceForge
+sourceforge.net##.sterling
+sourceforge.net##.banner-sterling
+sourceforge.net###project-nel
+! sourceforge.net##.can-truncate.standard.nel
+sourceforge.net##.nel
+sourceforge.net##.stackcommerce-widget
+
+! Textnow
+www.textnow.com###bannerContainer
+www.textnow.com##.rotation-manager-slot
+www.textnow.com##.notification-priming-modal
+www.textnow.com##.toast-mask
+www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
+
+! TechCrunch
+techcrunch.com##.sidebar
+techcrunch.com##.content-wrap .content:style(width:auto !important)
+techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !important)
+
+! APKPure
+apkpure.com##.ad-box-auto
+
+! iFixit
+||ifixit-assets.??.ifixit.com/Assets/Admin/Shared-Campaigns-campaign_banners-*
+www.ifixit.com##.campaign-banner-generic
+
+dictionary.cambridge.org##.am-default
+
+genius.com##marquee-ad
+
+||deviantart.com/_adslot/
+
+! NewGrounds
+www.newgrounds.com##.header-deck
+www.newgrounds.com##.GAR_header_topbar
+www.newgrounds.com##.pod:has-text(/MMO RPGs|Featured web games!/)
+www.newgrounds.com##.footer-ad-space
+www.newgrounds.com##.footer-shim.body-guts
+www.newgrounds.com##div[class^=ng-ad-container]
+||www.newgrounds.com/support/*$image
+
+||server.cpmstar.com^$important
+
+www.agame.com##.advert
+www.agame.com##.show-sidebar .label-wrapper .mainContent, .show-sidebar .label-wrapper .bottomContent:style(margin-right: 0 !important)
+www.agame.com##.label-page-sidebar
+
+tvtropes.org##.proper-ad-unit
+tvtropes.org##.ad
+
+||platformbot.xyz^
+
+www.plazmaburst2.com##[class^="gads"]
+
+forum.xda-developers.com###honor-launch-banner
+
+thepiratebay.org##a[href="https://www.azirevpn.com/landing"]
+
+fandom.com##.mcf-card-sponsored-content
+
+css-tricks.com###all-ads
+
+userscloud.com##.innerTB > center
+
+www.mediafire.com###adwrapper
+www.mediafire.com##.header:style(position: static !important;margin: 12px auto 0 !important)
+www.mediafire.com##.center:style(position: static !important;margin: 0 auto)
+www.mediafire.com##.DLExtraInfo-wrap:style(position: static !important;margin: 0 auto)
+
+winaero.com##.recommended-inline
+winaero.com##a[href^="https://winaero.com/idx.php"]
+
+www.heidisql.com##.bordered-box:has-text(Ads)
+
+www.accuweather.com###offers
+
+uptodown.com##.banner-download
+uptodown.com##.gad
+
+! Ghacks
+www.ghacks.net##.ghacks_ad_code
+
+! Slant.co
+www.slant.co##._MasterComparePageContentAdView
+www.slant.co##._MasterComparePageTopContentAdView
+www.slant.co##._TMSAdsSidebarAdView
+www.slant.co##.AdContainer
+www.slant.co##._has-ads
+
+crystalmark.info###top-container-widget
+
+compass-style.org##.advertisement
+
+surviv.io###ad-block-left
+surviv.io##.ui-stats-ad-container
+
+win7gadgets.com##.ads_subtitle
+win7gadgets.com##.gads
+
+www.faproulette.co##.wide-container > div[style]:not([id]):not([class])
+
+@@||www.fosshub.com/media/js/adblock.js$first-party
+
+! Aff
+! VULTR
+||www.vultr.com/dist/img/brand/banner_?.png
+||www.vultr.com/media/banner_?.png
+
+! APKPure
+apkpure.com##.aegon-link
+apkpure.com###ad-aegon-side
+
+! Yandex.Disk
+disk.yandex.com##.ns-view-dialogWelcome
+
+! Userstyles.org
+userstyles.org##.overlay_background
+userstyles.org##.us-stylecard--short:has(.fallbackDiv)
+userstyles.org##.us-stylecard--long:has(.fallbackDiv)
+userstyles.org##.fallbackDiv
+userstyles.org##img.fallbackImg
+userstyles.org###top_android_button
+userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
+userstyles.org##.walking
+
+fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
+
+itch.io##.app_banner
+
+! YouTube
+||www.youtube.com/youtubei/v1/log_event
+
+! Microsoft Skype
+||cdn.skype.com/*/telemetry$script
+
+! Duckduckgo #why
+||duckduckgo.com/daily/
+||duckduckgo.com/weekly/
+||duckduckgo.com/monthly/
+
+! Yandex
+! ||yastatic.net/nearest.js
+
+! Yandex.Search
+||yandex.com/clck/*
+||yandex.com/ick/r
+||yastatic.net/web4/_/*.gif$image
+
+! Yandex.Disk
+||yadi.sk/monitoring.txt/*
+
+! Bandcamp
+||bandcamp.com/stat_record
+
+! Grammarly
+||f-log-editor.grammarly.io^
+
+! Quora
+||log.quora.com^
+
+! Pinterest
+||assets.pinterest.com/js/pinit.js
+
+! Disqus
+||disqus.com/count.js$script
+
+! FreeStyler.ws
+||freestyler.ws/style/tracking
+
+||widget.uservoice.com^$script,3p
+
+! ||ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/ga.js
+||unity3d.com/*/ga.js
+
+@@|https://readthedocs.org/api/*/sustainability/
+||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
+
+||wikia.nocookie.net/*/search_tracking_js*
+! ||wikia.nocookie.net/*/abtesting,oasis_blocking,universal_analytics_js,adengine3_top_js,tracking_opt_in_js,qualaroo_blocking_js
+||wikia.nocookie.net/*/*adengine3*
+||wikia.nocookie.net/*/*analytics*
+||wikia.nocookie.net/*/*tracking*
+
+konggames.com##+js(acis, window.NREUM)
+konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
+||cdn2.kongcdn.com/compiled-assets/metriks_*
+||www.kongregate.com/*/metrics.json
+
+||getadblock.com/js/log.js
+! ||getadblock.com/js/user.js
+||getadblockpremium.com/js/log.js
+! ||getadblockpremium.com/js/user.js
+
+! ||log.getadblock.com/v2/record_log.php
+||log.getadblock.com^
+! From stats.js in http://code.getadblock.com/releases/
+! ||ping.getadblock.com/stats/
+||ping.getadblock.com^
+
+||api-read.facebook.com/restserver.php?api_key=$third-party
+||api.facebook.com^$third-party
+||badge.facebook.com^$third-party
+||connect.facebook.com^$third-party,domain=~facebook.net|~fb.com
+||connect.facebook.net^$third-party,domain=~facebook.com|~fb.com
+||facebook.com/connect/$third-party
+||facebook.com/plugins/$third-party
+||facebook.com/widgets/$third-party
+||facebook.com/restserver.php?*.getStats&$third-party
+||facebook.com/whitepages/wpminiprofile.php$third-party
+||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
+||graph.facebook.com^$third-party
+
+||platform.twitter.com/widgets.js$script
+
+! ||apis.google.com/js/platform.js$script
+! ||apis.google.com/js/plusone.js$script
+||apis.google.com/js/$third-party
+
+||badges.instagram.com^$third-party
+||assets.pinterest.com/js/pinit.js$third-party
+||sharethis.com^$script,third-party
+||static.addtoany.com^$script
+||widget.pushbullet.com/dynamic.js$script
+||vk.com/js/api/share.js$script
+
+##.sharedaddy
+
+! APKPure
+||cdnpure.com/static/share-button/*
+
+! BBC
+www.bbc.com##.sharetools
+www.bbc.com##.share-tools--event-tag
+www.bbc.com##.share
+www.bbc.com##.share + div:style(margin-top: 32px)
+
+! Bloomberg
+www.bloomberg.com##.share-article-button
+
+! Fox News
+www.foxnews.com##.social-icons
+www.foxnews.com##.article-social
+
+! South China Morning Post
+www.scmp.com##.share
+
+blog.twitter.com##div[class$="__share--icons"]
+
+! mediabiasfactcheck.com
+*/sharedaddy/sharing.min.js$script
+*/add-to-any/addtoany.min.js$script
+mediabiasfactcheck.com##.addtoany_content
+mediabiasfactcheck.com##.sharedaddy
+
+userstyle.org###share_div
+
+neocities.org###shareButton
+
+knowyourmeme.com##.tb-share-custom
+knowyourmeme.com###ctoolbar
+
+www.softwareok.com##form[name="Testform"]
+
+||kongcdn.com/compiled-assets/shared/facebookconnect_*
+
+! Buzzfeed
+www.buzzfeed.com##.connect-with-us
+
+! Duckduckgo
+duckduckgo.com##.social
+duckduckgo.com#@#.social__link
+duckduckgo.com#@#.social__icon
+
+! Archive.org
+archive.org##.social_button
+
+ubuntu.com##.p-footer__nav-col:has(.twitter-icon)
+canonical.com##.p-divider__block:has(a[href="https://twitter.com/Canonical"])
+
+! Reuters
+www.reuters.com##.SocialTool_container
+
+! Fox News
+www.foxnews.com##.footer-lower > .social-icons
+
+! SourceForge
+sourceforge.net##.social-icons
+
+! APKPure
+apkpure.com##.facebook-like
+apkpure.com##.social-network
+
+! APKMirror
+www.apkmirror.com##^#sidebar > .listWidget:has(.pushbullet-subscribe-widget)
+www.apkmirror.com##^#sidebar > .gooWidget
+
+! MDN
+developer.mozilla.org##.footer-social:has(.icon-twitter)
+developer.mozilla.org##.footer-social:has(.icon-instagram)
+
+fandom.com##.wds-is-follow-us
+
+chinadigitaltimes.net###footer_social
+
+www.mediafire.com##.social-cont
+
+surviv.io###social-share-block-wrapper
+
+winaero.com##.social-media-container
+
+||freestyler.ws/php/sharrre.php$xmlhttprequest
+freestyler.ws##.follow-us-block
+
+fanboy.co.nz##.sf-menu > li:has( > ul > li > a[href="https://twitter.com/fanboynz"])
+
+minidayz.com##.social-widget
+
+! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
+! （每个约 20 MB）
+! Google 怎么想的啊。
+||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+TC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+SC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Sans+HK$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+JP$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+TC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+SC$stylesheet
+||fonts.googleapis.com/css?family=Noto+Serif+HK$stylesheet
+||fonts.gstatic.com/s/notosansjp/*
+||fonts.gstatic.com/s/notosanskr/*
+||fonts.gstatic.com/s/notosanstc/*
+||fonts.gstatic.com/s/notosanssc/*
+||fonts.gstatic.com/s/notosanshk/*
+||fonts.gstatic.com/s/notoserifjp/*
+||fonts.gstatic.com/s/notoseriftc/*
+||fonts.gstatic.com/s/notoserifsc/*
+||fonts.gstatic.com/s/notoserifhk/*
+
+fandom.com###WikiaBar
+fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
+
+fandom.com###mixed-content-footer
+
+www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
+www.experts-exchange.com##.interceptContainer
+
+9gag.com##.nav-menu .new::after
+
+! Larger Close Button
+npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
+npm.runkit.com###register-banner > *:style(vertical-align: middle)
+
+userstyle.org###stylish-code:style(font-family: monospace !important)

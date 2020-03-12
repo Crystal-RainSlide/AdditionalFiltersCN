@@ -1,4 +1,8 @@
-### 全局
+### AdBlock
 
-From [gorhill](https://github.com/gorhill)'s [Gist](https://gist.github.com/gorhill/ef1b62d606473c68d524):
+What a shame.
 
+```
+||getadblock.com^
+||getadblockpremium.com^
+```

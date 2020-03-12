@@ -4,6 +4,7 @@
 ! ------------------------------------------------------------------------------
 
 ! Red Dot & Hot & New Start
+www.baidu.com##.dot::before
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
@@ -156,8 +157,26 @@ mooc.study.163.com##.ui-common-privacy
 ! 搜索框 Placeholder
 mooc.study.163.com##.j-search > .j-label
 
+! 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]
 
 ! 超星
 ||chaoxing.com/richvideo/initdatawithviewer
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js
+
+! PCBeta
+||www.pcbeta.com/data/cache/ggk.js
+
+! 文字链脚本
+||static.yxdown.com/all/js/pb2.js
+
+! CSDN 论坛加在每条发言下的关联推荐
+bbs.csdn.net##.post_recommend
+bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
+bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
+
+! 殁飘遥，你个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
+www.cnbeta.com##.pageFooter .media > .links a[href="https://www.laomoit.com/"]
+
+! 去提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
