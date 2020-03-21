@@ -3,6 +3,8 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+*/cdn-cgi/trace$xhr
+
 ! ||www.taoyisou.com/js/visit$xhr
 */js/visit$xhr
 
@@ -13,12 +15,20 @@
 !   www.cnbeta.com/static/api/js/trans/logger.js
 */static/api/js/trans/logger.js
 
+! Sentry
+! A big deal. Unblock it for the domains where it causes issues.
+||js.sentry-cdn.com^$script
+||sentry.io/api/*$xhr
+
 ! Baidu
-||hm.baidu.com/hm.js
+! ||hm.baidu.com/hm.js
+||hm.baidu.com^
+@@||dwz.hm.baidu.com^
+
 .baidupcs.com/monitor.jpg
 */baidu-tongji/*
-/baidu-tongji.js
-/baidutongji.js
+*/baidu-tongji.js
+*/baidutongji.js
 
 ! ||static.ctfile.com/js/bd_stat.js
 */bd_stat.js
@@ -112,6 +122,7 @@ baidu.com/static/mapping/*.php
 ||ynuf.alipay.com/service/um.json$xmlhttprequest,domain=v.youku.com
 
 ! Netease
+||analytics.163.com^$important
 ||analytics.126.net^
 ||log.study.163.com^
 ||netease.com/track/*
@@ -189,7 +200,9 @@ baidu.com/static/mapping/*.php
 ||sugar.zhihu.com/
 
 ! CNBeta
-! more info: https://yryz.net/post/isp-dns-hijack-cnbeta.html https://www.v2ex.com/t/302123
+! more info:
+! https://yryz.net/post/isp-dns-hijack-cnbeta.html
+! https://www.v2ex.com/t/302123
 ||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
 
 ! CSDN
@@ -201,14 +214,14 @@ baidu.com/static/mapping/*.php
 ! ---
 
 ! KaFan
-||a.ikafan.com/9/tj.js
+||a.ikafan.com/*/tj.js
 
 ! KDNet
 ! tracking.kdnet.net/about/log.js
-||tracking.kdnet.net/
+||tracking.kdnet.net^
 
 ! 盛天网盘
-||webtracksdk.stnts.com/
+||webtracksdk.stnts.com^
 
 ! 携程
 ||u.ctrip.com/union/*$third-party

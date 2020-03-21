@@ -1,8 +1,11 @@
-! Title: AdditionalFiltersCN - No WeChat!
+! Title: AdditionalFiltersCN - No We Won't Chat
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-||res.wx.qq.com/open/js/jweixin-*$script
+! ||res.wx.qq.com/open/js/jweixin-*.js
+! ||oschina.net/js/utils/jweixin-*.js
+! ||www.yuketang.cn/static/js/libs/jweixin-*.js
+*/jweixin-*.js$script
 
 ||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js

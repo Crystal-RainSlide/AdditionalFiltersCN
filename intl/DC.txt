@@ -3,13 +3,18 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! Google
+www.google.*##+js(set, rwt, noopFunc)
+www.google.*##+js(ra, onmousedown, #rso a)
+
 ! YouTube
-||www.youtube.com/youtubei/v1/log_event
+||www.youtube.com/youtubei/*/log_event$xhr
 
 ! Microsoft Skype
 ||cdn.skype.com/*/telemetry$script
 
-! Duckduckgo #why
+! Duckduckgo
+! Why? What does this do?
 ||duckduckgo.com/daily/
 ||duckduckgo.com/weekly/
 ||duckduckgo.com/monthly/

@@ -78,9 +78,6 @@ pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(制作照片电
 pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
 ! Baidu Netdisk End
 
-! 请别对评论区作出这等限制了
-cnbeta.com##body > div:has-text(请将我们加入广告屏蔽插件的白名单)
-
 ! 去你妈的注册弹窗
 douban.com##body > .ui-overlay-mask
 douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)

@@ -25,6 +25,11 @@
 ||fonts.gstatic.com/s/notoserifsc/*
 ||fonts.gstatic.com/s/notoserifhk/*
 
+sourceforge.net###newsletter-floating
+
+! 将通知图标颜色设为灰色
+disqus.com##.unread .notification-icon:style(color: #656c7a !important)
+
 fandom.com###WikiaBar
 fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
 
