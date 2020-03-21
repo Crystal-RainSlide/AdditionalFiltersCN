@@ -74,12 +74,12 @@ Some optional Rules for your choices. Not subscribe-able, please pick the useful
 
 提供者 Provider | 示例链接 Example Links
 --------------- | ----------------------
-[GitCDN](https://gitcdn.xyz) [Alternative Domain](https://gitcdn.link) [GitHub Repo](https://github.com/schme16/gitcdn.xyz) | https://gitcdn.xyz/repo/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-[jsDelivr](https://www.jsdelivr.com/?docs=gh) [GitHub Repo](https://github.com/jsdelivr/jsdelivr) | https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
-[Statically](https://statically.io/) [GitHub Repo](https://github.com/staticallyio/statically) | https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-[raw.githack.com](https://raw.githack.com/) [GitHub Repo](https://github.com/neoascetic/rawgithack) | https://raw.githack.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[GitCDN](https://gitcdn.xyz) / [Alternative Domain](https://gitcdn.link) / [GitHub Repo](https://github.com/schme16/gitcdn.xyz) | <small>https://gitcdn.xyz/repo/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt</small>
+[jsDelivr](https://www.jsdelivr.com/?docs=gh) / [GitHub Repo](https://github.com/jsdelivr/jsdelivr) | https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
+[Statically](https://statically.io/) / [GitHub Repo](https://github.com/staticallyio/statically) | https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[raw.githack.com](https://raw.githack.com/) / [GitHub Repo](https://github.com/neoascetic/rawgithack) | https://raw.githack.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 
-不建议大规模使用 raw.githack.com 的开发用镜像。参见 see https://raw.githack.com/#development-in-production 。
+不建议大规模使用 raw.githack.com 的开发用镜像。参见 https://raw.githack.com/#development-in-production 。
 
 It is not suggested to use the raw.githack.com development mirror heavily, see https://raw.githack.com/#development-in-production .
 
@@ -99,7 +99,7 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 
 主页 Homepage | 链接 Link
 ------------- | ---------
-[BarbBlock](https://ssl.bblck.me/) | [ublock-origin.txt](https://ssl.bblck.me/blacklists/ublock-origin.txt) [adblock-plus.txt](https://ssl.bblck.me/blacklists/adblock-plus.txt) | [uBlock Origin](abp:subscribe?location=https://ssl.bblck.me/blacklists/ublock-origin.txt&title=BarbBlock) [AdBlock Plus](abp:subscribe?location=https://ssl.bblck.me/blacklists/adblock-plus.txt&title=BarbBlock)
+[BarbBlock](https://ssl.bblck.me/) | [ublock-origin.txt](https://ssl.bblck.me/blacklists/ublock-origin.txt) [adblock-plus.txt](https://ssl.bblck.me/blacklists/adblock-plus.txt) | [uBlock Origin](abp:subscribe?location=https://ssl.bblck.me/blacklists/ublock-origin.txt&title=BarbBlock) / [AdBlock Plus](abp:subscribe?location=https://ssl.bblck.me/blacklists/adblock-plus.txt&title=BarbBlock)
 
 #### 规则合并器 Rules Merger
 
