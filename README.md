@@ -74,7 +74,7 @@ Some optional Rules for your choices. Not subscribe-able, please pick the useful
 
 提供者 Provider | 示例链接 Example Links
 --------------- | ----------------------
-[GitCDN](https://gitcdn.xyz) / [Alternative Domain](https://gitcdn.link) / [GitHub Repo](https://github.com/schme16/gitcdn.xyz) | <small>https://gitcdn.xyz/repo/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt</small>
+[GitCDN](https://gitcdn.xyz) / [Alternative Domain](https://gitcdn.link) / [GitHub Repo](https://github.com/schme16/gitcdn.xyz) | https://gitcdn.xyz/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 [jsDelivr](https://www.jsdelivr.com/?docs=gh) / [GitHub Repo](https://github.com/jsdelivr/jsdelivr) | https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
 [Statically](https://statically.io/) / [GitHub Repo](https://github.com/staticallyio/statically) | https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 [raw.githack.com](https://raw.githack.com/) / [GitHub Repo](https://github.com/neoascetic/rawgithack) | https://raw.githack.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
