@@ -26,34 +26,34 @@ All includes all the variants and specific rules in current category.
 
 ### CN
 
-　　类别 Variant | 链接 Link | 订阅 Subscribe
----------------- | --------- | --------------
-　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)     | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt&title=AdditionalFiltersCN%20-%20Data%20Collection)
-　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt)     | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt&title=AdditionalFiltersCN%20-%20Advertisement)
-　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/spam.txt)   | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/spam.txt&title=AdditionalFiltersCN%20-%20Spam)
-APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt)    | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt&title=AdditionalFiltersCN%20-%20App%20%26%20Client)
-　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/share.txt)  | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/share.txt&title=AdditionalFiltersCN%20-%20Share)
-社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/social.txt) | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/social.txt&title=AdditionalFiltersCN%20-%20Social)
+　　类别 Variant | 链接 Link
+---------------- | ---------
+　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
+　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt)
+　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/spam.txt)
+APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt)
+　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/share.txt)
+社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/social.txt)
 
 ### Intl
 
-　　类别 Variant | 链接 Link | 订阅 Subscribe
----------------- | --------- | --------------
-　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)     | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt&title=AdditionalFiltersCN%20-%20Data%20Collection)
-　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt)     | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt&title=AdditionalFiltersCN%20-%20Advertisement)
-　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/spam.txt)   | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/spam.txt&title=AdditionalFiltersCN%20-%20Spam)
-APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/app.txt)    | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/app.txt&title=AdditionalFiltersCN%20-%20App%20%26%20Client)
-　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/share.txt)  | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/share.txt&title=AdditionalFiltersCN%20-%20Share)
-社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/social.txt) | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/social.txt&title=AdditionalFiltersCN%20-%20Social)
+　　类别 Variant | 链接 Link
+---------------- | ---------
+　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
+　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt)
+　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/spam.txt)
+APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/app.txt)
+　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/share.txt)
+社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/social.txt)
 
 ## 针对性规则 Specific Rules
 
 ### CN
 
-名称 Name | 链接 Link | 订阅 Subscribe
---------- | --------- | --------------
-微信 WeChat | [NoWeWontChat.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/NoWeWontChat.txt) | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/NoWeWontChat.txt&title=AdditionalFiltersCN%20-%20No%20We%20Won%27t%20Chat)
-修复 Fixes  | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt) | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt&title=AdditionalFiltersCN%20-%20Fix%20for%20Fanboy%27s%20lists)
+名称 Name | 链接 Link
+--------- | ---------
+微信 WeChat | [NoWeWontChat.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/NoWeWontChat.txt)
+修复 Fixes  | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt)
 
 备注：修复主要针对 [Easylist filter lists](https://easylist.to/) 和
 [Fanboy Lists](https://fanboy.co.nz/)，在未来可能会被移至 Intl 或单独的大类。
@@ -67,10 +67,15 @@ P.S. Fixes is mainly for [Easylist filter lists](https://easylist.to/) and
 
 Some optional Rules for your choices. Not subscribe-able, please pick them up manually.
 
-  [CN](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/CN/Optional.md)
+[CN](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/CN/Optional.md)
+
 [Intl](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Intl/Optional.md)
 
 ## 镜像 Mirror Services
+
+https://gitcdn.xyz/repo/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+
+https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 
 https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
 
@@ -80,18 +85,18 @@ https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 
 ### CN
 
-主页 Homepage | 链接 Link | 订阅 Subscribe
-------------- | --------- | --------------
-[乘风 广告过滤规则](https://gitee.com/xinggsf/Adblock-Rule/) | [rule.txt](https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt) | [订阅 Subscribe](abp:subscribe?location=https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt&title=%E4%B9%98%E9%A3%8E%20%E5%B9%BF%E5%91%8A%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99)
-[乘风 视频广告过滤规则](https://gitee.com/xinggsf/Adblock-Rule/) | [mv.txt](https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt) | [订阅 Subscribe](abp:subscribe?location=https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt&title=乘风 视频广告过滤规则)
-[jCleanList](https://github.com/jiayiming/jCleanList) | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt) | [订阅 Subscribe](abp:subscribe?location=https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt&title=jCleanList)
-[N2O QuarkList](https://n2o.io/p/quarklist/) | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt) | [订阅 Subscribe](abp:subscribe?location=https://n2o.io/p/quarklist/dist/quarklist.txt&title=QuarkList)
-[ublock-CingList](https://github.com/dupontjoy/customization/tree/master/Rules/uBlock) | [ublock-CingList.txt](https://github.com/dupontjoy/customization/blob/master/Rules/uBlock/ublock-CingList.txt) | [订阅 Subscribe](abp:subscribe?location=https://github.com/dupontjoy/customization/blob/master/Rules/uBlock/ublock-CingList.txt&title=ublock-CingList)
+主页 Homepage | 链接 Link
+------------- | ---------
+[乘风 广告过滤规则](https://gitee.com/xinggsf/Adblock-Rule/) | [rule.txt](https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt)
+[乘风 视频广告过滤规则](https://gitee.com/xinggsf/Adblock-Rule/) | [mv.txt](https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt)
+[jCleanList](https://github.com/jiayiming/jCleanList) | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
+[N2O QuarkList](https://n2o.io/p/quarklist/) | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
+[ublock-CingList](https://github.com/dupontjoy/customization/tree/master/Rules/uBlock) | [ublock-CingList.txt](https://github.com/dupontjoy/customization/blob/master/Rules/uBlock/ublock-CingList.txt)
 
 ### Intl
 
-主页 Homepage | 链接 Link | 订阅 Subscribe
-------------- | --------- | --------------
+主页 Homepage | 链接 Link
+------------- | ---------
 [BarbBlock](https://ssl.bblck.me/) | [ublock-origin.txt](https://ssl.bblck.me/blacklists/ublock-origin.txt) [adblock-plus.txt](https://ssl.bblck.me/blacklists/adblock-plus.txt) | [uBlock Origin](abp:subscribe?location=https://ssl.bblck.me/blacklists/ublock-origin.txt&title=BarbBlock) [AdBlock Plus](abp:subscribe?location=https://ssl.bblck.me/blacklists/adblock-plus.txt&title=BarbBlock)
 
 #### 规则合并器 Rules Merger
