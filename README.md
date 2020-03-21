@@ -15,12 +15,12 @@ YEARS ago.
 
 ## 全部 All
 
-CN: [CN/all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt) 
-Intl: [Intl/all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
-
 “全部”包含当前大类下下所有类别与针对性规则。
 
 All includes all the variants and specific rules in current category.
+
+- CN: [CN/all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
+- Intl: [Intl/all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
 
 ## 类别 Variants
 
@@ -63,23 +63,25 @@ P.S. Fixes is mainly for [Easylist filter lists](https://easylist.to/) and
 
 ## 可选规则 Optional Rules
 
-一些可自行选用的规则。并非订阅，需要手动选用。
+一些可自行选用的规则。并非订阅，请手动选用需要的规则。
 
-Some optional Rules for your choices. Not subscribe-able, please pick them up manually.
+Some optional Rules for your choices. Not subscribe-able, please pick the useful ones up into your user filters manually.
 
-[CN](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/CN/Optional.md)
-
-[Intl](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Intl/Optional.md)
+- CN: [CN/Optional.md](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/CN/Optional.md)
+- Intl: [Intl/Optional.md](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/Intl/Optional.md)
 
 ## 镜像 Mirror Services
 
-https://gitcdn.xyz/repo/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+提供者 Provider | 示例链接 Example Links
+--------------- | ----------------------
+[GitCDN](https://gitcdn.xyz) [Alternative Domain](https://gitcdn.link) [GitHub Repo](https://github.com/schme16/gitcdn.xyz) | https://gitcdn.xyz/repo/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[jsDelivr](https://www.jsdelivr.com/?docs=gh) [GitHub Repo](https://github.com/jsdelivr/jsdelivr) | https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
+[Statically](https://statically.io/) [GitHub Repo](https://github.com/staticallyio/statically) | https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[raw.githack.com](https://raw.githack.com/) [GitHub Repo](https://github.com/neoascetic/rawgithack) | https://raw.githack.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 
-https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+不建议大规模使用 raw.githack.com 的开发用镜像。参见 see https://raw.githack.com/#development-in-production 。
 
-https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
-
-https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+It is not suggested to use the raw.githack.com development mirror heavily, see https://raw.githack.com/#development-in-production .
 
 ## 其他规则列表 Other Rulesets
 
