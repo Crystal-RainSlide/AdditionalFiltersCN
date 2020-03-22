@@ -55,7 +55,7 @@ merge-rulesets: function [
 	output-file: append ruleset-file ".txt"
 
 	either exists? working-dir [
-		print working-dir
+		prin "Start at " print to-local-file working-dir
 	] [
 		cause-error 'access 'cannot-open [ working-dir ]
 	]
@@ -89,6 +89,8 @@ merge-rulesets: function [
 	; This will use CRLF on Windows:
 	; write output-file output-result
 
+	print "End"
+
 ]
 
 metadata-additional-filters: make-metadata [
@@ -106,6 +108,5 @@ metadata-additional-filters: make-metadata [
 ]
 
 foreach ruleset [ "CN" "Intl" ] [
-	print metadata-additional-filters/title
 	merge-rulesets ruleset metadata-additional-filters
 ]

@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 12-Mar-2020
-! Last Modified: 12-Mar-2020/17:21:31+08:00
+! Last updated: 22-Mar-2020
+! Last Modified: 22-Mar-2020/19:57:22+08:00
 
 ||o.aolcdn.com/ads/*$important
 
@@ -26,15 +26,17 @@ www.microsoft.com##.m-hero
 
 ! Microsoft Outlook
 ||acdn.adnxs.com/ast/static/*/ast.js$script
-||^/owamail/*/scripts/owa.MessageAdList.js$script
-||res.office365.com/owamail/*/scripts/owa.initializeAdCmp.js$script
-||res.office365.com/owamail/*/scripts/owa.Ads*$script
-! ||res.office365.com/owamail/*/scripts/owa.vendors~Ads$script
 ||onerm.olsvc.com/api/*/promo$xmlhttprequest
+
+! 屏蔽模块可能导致加载阻塞
+! ||^/owamail/*/scripts/owa.MessageAdList.js$script
+! ||res.office365.com/owamail/*/scripts/owa.initializeAdCmp.js$script
+! ||res.office365.com/owamail/*/scripts/owa.Ads*$script
+! ||res.office365.com/owamail/*/scripts/owa.vendors~Ads$script
 
 ! 左侧 Office 365 广告
 outlook.live.com###app .ms-FocusZone.customScrollBar.disableTextSelection + div:has(button img[src$="/premium-diamond-01.svg"])
-! 邮件列表广告
+! 左侧邮件列表
 outlook.live.com###app div[role="region"][aria-label][tabindex][data-min-width][data-min-height][data-max-width][data-max-height] > div[tabindex][class] > div[class]:only-child > div[draggable][class]:only-child > div[role="complementary"][aria-multiselectable][aria-label][class]:only-child > div.customScrollBar:only-child > div[class]:only-child > div[class]:first-child
 ! 右侧广告空白
 outlook.live.com###app div[tabindex][role="region"][aria-label] ~ div[class]:last-child:has(> div[class]:only-child > div > #owaadbar0)
@@ -66,6 +68,25 @@ techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !imp
 
 ! APKPure
 apkpure.com##.ad-box-auto
+
+! XDA
+forum.xda-developers.com###honor-launch-banner
+
+thepiratebay.org##a[href="https://www.azirevpn.com/landing"]
+
+fandom.com##.mcf-card-sponsored-content
+
+css-tricks.com###all-ads
+
+www.accuweather.com###offers
+
+uptodown.com##.banner-download
+uptodown.com##.gad
+
+wikihow.com##+js(rc, hasad)
+
+@@||www.fosshub.com/media/js/adblock.js$first-party
+www.fosshub.com##.ad
 
 ! iFixit
 ||ifixit-assets.??.ifixit.com/Assets/Admin/Shared-Campaigns-campaign_banners-*
@@ -99,13 +120,7 @@ tvtropes.org##.ad
 
 www.plazmaburst2.com##[class^="gads"]
 
-forum.xda-developers.com###honor-launch-banner
-
-thepiratebay.org##a[href="https://www.azirevpn.com/landing"]
-
-fandom.com##.mcf-card-sponsored-content
-
-css-tricks.com###all-ads
+y8.com##.ads
 
 userscloud.com##.innerTB > center
 
@@ -119,15 +134,8 @@ winaero.com##a[href^="https://winaero.com/idx.php"]
 
 www.heidisql.com##.bordered-box:has-text(Ads)
 
-www.accuweather.com###offers
-
-uptodown.com##.banner-download
-uptodown.com##.gad
-
-! Ghacks
 www.ghacks.net##.ghacks_ad_code
 
-! Slant.co
 www.slant.co##._MasterComparePageContentAdView
 www.slant.co##._MasterComparePageTopContentAdView
 www.slant.co##._TMSAdsSidebarAdView
@@ -146,7 +154,9 @@ win7gadgets.com##.gads
 
 www.faproulette.co##.wide-container > div[style]:not([id]):not([class])
 
-@@||www.fosshub.com/media/js/adblock.js$first-party
+||rusenov.com^$xhr
+www.boundhub.com##noindex
+! www.boundhub.com##.to1p,.pl2ace,.o3pt,.tabl4e,.spon5sor
 
 ! Aff
 ! VULTR
@@ -175,13 +185,18 @@ fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 
 itch.io##.app_banner
 
+! Google
+www.google.*##+js(set, rwt, noopFunc)
+www.google.*##+js(ra, onmousedown, #rso a)
+
 ! YouTube
-||www.youtube.com/youtubei/v1/log_event
+||www.youtube.com/youtubei/*/log_event$xhr
 
 ! Microsoft Skype
 ||cdn.skype.com/*/telemetry$script
 
-! Duckduckgo #why
+! Duckduckgo
+! Why? What does this do?
 ||duckduckgo.com/daily/
 ||duckduckgo.com/weekly/
 ||duckduckgo.com/monthly/
@@ -384,6 +399,11 @@ minidayz.com##.social-widget
 ||fonts.gstatic.com/s/notoseriftc/*
 ||fonts.gstatic.com/s/notoserifsc/*
 ||fonts.gstatic.com/s/notoserifhk/*
+
+sourceforge.net###newsletter-floating
+
+! 将通知图标颜色设为灰色
+disqus.com##.unread .notification-icon:style(color: #656c7a !important)
 
 fandom.com###WikiaBar
 fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
