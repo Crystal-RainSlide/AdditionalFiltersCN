@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 22-Mar-2020
-! Last Modified: 22-Mar-2020/19:57:22+08:00
+! Last updated: 23-Mar-2020
+! Last Modified: 23-Mar-2020/14:52:40+08:00
 
 ! Bilibili
 ! 黑板报与手游广告（相关推荐首条内容）
@@ -959,7 +959,10 @@ fanyi.sogou.com##.icon-free
 help.sogou.com##img[alt="new"]
 pic.sogou.com##img[src="/home/images/hot.png"]
 
-www.hao123.com##.hot-icon
+www.hao123.com##.icon-new
+
+hao.qq.com,daohang.qq.com,123.sogou.com##.i-new
+hao.qq.com,daohang.qq.com,123.sogou.com##.i-hot
 
 www.4399.com##.i_new
 www.4399.com##.i_hot
@@ -1020,7 +1023,7 @@ down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
 cn.bing.com###ev_talkbox_wrapper
 
 ! 取消各种限制
-www.souid.com##+js(ra.js, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
+www.souid.com##+js(ra, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
 
 ! B站播放器上部滚动内容
 ||api.bilibili.com/x/player/carousel.so
@@ -1057,14 +1060,39 @@ zhidao.baidu.com##.shop-entrance
 ||gh.bdstatic.com/static/gh/js/ll/m_word.js
 ! ||entry.baidu.com/rp/wordner
 
+! 设为首页
+www.hao123.com,hao.qq.com,daohang.qq.com,123.sogou.com###setHome
+
+! APP 手机扫码有好礼
 www.hao123.com###head-wise
+! 推荐
 www.hao123.com###headJoke
-www.hao123.com###sethome
+! 搜索框热搜图标
+www.hao123.com##.hotword
+! Tip 狂省百元 全场特价…
+www.hao123.com##.tips_link
 www.hao123.com##.g_tips-r
-www.hao123.com##.tips
-www.hao123.com##.tvtip
-www.hao123.com##.pic_icon
-www.hao123.com##.coolsiteresource-tip
+! 红字
+www.hao123.com##.g-red:style(color: inherit !important)
+
+! 搜索框热搜图标
+hao.qq.com,daohang.qq.com###engineKeyWord ~ .tri-button > div:not([id]):not([class])
+! 红字
+hao.qq.com,daohang.qq.com,123.sogou.com##.m-body li > a[style]:style(color: inherit !important; font-weight: inherit !important)
+! 您有未读消息，点击查看
+hao.qq.com,daohang.qq.com,123.sogou.com###info_flow_coolsite div[class^="style_tips__"]:has-text(未读消息)
+
+! 红字
+www.duba.com##.second_nav li > a[style*="color"], .main_box li > a[style*="color"]:style(color: inherit !important)
+! 图片
+www.duba.com##.main_box li > a.pic:style(filter: grayscale())
+! Tip 新版奇迹 刀刀包装…
+www.duba.com##.main_box li > .tip2
+
+kan.china.com##.pages a[href^="/recommend.shtml"]
+kan.china.com###popup-news
+kan.china.com##.badge-number
+kan.china.com###page-idle-mask,#page-idle-box
 
 ! Zhihu
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
