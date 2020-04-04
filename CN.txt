@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 23-Mar-2020
-! Last Modified: 23-Mar-2020/14:52:40+08:00
+! Last updated: 5-Apr-2020
+! Last Modified: 5-Apr-2020/0:24:14+08:00
 
 ! Bilibili
 ! 黑板报与手游广告（相关推荐首条内容）
@@ -40,7 +40,6 @@ www.zybang.com##.wgt_carousel_aniUnit
 ! Netease
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
-
 ! 网易有道 Netease Youdao
 ! youdao ad sdk
 ||shared.ydstatic.com/js/yadk/*
@@ -161,6 +160,7 @@ cnbeta.com##+js(set, document.write, noopFunc)
 cnbeta.com##body:style(padding-bottom: 0 !important)
 ! cnbeta.com##body > div:has-text(请将我们加入广告屏蔽插件的白名单)
 
+123.sogou.com##.adword:style(height: 6px !important)
 
 ! SegmentFault
 segmentfault.com##.mb25
@@ -411,6 +411,7 @@ open.163.com##.comment:style(margin-top: 0 !important)
 www.iplaysoft.com##.entry-recommend-posts
 ! House Advertisement End
 
+! 百度
 ||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
 
@@ -429,20 +430,35 @@ wenku.baidu.com##.qrHover
 
 zhidao.baidu.com##.zhidao-app
 
-www.zybang.com##.app-download
 ||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
+www.zybang.com##.app-download
+www.zybang.com##.QRWarp
+
+www.zybang.com###rightAsideBannerFlow
+www.zybang.com###bottomBannerLink
+www.zybang.com##.bottomTextFlow
+www.zybang.com##.bottomBannerFlow
+www.zybang.com##.bottomBannerPlaceholder
+
+www.zybang.com###aside
+www.zybang.com##.main-con:style(margin: 0 !important)
 
 ! Google 翻译
 translate.google.cn##.app-download-bar
 
 ! 必应词典
-cn.bing.com##.ap_aArea
-cn.bing.com##.ap_iArea
-cn.bing.com##.ap_logo
-cn.bing.com##.ap_dtxt
+cn.bing.com##.b_hPanel:has(.ap_logo)
 
+! 搜狗
+||www.sogou.com/web/index/images/erweima2.png$image
+www.sogou.com##.ewm-box
+www.sogou.com##.erwm-box
+www.sogou.com##.right-ewm
+! 搜狗翻译
+fanyi.sogou.com##.products
+fanyi.sogou.com###J_download_app
 ! 搜狗问问小程序
 wenwen.sogou.com##.sgww-xcx
 
@@ -453,6 +469,10 @@ www.bilibili.com##.mobile
 ! 网易新闻
 news.163.com##.newsapp-qrcode
 news.163.com##.ntes-nav-mobile-title
+
+! 网易云音乐
+music.163.com##.download
+music.163.com##.ban-img:style(display: flex; justify-content: center)
 
 ! 知乎
 www.zhihu.com##.AppBanner
@@ -523,6 +543,9 @@ translate.google.cn###gt-cn
 !   www.cnbeta.com/static/api/js/trans/logger.js
 */static/api/js/trans/logger.js
 
+! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
+||n3.zuoyebang.cc/napi/stat/*$image
+
 ! Sentry
 ! A big deal. Unblock it for the domains where it causes issues.
 ||js.sentry-cdn.com^$script
@@ -548,7 +571,7 @@ translate.google.cn###gt-cn
 
 ||ae.bdstatic.com/msite/*
 ! msite.baidu.com/sdk/c.js
-||msite.baidu.com/
+||msite.baidu.com^
 ||xiongzhang.baidu.com/xzhstatistics/rp
 
 ||www.baidu.com/con
@@ -571,6 +594,8 @@ translate.google.cn###gt-cn
 ||pan.baidu.com/box-static/disk-system/js/dp.js
 ||pan.baidu.com/pcloud/counter/refreshcount
 
+||jingyan.baidu.com/asyncreq/log
+
 ! wenku.baidu.com
 ||wkctj.baidu.com/
 ||wenku.baidu.com/doc/interface/docCount
@@ -586,27 +611,32 @@ baidu.com/static/mapping/*.php
 ||msg.qy.net/
 
 ! Tencent
+! ||baas.browser.qq.com/report/functions/report?$image
+! ||mp.weixin.qq.com/mp/report?$image
+||qq.com/*/report?$image
+
 ||report.url.cn^
 ||report.huatuo.qq.com^
 ||dj.captcha.qq.com/caplog
 ||stdl.qq.com/stdl/qb/js/qblog.js
-||baas.browser.qq.com/report/functions/report$image
 
 ! From mail.qq.com
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 
 ! From mp.weixin.qq.com
-||mp.weixin.qq.com/mp/appmsgreport
-||mp.weixin.qq.com/mp/jsreport
-||mp.weixin.qq.com/mp/fereport
-||mp.weixin.qq.com/mp/report
-||mp.weixin.qq.com/mp/jsmonitor
-||mp.weixin.qq.com/mp/getappmsgext
+! ||mp.weixin.qq.com/mp/appmsgreport?
+! ||mp.weixin.qq.com/mp/jsreport?
+! ||mp.weixin.qq.com/mp/fereport?
+! ||mp.weixin.qq.com/mp/musicreport?
+||mp.weixin.qq.com/mp/*report?$image
+||mp.weixin.qq.com/mp/*report?$xhr
+||mp.weixin.qq.com/mp/jsmonitor?
+||badjs.weixinbridge.com^
 
 ! From guanjia.qq.com
+||tajs.qq.com/stats$important
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
-||tajs.qq.com/stats$important
 
 ! Ali
 *.mmstat.com/*$important
@@ -627,7 +657,7 @@ baidu.com/static/mapping/*.php
 ||g.alicdn.com/security/umscript/*/um.js
 ||g.alicdn.com/sd/ctl/ctl.js
 
-||ynuf.alipay.com/service/um.json$xmlhttprequest,domain=v.youku.com
+||ynuf.alipay.com/service/um.json$xhr,domain=v.youku.com
 
 ! Netease
 ||analytics.163.com^$important
@@ -647,14 +677,14 @@ baidu.com/static/mapping/*.php
 ! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
 */analysis/js/analysis*.js
 
-||music.163.com/weapi/feedback/weblog
-
 ! Netease Youdao
 ! rlogs.youdao.com/rlog.php
 ! rlogs.youdao.com/rlog.js
 ||rlogs.youdao.com^
 ! ||shared.ydstatic.com/js/rlog/*
 */rlog/*$script
+
+||music.163.com/weapi/feedback/weblog
 
 ! ||js.passport.qihucdn.com/11.0.1.js
 ||js.passport.qihucdn.com/*$script,third-party
@@ -665,34 +695,39 @@ baidu.com/static/mapping/*.php
 ||cm.bilibili.com/cm/api/$xhr
 
 ! Sina
-||log.mix.sina.com.cn/
-||sbeacon.sina.com.cn/
+||log.mix.sina.com.cn^
+||sbeacon.sina.com.cn^
 
 ! Sougu
-||dlweb.sogoucdn.com/hhytrace/trace_*.js
+! ||dlweb.sogoucdn.com/hhytrace/trace_*.js
+||dlweb.sogoucdn.com/hhytrace/*
+||pic.sogou.com/pics/wap/home/visits.jsp$xhr
 
 ! Bing
-||bing.com/fd/ls/
+||bing.com/fd/ls/*
 
-||skype.gmw.cn/
+! TOM Skype
+||skype.gmw.cn^
 
 ! Domain parking
 ||cdn.dragonstatic.com/parking/js/track.js
 ||park.zunmi.cn^
 
 ! Google Analytics Proxy
-||ga.giuem.com/
+||ga.giuem.com^
 */?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
 
 ! 卜算子
 ||busuanzi.ibruce.info/busuanzi/*$script
 
-||edu-cms.nosdn.127.net/topics/js/sentry*$script
-
 ! 超星
-||fystat-ans.chaoxing.com/log/*
+! 上传：个人 ID、课程 ID、班级 ID、章节 ID
+! 测试确定屏蔽后无任何影响。
+! 但由于涉及网课，出于保守考虑，不处理不明确的收集。
+! ||fystat-ans.chaoxing.com/log/*
 
 ! 智慧树
+! 但是，像这种数据收集，就很非常特别明确了。
 ! ||collector.zhihuishu.com/video/web/collect$xhr
 ||collector.zhihuishu.com^
 ! ||hilog.zhihuishu.com/public/jsonp/collect$xhr
@@ -701,11 +736,14 @@ baidu.com/static/mapping/*.php
 ! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com^
 ||log.aliyuncs.com^
 
+! 中国大学 MOOC
+||edu-cms.nosdn.127.net/topics/js/sentry*$script
+
 ! 芒果 TV
-||log.mgtv.com/
+||log.mgtv.com^
 
 ! Zhihu
-||sugar.zhihu.com/
+||sugar.zhihu.com^
 
 ! CNBeta
 ! more info:
@@ -716,7 +754,7 @@ baidu.com/static/mapping/*.php
 ! CSDN
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
 ! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
-||event.csdn.net/logstores/*$xmlhttprequest
+||event.csdn.net/logstores/*$xhr
 ||g.csdnimg.cn/track/*
 
 ! ---
@@ -735,7 +773,7 @@ baidu.com/static/mapping/*.php
 ||u.ctrip.com/union/*$third-party
 
 ! 17173
-! 这都什么人涂的破站啊，乱成这样，服了
+! 这都什么人涂的破站啊，乱成这样，收集到的数据真的能用吗？
 ||www.17173.com/2014/new/shouyoushanwan.js
 ||www.17173.com/2015/new/news-v-daka.js
 ||news.17173.com/2014/popupnews.config.js
@@ -757,7 +795,7 @@ baidu.com/static/mapping/*.php
 ||www.ruanyifeng.com/blog/stats.js
 
 ! 跟谁学
-||click.genshuixue.com/
+||click.genshuixue.com^
 ! Easylist China 误杀
 @@||cdns.genshuixue.com^$script
 
@@ -771,21 +809,29 @@ baidu.com/static/mapping/*.php
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
 
+! bugs.chromium.org
+@@*/static/js/graveyard/popup_controller.js
+
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*$image
 
 ! wikiHow
 @@||www.wikihow.com/images/*$image
 
-! Zhihu
-www.zhihu.com#@#.FollowButton
+@@||slm-assets.secondlife.com/assets/*$image
+
+! mp.weixin.qq.com 概率性
+@@||res.wx.qq.com/mmbizwap/*$script
+
+! 超星
+@@||ananas.chaoxing.com/video/*$media
+
+! Sougu
+@@||sogoucdn.com^*&referer=$image
 
 ! Baidu Jingyan
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
-
-! bugs.chromium.org
-@@*/static/js/graveyard/popup_controller.js
 
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
@@ -798,8 +844,7 @@ jingyan.baidu.com#@##like-btn
 www.ruanyifeng.com###container::before
 www.ruanyifeng.com##+js(nostif, checker)
 
-! 批改网光标样式
-www.pigai.org##body:style(cursor: unset !important)
+@@||uniapp.dcloud.io/api/*$xhr
 
 ! ||res.wx.qq.com/open/js/jweixin-*.js
 ! ||oschina.net/js/utils/jweixin-*.js
@@ -935,15 +980,17 @@ www.iplaysoft.com###ft_6
 
 ! Red Dot & Hot & New Start
 www.baidu.com##.dot::before
+www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
+jingyan.baidu.com##.new-icon
+zhidao.baidu.com##.new-icon
+zhidao.baidu.com##.menu-title-icon
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
-jingyan.baidu.com##.new-icon
 pan.baidu.com,yun.baidu.com##.find-light-icon
 pan.baidu.com,yun.baidu.com##.newIcon
 site.baidu.com##.dot
 
-zhidao.baidu.com##.menu-title-icon
 dwz.cn##.new-icon > img
 
 wenku.baidu.com##.new b
@@ -955,25 +1002,26 @@ wenku.baidu.com##.havenew-ic
 ! 文档可以转存到百度网盘啦！
 wenku.baidu.com##.wangpan-tip
 
+pic.sogou.com##.ico-new
+pic.sogou.com##.ico-hot
 fanyi.sogou.com##.icon-free
 help.sogou.com##img[alt="new"]
-pic.sogou.com##img[src="/home/images/hot.png"]
+map.sogou.com##.nav-new
 
 www.hao123.com##.icon-new
 
-hao.qq.com,daohang.qq.com,123.sogou.com##.i-new
-hao.qq.com,daohang.qq.com,123.sogou.com##.i-hot
+hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
 
 www.4399.com##.i_new
 www.4399.com##.i_hot
 
 music.163.com##.hot
-
-www.oschina.net###icon_mayun
-www.oschina.net##.icon_mayun
+music.163.com##.m-subnav .nav a em span
+music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 
 gitee.com##.label.red.ui
 www.oschina.net##.label.red.ui
+www.oschina.net###icon_mayun, .icon_mayun
 www.oschina.net##.giteetip
 www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
 
@@ -1035,8 +1083,7 @@ www.bilibili.com##.v-live-recommend
 
 ||baike.baidu.com/cms/global/home_config.json
 
-||jingyan.baidu.com/asyncreq/log
-!||exp.bdstatic.com/static/common-jquery/widget/js/logic/log/*
+! ||exp.bdstatic.com/static/common-jquery/widget/js/logic/log/*
 ||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/*
 ||exp.bdstatic.com/static/activity/widget/ui/redbox/*
 jingyan.baidu.com###my-income
@@ -1044,6 +1091,17 @@ jingyan.baidu.com##.wgt-common-nav
 jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
+
+! 动态图片 红包
+zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
+! 新人答题领红包
+zhidao.baidu.com##.exp-topwld-tip
+! 悬浮图片 赚积分 换礼品
+zhidao.baidu.com##.earn-points-exchange-gifts-bubble
+! 悬浮图片 申请认证
+zhidao.baidu.com##.jump-goto-star
+! #热议#
+zhidao.baidu.com##.question-number-text-chain
 
 ||tieba.baidu.com/tbapp/user/getRecommendApp
 ||tieba.baidu.com/p/getLikeForum
@@ -1055,39 +1113,6 @@ wenku.baidu.com###share-tips
 ||zhidao.baidu.com/question/api/hao123word
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
-
-! 百度知道 去除高亮显示关键词
-||gh.bdstatic.com/static/gh/js/ll/m_word.js
-! ||entry.baidu.com/rp/wordner
-
-! 设为首页
-www.hao123.com,hao.qq.com,daohang.qq.com,123.sogou.com###setHome
-
-! APP 手机扫码有好礼
-www.hao123.com###head-wise
-! 推荐
-www.hao123.com###headJoke
-! 搜索框热搜图标
-www.hao123.com##.hotword
-! Tip 狂省百元 全场特价…
-www.hao123.com##.tips_link
-www.hao123.com##.g_tips-r
-! 红字
-www.hao123.com##.g-red:style(color: inherit !important)
-
-! 搜索框热搜图标
-hao.qq.com,daohang.qq.com###engineKeyWord ~ .tri-button > div:not([id]):not([class])
-! 红字
-hao.qq.com,daohang.qq.com,123.sogou.com##.m-body li > a[style]:style(color: inherit !important; font-weight: inherit !important)
-! 您有未读消息，点击查看
-hao.qq.com,daohang.qq.com,123.sogou.com###info_flow_coolsite div[class^="style_tips__"]:has-text(未读消息)
-
-! 红字
-www.duba.com##.second_nav li > a[style*="color"], .main_box li > a[style*="color"]:style(color: inherit !important)
-! 图片
-www.duba.com##.main_box li > a.pic:style(filter: grayscale())
-! Tip 新版奇迹 刀刀包装…
-www.duba.com##.main_box li > .tip2
 
 kan.china.com##.pages a[href^="/recommend.shtml"]
 kan.china.com###popup-news
@@ -1109,29 +1134,76 @@ www.icourse163.org##.bind-phone-modal
 ! 隐私协议
 www.icourse163.org##.privacy-info-container
 mooc.study.163.com##.ui-common-privacy
-! 搜索框 Placeholder
+! 搜索框 Placeholder 推广
 mooc.study.163.com##.j-search > .j-label
 
-! 简书钻
+! 简书 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]
 
 ! 超星
 ||chaoxing.com/richvideo/initdatawithviewer
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js
 
+! 批改网 光标样式
+www.pigai.org##body:style(cursor: unset !important)
+||www.halnedu.com/pcexam/assets/js/index.js
+
 ! PCBeta
 ||www.pcbeta.com/data/cache/ggk.js
 
-! 文字链脚本
-||static.yxdown.com/all/js/pb2.js
+! 奶牛快传全屏视频背景
+cowtransfer.com##.cover-image-com
+||background.cowtransfer.com^$subdocument
 
-! CSDN 论坛加在每条发言下的关联推荐
+! CSDN 论坛 强加在每条发言下的关联推荐
 bbs.csdn.net##.post_recommend
 bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
 bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
 
-! 殁飘遥，你个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
+! 殁飘遥，你这个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
 www.cnbeta.com##.pageFooter .media > .links a[href="https://www.laomoit.com/"]
 
-! 去提示
+! 提示
 www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+
+! 手机游戏 小游戏
+down.ali213.net##.otherGameContainer
+
+icopy.site###backToMainSite
+
+! 文字链脚本
+||gh.bdstatic.com/static/gh/js/ll/m_word.js
+! ||entry.baidu.com/rp/wordner
+||static.yxdown.com/all/js/pb2.js
+
+! 导航网站
+
+! 设为首页
+www.hao123.com,hao.qq.com,daohang.qq.com,123.sogou.com###setHome
+www.265.com##a[site-c-category="button-set-homepage"]
+
+! 红字
+www.hao123.com##.g-red:style(color: inherit !important)
+hao.qq.com,daohang.qq.com,123.sogou.com##.m-body li > a[style]:style(color: inherit !important; font-weight: inherit !important)
+www.duba.com##.second_nav li > a[style*="color"], .main_box li > a[style*="color"]:style(color: inherit !important)
+www.265.com##a[style="color: #ff0000"],a[style="color: #1155cc"],a[style="color:#1155cc"]:style(color: inherit !important)
+
+! 搜索框热搜图标
+www.hao123.com##.hotword
+hao.qq.com,daohang.qq.com###engineKeyWord ~ .tri-button + div:not([id]):not([class])
+
+! APP 手机扫码有好礼
+www.hao123.com###head-wise
+! 推荐
+www.hao123.com###headJoke
+! Tip 狂省百元 全场特价…
+www.hao123.com##.tips_link
+www.hao123.com##.g_tips-r
+
+! 您有未读消息，点击查看
+hao.qq.com,daohang.qq.com,123.sogou.com###info_flow_coolsite div[class^="style_tips__"]:has-text(未读消息)
+
+! 图片
+www.duba.com##.main_box li > a.pic:style(filter: grayscale())
+! Tip 新版奇迹 刀刀爆装…
+www.duba.com##.main_box li > .tip2

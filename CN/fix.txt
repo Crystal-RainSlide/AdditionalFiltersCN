@@ -1,4 +1,4 @@
-! Title: AdditionalFiltersCN - Fix for Fanboy's lists
+! Title: AdditionalFiltersCN - Fixes
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
@@ -7,21 +7,29 @@
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
 
+! bugs.chromium.org
+@@*/static/js/graveyard/popup_controller.js
+
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*$image
 
 ! wikiHow
 @@||www.wikihow.com/images/*$image
 
-! Zhihu
-www.zhihu.com#@#.FollowButton
+@@||slm-assets.secondlife.com/assets/*$image
+
+! mp.weixin.qq.com 概率性
+@@||res.wx.qq.com/mmbizwap/*$script
+
+! 超星
+@@||ananas.chaoxing.com/video/*$media
+
+! Sougu
+@@||sogoucdn.com^*&referer=$image
 
 ! Baidu Jingyan
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
-
-! bugs.chromium.org
-@@*/static/js/graveyard/popup_controller.js
 
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
@@ -34,5 +42,4 @@ jingyan.baidu.com#@##like-btn
 www.ruanyifeng.com###container::before
 www.ruanyifeng.com##+js(nostif, checker)
 
-! 批改网光标样式
-www.pigai.org##body:style(cursor: unset !important)
+@@||uniapp.dcloud.io/api/*$xhr

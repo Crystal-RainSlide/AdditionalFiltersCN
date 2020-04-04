@@ -34,7 +34,6 @@ www.zybang.com##.wgt_carousel_aniUnit
 ! Netease
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
-
 ! 网易有道 Netease Youdao
 ! youdao ad sdk
 ||shared.ydstatic.com/js/yadk/*
@@ -155,6 +154,7 @@ cnbeta.com##+js(set, document.write, noopFunc)
 cnbeta.com##body:style(padding-bottom: 0 !important)
 ! cnbeta.com##body > div:has-text(请将我们加入广告屏蔽插件的白名单)
 
+123.sogou.com##.adword:style(height: 6px !important)
 
 ! SegmentFault
 segmentfault.com##.mb25

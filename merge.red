@@ -71,10 +71,10 @@ merge-rulesets: function [
 			%.txt = suffix? item ; file's extention name matches *.txt
 			output-file <> item  ; file is not output-file itself
 		] [
-			prin "Joins " print item
+			prin "Join " print item
 			append output-result clean-ruleset read item
 		] [
-			prin "Ignores " print item
+			prin "Ignore " print item
 		]
 	]
 

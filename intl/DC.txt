@@ -62,6 +62,8 @@ www.google.*##+js(ra, onmousedown, #rso a)
 ||wikia.nocookie.net/*/*analytics*
 ||wikia.nocookie.net/*/*tracking*
 
+||symbolab.com/detailedLog$xhr
+
 konggames.com##+js(acis, window.NREUM)
 konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ||cdn2.kongcdn.com/compiled-assets/metriks_*

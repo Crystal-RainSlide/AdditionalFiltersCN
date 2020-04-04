@@ -3,6 +3,7 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! 百度
 ||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
 
@@ -21,20 +22,35 @@ wenku.baidu.com##.qrHover
 
 zhidao.baidu.com##.zhidao-app
 
-www.zybang.com##.app-download
 ||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
+www.zybang.com##.app-download
+www.zybang.com##.QRWarp
+
+www.zybang.com###rightAsideBannerFlow
+www.zybang.com###bottomBannerLink
+www.zybang.com##.bottomTextFlow
+www.zybang.com##.bottomBannerFlow
+www.zybang.com##.bottomBannerPlaceholder
+
+www.zybang.com###aside
+www.zybang.com##.main-con:style(margin: 0 !important)
 
 ! Google 翻译
 translate.google.cn##.app-download-bar
 
 ! 必应词典
-cn.bing.com##.ap_aArea
-cn.bing.com##.ap_iArea
-cn.bing.com##.ap_logo
-cn.bing.com##.ap_dtxt
+cn.bing.com##.b_hPanel:has(.ap_logo)
 
+! 搜狗
+||www.sogou.com/web/index/images/erweima2.png$image
+www.sogou.com##.ewm-box
+www.sogou.com##.erwm-box
+www.sogou.com##.right-ewm
+! 搜狗翻译
+fanyi.sogou.com##.products
+fanyi.sogou.com###J_download_app
 ! 搜狗问问小程序
 wenwen.sogou.com##.sgww-xcx
 
@@ -45,6 +61,10 @@ www.bilibili.com##.mobile
 ! 网易新闻
 news.163.com##.newsapp-qrcode
 news.163.com##.ntes-nav-mobile-title
+
+! 网易云音乐
+music.163.com##.download
+music.163.com##.ban-img:style(display: flex; justify-content: center)
 
 ! 知乎
 www.zhihu.com##.AppBanner

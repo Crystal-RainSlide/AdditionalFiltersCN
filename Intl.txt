@@ -6,9 +6,10 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 22-Mar-2020
-! Last Modified: 22-Mar-2020/19:57:22+08:00
+! Last updated: 5-Apr-2020
+! Last Modified: 5-Apr-2020/0:24:14+08:00
 
+! AOL
 ||o.aolcdn.com/ads/*$important
 
 ! Chrome Ad on Firefox
@@ -54,6 +55,14 @@ sourceforge.net###project-nel
 sourceforge.net##.nel
 sourceforge.net##.stackcommerce-widget
 
+! pixiv
+www.pixiv.net##.premium-lead-premium-campaign
+www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
+
+! www.pixiv.net###js-mount-point-header.with-ad:style(min-height: 64px !important)
+www.pixiv.net##+js(rc, with-ad)
+www.pixiv.net###column-misc > .ad + .item:style(margin-top: 0 !important)
+
 ! Textnow
 www.textnow.com###bannerContainer
 www.textnow.com##.rotation-manager-slot
@@ -77,6 +86,7 @@ thepiratebay.org##a[href="https://www.azirevpn.com/landing"]
 fandom.com##.mcf-card-sponsored-content
 
 css-tricks.com###all-ads
+css-tricks.com##.fem-ad
 
 www.accuweather.com###offers
 
@@ -84,6 +94,15 @@ uptodown.com##.banner-download
 uptodown.com##.gad
 
 wikihow.com##+js(rc, hasad)
+
+symbolab.com###googleAdSenseHomepage
+symbolab.com##.googleAdsense
+symbolab.com##.googleAdsenseMiddle
+symbolab.com##.googleLeftSkyScrapper
+symbolab.com##.symp
+
+symbolab.com#@#.tooltipster-show
+symbolab.com##+js(set, SOLUTIONS.subscribed, true)
 
 @@||www.fosshub.com/media/js/adblock.js$first-party
 www.fosshub.com##.ad
@@ -243,6 +262,8 @@ www.google.*##+js(ra, onmousedown, #rso a)
 ||wikia.nocookie.net/*/*adengine3*
 ||wikia.nocookie.net/*/*analytics*
 ||wikia.nocookie.net/*/*tracking*
+
+||symbolab.com/detailedLog$xhr
 
 konggames.com##+js(acis, window.NREUM)
 konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
