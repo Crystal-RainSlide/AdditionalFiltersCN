@@ -40,6 +40,8 @@ hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
 www.4399.com##.i_new
 www.4399.com##.i_hot
 
+mail.163.com##.nui-ico-new3
+
 music.163.com##.hot
 music.163.com##.m-subnav .nav a em span
 music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
@@ -166,8 +168,16 @@ mooc.study.163.com##.j-search > .j-label
 www.jianshu.com##header span[aria-label="简书钻"]
 
 ! 超星
-||chaoxing.com/richvideo/initdatawithviewer
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js
+
+! 现在，屏蔽 initdatawithviewer 将导致视频无法加载
+! 请使用 Header Editor 将：
+! https?:\/\/mooc\d+-\d+\.chaoxing.com\/richvideo\/initdatawithviewer.*
+! 重定向至：
+! data:application/json,[]
+! Redirector 尚未支持重定向至 Data URI，但应该快了：
+! https://github.com/einaregilsson/Redirector/issues/178
+! ||chaoxing.com/richvideo/initdatawithviewer
 
 ! 批改网 光标样式
 www.pigai.org##body:style(cursor: unset !important)
@@ -179,6 +189,12 @@ www.pigai.org##body:style(cursor: unset !important)
 ! 奶牛快传全屏视频背景
 cowtransfer.com##.cover-image-com
 ||background.cowtransfer.com^$subdocument
+
+! CSDN
+! 记录你的技术成长历程…
+blog.csdn.net###writeGuide
+! 打赏
+blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
 
 ! CSDN 论坛 强加在每条发言下的关联推荐
 bbs.csdn.net##.post_recommend

@@ -55,11 +55,11 @@ APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.co
 微信 WeChat | [NoWeWontChat.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/NoWeWontChat.txt)
 修复 Fixes  | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt)
 
-备注：修复主要针对 [Easylist filter lists](https://easylist.to/) 和
-[Fanboy Lists](https://fanboy.co.nz/)，在未来可能会被移至 Intl 或单独的大类。
+备注：本来，修复主要针对 [Easylist filter lists](https://easylist.to/) 和
+[Fanboy Lists](https://fanboy.co.nz/)，现在，修复会包含上述两组规则和下面的其他规则列表中的规则。
 
-P.S. Fixes is mainly for [Easylist filter lists](https://easylist.to/) and
-[Fanboy Lists](https://fanboy.co.nz/). May move to Intl or elsewhere in the future.
+P.S. Originally, Fixes is mainly for [Easylist filter lists](https://easylist.to/) and
+[Fanboy Lists](https://fanboy.co.nz/), now, all the rules in Other Rulesets is covered.
 
 ## 可选规则 Optional Rules
 
@@ -92,7 +92,7 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 [乘风 广告过滤规则](https://gitee.com/xinggsf/Adblock-Rule/) | [rule.txt](https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt)
 [乘风 视频广告过滤规则](https://gitee.com/xinggsf/Adblock-Rule/) | [mv.txt](https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt)
 [jCleanList](https://github.com/jiayiming/jCleanList) | [jCleanList_all.txt](https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt)
-[N2O QuarkList](https://n2o.io/p/quarklist/) | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
+[QuarkList](https://n2o.io/p/quarklist/) | [quarklist.txt](https://n2o.io/p/quarklist/dist/quarklist.txt)
 [ublock-CingList](https://github.com/dupontjoy/customization/tree/master/Rules/uBlock) | [ublock-CingList.txt](https://github.com/dupontjoy/customization/blob/master/Rules/uBlock/ublock-CingList.txt)
 
 ### Intl

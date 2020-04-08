@@ -3,6 +3,19 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! 乘风 广告过滤规则
+@@*$stylesheet,badfilter
+@@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
+
+! ||g.$third-party,subdocument,script,badfilter
+@@||g.$third-party,subdocument,script,cname
+
+! QuarkList
+@@||n2o.io^$badfilter
+
+! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io
+||tajs.qq.com^$domain=n2o.io,important
+
 ! Google Blog
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
