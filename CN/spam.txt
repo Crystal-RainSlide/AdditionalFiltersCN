@@ -204,18 +204,27 @@ bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
 ! 殁飘遥，你这个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
 www.cnbeta.com##.pageFooter .media > .links a[href="https://www.laomoit.com/"]
 
-! 提示
-www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+! 高速下载
+dl.3dmgame.com##.quickdown2
+dl.3dmgame.com###feedback + .bown_bt_title
+dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
 ! 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
 
+! 提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+
 icopy.site###backToMainSite
+
+! ----
 
 ! 文字链脚本
 ||gh.bdstatic.com/static/gh/js/ll/m_word.js
 ! ||entry.baidu.com/rp/wordner
 ||static.yxdown.com/all/js/pb2.js
+
+! ----
 
 ! 导航网站
 

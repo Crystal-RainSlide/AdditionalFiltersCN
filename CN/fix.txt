@@ -6,15 +6,20 @@
 ! 乘风 广告过滤规则
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
-
 ! ||g.$third-party,subdocument,script,badfilter
 @@||g.$third-party,subdocument,script,cname
+@@||ueditor.baidu.com/website/images/banner-bg.png
 
 ! QuarkList
 @@||n2o.io^$badfilter
-
 ! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io
 ||tajs.qq.com^$domain=n2o.io,important
+
+! 海盗湾改版
+@@||thepiratebay.org^$csp,1p
+@@||thepiratebay.org/static/main.js$script,1p
+@@||torrindex.net^$domain=thepiratebay.org
+@@||apibay.org^$xhr,domain=thepiratebay.org
 
 ! Google Blog
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
@@ -29,6 +34,7 @@
 ! wikiHow
 @@||www.wikihow.com/images/*$image
 
+! Second Life
 @@||slm-assets.secondlife.com/assets/*$image
 
 ! mp.weixin.qq.com 概率性

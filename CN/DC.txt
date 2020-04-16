@@ -111,7 +111,8 @@ baidu.com/static/mapping/*.php
 ||guanjia.qq.com/assets/js/*$script
 
 ! Ali
-*.mmstat.com/*$important
+
+! ||mmstat.com^
 
 ||g.alicdn.com/alilog/mlog/xwj_heat.js
 ! g.alicdn.com/alilog/mlog/aplus_v2.js
@@ -137,7 +138,8 @@ baidu.com/static/mapping/*.php
 ||log.study.163.com^
 ||netease.com/track/*
 
-||hubble-js-bucket.nosdn.127.net/DATracker.sync
+||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
+||hubble-js-bucket.nosdn.127.net/DATracker.*.js
 ||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
 
 ||g.163.com/a$image
@@ -194,7 +196,7 @@ baidu.com/static/mapping/*.php
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
-! 测试确定屏蔽后无任何影响。
+! 测试确定：屏蔽后无任何影响。
 ! 但由于涉及网课，出于保守考虑，不处理不明确的收集。
 ! ||fystat-ans.chaoxing.com/log/*
 
@@ -210,6 +212,11 @@ baidu.com/static/mapping/*.php
 
 ! 中国大学 MOOC
 ||edu-cms.nosdn.127.net/topics/js/sentry*$script
+
+! 雨课堂
+! ||www.yuketang.cn/video-log/log/unified/
+||www.yuketang.cn/*-log/*
+||www.yuketang.cn/*/log/*
 
 ! 芒果 TV
 ||log.mgtv.com^
@@ -243,6 +250,15 @@ baidu.com/static/mapping/*.php
 
 ! 携程
 ||u.ctrip.com/union/*$third-party
+
+! 3DM
+||work.3dmgame.com/js/statistics.js
+||work.3dmgame.com/statistics
+||dl.3dmgame.com/page/js/advert.js$important
+! ||dl.3dmgame.com/api/countmattercnum
+! ||dl.3dmgame.com/api/countviews
+! ||dl.3dmgame.com/api/countdown
+||dl.3dmgame.com/api/count*
 
 ! 17173
 ! 这都什么人涂的破站啊，乱成这样，收集到的数据真的能用吗？

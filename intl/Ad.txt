@@ -75,8 +75,6 @@ apkpure.com##.ad-box-auto
 ! XDA
 forum.xda-developers.com###honor-launch-banner
 
-thepiratebay.org##a[href="https://www.azirevpn.com/landing"]
-
 fandom.com##.mcf-card-sponsored-content
 
 css-tricks.com###all-ads

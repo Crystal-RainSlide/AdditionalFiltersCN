@@ -66,15 +66,15 @@ merge-rulesets: function [
 	change-dir working-dir
 
 	; traverse the working directory
-	foreach item read working-dir [
+	foreach file read working-dir [
 		either all [
-			%.txt = suffix? item ; file's extention name matches *.txt
-			output-file <> item  ; file is not output-file itself
+			%.txt = suffix? file ; file's extention name matches *.txt
+			output-file <> file  ; file is not output-file itself
 		] [
-			prin "Join " print item
-			append output-result clean-ruleset read item
+			prin "Join " print file
+			append output-result clean-ruleset read file
 		] [
-			prin "Ignore " print item
+			prin "Ignore " print file
 		]
 	]
 

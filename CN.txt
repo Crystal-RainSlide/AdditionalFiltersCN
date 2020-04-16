@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 8-Apr-2020
-! Last Modified: 8-Apr-2020/18:12:50+08:00
+! Last updated: 16-Apr-2020
+! Last Modified: 16-Apr-2020/10:54:39+08:00
 
 ! Bilibili
 ! 黑板报与手游广告（相关推荐首条内容）
@@ -510,12 +510,17 @@ userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
 userstyles.org##.walking
 
+! ChinaZ
 www.chinaz.com##.cz-weixin
 
 ! 虾米
 www.xiami.com###qrcode
 
+! 3DM
 dl.3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
+
+! W3CSchool
+www.w3cschool.cn###topbanner
 
 music.taihe.com###__qianqian_pop
 
@@ -639,7 +644,8 @@ baidu.com/static/mapping/*.php
 ||guanjia.qq.com/assets/js/*$script
 
 ! Ali
-*.mmstat.com/*$important
+
+! ||mmstat.com^
 
 ||g.alicdn.com/alilog/mlog/xwj_heat.js
 ! g.alicdn.com/alilog/mlog/aplus_v2.js
@@ -665,7 +671,8 @@ baidu.com/static/mapping/*.php
 ||log.study.163.com^
 ||netease.com/track/*
 
-||hubble-js-bucket.nosdn.127.net/DATracker.sync
+||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
+||hubble-js-bucket.nosdn.127.net/DATracker.*.js
 ||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
 
 ||g.163.com/a$image
@@ -722,7 +729,7 @@ baidu.com/static/mapping/*.php
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
-! 测试确定屏蔽后无任何影响。
+! 测试确定：屏蔽后无任何影响。
 ! 但由于涉及网课，出于保守考虑，不处理不明确的收集。
 ! ||fystat-ans.chaoxing.com/log/*
 
@@ -738,6 +745,11 @@ baidu.com/static/mapping/*.php
 
 ! 中国大学 MOOC
 ||edu-cms.nosdn.127.net/topics/js/sentry*$script
+
+! 雨课堂
+! ||www.yuketang.cn/video-log/log/unified/
+||www.yuketang.cn/*-log/*
+||www.yuketang.cn/*/log/*
 
 ! 芒果 TV
 ||log.mgtv.com^
@@ -771,6 +783,15 @@ baidu.com/static/mapping/*.php
 
 ! 携程
 ||u.ctrip.com/union/*$third-party
+
+! 3DM
+||work.3dmgame.com/js/statistics.js
+||work.3dmgame.com/statistics
+||dl.3dmgame.com/page/js/advert.js$important
+! ||dl.3dmgame.com/api/countmattercnum
+! ||dl.3dmgame.com/api/countviews
+! ||dl.3dmgame.com/api/countdown
+||dl.3dmgame.com/api/count*
 
 ! 17173
 ! 这都什么人涂的破站啊，乱成这样，收集到的数据真的能用吗？
@@ -808,15 +829,20 @@ baidu.com/static/mapping/*.php
 ! 乘风 广告过滤规则
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
-
 ! ||g.$third-party,subdocument,script,badfilter
 @@||g.$third-party,subdocument,script,cname
+@@||ueditor.baidu.com/website/images/banner-bg.png
 
 ! QuarkList
 @@||n2o.io^$badfilter
-
 ! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io
 ||tajs.qq.com^$domain=n2o.io,important
+
+! 海盗湾改版
+@@||thepiratebay.org^$csp,1p
+@@||thepiratebay.org/static/main.js$script,1p
+@@||torrindex.net^$domain=thepiratebay.org
+@@||apibay.org^$xhr,domain=thepiratebay.org
 
 ! Google Blog
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
@@ -831,6 +857,7 @@ baidu.com/static/mapping/*.php
 ! wikiHow
 @@||www.wikihow.com/images/*$image
 
+! Second Life
 @@||slm-assets.secondlife.com/assets/*$image
 
 ! mp.weixin.qq.com 概率性
@@ -1192,18 +1219,27 @@ bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
 ! 殁飘遥，你这个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
 www.cnbeta.com##.pageFooter .media > .links a[href="https://www.laomoit.com/"]
 
-! 提示
-www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+! 高速下载
+dl.3dmgame.com##.quickdown2
+dl.3dmgame.com###feedback + .bown_bt_title
+dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
 ! 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
 
+! 提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+
 icopy.site###backToMainSite
+
+! ----
 
 ! 文字链脚本
 ||gh.bdstatic.com/static/gh/js/ll/m_word.js
 ! ||entry.baidu.com/rp/wordner
 ||static.yxdown.com/all/js/pb2.js
+
+! ----
 
 ! 导航网站
 

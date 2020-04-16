@@ -102,12 +102,17 @@ userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
 userstyles.org##.walking
 
+! ChinaZ
 www.chinaz.com##.cz-weixin
 
 ! 虾米
 www.xiami.com###qrcode
 
+! 3DM
 dl.3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
+
+! W3CSchool
+www.w3cschool.cn###topbanner
 
 music.taihe.com###__qianqian_pop
 
