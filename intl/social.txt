@@ -54,3 +54,5 @@ freestyler.ws##.follow-us-block
 fanboy.co.nz##.sf-menu > li:has( > ul > li > a[href="https://twitter.com/fanboynz"])
 
 minidayz.com##.social-widget
+
+www.intelrealsense.com##.social-links

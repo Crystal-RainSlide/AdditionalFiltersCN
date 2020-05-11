@@ -9,6 +9,9 @@
 ! Chrome Ad on Firefox
 google.com##.gb_g.gb_aa
 
+! YouTube
+www.youtube.com##ytd-mealbar-promo-renderer
+
 ! Twitter
 ||twitter.com/i/users/prompts
 ||twitter.com/i/promoted_content/log.json

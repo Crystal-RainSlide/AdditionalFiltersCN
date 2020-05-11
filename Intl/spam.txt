@@ -45,3 +45,6 @@ npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bol
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
 userstyle.org###stylish-code:style(font-family: monospace !important)
+
+get-url.com##+js(nano-sib)
+get-url.com##body > .item.html

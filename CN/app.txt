@@ -36,6 +36,7 @@ www.zybang.com##.bottomBannerPlaceholder
 
 www.zybang.com###aside
 www.zybang.com##.main-con:style(margin: 0 !important)
+www.zybang.com##.questionWarp > dl:style(width: auto !important)
 
 ! Google 翻译
 translate.google.cn##.app-download-bar
@@ -108,8 +109,16 @@ www.chinaz.com##.cz-weixin
 ! 虾米
 www.xiami.com###qrcode
 
+! 新京报
+www.bjnews.com.cn###follow
+
 ! 3DM
+www.3dmgame.com##.content a[href="https://www.3dmgame.com/app.html"]
 dl.3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
+
+! 稻壳阅读器
+! www.doc88.com###pageContainer.page_view > div[style]:not([class]):not([id]):has(> .dk-bg)
+www.doc88.com###pageContainer.page_view > div[style]:not([class]):not([id])
 
 ! W3CSchool
 www.w3cschool.cn###topbanner

@@ -9,7 +9,7 @@
 */js/visit$xhr
 
 ! ||www.163.com/special/*/performance.js
-*/performance.js
+||163.com^*/performance.js
 
 ! gss0.baidu.com/*/static/api/js/trans/logger.js
 !   www.cnbeta.com/static/api/js/trans/logger.js
@@ -69,7 +69,7 @@
 ||jingyan.baidu.com/asyncreq/log
 
 ! wenku.baidu.com
-||wkctj.baidu.com/
+||wkctj.baidu.com^
 ||wenku.baidu.com/doc/interface/docCount
 ||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
 ||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
@@ -100,8 +100,7 @@ baidu.com/static/mapping/*.php
 ! ||mp.weixin.qq.com/mp/jsreport?
 ! ||mp.weixin.qq.com/mp/fereport?
 ! ||mp.weixin.qq.com/mp/musicreport?
-||mp.weixin.qq.com/mp/*report?$image
-||mp.weixin.qq.com/mp/*report?$xhr
+||mp.weixin.qq.com/mp/*report?$image,xmlhttprequest
 ||mp.weixin.qq.com/mp/jsmonitor?
 ||badjs.weixinbridge.com^
 
@@ -223,6 +222,8 @@ baidu.com/static/mapping/*.php
 
 ! Zhihu
 ||sugar.zhihu.com^
+||www.zhihu.com/sc-profiler$xhr
+||lens.zhihu.com/report$xhr
 
 ! CNBeta
 ! more info:
@@ -292,3 +293,6 @@ baidu.com/static/mapping/*.php
 ||data-xxt.aichaoxing.com/analysis/datalog
 
 ||www.3h3.com/template/3h3/js/dxinfo.js
+
+! 广东中山图书馆
+||gdslzstsg.superlib.libsou.com/visit_log.jspx

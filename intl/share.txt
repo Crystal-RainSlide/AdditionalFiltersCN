@@ -52,6 +52,9 @@ www.scmp.com##.share
 
 blog.twitter.com##div[class$="__share--icons"]
 
+! The White House
+www.whitehouse.gov##.editor__module-share
+
 ! mediabiasfactcheck.com
 */sharedaddy/sharing.min.js$script
 */add-to-any/addtoany.min.js$script

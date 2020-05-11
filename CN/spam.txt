@@ -149,6 +149,7 @@ kan.china.com###page-idle-mask,#page-idle-box
 ! Zhihu
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
 www.zhihu.com##.Popover-content:has-text(知乎热搜)
+www.zhihu.com##.ReadingMembership
 
 ! 右侧相关推荐
 www.zhihu.com##.RelatedCommodities-title
@@ -166,6 +167,9 @@ mooc.study.163.com##.j-search > .j-label
 
 ! 简书 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]
+
+! 新京报
+www.bjnews.com.cn##.layer_mian
 
 ! 超星
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js

@@ -9,3 +9,5 @@
 */jweixin-*.js$script
 
 ||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js
+
+www.bjnews.com.cn###v4_wxin

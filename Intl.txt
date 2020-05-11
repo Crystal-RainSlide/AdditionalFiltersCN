@@ -6,14 +6,17 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 16-Apr-2020
-! Last Modified: 16-Apr-2020/10:54:39+08:00
+! Last updated: 11-May-2020
+! Last Modified: 11-May-2020/19:58:35+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
 
 ! Chrome Ad on Firefox
 google.com##.gb_g.gb_aa
+
+! YouTube
+www.youtube.com##ytd-mealbar-promo-renderer
 
 ! Twitter
 ||twitter.com/i/users/prompts
@@ -202,6 +205,11 @@ fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 
 itch.io##.app_banner
 
+! cleardot.gif
+! ||www.google.com/images/cleardot.gif?
+! ||mail.google.com/mail/images/cleardot.gif?
+*/images/cleardot.gif?
+
 ! Google
 www.google.*##+js(set, rwt, noopFunc)
 www.google.*##+js(ra, onmousedown, #rso a)
@@ -328,6 +336,9 @@ www.scmp.com##.share
 
 blog.twitter.com##div[class$="__share--icons"]
 
+! The White House
+www.whitehouse.gov##.editor__module-share
+
 ! mediabiasfactcheck.com
 */sharedaddy/sharing.min.js$script
 */add-to-any/addtoany.min.js$script
@@ -397,6 +408,8 @@ fanboy.co.nz##.sf-menu > li:has( > ul > li > a[href="https://twitter.com/fanboyn
 
 minidayz.com##.social-widget
 
+www.intelrealsense.com##.social-links
+
 ! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
 ! （每个约 20 MB）
 ! Google 怎么想的啊。
@@ -439,3 +452,6 @@ npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bol
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
 userstyle.org###stylish-code:style(font-family: monospace !important)
+
+get-url.com##+js(nano-sib)
+get-url.com##body > .item.html
