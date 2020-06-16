@@ -8,6 +8,10 @@
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js$script
 
-||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js
-
 www.bjnews.com.cn###v4_wxin
+
+! 安全内参
+||www.secrss.com/wx_qrcode.jpg
+www.secrss.com##.qrcode
+
+||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js

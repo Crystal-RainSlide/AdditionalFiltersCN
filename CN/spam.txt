@@ -34,8 +34,9 @@ help.sogou.com##img[alt="new"]
 map.sogou.com##.nav-new
 
 www.hao123.com##.icon-new
-
 hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
+
+qzone.qq.com##.ico_new
 
 www.4399.com##.i_new
 www.4399.com##.i_hot
@@ -190,17 +191,26 @@ www.pigai.org##body:style(cursor: unset !important)
 ! PCBeta
 ||www.pcbeta.com/data/cache/ggk.js
 
-! 奶牛快传全屏视频背景
+! 189云盘 试试转存到云盘，文件永久保存，极速安全。
+cloud.189.cn##.tips-save-box
+
+! 奶牛快传 全屏视频背景
 cowtransfer.com##.cover-image-com
 ||background.cowtransfer.com^$subdocument
 
 ! CSDN
-! 记录你的技术成长历程…
+!     首次访问登录弹窗
+csdn.net##.login-mark
+csdn.net##.login-box
+!   博客
+!     记录你的技术成长历程…
 blog.csdn.net###writeGuide
-! 打赏
+!     打赏
 blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
-
-! CSDN 论坛 强加在每条发言下的关联推荐
+!     抢沙发
+blog.csdn.net##.comment-sofa-flag
+!  论坛
+!     强加在每条发言下的关联推荐
 bbs.csdn.net##.post_recommend
 bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
 bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
@@ -213,12 +223,13 @@ dl.3dmgame.com##.quickdown2
 dl.3dmgame.com###feedback + .bown_bt_title
 dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
-! 手机游戏 小游戏
+! 游侠 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
 
-! 提示
-www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+! ----
 
+! 一些不必要的提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
 icopy.site###backToMainSite
 
 ! ----

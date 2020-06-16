@@ -6,8 +6,7 @@
 ! 乘风 广告过滤规则
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
-! ||g.$third-party,subdocument,script,badfilter
-@@||g.$third-party,subdocument,script,cname
+@@||g.$cname
 @@||ueditor.baidu.com/website/images/banner-bg.png
 
 ! QuarkList

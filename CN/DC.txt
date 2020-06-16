@@ -22,6 +22,7 @@
 ! A big deal. Unblock it for the domains where it causes issues.
 ||js.sentry-cdn.com^$script
 ||sentry.io/api/*$xhr
+||unpkg.zhimg.com/@cfe/sentry-script*$script
 
 ! Baidu
 ! ||hm.baidu.com/hm.js
