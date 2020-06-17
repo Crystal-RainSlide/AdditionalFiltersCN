@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 11-May-2020
-! Last Modified: 11-May-2020/19:58:35+08:00
+! Last updated: 17-Jun-2020
+! Last Modified: 17-Jun-2020/16:59:13+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -578,6 +578,7 @@ translate.google.cn###gt-cn
 ! A big deal. Unblock it for the domains where it causes issues.
 ||js.sentry-cdn.com^$script
 ||sentry.io/api/*$xhr
+||unpkg.zhimg.com/@cfe/sentry-script*$script
 
 ! Baidu
 ! ||hm.baidu.com/hm.js
@@ -856,8 +857,7 @@ baidu.com/static/mapping/*.php
 ! 乘风 广告过滤规则
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
-! ||g.$third-party,subdocument,script,badfilter
-@@||g.$third-party,subdocument,script,cname
+@@||g.$cname
 @@||ueditor.baidu.com/website/images/banner-bg.png
 
 ! QuarkList
@@ -918,9 +918,14 @@ www.ruanyifeng.com##+js(nostif, checker)
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js$script
 
+www.bjnews.com.cn###v4_wxin
+
+! 安全内参
+||www.secrss.com/wx_qrcode.jpg
+www.secrss.com##.qrcode
+
 ||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js
 
-www.bjnews.com.cn###v4_wxin
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
 ! ||static.bshare.cn/b/button.js
@@ -1077,8 +1082,9 @@ help.sogou.com##img[alt="new"]
 map.sogou.com##.nav-new
 
 www.hao123.com##.icon-new
-
 hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
+
+qzone.qq.com##.ico_new
 
 www.4399.com##.i_new
 www.4399.com##.i_hot
@@ -1233,17 +1239,26 @@ www.pigai.org##body:style(cursor: unset !important)
 ! PCBeta
 ||www.pcbeta.com/data/cache/ggk.js
 
-! 奶牛快传全屏视频背景
+! 189云盘 试试转存到云盘，文件永久保存，极速安全。
+cloud.189.cn##.tips-save-box
+
+! 奶牛快传 全屏视频背景
 cowtransfer.com##.cover-image-com
 ||background.cowtransfer.com^$subdocument
 
 ! CSDN
-! 记录你的技术成长历程…
+!     首次访问登录弹窗
+csdn.net##.login-mark
+csdn.net##.login-box
+!   博客
+!     记录你的技术成长历程…
 blog.csdn.net###writeGuide
-! 打赏
+!     打赏
 blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
-
-! CSDN 论坛 强加在每条发言下的关联推荐
+!     抢沙发
+blog.csdn.net##.comment-sofa-flag
+!  论坛
+!     强加在每条发言下的关联推荐
 bbs.csdn.net##.post_recommend
 bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
 bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
@@ -1256,12 +1271,13 @@ dl.3dmgame.com##.quickdown2
 dl.3dmgame.com###feedback + .bown_bt_title
 dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
-! 手机游戏 小游戏
+! 游侠 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
 
-! 提示
-www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+! ----
 
+! 一些不必要的提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
 icopy.site###backToMainSite
 
 ! ----
