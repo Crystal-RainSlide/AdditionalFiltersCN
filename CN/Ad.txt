@@ -102,8 +102,11 @@ bbs.csdn.net##.bbs_feed_ad_box
 ! Jianshu
 www.jianshu.com###web-note-ad-fixed
 
-! ChinaZ
-www.chinaz.com##^div[id^="ad_code"]
+! 站长之家 ChinaZ
+||img.chinaz.com/2020/js/cpsLink.min.js
+www.chinaz.com##.header-media
+www.chinaz.com##.media-banner_auto
+www.chinaz.com##.media-banner__auto
 
 ! All ChinaZ Tools
 chinaz.com##.topTsCenter
@@ -151,7 +154,8 @@ jandan.net###comments > .commentlist > .row
 juejin.im##.recommend-box
 
 ! V2EX
-v2ex.com##.box:has(.inner > a:only-child > img[src*="/assets/sidebar/"])
+v2ex.com##.box:has(.adsbygoogle)
+v2ex.com##.box:has(> .inner > a:only-child > img[src*="/assets/sidebar/"])
 
 ! 道客巴巴
 www.doc88.com##.columns-ad
@@ -336,25 +340,34 @@ www.4243.net##.jianju
 ||www.pgyer.com/app/getAdAdsense
 
 ! Premium Content Promotion Start
+
+! 百度网盘
+
+! 超级会员自动续费大礼包
+https://pan.baidu.com/box-static/disk-system/widget/pageModule/redPicketIcon^
+
+! 网盘问卷调查广告位展现 超级会员试用拉新 会员问卷调查
+https://pan.baidu.com/box-static/interface-widget-1/mainSmallBanner^
+
+! VIP 图标
 ||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
 ||pan.baidu.com/box-static/disk-header/header/img/user-level1.png
-||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_
-||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_
+||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_*
+||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_*
 pan.baidu.com,yun.baidu.com##.JS-user-level
-pan.baidu.com,yun.baidu.com###show-buyvip-pack
-pan.baidu.com,yun.baidu.com##.buyvip-pack
 
 pan.baidu.com,yun.baidu.com##.module-header-wrapper a[title="会员中心"]
-pan.baidu.com,yun.baidu.com##.vip-notice
-pan.baidu.com,yun.baidu.com##.vip-privilege
+pan.baidu.com,yun.baidu.com##.module-header-wrapper [node-type="header-union"]
+pan.baidu.com,yun.baidu.com##.module-header-wrapper a[title="超级会员低价限时抢"]
 
+! 超级会员尊享15项特权
+pan.baidu.com,yun.baidu.com##.vip-notice, .vip-privilege
+
+! 开通会员，升至2T超大容量
 pan.baidu.com,yun.baidu.com##.get-capacity
-pan.baidu.com,yun.baidu.com##.bar > div:has-text(扩容至5T)
+pan.baidu.com,yun.baidu.com##.aside-absolute-container div:has(> .get-capacity:only-child)
 
-pan.baidu.com,yun.baidu.com##.context-menu > .list > li.separate[data-group="1"]
-pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has(.icon-menu-vip)
-! pan.baidu.com,yun.baidu.com##.icon-menu-vip
-
+! 百度贴吧 Baidu Tieba
 tieba.baidu.com###hot_thread
 tieba.baidu.com###hot_forum
 tieba.baidu.com##.banner
@@ -382,28 +395,20 @@ wenku.baidu.com###my-wkHome-vip-tips
 wenku.baidu.com###my-wkHome-vip-tips-search-bar-no-login
 wenku.baidu.com##a[title="VIP"]
 
-! Baidu Wenku Search
+! 限时福利，登录即送代金券礼包！
+wenku.baidu.com##.voucher-pop-tip
+
+! 百度文库搜索 Baidu Wenku Search
 wenku.baidu.com##.topicBox
+
+! QQ 空间
+! 开通黄钻
+user.qzone.qq.com##.qz-btn-vip-open
 
 ! 码云
 gitee.com##.wallet-banner
 gitee.com##.ent-poster
 
-ctfile.com###infoModal
-ctfile.com##.modal-backdrop
-
-ctfile.com###page-content #.download-box + .text-center
-ctfile.com###page-content > hr
-ctfile.com###page-content > hr + .row-fluid
-! ctfile.com##.row-fluid:has(.speedydown-info-box)
-
-ctfile.com##.navbar
-ctfile.com##.help-dialog
-
-||ctfile.com/premium_inpage.php
-||pipipan.com/premium_inpage.php
-ctfile.com/iajax_guest.php?*action=premium*$xmlhttprequest
-ctfile.com##.download-simple-box:nth-of-type(4) > ul > li:has(#vip_down_link)
 ! Premium Content Promotion End
 
 ! House Advertisement Start

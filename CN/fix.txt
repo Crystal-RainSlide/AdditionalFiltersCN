@@ -9,16 +9,18 @@
 @@||g.$cname
 @@||ueditor.baidu.com/website/images/banner-bg.png
 
+! jCleanList
+@@||pv.funshion.com/*/video/*$xhr
+
 ! QuarkList
 @@||n2o.io^$badfilter
 ! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io
 ||tajs.qq.com^$domain=n2o.io,important
 
-! 海盗湾改版
-@@||thepiratebay.org^$csp,1p
-@@||thepiratebay.org/static/main.js$script,1p
-@@||torrindex.net^$domain=thepiratebay.org
-@@||apibay.org^$xhr,domain=thepiratebay.org
+! ublock-CingList
+pan.baidu.com,yun.baidu.com#@#.bd-aside
+
+! ----
 
 ! Google Blog
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
@@ -26,6 +28,10 @@
 
 ! bugs.chromium.org
 @@*/static/js/graveyard/popup_controller.js
+
+! 超星
+@@||ananas.chaoxing.com/video/*$media
+@@||chaoxing.com/schoolCourseInfo/display_add$xhr
 
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*$image
@@ -38,9 +44,6 @@
 
 ! mp.weixin.qq.com 概率性
 @@||res.wx.qq.com/mmbizwap/*$script
-
-! 超星
-@@||ananas.chaoxing.com/video/*$media
 
 ! Sougu
 @@||sogoucdn.com^*&referer=$image

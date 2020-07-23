@@ -44,38 +44,70 @@ wenku.baidu.com##.share-btn-wrap
 zhidao.baidu.com##.share-area
 zhidao.baidu.com##.jump-share
 
+! needShareButton
+! https://github.com/DzmVasileusky/needShareButton
 */needsharebutton/needsharebutton.js$script
 
-||g.csdnimg.cn/??sharewx/*/sharewx.js
-
+! 网易 163
 ||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
 news.163.com##.post_topshare
 
-people.com.cn###ops_share
-
+! 新浪 Sina
 sina.com.cn##.tool-wb
 sina.com.cn##.tool-wx
 sina.com.cn##.tool-share
 
-||news.sina.com.cn/268/2014/0919/bshare_update.js
+! ||news.sina.com.cn/268/2014/0919/bshare_update.js
+||news.sina.com.cn/*/bshare_update.js
+
+! 搜狐 Sohu
 www.sohu.com###share
 
 photo.blog.sina.com.cn###sharePhoto
 
+! 腾讯新闻
+new.qq.com##.share
+new.qq.com##.share-title
+
+! 凤凰网
+! 凤凰网使用多个页面结构有巨大差异的子域名，但采用相对统一的方式提供分享功能。
+! 选中分享 #spam
+ifeng.com##body > div[class^="select_share-"]
+
+! 页面两侧分享
+ifeng.com##div[class^="articleLeftShare-"]
+
+! 部分分享没有统一的最近父级元素，但应当都在 .bottom_affix-* 之下
+! 微博 微信 朋友圈 QQ空间
+ifeng.com##div[class^="bottom_affix-"] span[data-item="sina"]
+ifeng.com##div[class^="bottom_affix-"] span[data-item="wechat"]
+ifeng.com##div[class^="bottom_affix-"] span[data-item="cof"]
+ifeng.com##div[class^="bottom_affix-"] span[data-item="qqzone"]
+
+! 澎湃新闻
+www.thepaper.cn##.newsct_share_detail
+
+! 界面新闻
+www.jiemian.com##.article-share
+
+! 人民网
+people.com.cn###ops_share
+
+! CSDN
+||g.csdnimg.cn/??sharewx/*/sharewx.js
+
+! cnBeta
 www.cnbeta.com##.article-share-code
 
-
-www.iplaysoft.com###share_toolbar
-www.iplaysoft.com###share_toolbar_wrapper
-
-techcrunch.cn##.social-share
-
+! 站长之家 ChinaZ
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
 
-www.doc88.com##.share
+! 异次元软件世界
+www.iplaysoft.com###share_toolbar
+www.iplaysoft.com###share_toolbar_wrapper
 
-www.panduoduo.net##.share-bar
+www.doc88.com##.share
 
 club.kdnet.net##.new-share-main
 

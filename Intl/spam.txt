@@ -30,21 +30,22 @@ sourceforge.net###newsletter-floating
 ! 将通知图标颜色设为灰色
 disqus.com##.unread .notification-icon:style(color: #656c7a !important)
 
+! Wikia Bar
 fandom.com###WikiaBar
 fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
 
 fandom.com###mixed-content-footer
 
+! Show hidden content
 www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
 www.experts-exchange.com##.interceptContainer
 
+! New
 9gag.com##.nav-menu .new::after
 
 ! Larger Close Button
 npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
+! Use monospace for code
 userstyle.org###stylish-code:style(font-family: monospace !important)
-
-get-url.com##+js(nano-sib)
-get-url.com##body > .item.html

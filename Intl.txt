@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 17-Jun-2020
-! Last Modified: 17-Jun-2020/16:59:13+08:00
+! Last updated: 23-Jul-2020
+! Last Modified: 23-Jul-2020/17:15:35+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -90,6 +90,8 @@ css-tricks.com###all-ads
 css-tricks.com##.fem-ad
 
 www.accuweather.com###offers
+
+www.sololearn.com##+js(rc, hidden, body)
 
 uptodown.com##.banner-download
 uptodown.com##.gad
@@ -208,6 +210,7 @@ itch.io##.app_banner
 ! cleardot.gif
 ! ||www.google.com/images/cleardot.gif?
 ! ||mail.google.com/mail/images/cleardot.gif?
+! ||mail.google.com/mail/u/0/images/cleardot.gif?
 */images/cleardot.gif?
 
 ! Google
@@ -270,6 +273,8 @@ www.google.*##+js(ra, onmousedown, #rso a)
 ||wikia.nocookie.net/*/*tracking*
 
 ||symbolab.com/detailedLog$xhr
+
+||www.sololearn.com/Scripts/fngprnt.js
 
 konggames.com##+js(acis, window.NREUM)
 konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
@@ -437,21 +442,22 @@ sourceforge.net###newsletter-floating
 ! 将通知图标颜色设为灰色
 disqus.com##.unread .notification-icon:style(color: #656c7a !important)
 
+! Wikia Bar
 fandom.com###WikiaBar
 fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
 
 fandom.com###mixed-content-footer
 
+! Show hidden content
 www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
 www.experts-exchange.com##.interceptContainer
 
+! New
 9gag.com##.nav-menu .new::after
 
 ! Larger Close Button
 npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
+! Use monospace for code
 userstyle.org###stylish-code:style(font-family: monospace !important)
-
-get-url.com##+js(nano-sib)
-get-url.com##body > .item.html

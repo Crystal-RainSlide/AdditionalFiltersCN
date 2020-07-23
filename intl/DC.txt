@@ -6,6 +6,7 @@
 ! cleardot.gif
 ! ||www.google.com/images/cleardot.gif?
 ! ||mail.google.com/mail/images/cleardot.gif?
+! ||mail.google.com/mail/u/0/images/cleardot.gif?
 */images/cleardot.gif?
 
 ! Google
@@ -68,6 +69,8 @@ www.google.*##+js(ra, onmousedown, #rso a)
 ||wikia.nocookie.net/*/*tracking*
 
 ||symbolab.com/detailedLog$xhr
+
+||www.sololearn.com/Scripts/fngprnt.js
 
 konggames.com##+js(acis, window.NREUM)
 konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)

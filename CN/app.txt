@@ -25,18 +25,20 @@ zhidao.baidu.com##.zhidao-app
 ||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
-www.zybang.com##.app-download
-www.zybang.com##.QRWarp
+zybang.com##.app-download
+zybang.com##.QRWarp
 
-www.zybang.com###rightAsideBannerFlow
-www.zybang.com###bottomBannerLink
-www.zybang.com##.bottomTextFlow
-www.zybang.com##.bottomBannerFlow
-www.zybang.com##.bottomBannerPlaceholder
+zybang.com###rightAsideBannerFlow
+zybang.com###bottomBannerLink
+zybang.com##.bottomTextFlow
+zybang.com##.bottomBannerFlow
+zybang.com##.bottomBannerPlaceholder
 
-www.zybang.com###aside
-www.zybang.com##.main-con:style(margin: 0 !important)
-www.zybang.com##.questionWarp > dl:style(width: auto !important)
+zybang.com###aside
+zybang.com##.qb_wgt-navbar .layout .user-center:style(position: static !important; float: right)
+zybang.com##.question-view .main-body .main-con, .question-view .main-body footer:style(margin-left: auto !important; margin-right: auto !important)
+zybang.com##.questionWarp > dl:style(box-sizing: border-box; width: 100% !important)
+zybang.com##.qb_wgt-question .qb-content, #good-answer:style(font-size: large !important)
 
 ! Google 翻译
 translate.google.cn##.app-download-bar
@@ -67,6 +69,9 @@ news.163.com##.ntes-nav-mobile-title
 music.163.com##.download
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
+! 京东
+www.jd.com##.mobile_static
+
 ! 知乎
 www.zhihu.com##.AppBanner
 
@@ -78,14 +83,20 @@ daily.zhihu.com##.download
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn
 
+! 澎湃新闻
+www.thepaper.cn##.rtapp_down
+
+! 荔枝FM
+www.lizhi.fm##.dlBanner
+
+! OSChina
+www.oschina.net###btnDownloadApp
+
 ! 爱词霸
 www.iciba.com##.common-top-nav-hot
 www.iciba.com##.info-product
 www.iciba.com##.product
 www.iciba.com##.sentence
-
-! OSChina
-www.oschina.net###btnDownloadApp
 
 ! Coolapk
 coolapk.com###head

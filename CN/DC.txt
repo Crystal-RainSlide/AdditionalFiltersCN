@@ -29,7 +29,7 @@
 ||hm.baidu.com^
 @@||dwz.hm.baidu.com^
 
-.baidupcs.com/monitor.jpg
+||baidupcs.com/monitor.jpg
 */baidu-tongji/*
 */baidu-tongji.js
 */baidutongji.js
@@ -60,14 +60,16 @@
 ! ||fex.bdstatic.com/hunter/alog/speed.min.js
 */alog/*$script
 
+https://code.bdstatic.com/npm/spy-client^
+
 ! pan.baidu.com
-||pan.baidu.com/api/report/user
+||pan.baidu.com/api/report/user^
 ||pan.baidu.com/box-static/disk-system/js/alog.js
 ||pan.baidu.com/box-static/disk-system/js/log.js
 ||pan.baidu.com/box-static/disk-system/js/dp.js
-||pan.baidu.com/pcloud/counter/refreshcount
+||pan.baidu.com/pcloud/counter/refreshcount^
 
-||jingyan.baidu.com/asyncreq/log
+||jingyan.baidu.com/asyncreq/log^
 
 ! wenku.baidu.com
 ||wkctj.baidu.com^
@@ -80,13 +82,12 @@
 hao123.com/static/mapping/*.php
 baidu.com/static/mapping/*.php
 
-! iqiyi
-||msg.qy.net/
-
 ! Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
 ! ||mp.weixin.qq.com/mp/report?$image
 ||qq.com/*/report?$image
+
+||aegis.qq.com^
 
 ||report.url.cn^
 ||report.huatuo.qq.com^
@@ -172,10 +173,17 @@ baidu.com/static/mapping/*.php
 ||log.mix.sina.com.cn^
 ||sbeacon.sina.com.cn^
 
+! Sohu
+||statics.itc.cn/iwtReport^$script
+
 ! Sougu
 ! ||dlweb.sogoucdn.com/hhytrace/trace_*.js
 ||dlweb.sogoucdn.com/hhytrace/*
 ||pic.sogou.com/pics/wap/home/visits.jsp$xhr
+
+! 站长之家 ChinaZ
+||img.chinaz.com/2020/js/stat.min.js
+||my.chinaz.com/js/uc1.js
 
 ! Bing
 ||bing.com/fd/ls/*
@@ -199,9 +207,10 @@ baidu.com/static/mapping/*.php
 ! 测试确定：屏蔽后无任何影响。
 ! 但由于涉及网课，出于保守考虑，不处理不明确的收集。
 ! ||fystat-ans.chaoxing.com/log/*
+! 但是，像这种数据收集，就很非常特别明确了。
+||data-xxt.aichaoxing.com/analysis/datalog
 
 ! 智慧树
-! 但是，像这种数据收集，就很非常特别明确了。
 ! ||collector.zhihuishu.com/video/web/collect$xhr
 ||collector.zhihuishu.com^
 ! ||hilog.zhihuishu.com/public/jsonp/collect$xhr
@@ -218,13 +227,10 @@ baidu.com/static/mapping/*.php
 ||www.yuketang.cn/*-log/*
 ||www.yuketang.cn/*/log/*
 
-! 芒果 TV
-||log.mgtv.com^
-
 ! Zhihu
 ||sugar.zhihu.com^
-||www.zhihu.com/sc-profiler$xhr
-||lens.zhihu.com/report$xhr
+||www.zhihu.com/sc-profiler^$xhr
+||lens.zhihu.com/report^$xhr
 
 ! CNBeta
 ! more info:
@@ -235,8 +241,20 @@ baidu.com/static/mapping/*.php
 ! CSDN
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
 ! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
-||event.csdn.net/logstores/*$xhr
-||g.csdnimg.cn/track/*
+||event.csdn.net/logstores^$xhr
+||g.csdnimg.cn/track^
+
+! ---
+
+! 爱奇艺 iqiyi
+||msg.qy.net^
+
+! 芒果 TV
+||log.mgtv.com^
+
+! 风行
+! ||static.funshion.com/open/fis/js/v12/common/log/thirdlog_a0ffe888c6.js
+||static.funshion.com/*/common/log^
 
 ! ---
 
@@ -268,7 +286,7 @@ baidu.com/static/mapping/*.php
 ||www.17173.com/2015/new/news-v-daka.js
 ||news.17173.com/2014/popupnews.config.js
 ||ue.17173cdn.com/a/lib/stats/setlink.min.js
-||ue.17173cdn.com/a/money/*
+||ue.17173cdn.com/a/money^
 ||ue.17173cdn.com/a/news/final/2014/js/tpl.min.js
 ||ue.17173cdn.com/a/site/a/appcode/production.js
 ||ue.17173cdn.com/a/www/index/2016/js/ping.js
@@ -277,7 +295,7 @@ baidu.com/static/mapping/*.php
 ||ue.17173cdn.com/cache/lib/v2/odvmonitor/lp.min.js
 
 ! U77
-||www.u77.com/log/*
+||www.u77.com/log^
 
 ! doc88
 ||static.doc88.com/assets/pv.swf$important
@@ -286,12 +304,8 @@ baidu.com/static/mapping/*.php
 
 ! 跟谁学
 ||click.genshuixue.com^
-! Easylist China 误杀
-@@||cdns.genshuixue.com^$script
 
 ||www.souid.com/templets/js/tongji2.js
-
-||data-xxt.aichaoxing.com/analysis/datalog
 
 ||www.3h3.com/template/3h3/js/dxinfo.js
 

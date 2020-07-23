@@ -34,7 +34,7 @@ help.sogou.com##img[alt="new"]
 map.sogou.com##.nav-new
 
 www.hao123.com##.icon-new
-hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
+hao.qq.com, daohang.qq.com, 123.sogou.com##.i-new, .i-hot
 
 qzone.qq.com##.ico_new
 
@@ -47,8 +47,11 @@ music.163.com##.hot
 music.163.com##.m-subnav .nav a em span
 music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 
-gitee.com##.label.red.ui
-www.oschina.net##.label.red.ui
+search.jd.com##.jdm-toolbar .tab-tip
+
+www.fun.tv##.new > i, b > .new
+
+www.oschina.net, gitee.com##.label.red.ui
 www.oschina.net###icon_mayun, .icon_mayun
 www.oschina.net##.giteetip
 www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
@@ -101,19 +104,14 @@ cn.bing.com###ev_talkbox_wrapper
 ! 取消各种限制
 www.souid.com##+js(ra, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
 
-! B站播放器上部滚动内容
-||api.bilibili.com/x/player/carousel.so
-www.bilibili.com##.v-live-recommend
-! 搜索框 Placeholder
-||api.bilibili.com/x/web-interface/search/default
-
-||video.sina.com.cn/interface/search_hot.php
+! 百度 部分页面的干扰内容
+||baidu.com/xpage^
 
 ||baike.baidu.com/cms/global/home_config.json
 
-! ||exp.bdstatic.com/static/common-jquery/widget/js/logic/log/*
-||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/*
-||exp.bdstatic.com/static/activity/widget/ui/redbox/*
+! ||exp.bdstatic.com/static/common-jquery/widget/js/logic/log^
+||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg^
+||exp.bdstatic.com/static/activity/widget/ui/redbox^
 jingyan.baidu.com###my-income
 jingyan.baidu.com##.wgt-common-nav
 jingyan.baidu.com###auto-app-placehold
@@ -142,10 +140,12 @@ wenku.baidu.com###share-tips
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
 
+
+
 kan.china.com##.pages a[href^="/recommend.shtml"]
 kan.china.com###popup-news
 kan.china.com##.badge-number
-kan.china.com###page-idle-mask,#page-idle-box
+kan.china.com###page-idle-mask, #page-idle-box
 
 ! Zhihu
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
@@ -156,8 +156,20 @@ www.zhihu.com##.ReadingMembership
 www.zhihu.com##.RelatedCommodities-title
 www.zhihu.com##.RelatedCommodities-list
 
+! Bilibili
+! 播放器上部滚动内容
+||api.bilibili.com/x/player/carousel.so
+www.bilibili.com##.v-live-recommend
+! 搜索框 Placeholder
+||api.bilibili.com/x/web-interface/search/default
+
+! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
 
+! 新浪视频 热搜
+||video.sina.com.cn/interface/search_hot.php
+
+! 智慧树
 ! 绑定手机号
 www.icourse163.org##.bind-phone-modal
 ! 隐私协议
@@ -172,8 +184,12 @@ www.jianshu.com##header span[aria-label="简书钻"]
 ! 新京报
 www.bjnews.com.cn##.layer_mian
 
+! QQ 看点快报 热点推荐
+kuaibao.qq.com##.recomm-card
+
 ! 超星
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js
+! ||chaoxing.com/ananas/space/exam/js/enc_js_exam.js
 
 ! 现在，屏蔽 initdatawithviewer 将导致视频无法加载
 ! 请使用 Header Editor 将：
