@@ -103,9 +103,9 @@ www.cnbeta.com##.article-share-code
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
 
-! 异次元软件世界
-www.iplaysoft.com###share_toolbar
-www.iplaysoft.com###share_toolbar_wrapper
+! 异次元软件世界​
+||cdn.iplaysoft.com/common/lib/socialshare/*
+www.iplaysoft.com###socialshare
 
 www.doc88.com##.share
 

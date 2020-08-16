@@ -60,17 +60,24 @@ www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
 www.pixiv.net##+js(rc, with-ad)
 www.pixiv.net###column-misc > .ad + .item:style(margin-top: 0 !important)
 
+! NPR
+www.npr.org###main-sidebar:has(> #ad-standard-wrap:only-child)
+
+! TechCrunch
+techcrunch.com##.sidebar
+techcrunch.com##.content-wrap .content:style(width:auto !important)
+techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !important)
+
+! Slate
+slate.com##.taboola-widget
+slate.com##.top-ad
+
 ! Textnow
 www.textnow.com###bannerContainer
 www.textnow.com##.rotation-manager-slot
 www.textnow.com##.notification-priming-modal
 www.textnow.com##.toast-mask
 www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
-
-! TechCrunch
-techcrunch.com##.sidebar
-techcrunch.com##.content-wrap .content:style(width:auto !important)
-techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !important)
 
 ! APKPure
 apkpure.com##.ad-box-auto
@@ -170,11 +177,19 @@ win7gadgets.com##.gads
 
 www.faproulette.co##.wide-container > div[style]:not([id]):not([class])
 
+xhamster.com##.video-page .player-container:style(margin-right: 0 !important)
+xhamster.com##.video-page .comments-container .comments-wrap:style(margin-inline: auto !important)
+xhamster.com##.clipstore-bottom
+xhamster.com##.clipstore-results
+xhamster.com##div[class^="wih-"]
+
 ||rusenov.com^$xhr
 www.boundhub.com##noindex
 ! www.boundhub.com##.to1p,.pl2ace,.o3pt,.tabl4e,.spon5sor
 
 ! Aff
 ! VULTR
-||www.vultr.com/dist/img/brand/banner_?.png
-||www.vultr.com/media/banner_?.png
+||www.vultr.com/dist/img/brand/banner_*.png
+||www.vultr.com/media/banner_*.png
+
+##a[href^="https://www.digitalocean.com/?refcode=*"]

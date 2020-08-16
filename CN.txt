@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 23-Jul-2020
-! Last Modified: 23-Jul-2020/17:15:35+08:00
+! Last updated: 16-Aug-2020
+! Last Modified: 16-Aug-2020/22:04:18+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -81,6 +81,8 @@ www.zhihu.com##.RichText-MCNLinkCardContainer
 www.xiami.com##.promotion-block
 
 ! 微软
+! Edge 广告
+bing.com###b_notificationContainer_bop
 ! 随时了解全球重大新闻 获取 Bing + MSN 扩展
 ! cookie: uhf_hide_epb=true
 microsoft.com###epb
@@ -163,12 +165,24 @@ juejin.im##.recommend-box
 v2ex.com##.box:has(.adsbygoogle)
 v2ex.com##.box:has(> .inner > a:only-child > img[src*="/assets/sidebar/"])
 
+! Engadget
+cn.engadget.com###module-engadget-deeplink-top-ad
+cn.engadget.com##div[class]:has(> div[id]:first-child + script:last-child)
+
+! 异次元软件世界
+www.iplaysoft.com##.sidebar_bdad_list
+www.iplaysoft.com###sidebar_scroll_bdad
+www.iplaysoft.com###section_show_post:style(width: 714px !important; margin-inline: auto)
+www.iplaysoft.com##.entry-content > div[style]:has(> div[style] > .adsbygoogle)
+www.iplaysoft.com##.widget_title:has-text(赞助)
+
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
 ! 脚本之家
 www.jb51.net##.sidebox-recomm
 
+! cnBeta
 cnbeta.com##^script[data-turbolinks-eval]
 cnbeta.com##^script:has-text(请将我们加入广告屏蔽插件的白名单)
 cnbeta.com##+js(set, JB, noopFunc)
@@ -192,14 +206,6 @@ www.easyicon.net##.page_big_adv
 club.kdnet.net##a[href^="//super1.kdnet.net//"]
 club.kdnet.net##.ad-banner-left
 club.kdnet.net##.links
-
-www.panduoduo.net##.sep15
-www.panduoduo.net##^.sep15 > script
-! 哪位写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？顺便修了…
-www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
-www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
-www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
-www.panduoduo.net##.container > .index-page > div > .total-hint:style(width： auto !important; margin-bottom: 10px; text-align: center)
 
 ! 华军
 ||soft.onlinedown.net/js/suggest.js
@@ -250,6 +256,10 @@ www.sdbeta.com##a[href^="https://www.sdbeta.com/zhdown.php"]
 xiazai.zol.com.cn##.box-top-xiazai
 xiazai.zol.com.cn##.down-dxlt
 
+! 3DM
+3dmgame.com##.push_browser
+dl.3dmgame.com##.downllis > li:has(a.a_click:has-text(微端下载))
+
 ! 谁家的下载代理叫 5566 来着…
 www.soft5566.com##.gameicon
 www.soft5566.com##.n1_content > span:first-of-type
@@ -278,40 +288,6 @@ www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi:style(float: unset !important;
 www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi > ul:style(display: flex !important; justify-content: space-between)
 
 ||img.rjno1.com/images/logo/juanzeng.png$image
-
-! www.ttrar.com
-||www.ttrar.com/static/api/js/*
-||www.ttrar.com/statics/pos_js/*
-! ||www.ttrar.com/statics/pos_js/ydggw.js
-! ||www.ttrar.com/statics/pos_js/ydggw2.js
-
-www.ttrar.com##.main_yxtj
-www.ttrar.com###ruanj .lj
-
-www.ttrar.com##.hot_word
-
-www.ttrar.com##.share
-! www.ttrar.com##.list_bt
-www.ttrar.com##.xzsbox
-
-www.ttrar.com##.sj
-www.ttrar.com##.header > .sous:style(float: right !important)
-
-www.ttrar.com##.list_lf
-www.ttrar.com##.list_md:style(width: unset !important; float: none !important)
-www.ttrar.com##.fllist:style(width: 640px; float: left)
-www.ttrar.com##.fllist > p:style(line-height: normal !important; width: 210px !important)
-www.ttrar.com##.md_bt:style(margin-top: 0 !important; float: right)
-www.ttrar.com##.list_rg
-
-www.ttrar.com##.xzsbox
-www.ttrar.com##.xzdz_rg
-www.ttrar.com##.sort_list > .clearfix:first-child
-! www.ttrar.com##.sort_list > .clearfix:has(.yc_xzq_aurl)
-! www.ttrar.com##.yc_xzq_aurl
-www.ttrar.com#@#a[href*=".downok.com"]
-www.ttrar.com##.sort_list > dl.der > dd:style(border-top: 1px solid #a6d990 !important)
-www.ttrar.com##.link_yq
 
 www.pc0359.cn##.ad-download
 www.pc0359.cn###gaosuxiazai
@@ -372,6 +348,9 @@ pan.baidu.com,yun.baidu.com##.vip-notice, .vip-privilege
 ! 开通会员，升至2T超大容量
 pan.baidu.com,yun.baidu.com##.get-capacity
 pan.baidu.com,yun.baidu.com##.aside-absolute-container div:has(> .get-capacity:only-child)
+
+! 删除文件时的对话框中的会员特权提示和开通按钮
+pan.baidu.com,yun.baidu.com##.dialog-extra-body:has( > button[title="立即开通"])
 
 ! 百度贴吧 Baidu Tieba
 tieba.baidu.com###hot_thread
@@ -496,6 +475,15 @@ news.163.com##.ntes-nav-mobile-title
 music.163.com##.download
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
+
+! 高德地图
+ditu.amap.com###amapAppDownload
+ditu.amap.com###amap-result-banner
+
+! 百度地图
+map.baidu.com##.leadDownloadCard
+
+
 ! 京东
 www.jd.com##.mobile_static
 
@@ -529,6 +517,9 @@ www.iciba.com##.sentence
 coolapk.com###head
 coolapk.com##.left_download
 coolapk.com##.apk_right
+
+! 迅雷直播
+live.xunlei.com##.play_download_slide
 
 ! Userstyles.org
 userstyles.org##.overlay_background
@@ -877,6 +868,9 @@ baidu.com/static/mapping/*.php
 ! 跟谁学
 ||click.genshuixue.com^
 
+! ||www.chinaso.com/feapi/log/lc^$xhr
+||www.chinaso.com/feapi/log^
+
 ||www.souid.com/templets/js/tongji2.js
 
 ||www.3h3.com/template/3h3/js/dxinfo.js
@@ -951,7 +945,16 @@ www.ruanyifeng.com##+js(nostif, checker)
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js$script
 
+! 新京报
 www.bjnews.com.cn###v4_wxin
+
+! 异次元软件世界
+www.iplaysoft.com##.popWxgzh:not(.ipsicon)
+www.iplaysoft.com##.elevator > li:has(#elevator_social)
+
+www.iplaysoft.com###elevator_social:style(width: 230px !important;)
+www.iplaysoft.com###elevator_social > .float-left:nth-of-type(1)
+www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 100% !important)
 
 ! 安全内参
 ||www.secrss.com/wx_qrcode.jpg
@@ -1059,9 +1062,9 @@ www.cnbeta.com##.article-share-code
 www.chinaz.com##.cz-leftside-title
 www.chinaz.com##.cz_share
 
-! 异次元软件世界
-www.iplaysoft.com###share_toolbar
-www.iplaysoft.com###share_toolbar_wrapper
+! 异次元软件世界​
+||cdn.iplaysoft.com/common/lib/socialshare/*
+www.iplaysoft.com###socialshare
 
 www.doc88.com##.share
 
@@ -1102,42 +1105,29 @@ v.qq.com##.action_share.action_item
 ! 荔枝 FM
 www.lizhi.fm##.attentionUs
 
-! www.iplaysoft.com
-www.iplaysoft.com###sidebar_scroll_wb
-www.iplaysoft.com###sidebar_scroll_wx
-
-www.iplaysoft.com###elevator_social:style(width: 230px !important;)
-www.iplaysoft.com###elevator_social > .float-left:nth-of-type(1)
-www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 100% !important)
-www.iplaysoft.com###elevator_social > .float-left > .elevator_social_title:has( > .ipsicon-weibo)
-www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"]
-www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"] + hr
-www.iplaysoft.com##.popWxgzh
-www.iplaysoft.com###ft_6
-
 ! Red Dot & Hot & New Start
 www.baidu.com##.dot::before
+www.baidu.com##.title-content-index,.title-content-mark:style(filter: grayscale())
 www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
+
+dwz.cn##.new-icon > img
 jingyan.baidu.com##.new-icon
 zhidao.baidu.com##.new-icon
 zhidao.baidu.com##.menu-title-icon
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
-pan.baidu.com,yun.baidu.com##.find-light-icon
-pan.baidu.com,yun.baidu.com##.newIcon
 site.baidu.com##.dot
 
-dwz.cn##.new-icon > img
+pan.baidu.com,yun.baidu.com##.find-light-icon
+pan.baidu.com,yun.baidu.com##.newIcon
+pan.baidu.com,yun.baidu.com##.neverVisited::after
+pan.baidu.com,yun.baidu.com##.redPoint
 
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
-wenku.baidu.com##.hot-box
-wenku.baidu.com##span.newhotword
 wenku.baidu.com##.havenew-ic
-! 文档可以转存到百度网盘啦！
-wenku.baidu.com##.wangpan-tip
 
 pic.sogou.com##.ico-new
 pic.sogou.com##.ico-hot
@@ -1246,6 +1236,10 @@ zhidao.baidu.com##.question-number-text-chain
 
 wenku.baidu.com###banurl
 wenku.baidu.com###share-tips
+wenku.baidu.com##.hot-box
+wenku.baidu.com##.newhotword
+! 文档可以转存到百度网盘啦！
+wenku.baidu.com##.wangpan-tip
 
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/question/api/hao123word
@@ -1269,9 +1263,26 @@ www.zhihu.com##.RelatedCommodities-title
 www.zhihu.com##.RelatedCommodities-list
 
 ! Bilibili
-! 播放器上部滚动内容
-||api.bilibili.com/x/player/carousel.so
+! 登录后你可以：（弹幕动画）
+bilibili.com##.van-popper-login .title
+bilibili.com##.van-popper-login .img-panel
+
+! 顶栏事件推送
+||api.bilibili.com/x/web-show/res/locs^
+
+! 站外播放器 顶部推荐
+player.bilibili.com##.bilibili-player-video-recommend
+||data.bilibili.com/s/miniloader_online^
+
+! 用户头像挂件
+www.bilibili.com##.user-face > .pendant
+
+! 推荐直播
 www.bilibili.com##.v-live-recommend
+
+! 直播水印
+live.bilibili.com##.bilibili-live-player-video-logo
+
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 

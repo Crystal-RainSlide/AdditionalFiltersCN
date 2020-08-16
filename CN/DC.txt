@@ -305,6 +305,9 @@ baidu.com/static/mapping/*.php
 ! 跟谁学
 ||click.genshuixue.com^
 
+! ||www.chinaso.com/feapi/log/lc^$xhr
+||www.chinaso.com/feapi/log^
+
 ||www.souid.com/templets/js/tongji2.js
 
 ||www.3h3.com/template/3h3/js/dxinfo.js

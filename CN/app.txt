@@ -69,6 +69,15 @@ news.163.com##.ntes-nav-mobile-title
 music.163.com##.download
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
+
+! 高德地图
+ditu.amap.com###amapAppDownload
+ditu.amap.com###amap-result-banner
+
+! 百度地图
+map.baidu.com##.leadDownloadCard
+
+
 ! 京东
 www.jd.com##.mobile_static
 
@@ -102,6 +111,9 @@ www.iciba.com##.sentence
 coolapk.com###head
 coolapk.com##.left_download
 coolapk.com##.apk_right
+
+! 迅雷直播
+live.xunlei.com##.play_download_slide
 
 ! Userstyles.org
 userstyles.org##.overlay_background

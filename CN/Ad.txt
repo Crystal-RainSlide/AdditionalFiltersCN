@@ -75,6 +75,8 @@ www.zhihu.com##.RichText-MCNLinkCardContainer
 www.xiami.com##.promotion-block
 
 ! 微软
+! Edge 广告
+bing.com###b_notificationContainer_bop
 ! 随时了解全球重大新闻 获取 Bing + MSN 扩展
 ! cookie: uhf_hide_epb=true
 microsoft.com###epb
@@ -157,12 +159,24 @@ juejin.im##.recommend-box
 v2ex.com##.box:has(.adsbygoogle)
 v2ex.com##.box:has(> .inner > a:only-child > img[src*="/assets/sidebar/"])
 
+! Engadget
+cn.engadget.com###module-engadget-deeplink-top-ad
+cn.engadget.com##div[class]:has(> div[id]:first-child + script:last-child)
+
+! 异次元软件世界
+www.iplaysoft.com##.sidebar_bdad_list
+www.iplaysoft.com###sidebar_scroll_bdad
+www.iplaysoft.com###section_show_post:style(width: 714px !important; margin-inline: auto)
+www.iplaysoft.com##.entry-content > div[style]:has(> div[style] > .adsbygoogle)
+www.iplaysoft.com##.widget_title:has-text(赞助)
+
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
 ! 脚本之家
 www.jb51.net##.sidebox-recomm
 
+! cnBeta
 cnbeta.com##^script[data-turbolinks-eval]
 cnbeta.com##^script:has-text(请将我们加入广告屏蔽插件的白名单)
 cnbeta.com##+js(set, JB, noopFunc)
@@ -186,14 +200,6 @@ www.easyicon.net##.page_big_adv
 club.kdnet.net##a[href^="//super1.kdnet.net//"]
 club.kdnet.net##.ad-banner-left
 club.kdnet.net##.links
-
-www.panduoduo.net##.sep15
-www.panduoduo.net##^.sep15 > script
-! 哪位写的手动居中啊，.footer 上 text-align: center 不是用得好好的吗？顺便修了…
-www.panduoduo.net##.container > .index-page > div[style="margin-left:170px;"]:style(margin-left: 0 !important)
-www.panduoduo.net##.container > .index-page > div > .bold:style(padding-left: 0 !important; text-align: center)
-www.panduoduo.net##.container > .index-page > div > .search:style(text-align: center !important)
-www.panduoduo.net##.container > .index-page > div > .total-hint:style(width： auto !important; margin-bottom: 10px; text-align: center)
 
 ! 华军
 ||soft.onlinedown.net/js/suggest.js
@@ -244,6 +250,10 @@ www.sdbeta.com##a[href^="https://www.sdbeta.com/zhdown.php"]
 xiazai.zol.com.cn##.box-top-xiazai
 xiazai.zol.com.cn##.down-dxlt
 
+! 3DM
+3dmgame.com##.push_browser
+dl.3dmgame.com##.downllis > li:has(a.a_click:has-text(微端下载))
+
 ! 谁家的下载代理叫 5566 来着…
 www.soft5566.com##.gameicon
 www.soft5566.com##.n1_content > span:first-of-type
@@ -272,40 +282,6 @@ www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi:style(float: unset !important;
 www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi > ul:style(display: flex !important; justify-content: space-between)
 
 ||img.rjno1.com/images/logo/juanzeng.png$image
-
-! www.ttrar.com
-||www.ttrar.com/static/api/js/*
-||www.ttrar.com/statics/pos_js/*
-! ||www.ttrar.com/statics/pos_js/ydggw.js
-! ||www.ttrar.com/statics/pos_js/ydggw2.js
-
-www.ttrar.com##.main_yxtj
-www.ttrar.com###ruanj .lj
-
-www.ttrar.com##.hot_word
-
-www.ttrar.com##.share
-! www.ttrar.com##.list_bt
-www.ttrar.com##.xzsbox
-
-www.ttrar.com##.sj
-www.ttrar.com##.header > .sous:style(float: right !important)
-
-www.ttrar.com##.list_lf
-www.ttrar.com##.list_md:style(width: unset !important; float: none !important)
-www.ttrar.com##.fllist:style(width: 640px; float: left)
-www.ttrar.com##.fllist > p:style(line-height: normal !important; width: 210px !important)
-www.ttrar.com##.md_bt:style(margin-top: 0 !important; float: right)
-www.ttrar.com##.list_rg
-
-www.ttrar.com##.xzsbox
-www.ttrar.com##.xzdz_rg
-www.ttrar.com##.sort_list > .clearfix:first-child
-! www.ttrar.com##.sort_list > .clearfix:has(.yc_xzq_aurl)
-! www.ttrar.com##.yc_xzq_aurl
-www.ttrar.com#@#a[href*=".downok.com"]
-www.ttrar.com##.sort_list > dl.der > dd:style(border-top: 1px solid #a6d990 !important)
-www.ttrar.com##.link_yq
 
 www.pc0359.cn##.ad-download
 www.pc0359.cn###gaosuxiazai
@@ -366,6 +342,9 @@ pan.baidu.com,yun.baidu.com##.vip-notice, .vip-privilege
 ! 开通会员，升至2T超大容量
 pan.baidu.com,yun.baidu.com##.get-capacity
 pan.baidu.com,yun.baidu.com##.aside-absolute-container div:has(> .get-capacity:only-child)
+
+! 删除文件时的对话框中的会员特权提示和开通按钮
+pan.baidu.com,yun.baidu.com##.dialog-extra-body:has( > button[title="立即开通"])
 
 ! 百度贴吧 Baidu Tieba
 tieba.baidu.com###hot_thread

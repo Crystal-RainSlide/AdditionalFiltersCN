@@ -5,16 +5,3 @@
 
 ! 荔枝 FM
 www.lizhi.fm##.attentionUs
-
-! www.iplaysoft.com
-www.iplaysoft.com###sidebar_scroll_wb
-www.iplaysoft.com###sidebar_scroll_wx
-
-www.iplaysoft.com###elevator_social:style(width: 230px !important;)
-www.iplaysoft.com###elevator_social > .float-left:nth-of-type(1)
-www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 100% !important)
-www.iplaysoft.com###elevator_social > .float-left > .elevator_social_title:has( > .ipsicon-weibo)
-www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"]
-www.iplaysoft.com###elevator_social > .float-left a[href="https://weibo.com/xforce"] + hr
-www.iplaysoft.com##.popWxgzh
-www.iplaysoft.com###ft_6

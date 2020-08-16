@@ -71,3 +71,5 @@ knowyourmeme.com###ctoolbar
 www.softwareok.com##form[name="Testform"]
 
 ||kongcdn.com/compiled-assets/shared/facebookconnect_*
+
+igg-games.com,pcgamestorrents.com##.addtoany_share_save_container

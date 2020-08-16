@@ -5,27 +5,27 @@
 
 ! Red Dot & Hot & New Start
 www.baidu.com##.dot::before
+www.baidu.com##.title-content-index,.title-content-mark:style(filter: grayscale())
 www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
+
+dwz.cn##.new-icon > img
 jingyan.baidu.com##.new-icon
 zhidao.baidu.com##.new-icon
 zhidao.baidu.com##.menu-title-icon
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
 index.baidu.com##.new
-pan.baidu.com,yun.baidu.com##.find-light-icon
-pan.baidu.com,yun.baidu.com##.newIcon
 site.baidu.com##.dot
 
-dwz.cn##.new-icon > img
+pan.baidu.com,yun.baidu.com##.find-light-icon
+pan.baidu.com,yun.baidu.com##.newIcon
+pan.baidu.com,yun.baidu.com##.neverVisited::after
+pan.baidu.com,yun.baidu.com##.redPoint
 
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
-wenku.baidu.com##.hot-box
-wenku.baidu.com##span.newhotword
 wenku.baidu.com##.havenew-ic
-! 文档可以转存到百度网盘啦！
-wenku.baidu.com##.wangpan-tip
 
 pic.sogou.com##.ico-new
 pic.sogou.com##.ico-hot
@@ -134,6 +134,10 @@ zhidao.baidu.com##.question-number-text-chain
 
 wenku.baidu.com###banurl
 wenku.baidu.com###share-tips
+wenku.baidu.com##.hot-box
+wenku.baidu.com##.newhotword
+! 文档可以转存到百度网盘啦！
+wenku.baidu.com##.wangpan-tip
 
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/question/api/hao123word
@@ -157,9 +161,26 @@ www.zhihu.com##.RelatedCommodities-title
 www.zhihu.com##.RelatedCommodities-list
 
 ! Bilibili
-! 播放器上部滚动内容
-||api.bilibili.com/x/player/carousel.so
+! 登录后你可以：（弹幕动画）
+bilibili.com##.van-popper-login .title
+bilibili.com##.van-popper-login .img-panel
+
+! 顶栏事件推送
+||api.bilibili.com/x/web-show/res/locs^
+
+! 站外播放器 顶部推荐
+player.bilibili.com##.bilibili-player-video-recommend
+||data.bilibili.com/s/miniloader_online^
+
+! 用户头像挂件
+www.bilibili.com##.user-face > .pendant
+
+! 推荐直播
 www.bilibili.com##.v-live-recommend
+
+! 直播水印
+live.bilibili.com##.bilibili-live-player-video-logo
+
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
