@@ -7,7 +7,7 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 ! Last updated: 6-Sep-2020
-! Last Modified: 6-Sep-2020/17:42:35+08:00
+! Last Modified: 6-Sep-2020/17:50:33+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -64,9 +64,6 @@ fanyi.youdao.com##.rengong__guide
 fanyi.youdao.com###transMan
 fanyi.youdao.com##.inside__products
 fanyi.youdao.com##.side__nav
-
-! sina.com.cn
-||m0.mail.sina.com.cn/apps/tab.php$subdocument
 
 ! Bilibili
 ! 黑板报与手游广告（相关推荐首条内容）
@@ -394,6 +391,9 @@ wenku.baidu.com##.topicBox
 ! 开通黄钻
 user.qzone.qq.com##.qz-btn-vip-open
 
+! 新浪邮箱
+||m0.mail.sina.com.cn/apps/tab.php$subdocument
+
 ! 码云
 gitee.com##.wallet-banner
 gitee.com##.ent-poster
@@ -579,15 +579,9 @@ translate.google.cn###gt-cn
 ! ||www.taoyisou.com/js/visit$xhr
 */js/visit$xhr
 
-! ||www.163.com/special/*/performance.js
-||163.com^*/performance.js
-
-! gss0.baidu.com/*/static/api/js/trans/logger.js
-!   www.cnbeta.com/static/api/js/trans/logger.js
-*/static/api/js/trans/logger.js
-
-! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
-||n3.zuoyebang.cc/napi/stat/*$image
+! ||s3.pstatp.com/pgc/tech/collect/collect-autotrack-rangers.js
+pstatp.com^
+*/collect/collect-autotrack-rangers.js$script
 
 ! Sentry
 ! A big deal. Unblock it for the domains where it causes issues.
@@ -653,6 +647,13 @@ https://code.bdstatic.com/npm/spy-client^
 hao123.com/static/mapping/*.php
 baidu.com/static/mapping/*.php
 
+! gss0.baidu.com/*/static/api/js/trans/logger.js
+!   www.cnbeta.com/static/api/js/trans/logger.js
+*/static/api/js/trans/logger.js
+
+! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
+||n3.zuoyebang.cc/napi/stat/*$image
+
 ! Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
 ! ||mp.weixin.qq.com/mp/report?$image
@@ -709,6 +710,9 @@ baidu.com/static/mapping/*.php
 ||analytics.126.net^
 ||log.study.163.com^
 ||netease.com/track/*
+
+! ||www.163.com/special/*/performance.js
+||163.com/*/performance.js
 
 ||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
 ||hubble-js-bucket.nosdn.127.net/DATracker.*.js
@@ -1359,7 +1363,7 @@ cloud.189.cn##.tips-save-box
 ! 奶牛快传 全宽文件列表
 cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
 ! 奶牛快传 全屏视频背景
-||background.cowtransfer.com^$subdocument
+||background.cowtransfer.com^
 
 ! CSDN
 !     首次访问登录弹窗

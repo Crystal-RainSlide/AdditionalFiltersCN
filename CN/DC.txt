@@ -8,15 +8,9 @@
 ! ||www.taoyisou.com/js/visit$xhr
 */js/visit$xhr
 
-! ||www.163.com/special/*/performance.js
-||163.com^*/performance.js
-
-! gss0.baidu.com/*/static/api/js/trans/logger.js
-!   www.cnbeta.com/static/api/js/trans/logger.js
-*/static/api/js/trans/logger.js
-
-! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
-||n3.zuoyebang.cc/napi/stat/*$image
+! ||s3.pstatp.com/pgc/tech/collect/collect-autotrack-rangers.js
+pstatp.com^
+*/collect/collect-autotrack-rangers.js$script
 
 ! Sentry
 ! A big deal. Unblock it for the domains where it causes issues.
@@ -82,6 +76,13 @@ https://code.bdstatic.com/npm/spy-client^
 hao123.com/static/mapping/*.php
 baidu.com/static/mapping/*.php
 
+! gss0.baidu.com/*/static/api/js/trans/logger.js
+!   www.cnbeta.com/static/api/js/trans/logger.js
+*/static/api/js/trans/logger.js
+
+! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
+||n3.zuoyebang.cc/napi/stat/*$image
+
 ! Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
 ! ||mp.weixin.qq.com/mp/report?$image
@@ -138,6 +139,9 @@ baidu.com/static/mapping/*.php
 ||analytics.126.net^
 ||log.study.163.com^
 ||netease.com/track/*
+
+! ||www.163.com/special/*/performance.js
+||163.com/*/performance.js
 
 ||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
 ||hubble-js-bucket.nosdn.127.net/DATracker.*.js

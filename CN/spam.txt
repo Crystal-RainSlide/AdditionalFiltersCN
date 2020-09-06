@@ -239,7 +239,7 @@ cloud.189.cn##.tips-save-box
 ! 奶牛快传 全宽文件列表
 cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
 ! 奶牛快传 全屏视频背景
-||background.cowtransfer.com^$subdocument
+||background.cowtransfer.com^
 
 ! CSDN
 !     首次访问登录弹窗
