@@ -50,6 +50,9 @@ www.foxnews.com##.article-social
 ! South China Morning Post
 www.scmp.com##.share
 
+! 9GAG
+9gag.com##.share
+
 blog.twitter.com##div[class$="__share--icons"]
 
 ! The White House

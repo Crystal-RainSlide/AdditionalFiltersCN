@@ -8,8 +8,14 @@
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js$script
 
+||assets.gitee.com/assets/qrcode-weixin-*$image
+gitee.com##.qrcode.weixin
+
 ! 新京报
 www.bjnews.com.cn###v4_wxin
+
+! ZAKER ZAKER小程序
+www.myzaker.com##.btn_zaker_mp
 
 ! 异次元软件世界
 www.iplaysoft.com##.popWxgzh:not(.ipsicon)

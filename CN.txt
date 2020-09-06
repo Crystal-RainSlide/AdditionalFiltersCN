@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 16-Aug-2020
-! Last Modified: 16-Aug-2020/22:04:18+08:00
+! Last updated: 6-Sep-2020
+! Last Modified: 6-Sep-2020/17:42:35+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -65,6 +65,9 @@ fanyi.youdao.com###transMan
 fanyi.youdao.com##.inside__products
 fanyi.youdao.com##.side__nav
 
+! sina.com.cn
+||m0.mail.sina.com.cn/apps/tab.php$subdocument
+
 ! Bilibili
 ! 黑板报与手游广告（相关推荐首条内容）
 ||api.bilibili.com/x/web-interface/archive/special/recommend
@@ -72,7 +75,8 @@ fanyi.youdao.com##.side__nav
 www.bilibili.com##.video-page-game-card
 
 ! 知乎
-||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+||www.zhihu.com/api/*/growth/mobile_top_banner$xmlhttprequest
 
 ! 文内购物广告
 www.zhihu.com##.RichText-MCNLinkCardContainer
@@ -498,6 +502,10 @@ daily.zhihu.com##.download
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn
 
+! 南方周末
+||www.infzm.com/web/images/download-app.png$image
+www.infzm.com##.nfzm-app,.scan-btn,.fixed-popup
+
 ! 澎湃新闻
 www.thepaper.cn##.rtapp_down
 
@@ -763,7 +771,26 @@ baidu.com/static/mapping/*.php
 */?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
 
 ! 卜算子
-||busuanzi.ibruce.info/busuanzi/*$script
+||busuanzi.ibruce.info/busuanzi/*$third-party
+
+! Zhihu
+||sugar.zhihu.com^
+||unpkg.zhimg.com/za-js-sdk^
+||unpkg.zhihu.com/za-js-sdk^
+||www.zhihu.com/sc-profiler^
+||lens.zhihu.com/report^
+
+! CNBeta
+! more info:
+! https://yryz.net/post/isp-dns-hijack-cnbeta.html
+! https://www.v2ex.com/t/302123
+||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
+
+! CSDN
+! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
+! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
+||event.csdn.net/logstores^$xhr
+||g.csdnimg.cn/track^
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
@@ -789,23 +816,6 @@ baidu.com/static/mapping/*.php
 ! ||www.yuketang.cn/video-log/log/unified/
 ||www.yuketang.cn/*-log/*
 ||www.yuketang.cn/*/log/*
-
-! Zhihu
-||sugar.zhihu.com^
-||www.zhihu.com/sc-profiler^$xhr
-||lens.zhihu.com/report^$xhr
-
-! CNBeta
-! more info:
-! https://yryz.net/post/isp-dns-hijack-cnbeta.html
-! https://www.v2ex.com/t/302123
-||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
-
-! CSDN
-! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
-! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
-||event.csdn.net/logstores^$xhr
-||g.csdnimg.cn/track^
 
 ! ---
 
@@ -878,14 +888,14 @@ baidu.com/static/mapping/*.php
 ! 广东中山图书馆
 ||gdslzstsg.superlib.libsou.com/visit_log.jspx
 
-! 乘风 广告过滤规则
+! 乘风
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
 @@||g.$cname
 @@||ueditor.baidu.com/website/images/banner-bg.png
-
 ! jCleanList
 @@||pv.funshion.com/*/video/*$xhr
+@@||www.wangma.net.cn/UploadFiles/Advert/*$image
 
 ! QuarkList
 @@||n2o.io^$badfilter
@@ -927,6 +937,8 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
 
+www.wangma.net.cn#@#.ad
+
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
 ! 但这条规则，为保留一个有用的内联脚本，特意计算一个 hash
@@ -945,8 +957,14 @@ www.ruanyifeng.com##+js(nostif, checker)
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js$script
 
+||assets.gitee.com/assets/qrcode-weixin-*$image
+gitee.com##.qrcode.weixin
+
 ! 新京报
 www.bjnews.com.cn###v4_wxin
+
+! ZAKER ZAKER小程序
+www.myzaker.com##.btn_zaker_mp
 
 ! 异次元软件世界
 www.iplaysoft.com##.popWxgzh:not(.ipsicon)
@@ -965,7 +983,7 @@ www.secrss.com##.qrcode
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
 ! ||static.bshare.cn/b/button.js
-||static.bshare.cn/^$third-party
+||static.bshare.cn^$third-party
 ||static.bshare.cn/b/buttonLite.js$important
 ##.bshare-custom
 ##a.bshareDiv
@@ -1153,7 +1171,7 @@ search.jd.com##.jdm-toolbar .tab-tip
 
 www.fun.tv##.new > i, b > .new
 
-www.oschina.net, gitee.com##.label.red.ui
+www.oschina.net,gitee.com##.ui.red.label
 www.oschina.net###icon_mayun, .icon_mayun
 www.oschina.net##.giteetip
 www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
@@ -1171,6 +1189,8 @@ www.nuomi.com##.new-item-hot
 www.17173.com##.ico-game-hot1
 
 diy.zol.com.cn##.icon-hot
+
+cowtransfer.com##.redDot
 ! Red Dot & Hot & New End
 
 
@@ -1289,6 +1309,9 @@ live.bilibili.com##.bilibili-live-player-video-logo
 ! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
 
+! Gitee 服务 我知道了，不再自动展开
+gitee.com##+js(set, isClickGuide, true)
+
 ! 新浪视频 热搜
 ||video.sina.com.cn/interface/search_hot.php
 
@@ -1333,8 +1356,9 @@ www.pigai.org##body:style(cursor: unset !important)
 ! 189云盘 试试转存到云盘，文件永久保存，极速安全。
 cloud.189.cn##.tips-save-box
 
+! 奶牛快传 全宽文件列表
+cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
 ! 奶牛快传 全屏视频背景
-cowtransfer.com##.cover-image-com
 ||background.cowtransfer.com^$subdocument
 
 ! CSDN

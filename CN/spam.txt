@@ -51,7 +51,7 @@ search.jd.com##.jdm-toolbar .tab-tip
 
 www.fun.tv##.new > i, b > .new
 
-www.oschina.net, gitee.com##.label.red.ui
+www.oschina.net,gitee.com##.ui.red.label
 www.oschina.net###icon_mayun, .icon_mayun
 www.oschina.net##.giteetip
 www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
@@ -69,6 +69,8 @@ www.nuomi.com##.new-item-hot
 www.17173.com##.ico-game-hot1
 
 diy.zol.com.cn##.icon-hot
+
+cowtransfer.com##.redDot
 ! Red Dot & Hot & New End
 
 
@@ -187,6 +189,9 @@ live.bilibili.com##.bilibili-live-player-video-logo
 ! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
 
+! Gitee 服务 我知道了，不再自动展开
+gitee.com##+js(set, isClickGuide, true)
+
 ! 新浪视频 热搜
 ||video.sina.com.cn/interface/search_hot.php
 
@@ -231,8 +236,9 @@ www.pigai.org##body:style(cursor: unset !important)
 ! 189云盘 试试转存到云盘，文件永久保存，极速安全。
 cloud.189.cn##.tips-save-box
 
+! 奶牛快传 全宽文件列表
+cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
 ! 奶牛快传 全屏视频背景
-cowtransfer.com##.cover-image-com
 ||background.cowtransfer.com^$subdocument
 
 ! CSDN

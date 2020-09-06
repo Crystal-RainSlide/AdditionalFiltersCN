@@ -10,6 +10,9 @@ apkpure.com###ad-aegon-side
 ! Yandex.Disk
 disk.yandex.com##.ns-view-dialogWelcome
 
+! 9GAG
+9gag.com##.get-the-app-banner
+
 ! Userstyles.org
 userstyles.org##.overlay_background
 userstyles.org##.us-stylecard--short:has(.fallbackDiv)

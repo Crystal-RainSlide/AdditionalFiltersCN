@@ -92,6 +92,10 @@ daily.zhihu.com##.download
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn
 
+! 南方周末
+||www.infzm.com/web/images/download-app.png$image
+www.infzm.com##.nfzm-app,.scan-btn,.fixed-popup
+
 ! 澎湃新闻
 www.thepaper.cn##.rtapp_down
 

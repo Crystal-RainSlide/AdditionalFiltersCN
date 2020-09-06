@@ -3,14 +3,14 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-! 乘风 广告过滤规则
+! 乘风
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
 @@||g.$cname
 @@||ueditor.baidu.com/website/images/banner-bg.png
-
 ! jCleanList
 @@||pv.funshion.com/*/video/*$xhr
+@@||www.wangma.net.cn/UploadFiles/Advert/*$image
 
 ! QuarkList
 @@||n2o.io^$badfilter
@@ -51,6 +51,8 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 ! Baidu Jingyan
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
+
+www.wangma.net.cn#@#.ad
 
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本

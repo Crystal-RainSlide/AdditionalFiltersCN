@@ -66,7 +66,8 @@ fanyi.youdao.com##.side__nav
 www.bilibili.com##.video-page-game-card
 
 ! 知乎
-||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
+||www.zhihu.com/api/*/growth/mobile_top_banner$xmlhttprequest
 
 ! 文内购物广告
 www.zhihu.com##.RichText-MCNLinkCardContainer
@@ -383,6 +384,9 @@ wenku.baidu.com##.topicBox
 ! QQ 空间
 ! 开通黄钻
 user.qzone.qq.com##.qz-btn-vip-open
+
+! 新浪邮箱
+||m0.mail.sina.com.cn/apps/tab.php$subdocument
 
 ! 码云
 gitee.com##.wallet-banner

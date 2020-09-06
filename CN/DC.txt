@@ -200,7 +200,26 @@ baidu.com/static/mapping/*.php
 */?ga=*&dt=*&ul=*&sd=*&sr=*&vp=*&z=*
 
 ! 卜算子
-||busuanzi.ibruce.info/busuanzi/*$script
+||busuanzi.ibruce.info/busuanzi/*$third-party
+
+! Zhihu
+||sugar.zhihu.com^
+||unpkg.zhimg.com/za-js-sdk^
+||unpkg.zhihu.com/za-js-sdk^
+||www.zhihu.com/sc-profiler^
+||lens.zhihu.com/report^
+
+! CNBeta
+! more info:
+! https://yryz.net/post/isp-dns-hijack-cnbeta.html
+! https://www.v2ex.com/t/302123
+||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
+
+! CSDN
+! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
+! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
+||event.csdn.net/logstores^$xhr
+||g.csdnimg.cn/track^
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
@@ -226,23 +245,6 @@ baidu.com/static/mapping/*.php
 ! ||www.yuketang.cn/video-log/log/unified/
 ||www.yuketang.cn/*-log/*
 ||www.yuketang.cn/*/log/*
-
-! Zhihu
-||sugar.zhihu.com^
-||www.zhihu.com/sc-profiler^$xhr
-||lens.zhihu.com/report^$xhr
-
-! CNBeta
-! more info:
-! https://yryz.net/post/isp-dns-hijack-cnbeta.html
-! https://www.v2ex.com/t/302123
-||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
-
-! CSDN
-! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
-! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
-||event.csdn.net/logstores^$xhr
-||g.csdnimg.cn/track^
 
 ! ---
 

@@ -6,7 +6,7 @@
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
 ! ||static.bshare.cn/b/button.js
-||static.bshare.cn/^$third-party
+||static.bshare.cn^$third-party
 ||static.bshare.cn/b/buttonLite.js$important
 ##.bshare-custom
 ##a.bshareDiv
