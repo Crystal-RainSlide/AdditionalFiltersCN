@@ -112,6 +112,9 @@ baidu.com/static/mapping/*.php
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
 
+! ||h5.qzone.qq.com/report/md^
+||qzone.qq.com/report/*$xhr,image
+
 ! Ali
 
 ! ||mmstat.com^

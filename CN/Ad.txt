@@ -189,6 +189,8 @@ cnbeta.com##body:style(padding-bottom: 0 !important)
 
 ! SegmentFault
 segmentfault.com##.mb25
+segmentfault.com##.card:has(> .card-body > .side-promote-link)
+segmentfault.com##.card:has(> div[id^="OA_holder_"])
 
 ! www.zhangxinxu.com
 ! www.zhangxinxu.com##div[id*=ecomm]

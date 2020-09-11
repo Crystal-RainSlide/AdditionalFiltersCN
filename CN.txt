@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 6-Sep-2020
-! Last Modified: 6-Sep-2020/17:50:33+08:00
+! Last updated: 11-Sep-2020
+! Last Modified: 11-Sep-2020/19:31:20+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -195,6 +195,8 @@ cnbeta.com##body:style(padding-bottom: 0 !important)
 
 ! SegmentFault
 segmentfault.com##.mb25
+segmentfault.com##.card:has(> .card-body > .side-promote-link)
+segmentfault.com##.card:has(> div[id^="OA_holder_"])
 
 ! www.zhangxinxu.com
 ! www.zhangxinxu.com##div[id*=ecomm]
@@ -683,6 +685,9 @@ baidu.com/static/mapping/*.php
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
 
+! ||h5.qzone.qq.com/report/md^
+||qzone.qq.com/report/*$xhr,image
+
 ! Ali
 
 ! ||mmstat.com^
@@ -1151,19 +1156,21 @@ wenku.baidu.com##.ui-bz-hot-ic
 wenku.baidu.com##.ui-bz-new-ic
 wenku.baidu.com##.havenew-ic
 
+www.hao123.com##.icon-new
+hao.qq.com, daohang.qq.com, 123.sogou.com##.i-new, .i-hot
+
+qzone.qq.com##.sn-radio
+qzone.qq.com##.icon_app_new_cn
+qzone.qq.com##.icon_app_recommend
+qzone.qq.com##.ico_new
+
+www.taobao.com##.hot
+
 pic.sogou.com##.ico-new
 pic.sogou.com##.ico-hot
 fanyi.sogou.com##.icon-free
 help.sogou.com##img[alt="new"]
 map.sogou.com##.nav-new
-
-www.hao123.com##.icon-new
-hao.qq.com, daohang.qq.com, 123.sogou.com##.i-new, .i-hot
-
-qzone.qq.com##.ico_new
-
-www.4399.com##.i_new
-www.4399.com##.i_hot
 
 mail.163.com##.nui-ico-new3
 
@@ -1174,6 +1181,9 @@ music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 search.jd.com##.jdm-toolbar .tab-tip
 
 www.fun.tv##.new > i, b > .new
+
+www.4399.com##.i_new
+www.4399.com##.i_hot
 
 www.oschina.net,gitee.com##.ui.red.label
 www.oschina.net###icon_mayun, .icon_mayun
@@ -1270,12 +1280,8 @@ wenku.baidu.com##.wangpan-tip
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
 
-
-
-kan.china.com##.pages a[href^="/recommend.shtml"]
-kan.china.com###popup-news
-kan.china.com##.badge-number
-kan.china.com###page-idle-mask, #page-idle-box
+! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
+user.qzone.qq.com##.fn_accessLog_tips
 
 ! Zhihu
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
@@ -1392,6 +1398,12 @@ dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
 ! 游侠 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
+
+
+kan.china.com##.pages a[href^="/recommend.shtml"]
+kan.china.com###popup-news
+kan.china.com##.badge-number
+kan.china.com###page-idle-mask, #page-idle-box
 
 ! ----
 
