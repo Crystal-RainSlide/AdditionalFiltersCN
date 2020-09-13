@@ -51,6 +51,9 @@ music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 
 search.jd.com##.jdm-toolbar .tab-tip
 
+iqiyi.com##.iqp-logo-box
+||www.iqiyipic.com/common/fix/PCH5_iconfont200831/logombx.png
+
 www.fun.tv##.new > i, b > .new
 
 www.4399.com##.i_new

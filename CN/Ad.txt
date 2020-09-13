@@ -192,10 +192,10 @@ segmentfault.com##.mb25
 segmentfault.com##.card:has(> .card-body > .side-promote-link)
 segmentfault.com##.card:has(> div[id^="OA_holder_"])
 
-! www.zhangxinxu.com
-! www.zhangxinxu.com##div[id*=ecomm]
-www.zhangxinxu.com##[class^="top_da_out"]
-www.zhangxinxu.com##body > [class*="da_bottom"]
+! 千图网
+www.58pic.com##.search_poster
+! 呢图网
+soso.nipic.com##.advertising,.soso-advertBD-box
 
 www.easyicon.net##.page_big_adv
 
@@ -223,9 +223,6 @@ soft.onlinedown.net##.sortsList.downdecail > .left:style(float: none;margin: 0 a
 soft.onlinedown.net##.Friendlink
 ! 弹框软件推荐
 soft.onlinedown.net###bzPopBox
-
-||www.zdfans.com/js/common.js
-www.zdfans.com###myaas
 
 ! 西西软件园
 www.cr173.com###full_downad
@@ -346,7 +343,7 @@ pan.baidu.com,yun.baidu.com##.vip-notice, .vip-privilege
 pan.baidu.com,yun.baidu.com##.get-capacity
 pan.baidu.com,yun.baidu.com##.aside-absolute-container div:has(> .get-capacity:only-child)
 
-! 删除文件时的对话框中的会员特权提示和开通按钮
+! 删除文件对话框 会员特权提示和开通按钮
 pan.baidu.com,yun.baidu.com##.dialog-extra-body:has( > button[title="立即开通"])
 
 ! 百度贴吧 Baidu Tieba

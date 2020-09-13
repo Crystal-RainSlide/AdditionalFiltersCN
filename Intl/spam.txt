@@ -36,6 +36,10 @@ fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
 
 fandom.com###mixed-content-footer
 
+
+||gamesfree.ca/arrowchat/*
+www.gamesfree.ca##.cactus-widget-demo
+
 ! Show hidden content
 www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
 www.experts-exchange.com##.interceptContainer

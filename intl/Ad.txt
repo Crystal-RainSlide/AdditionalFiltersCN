@@ -187,6 +187,14 @@ xhamster.com##div[class^="wih-"]
 www.boundhub.com##noindex
 ! www.boundhub.com##.to1p,.pl2ace,.o3pt,.tabl4e,.spon5sor
 
+||coolbuddy.com/HtmlAds.ashx
+
+||gamesfree.ca/js/ads.js$script,important
+www.gamesfree.ca###adContainer
+www.gamesfree.ca##.lol-carrousel-wrapper
+www.gamesfree.ca##.mobile-games-carrousel
+www.siftheadsgames.com##+js(nobab)
+
 ! Aff
 ! VULTR
 ||www.vultr.com/dist/img/brand/banner_*.png

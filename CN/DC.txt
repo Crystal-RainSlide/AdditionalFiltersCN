@@ -9,7 +9,7 @@
 */js/visit$xhr
 
 ! ||s3.pstatp.com/pgc/tech/collect/collect-autotrack-rangers.js
-pstatp.com^
+||pstatp.com/pgc/tech/collect/*
 */collect/collect-autotrack-rangers.js$script
 
 ! Sentry

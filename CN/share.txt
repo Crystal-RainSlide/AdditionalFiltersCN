@@ -90,8 +90,17 @@ www.thepaper.cn##.newsct_share_detail
 ! 界面新闻
 www.jiemian.com##.article-share
 
+! FT 中文网
+www.ftchinese.com##.icon-wechat,.icon-weibo,.icon-linkedin,.icon-twitter,.icon-facebook
+
 ! 人民网
 people.com.cn###ops_share
+
+! 封面新闻
+www.thecover.cn###share_icons
+
+! 极客公园
+www.geekpark.net##.share-wrap
 
 ! CSDN
 ||g.csdnimg.cn/??sharewx/*/sharewx.js
