@@ -6,9 +6,19 @@
 ! 乘风
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
+
 @@||g.$cname
+
+! ||acs.$domain=~youku.com|~tudou.com
+! American Chemical Society
+@@||acs.org^
+
 @@||ueditor.baidu.com/website/images/banner-bg.png
+
 ! jCleanList
+www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
+www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
+@@||btrace.video.qq.com/kvcollect?*load*$badfilter
 @@||pv.funshion.com/*/video/*$xhr
 @@||www.wangma.net.cn/UploadFiles/Advert/*$image
 

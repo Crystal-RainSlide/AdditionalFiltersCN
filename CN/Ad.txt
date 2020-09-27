@@ -27,6 +27,9 @@ zhidao.baidu.com##.product-container
 ! @@||img.zuoyebang.cc/zyb_$image
 www.zybang.com##.wgt_carousel_aniUnit
 
+! 淘宝 Taobao
+www.taobao.com###smartbanner
+
 ! Netease
 
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
@@ -144,6 +147,9 @@ www.icourse163.org##.g-mn2c:style(margin-right: 0 !important)
 www.icourse163.org##.course-panel-body-wrapper:style(width: 100% !important;)
 www.icourse163.org##.m-hometop:style(margin-bottom: 10px !important)
 www.icourse163.org##.course-panel-wrapper > .course-panel-foot-wrapper:style(margin-top: 10px !important)
+
+! 人民网
+people.com.cn##.zh_banner,.cont_banner,.banner01,.banner02,.banner03
 
 ! 新京报
 www.bjnews.com.cn##.leftad,.rad
@@ -263,6 +269,8 @@ www.soft5566.com###sharebtn
 ||www.opdown.com/js/op.js
 
 www.3h3.com##.list-down > h3:has-text(高速下载)
+
+www.runoob.com##.sidebar-box:has(.adsbygoogle)
 
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party

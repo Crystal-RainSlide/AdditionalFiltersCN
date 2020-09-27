@@ -69,6 +69,9 @@ photo.blog.sina.com.cn###sharePhoto
 new.qq.com##.share
 new.qq.com##.share-title
 
+! BIE 别的
+www.biede.com##.share-component,.social-share,.share-post
+
 ! 凤凰网
 ! 凤凰网使用多个页面结构有巨大差异的子域名，但采用相对统一的方式提供分享功能。
 ! 选中分享 #spam
@@ -93,8 +96,15 @@ www.jiemian.com##.article-share
 ! FT 中文网
 www.ftchinese.com##.icon-wechat,.icon-weibo,.icon-linkedin,.icon-twitter,.icon-facebook
 
+! 新华网
+www.xinhuanet.com##.fllow1-wap
+www.xinhuanet.com##.fllow1-wap + .p-right:style(float: right !important)
+
 ! 人民网
 people.com.cn###ops_share
+
+! 光明网
+gmw.cn###share
 
 ! 封面新闻
 www.thecover.cn###share_icons

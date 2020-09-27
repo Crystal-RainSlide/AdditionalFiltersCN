@@ -66,6 +66,10 @@ www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px
 
 www.chinaz.com##.hot
 
+www.douban.com##img[src="https://img3.doubanio.com/f/shire/e49eca1517424a941871a2667a8957fd6c72d632/pics/new_menu.gif"]
+
+pinyin.sogou.com###zmeit_new
+
 www.w3cschool.cn##.hot-icon
 
 www.liaoxuefeng.com###ul-navbar > li > img
@@ -153,6 +157,9 @@ wenku.baidu.com##.wangpan-tip
 ||zhidao.baidu.com/question/api/hao123word
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
+
+! 腾讯视频 iframe 底部推荐
+v.qq.com##.txp_tipbar
 
 ! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
 user.qzone.qq.com##.fn_accessLog_tips

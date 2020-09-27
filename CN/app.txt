@@ -88,6 +88,11 @@ www.zhihu.com##.AppBanner
 daily.zhihu.com##.qr
 daily.zhihu.com##.download
 
+! 知乎 Mobile
+www.zhihu.com##.OpenInApp,.MobileAppHeader-downloadLink
+www.zhihu.com##.ModalWrap
+www.zhihu.com##body.ModalWrap-body:style(overflow: auto !important)
+
 ! 简书
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn

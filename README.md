@@ -102,7 +102,7 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 ------------- | ---------
 [乘风]        | 广告过滤规则：[rule.txt][乘风 广告过滤规则] <br> 视频广告过滤规则：[mv.txt][乘风 视频广告过滤规则]
 [jCleanList]  | [jCleanList_all.txt]
-[XHY 过滤器] / [GitHub][XHY GitHub] / [Gitee][XHY Gitee]  | XHY DNS：[GitHub][XHY DNS GitHub] [Gitee][XHY DNS Gitee] <br> XHY PC：[GitHub][XHY PC GitHub] [Gitee][XHY PC Gitee] <br> XHY MOB：[GitHub][XHY MOB GitHub] [Gitee][XHY MOB Gitee]
+[XHY 过滤器] / [GitHub][XHY GitHub] / [Gitee][XHY Gitee]  | XHY PC：[GitHub][XHY PC GitHub] [Gitee][XHY PC Gitee] <br> XHY MOB：[GitHub][XHY MOB GitHub] [Gitee][XHY MOB Gitee]
 [QuarkList]   | [quarklist.txt]
 [ublock-CingList] | [ublock-CingList.txt]
 
@@ -120,10 +120,8 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 [XHY 过滤器]: https://xuehuayu.cn/2019/09/26/AdGuard规则/
 [XHY GitHub]: https://github.com/npljy/npljy.github.io/tree/master/adblock
 [XHY Gitee]:  https://gitee.com/niepengsmile/niepengsmile/tree/master/adblock
-[XHY DNS GitHub]: https://raw.githubusercontent.com/npljy/npljy.github.io/master/adblock/dns.txt
 [XHY PC GitHub]:  https://raw.githubusercontent.com/npljy/npljy.github.io/master/adblock/pc.txt
 [XHY MOB GitHub]: https://raw.githubusercontent.com/npljy/npljy.github.io/master/adblock/mob.txt
-[XHY DNS Gitee]: https://gitee.com/niepengsmile/niepengsmile/raw/master/adblock/dns.txt
 [XHY PC Gitee]:  https://gitee.com/niepengsmile/niepengsmile/raw/master/adblock/pc.txt
 [XHY MOB Gitee]: https://gitee.com/niepengsmile/niepengsmile/raw/master/adblock/mob.txt
 
@@ -131,18 +129,19 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 [quarklist.txt]: https://n2o.io/p/quarklist/dist/quarklist.txt
 
 [ublock-CingList]:     https://github.com/dupontjoy/customization/tree/master/Rules/uBlock
-[ublock-CingList.txt]: https://github.com/dupontjoy/customization/blob/master/Rules/uBlock/ublock-CingList.txt
+[ublock-CingList.txt]: https://raw.githubusercontent.com/dupontjoy/customization/master/Rules/uBlock/%5Brule%5Dublock-CingList.txt
 
 ### Intl
 
 主页 Homepage | 链接 Link
 ------------- | ---------
-[BarbBlock]   | [ublock-origin.txt][BarbBlock uBO] <br> [adblock-plus.txt][BarbBlock ADP]
+[BarbBlock] [GitHub][BarbBlock GitHub] | [ublock-origin.txt][BarbBlock uBO] <br> [adblock-plus.txt][BarbBlock ADP] <br> [hosts][BarbBlock hosts]
 
-[BarbBlock]: https://ssl.bblck.me/
-[BarbBlock uBO]: https://ssl.bblck.me/blacklists/ublock-origin.txt
-[BarbBlock ADP]: https://ssl.bblck.me/blacklists/adblock-plus.txt
-
+[BarbBlock]: https://paulgb.github.io/BarbBlock/
+[BarbBlock GitHub]: https://github.com/paulgb/BarbBlock
+[BarbBlock uBO]:   https://paulgb.github.io/BarbBlock/blacklists/ublock-origin.txt
+[BarbBlock ADP]:   https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
+[BarbBlock hosts]: https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
 #### 规则合并器 Rules Merger
 
 [merge.red](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/merge.red)

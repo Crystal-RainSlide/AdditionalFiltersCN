@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 13-Sep-2020
-! Last Modified: 13-Sep-2020/15:15:58+08:00
+! Last updated: 27-Sep-2020
+! Last Modified: 27-Sep-2020/13:19:58+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -32,6 +32,9 @@ zhidao.baidu.com##.product-container
 ! ||img.zuoyebang.cc^
 ! @@||img.zuoyebang.cc/zyb_$image
 www.zybang.com##.wgt_carousel_aniUnit
+
+! 淘宝 Taobao
+www.taobao.com###smartbanner
 
 ! Netease
 
@@ -151,6 +154,9 @@ www.icourse163.org##.course-panel-body-wrapper:style(width: 100% !important;)
 www.icourse163.org##.m-hometop:style(margin-bottom: 10px !important)
 www.icourse163.org##.course-panel-wrapper > .course-panel-foot-wrapper:style(margin-top: 10px !important)
 
+! 人民网
+people.com.cn##.zh_banner,.cont_banner,.banner01,.banner02,.banner03
+
 ! 新京报
 www.bjnews.com.cn##.leftad,.rad
 www.bjnews.com.cn##div[id^="adpos_"]
@@ -269,6 +275,8 @@ www.soft5566.com###sharebtn
 ||www.opdown.com/js/op.js
 
 www.3h3.com##.list-down > h3:has-text(高速下载)
+
+www.runoob.com##.sidebar-box:has(.adsbygoogle)
 
 ! 软件No1
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
@@ -497,6 +505,11 @@ www.zhihu.com##.AppBanner
 daily.zhihu.com##.qr
 daily.zhihu.com##.download
 
+! 知乎 Mobile
+www.zhihu.com##.OpenInApp,.MobileAppHeader-downloadLink
+www.zhihu.com##.ModalWrap
+www.zhihu.com##body.ModalWrap-body:style(overflow: auto !important)
+
 ! 简书
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn
@@ -593,30 +606,36 @@ translate.google.cn###gt-cn
 ||hm.baidu.com^
 @@||dwz.hm.baidu.com^
 
-||baidupcs.com/monitor.jpg
-*/baidu-tongji/*
-*/baidu-tongji.js
-*/baidutongji.js
+||baidupcs.com/monitor.jpg^
+*/baidu-tongji/*$script
+*/baidu-tongji.js^$script
+*/baidutongji.js^$script
 
 ! ||static.ctfile.com/js/bd_stat.js
-*/bd_stat.js
+*/bd_stat.js^$script
 
 ! Abclite
 ||dlswbr.baidu.com/heicha/mw/abclite-*-s.js
 
-||passport.baidu.com/viewlog
+! ||cstm.baidu.com/baike/log/common$script
+! wss://cstm.baidu.com/baike/log
+||cstm.baidu.com^
+||bkclick.n.shifen.com^
+
+||passport.baidu.com/viewlog^
 
 ||ae.bdstatic.com/msite/*
 ! msite.baidu.com/sdk/c.js
 ||msite.baidu.com^
-||xiongzhang.baidu.com/xzhstatistics/rp
+||xiongzhang.baidu.com/xzhstatistics/rp^
 
-||www.baidu.com/con
+||www.baidu.com/con^
 
-||nc.baidu.com/api/blades/cp
+||nc.baidu.com/api/blades/cp^
 
-||image.baidu.com/pv/pv.gif
+||image.baidu.com/pv/pv.gif^
 
+! 百度站长
 ! ||zz.bdstatic.com/linksubmit/push.js
 ||zz.bdstatic.com^$script,third-party
 ||push.zhanzhang.baidu.com^
@@ -897,9 +916,19 @@ baidu.com/static/mapping/*.php
 ! 乘风
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
+
 @@||g.$cname
+
+! ||acs.$domain=~youku.com|~tudou.com
+! American Chemical Society
+@@||acs.org^
+
 @@||ueditor.baidu.com/website/images/banner-bg.png
+
 ! jCleanList
+www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
+www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
+@@||btrace.video.qq.com/kvcollect?*load*$badfilter
 @@||pv.funshion.com/*/video/*$xhr
 @@||www.wangma.net.cn/UploadFiles/Advert/*$image
 
@@ -1052,6 +1081,9 @@ photo.blog.sina.com.cn###sharePhoto
 new.qq.com##.share
 new.qq.com##.share-title
 
+! BIE 别的
+www.biede.com##.share-component,.social-share,.share-post
+
 ! 凤凰网
 ! 凤凰网使用多个页面结构有巨大差异的子域名，但采用相对统一的方式提供分享功能。
 ! 选中分享 #spam
@@ -1076,8 +1108,15 @@ www.jiemian.com##.article-share
 ! FT 中文网
 www.ftchinese.com##.icon-wechat,.icon-weibo,.icon-linkedin,.icon-twitter,.icon-facebook
 
+! 新华网
+www.xinhuanet.com##.fllow1-wap
+www.xinhuanet.com##.fllow1-wap + .p-right:style(float: right !important)
+
 ! 人民网
 people.com.cn###ops_share
+
+! 光明网
+gmw.cn###share
 
 ! 封面新闻
 www.thecover.cn###share_icons
@@ -1201,6 +1240,10 @@ www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px
 
 www.chinaz.com##.hot
 
+www.douban.com##img[src="https://img3.doubanio.com/f/shire/e49eca1517424a941871a2667a8957fd6c72d632/pics/new_menu.gif"]
+
+pinyin.sogou.com###zmeit_new
+
 www.w3cschool.cn##.hot-icon
 
 www.liaoxuefeng.com###ul-navbar > li > img
@@ -1288,6 +1331,9 @@ wenku.baidu.com##.wangpan-tip
 ||zhidao.baidu.com/question/api/hao123word
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 zhidao.baidu.com##.shop-entrance
+
+! 腾讯视频 iframe 底部推荐
+v.qq.com##.txp_tipbar
 
 ! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
 user.qzone.qq.com##.fn_accessLog_tips
