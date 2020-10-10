@@ -102,7 +102,6 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 ------------- | ---------
 [乘风]        | 广告过滤规则：[rule.txt][乘风 广告过滤规则] <br> 视频广告过滤规则：[mv.txt][乘风 视频广告过滤规则]
 [jCleanList]  | [jCleanList_all.txt]
-[XHY 过滤器] / [GitHub][XHY GitHub] / [Gitee][XHY Gitee]  | XHY PC：[GitHub][XHY PC GitHub] [Gitee][XHY PC Gitee] <br> XHY MOB：[GitHub][XHY MOB GitHub] [Gitee][XHY MOB Gitee]
 [QuarkList]   | [quarklist.txt]
 [ublock-CingList] | [ublock-CingList.txt]
 
@@ -112,18 +111,6 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 
 [jCleanList]:         https://github.com/jiayiming/jCleanList
 [jCleanList_all.txt]: https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt
-
-- XHY 过滤器的主页含有内容广告。
-- XHY PC 过滤器部分规则仅适用于 AdGuard PC 版程序（非拓展）。
-- XHY MOB 过滤器部分规则仅适用于 AdGuard 移动端应用（非 AdGuard Content Blocker）。
-
-[XHY 过滤器]: https://xuehuayu.cn/2019/09/26/AdGuard规则/
-[XHY GitHub]: https://github.com/npljy/npljy.github.io/tree/master/adblock
-[XHY Gitee]:  https://gitee.com/niepengsmile/niepengsmile/tree/master/adblock
-[XHY PC GitHub]:  https://raw.githubusercontent.com/npljy/npljy.github.io/master/adblock/pc.txt
-[XHY MOB GitHub]: https://raw.githubusercontent.com/npljy/npljy.github.io/master/adblock/mob.txt
-[XHY PC Gitee]:  https://gitee.com/niepengsmile/niepengsmile/raw/master/adblock/pc.txt
-[XHY MOB Gitee]: https://gitee.com/niepengsmile/niepengsmile/raw/master/adblock/mob.txt
 
 [QuarkList]:     https://n2o.io/p/quarklist/
 [quarklist.txt]: https://n2o.io/p/quarklist/dist/quarklist.txt

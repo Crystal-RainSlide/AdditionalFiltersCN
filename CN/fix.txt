@@ -4,10 +4,9 @@
 ! ------------------------------------------------------------------------------
 
 ! 乘风
+||g.$script,3p,badfilter
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
-
-@@||g.$cname
 
 ! ||acs.$domain=~youku.com|~tudou.com
 ! American Chemical Society

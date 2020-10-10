@@ -39,8 +39,6 @@
 ||cstm.baidu.com^
 ||bkclick.n.shifen.com^
 
-||passport.baidu.com/viewlog^
-
 ||ae.bdstatic.com/msite/*
 ! msite.baidu.com/sdk/c.js
 ||msite.baidu.com^
@@ -200,6 +198,19 @@ baidu.com/static/mapping/*.php
 
 ! Bing
 ||bing.com/fd/ls/*
+
+! TapTap
+||assets.tapimg.com/js/sa-*.js
+
+! 4399
+! 后缀是 .js，其实是图片…
+||trace4399.5054399.com/trace.js^
+||adtrace.5054399.com/click.js^
+www.4399.com##+js(set, tracking, trueFunc)
+www.4399.com##+js(set, tracead, trueFunc)
+www.4399.com##+js(ra, onmousedown, body[onmousedown="tracking(event);"])
+www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
+
 
 ! TOM Skype
 ||skype.gmw.cn^

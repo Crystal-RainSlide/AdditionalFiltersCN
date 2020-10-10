@@ -131,7 +131,10 @@ ping.chinaz.com##.col-2:style(width: 15% !important)
 ! ping.chinaz.com##.col-2:style(width: 20% !important)
 ping.chinaz.com##.col-4:style(width: 40% !important)
 
-||doubleclick.ctfile.com/
+
+! TapTap
+||static.tapdb.net/tapad/*
+
 
 ! 中国大学 MOOC
 www.icourse163.org##.coupon
@@ -163,7 +166,7 @@ jandan.net###comments > .commentlist > .row
 juejin.im##.recommend-box
 
 ! V2EX
-v2ex.com##.box:has(.adsbygoogle)
+! v2ex.com##.box:has(.adsbygoogle)
 v2ex.com##.box:has(> .inner > a:only-child > img[src*="/assets/sidebar/"])
 
 ! Engadget

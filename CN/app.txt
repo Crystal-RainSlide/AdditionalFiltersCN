@@ -97,6 +97,12 @@ www.zhihu.com##body.ModalWrap-body:style(overflow: auto !important)
 www.jianshu.com###note-fixed-ad-container
 www.jianshu.com##.app-download-btn
 
+
+! 4399
+www.4399.com##body#skinbody > .top > .tdc
+www.4399.com###randtip, .p-1ad, .p-2ad, .p-3ad, .p-4ad, .p-5ad
+
+
 ! 南方周末
 ||www.infzm.com/web/images/download-app.png$image
 www.infzm.com##.nfzm-app,.scan-btn,.fixed-popup

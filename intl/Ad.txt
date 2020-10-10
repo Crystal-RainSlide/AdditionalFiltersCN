@@ -168,6 +168,8 @@ www.slant.co##._TMSAdsSidebarAdView
 www.slant.co##.AdContainer
 www.slant.co##._has-ads
 
+*$3p,script,domain=store.rg-adguard.net
+
 crystalmark.info###top-container-widget
 
 compass-style.org##.advertisement
