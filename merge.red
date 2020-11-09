@@ -41,15 +41,21 @@ separator: append ( append/dup "! " #"-" 78 ) LF
 clean-ruleset: function [
 	ruleset-str [string!]
 ][
-	find/tail ruleset-str separator
+	result: find/tail ruleset-str separator
+	either result <> none [
+		return result
+	] [
+		return ruleset-str
+	]
 ]
 
-merge-rulesets: function [
+merge-ruleset: function [
+	ruleset-dir [string!]
 	ruleset-name [string!]
 	metadata [object!]
 ] [
 
-	ruleset-file: clean-path to file! :ruleset-name
+	ruleset-file: clean-path to file! :ruleset-dir
 
 	working-dir: dirize ruleset-file
 	output-file: append ruleset-file ".txt"
@@ -107,6 +113,15 @@ metadata-additional-filters: make-metadata [
 	"7 days"
 ]
 
-foreach ruleset [ "CN" "Intl" ] [
-	merge-rulesets ruleset metadata-additional-filters
+metadata-rainslide: make-metadata [
+	"RainSlide's Custom Rules"
+	"Some custom rules excluded from AdditionalFiltersCN."
+	https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+	"7 days"
 ]
+
+foreach ruleset [ "CN" "Intl" ] [
+	merge-ruleset ruleset ruleset metadata-additional-filters
+]
+
+merge-ruleset "RainSlide" "" metadata-rainslide

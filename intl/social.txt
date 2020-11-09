@@ -38,6 +38,10 @@ www.apkmirror.com##^#sidebar > .gooWidget
 developer.mozilla.org##.footer-social:has(.icon-twitter)
 developer.mozilla.org##.footer-social:has(.icon-instagram)
 
+! NewGrounds
+www.newgrounds.com##.footer-social-icons
+
+! Fandom
 fandom.com##.wds-is-follow-us
 
 chinadigitaltimes.net###footer_social

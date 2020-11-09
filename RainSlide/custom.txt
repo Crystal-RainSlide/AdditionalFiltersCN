@@ -1,0 +1,102 @@
+! Title: RainSlide's Custom Rules - Custom
+! Description: Some custom rules excluded from AdditionalFiltersCN.
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+! 网页粒子背景插件
+*/canvas-nest.min.js$script
+
+! Google Translate Banner
+||translate.google.com/translate_a/element.js$script
+
+! translate.google.cn 不必要的与 Google.com 的连接
+||accounts.google.com^$subdocument,domain=translate.google.cn
+||ogs.google.com^$subdocument,domain=translate.google.cn
+
+! 不会用到的 Captcha
+||ssl.captcha.qq.com/TCaptcha.js$domain=dl.3dmgame.com
+||www.google.com/recaptcha/*$script,domain=sourceforge.net,important
+
+! CN
+! ----
+
+! 百度搜索右侧内容
+www.baidu.com###content_right
+
+! 4399
+www.4399.com###addiv
+
+! 智慧树登录页背景动画
+||passport.zhihuishu.com/assets/js/three/wallbgcanvas.js
+||passport.zhihuishu.com/assets/js/three/three.min.js
+
+! 天翼云 免登录下载
+cloud.189.cn##+js(set, application.headerView.isLogin, true)
+
+! 知乎 za-js-sdk
+||unpkg.zhimg.com/za-js-sdk^
+
+！CSDN
+
+！Service Worker
+||csdn.net/sw.js
+
+! 顶部导航栏
+! ||g.csdnimg.cn/common/csdn-toolbar/csdn-toolbar.js
+||g.csdnimg.cn/common/csdn-toolbar/*
+
+! 用户信息相关
+! ||g.csdnimg.cn/user-medal/1.0.5/user-medal.js
+||g.csdnimg.cn/user-medal/*
+! ||g.csdnimg.cn/user-tooltip/2.1/user-tooltip.js
+||g.csdnimg.cn/user-tooltip/*
+
+
+! 0DayDown - 用不着 jQuery 却调用了…
+||www.0daydown.com/wp-content/themes/d8/js/jquery.js
+
+||china.com^
+
+! Intl
+! ----
+
+! Mega
+mega.nz##.register-side-pane.container
+mega.nz##.bottom-page.banners
+mega.nz##.bottom-page.banner-control
+mega.nz##.bottom-page.content > .bottom-page.startpage > :not(.bottom-menu)
+mega.nz##.bottom-page.content > .bottom-page.startpage > .bottom-menu:style(margin-top: 118px)
+
+! Genius Lyircs - Apple Music Player
+||assets.genius.com/javascripts/compiled/apple_music_player-*.js
+
+marketplace.secondlife.com###ads
+marketplace.secondlife.com##.advertisement
+
+||disroot.org/user/themes/disroot/images/header-background.jpg^$image
+||cloud.disroot.org/apps/theming/image/background^$image
+
+! IGGGAMES & PCGamesTorrents
+
+! Share
+||igg-games.com/wp-content/plugins/add-to-any/*$important
+||pcgamestorrents.com/wp-content/plugins/add-to-any/*
+
+! Slider
+||igg-games.com/wp-content/plugins/nextend-smart-slider3-pro/*$important
+||pcgamestorrents.com/wp-content/plugins/nextend-smart-slider3-pro/*
+igg-games.com,pcgamestorrents.com##.n2-ss-margin,#n2-ss-2-placeholder,#n2-ss-3-placeholder
+igg-games.com,pcgamestorrents.com##.uk-section:style(padding: 15px 0 !important)
+
+! Disqus
+||igg-games.com/wp-content/plugins/disqus-conditional-load-pro/*$important
+||pcgamestorrents.com/wp-content/plugins/disqus-conditional-load/*
+
+! Particles
+||igg-games.com/wp-content/themes/iggtheme/js/particles*$important
+||pcgamestorrents.com/wp-content/themes/iggtheme/js/particles*
+
+! Font
+||igg-games.com/wp-content/themes/iggtheme/fonts/*
+||pcgamestorrents.com/wp-content/themes/iggtheme/fonts/*

@@ -5,8 +5,11 @@
 
 ! 乘风
 ||g.$script,3p,badfilter
+
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
+
+@@||g.csdnimg.cn/$script,badfilter
 
 ! ||acs.$domain=~youku.com|~tudou.com
 ! American Chemical Society
@@ -20,6 +23,10 @@ www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract
 @@||btrace.video.qq.com/kvcollect?*load*$badfilter
 @@||pv.funshion.com/*/video/*$xhr
 @@||www.wangma.net.cn/UploadFiles/Advert/*$image
+
+! https://d301sr5gafysq2.cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
+! /[\/_\.\?\&\-]ad[sv]?\d*[\/_\.\-]/
+@@||cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
 
 ! QuarkList
 @@||n2o.io^$badfilter
@@ -36,11 +43,14 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
 
 ! bugs.chromium.org
+! /popup_
 @@*/static/js/graveyard/popup_controller.js
 
 ! 超星
 @@||ananas.chaoxing.com/video/*$media
 @@||chaoxing.com/schoolCourseInfo/display_add$xhr
+! /pop.js^
+@@||mobilelearn.chaoxing.com/xinfanya/js/common/pop.js^$script
 
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*$image
@@ -63,6 +73,8 @@ jingyan.baidu.com#@##like-btn
 
 www.wangma.net.cn#@#.ad
 
+@@||uniapp.dcloud.io/api/*$xhr
+
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
 ! 但这条规则，为保留一个有用的内联脚本，特意计算一个 hash
@@ -73,5 +85,3 @@ www.wangma.net.cn#@#.ad
 ||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws=',badfilter
 www.ruanyifeng.com###container::before
 www.ruanyifeng.com##+js(nostif, checker)
-
-@@||uniapp.dcloud.io/api/*$xhr

@@ -16,11 +16,13 @@
 ||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
 ||graph.facebook.com^$third-party
 
+||facebook.com^$subdocument
+
 ||platform.twitter.com/widgets.js$script
 
 ! ||apis.google.com/js/platform.js$script
 ! ||apis.google.com/js/plusone.js$script
-||apis.google.com/js/$third-party
+||apis.google.com/js/$domain=~google.com,~googleapis.com
 
 ||badges.instagram.com^$third-party
 ||assets.pinterest.com/js/pinit.js$third-party
@@ -30,9 +32,6 @@
 ||vk.com/js/api/share.js$script
 
 ##.sharedaddy
-
-! APKPure
-||cdnpure.com/static/share-button/*
 
 ! BBC
 www.bbc.com##.sharetools
@@ -49,6 +48,13 @@ www.foxnews.com##.article-social
 
 ! South China Morning Post
 www.scmp.com##.share
+
+! SourceForge
+sourceforge.net##.share-text
+sourceforge.net##.social-sharing-buttons
+
+! APKPure
+||cdnpure.com/static/share-button/*
 
 ! 9GAG
 9gag.com##.share

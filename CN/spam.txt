@@ -4,13 +4,13 @@
 ! ------------------------------------------------------------------------------
 
 ! Red Dot & Hot & New Start
+
 www.baidu.com##.dot::before
 www.baidu.com##.title-content-index,.title-content-mark:style(filter: grayscale())
 www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
 
 dwz.cn##.new-icon > img
-jingyan.baidu.com##.new-icon
-zhidao.baidu.com##.new-icon
+baike.baidu.com,jingyan.baidu.com,zhidao.baidu.com##.new-icon
 zhidao.baidu.com##.menu-title-icon
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
@@ -34,6 +34,8 @@ qzone.qq.com##.sn-radio
 qzone.qq.com##.icon_app_new_cn
 qzone.qq.com##.icon_app_recommend
 qzone.qq.com,show.qq.com##.ico_new
+
+qzone.qq.com##.icon-red-dot
 
 docs.qq.com##.dui-badge-dot
 
@@ -274,9 +276,17 @@ cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !im
 ||background.cowtransfer.com^
 
 ! CSDN
-!     首次访问登录弹窗
+
+! 首次访问登录弹窗
+! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
+||g.csdnimg.cn/login-box/*
 csdn.net##.login-mark
 csdn.net##.login-box
+
+! 恶意劫持剪贴板
+! https://g.csdnimg.cn/copyright/1.0.3/copyright.js
+https://g.csdnimg.cn/copyright/*
+
 !   博客
 !     记录你的技术成长历程…
 blog.csdn.net###writeGuide
@@ -284,6 +294,8 @@ blog.csdn.net###writeGuide
 blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
 !     抢沙发
 blog.csdn.net##.comment-sofa-flag
+!     一键三连按钮的提示：点赞Mark关注该博主, 随时了解TA的最新博文
+blog.csdn.net##.triplet-prompt
 !  论坛
 !     强加在每条发言下的关联推荐
 bbs.csdn.net##.post_recommend

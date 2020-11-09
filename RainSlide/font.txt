@@ -1,0 +1,29 @@
+! Title: RainSlide's Custom Rules - Font
+! Description: Some custom rules excluded from AdditionalFiltersCN.
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+||fonts.geekzu.org/css$stylesheet
+||fonts.googleapis.com/css$stylesheet
+@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
+@@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
+
+||fonts.gstatic.com/s/googlesans/*
+
+||use.typekit.net^$third-party
+
+||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*
+
+! ----
+
+||kongregate.com/stylesheets/open_sans.css
+||kongregate.com/stylesheets/source_sans_pro.css
+||konggames.com/stylesheets/open_sans.css
+||konggames.com/stylesheets/source_sans_pro.css
+
+||tuna.moe/assets/*$font,1p
+||pypi.org/static/*$font,1p
+
+||pad.disroot.org/static/font/*
+@@||pad.disroot.org/static/font/fontawesome-etherpad.woff

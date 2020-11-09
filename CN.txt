@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 10-Oct-2020
-! Last Modified: 10-Oct-2020/11:16:30+08:00
+! Last updated: 9-Nov-2020
+! Last Modified: 9-Nov-2020/22:55:57+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -106,7 +106,17 @@ www.cnblogs.com###ad_text_under_commentbox
 www.cnblogs.com##.c_ad_block:not(.itnews)
 
 ! CSDN
+||protagcdn.com^$3p
+
+! ||kunpeng.csdn.net/ad/json/536
+||kunpeng.csdn.net/ad/*
+
+! ||g.csdnimg.cn/common/redpack/redpack.js
+||g.csdnimg.cn/common/redpack/*
+csdn.net###csdn-redpack
+
 blog.csdn.net##.recommend-ad-box
+blog.csdn.net###blogColumnPayAdvert, .column-advert-box, .middle-advert-box
 blog.csdn.net##body > div:has(.adblock)
 
 bbs.csdn.net##.bbs_feed_ad_box
@@ -207,6 +217,9 @@ segmentfault.com##.mb25
 segmentfault.com##.card:has(> .card-body > .side-promote-link)
 segmentfault.com##.card:has(> div[id^="OA_holder_"])
 
+! 果壳网
+www.guokr.com###app > div[class*="ArticleBottomAppAd"]
+
 ! 千图网
 www.58pic.com##.search_poster
 ! 呢图网
@@ -252,6 +265,16 @@ www.crsky.com##.Adown_dli
 www.crsky.com##.Imdown
 www.crsky.com##.genral_li li a:style(color: initial !important)
 www.crsky.com##.hot
+
+! 完美软件下载
+||www.wmzhe.com/static/wmzhe/js/tianmao11.js
+www.wmzhe.com##.hot
+www.wmzhe.com###search-form-input:style(box-sizing: border-box)
+www.wmzhe.com##.downl_title
+www.wmzhe.com##.downl_L
+www.wmzhe.com###download
+www.wmzhe.com##.downl_listC > p:first-child
+www.wmzhe.com##.downl_listC:style(border-top: none !important; margin-top: 0 !important)
 
 ! 多特
 ||img2.2345.com/duoteimg/js/newjs/clickdown_stat_ajax.js
@@ -420,12 +443,16 @@ www.icourse163.org###j-activityRightBanner
 open.163.com##.advertisement
 open.163.com##.comment:style(margin-top: 0 !important)
 
+c.biancheng.net###ad-arc-top, #ad-bottom-weixin
+
 www.iplaysoft.com##.entry-recommend-posts
 ! House Advertisement End
 
 ! 百度
 ||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
+
+baike.baidu.com##.wgt-baikeapp-promote-container
 
 pan.baidu.com##.app-download
 eyun.baidu.com##.client-download
@@ -486,7 +513,7 @@ news.163.com##.newsapp-qrcode
 news.163.com##.ntes-nav-mobile-title
 
 ! 网易云音乐
-music.163.com##.download
+music.163.com##.download, .m-multi
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
 
@@ -834,8 +861,17 @@ www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
 ! CSDN
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
 ! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
-||event.csdn.net/logstores^$xhr
-||g.csdnimg.cn/track^
+||event.csdn.net/logstores/*
+
+! 推送数据收集
+! 百度
+! ||g.csdnimg.cn/baidu-search/1.0.3/baidu-search.js
+||g.csdnimg.cn/baidu-search/*
+! 头条
+||s3a.pstatp.com/toutiao/push.js
+! 阿里
+||g.alicdn.com^$domain=csdn.net,important
+||g.csdnimg.cn/track^$important
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
@@ -889,6 +925,14 @@ www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
 ! 携程
 ||u.ctrip.com/union/*$third-party
 
+! 脚本之家
+||icws.jb51.net/tongji/tongji2.js
+||icws.jb51.net/good/ssoft2019.js
+
+! 完美软件下载
+||www.wmzhe.com/static/wmzhe/js/aibyte_tj.js
+||www.wmzhe.com/static/wmzhe/js/result.js
+
 ! 3DM
 ||work.3dmgame.com/js/statistics.js
 ||work.3dmgame.com/statistics
@@ -935,8 +979,11 @@ www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
 
 ! 乘风
 ||g.$script,3p,badfilter
+
 @@*$stylesheet,badfilter
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
+
+@@||g.csdnimg.cn/$script,badfilter
 
 ! ||acs.$domain=~youku.com|~tudou.com
 ! American Chemical Society
@@ -950,6 +997,10 @@ www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract
 @@||btrace.video.qq.com/kvcollect?*load*$badfilter
 @@||pv.funshion.com/*/video/*$xhr
 @@||www.wangma.net.cn/UploadFiles/Advert/*$image
+
+! https://d301sr5gafysq2.cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
+! /[\/_\.\?\&\-]ad[sv]?\d*[\/_\.\-]/
+@@||cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
 
 ! QuarkList
 @@||n2o.io^$badfilter
@@ -966,11 +1017,14 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 @@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
 
 ! bugs.chromium.org
+! /popup_
 @@*/static/js/graveyard/popup_controller.js
 
 ! 超星
 @@||ananas.chaoxing.com/video/*$media
 @@||chaoxing.com/schoolCourseInfo/display_add$xhr
+! /pop.js^
+@@||mobilelearn.chaoxing.com/xinfanya/js/common/pop.js^$script
 
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*$image
@@ -993,6 +1047,8 @@ jingyan.baidu.com#@##like-btn
 
 www.wangma.net.cn#@#.ad
 
+@@||uniapp.dcloud.io/api/*$xhr
+
 ! CSP 规则的注意是谁想出来的…
 ! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
 ! 但这条规则，为保留一个有用的内联脚本，特意计算一个 hash
@@ -1003,8 +1059,6 @@ www.wangma.net.cn#@#.ad
 ||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws=',badfilter
 www.ruanyifeng.com###container::before
 www.ruanyifeng.com##+js(nostif, checker)
-
-@@||uniapp.dcloud.io/api/*$xhr
 
 ! ||res.wx.qq.com/open/js/jweixin-*.js
 ! ||oschina.net/js/utils/jweixin-*.js
@@ -1197,13 +1251,13 @@ v.qq.com##.action_share.action_item
 www.lizhi.fm##.attentionUs
 
 ! Red Dot & Hot & New Start
+
 www.baidu.com##.dot::before
 www.baidu.com##.title-content-index,.title-content-mark:style(filter: grayscale())
 www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
 
 dwz.cn##.new-icon > img
-jingyan.baidu.com##.new-icon
-zhidao.baidu.com##.new-icon
+baike.baidu.com,jingyan.baidu.com,zhidao.baidu.com##.new-icon
 zhidao.baidu.com##.menu-title-icon
 developer.baidu.com##.hot-icon
 fanyi.baidu.com##.icon-hotlk
@@ -1227,6 +1281,8 @@ qzone.qq.com##.sn-radio
 qzone.qq.com##.icon_app_new_cn
 qzone.qq.com##.icon_app_recommend
 qzone.qq.com,show.qq.com##.ico_new
+
+qzone.qq.com##.icon-red-dot
 
 docs.qq.com##.dui-badge-dot
 
@@ -1467,9 +1523,17 @@ cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !im
 ||background.cowtransfer.com^
 
 ! CSDN
-!     首次访问登录弹窗
+
+! 首次访问登录弹窗
+! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
+||g.csdnimg.cn/login-box/*
 csdn.net##.login-mark
 csdn.net##.login-box
+
+! 恶意劫持剪贴板
+! https://g.csdnimg.cn/copyright/1.0.3/copyright.js
+https://g.csdnimg.cn/copyright/*
+
 !   博客
 !     记录你的技术成长历程…
 blog.csdn.net###writeGuide
@@ -1477,6 +1541,8 @@ blog.csdn.net###writeGuide
 blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
 !     抢沙发
 blog.csdn.net##.comment-sofa-flag
+!     一键三连按钮的提示：点赞Mark关注该博主, 随时了解TA的最新博文
+blog.csdn.net##.triplet-prompt
 !  论坛
 !     强加在每条发言下的关联推荐
 bbs.csdn.net##.post_recommend

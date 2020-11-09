@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 10-Oct-2020
-! Last Modified: 10-Oct-2020/11:16:30+08:00
+! Last updated: 9-Nov-2020
+! Last Modified: 9-Nov-2020/22:55:57+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -338,11 +338,13 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
 ||graph.facebook.com^$third-party
 
+||facebook.com^$subdocument
+
 ||platform.twitter.com/widgets.js$script
 
 ! ||apis.google.com/js/platform.js$script
 ! ||apis.google.com/js/plusone.js$script
-||apis.google.com/js/$third-party
+||apis.google.com/js/$domain=~google.com,~googleapis.com
 
 ||badges.instagram.com^$third-party
 ||assets.pinterest.com/js/pinit.js$third-party
@@ -352,9 +354,6 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ||vk.com/js/api/share.js$script
 
 ##.sharedaddy
-
-! APKPure
-||cdnpure.com/static/share-button/*
 
 ! BBC
 www.bbc.com##.sharetools
@@ -371,6 +370,13 @@ www.foxnews.com##.article-social
 
 ! South China Morning Post
 www.scmp.com##.share
+
+! SourceForge
+sourceforge.net##.share-text
+sourceforge.net##.social-sharing-buttons
+
+! APKPure
+||cdnpure.com/static/share-button/*
 
 ! 9GAG
 9gag.com##.share
@@ -434,6 +440,10 @@ www.apkmirror.com##^#sidebar > .gooWidget
 developer.mozilla.org##.footer-social:has(.icon-twitter)
 developer.mozilla.org##.footer-social:has(.icon-instagram)
 
+! NewGrounds
+www.newgrounds.com##.footer-social-icons
+
+! Fandom
 fandom.com##.wds-is-follow-us
 
 chinadigitaltimes.net###footer_social

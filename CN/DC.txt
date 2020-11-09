@@ -242,8 +242,17 @@ www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
 ! CSDN
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
 ! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
-||event.csdn.net/logstores^$xhr
-||g.csdnimg.cn/track^
+||event.csdn.net/logstores/*
+
+! 推送数据收集
+! 百度
+! ||g.csdnimg.cn/baidu-search/1.0.3/baidu-search.js
+||g.csdnimg.cn/baidu-search/*
+! 头条
+||s3a.pstatp.com/toutiao/push.js
+! 阿里
+||g.alicdn.com^$domain=csdn.net,important
+||g.csdnimg.cn/track^$important
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
@@ -296,6 +305,14 @@ www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
 
 ! 携程
 ||u.ctrip.com/union/*$third-party
+
+! 脚本之家
+||icws.jb51.net/tongji/tongji2.js
+||icws.jb51.net/good/ssoft2019.js
+
+! 完美软件下载
+||www.wmzhe.com/static/wmzhe/js/aibyte_tj.js
+||www.wmzhe.com/static/wmzhe/js/result.js
 
 ! 3DM
 ||work.3dmgame.com/js/statistics.js

@@ -7,6 +7,8 @@
 ||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
 
+baike.baidu.com##.wgt-baikeapp-promote-container
+
 pan.baidu.com##.app-download
 eyun.baidu.com##.client-download
 
@@ -66,7 +68,7 @@ news.163.com##.newsapp-qrcode
 news.163.com##.ntes-nav-mobile-title
 
 ! 网易云音乐
-music.163.com##.download
+music.163.com##.download, .m-multi
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
 

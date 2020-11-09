@@ -1,0 +1,9 @@
+! Title: RainSlide's Custom Rules - Random
+! Description: Some custom rules excluded from AdditionalFiltersCN.
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+rsload.net##a[href="https://rsload.net/tutvce.html"]
+rsload.net##center
+rsload.net##center + br
