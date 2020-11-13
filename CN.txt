@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 9-Nov-2020
-! Last Modified: 9-Nov-2020/22:55:57+08:00
+! Last updated: 13-Nov-2020
+! Last Modified: 13-Nov-2020/17:41:48+08:00
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
@@ -308,18 +308,13 @@ www.runoob.com##.sidebar-box:has(.adsbygoogle)
 @@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
 @@||rjno1.com^$csp=script-src 'self' *;style-src
 
-www.rjno1.com##body > img:first-of-type
-www.rjno1.com##body > div:first-of-type
-www.rjno1.com###rinocheckaaa
-www.rjno1.com###rjnocheckbbb
-www.rjno1.com###whitebox:style(height: auto !important)
-
-www.rjno1.com##^style
-www.rjno1.com##^script:not([src])
-
-www.rjno1.com##.article-top-ad-1:style(margin: 0 !important)
-www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi:style(float: unset !important; width: auto !important)
-www.rjno1.com##.article-top-ad-1 > .wenzhangxinxi > ul:style(display: flex !important; justify-content: space-between)
+www.rjno1.com##body > img[style]:nth-child(1)
+www.rjno1.com##body > div[style]:nth-child(2)
+www.rjno1.com##body > div[id]:nth-child(4)
+www.rjno1.com##body > div[id]:nth-child(5)
+www.rjno1.com#@##site-top-bar
+www.rjno1.com#@##page
+www.rjno1.com###content:style(height: auto !important)
 
 ||img.rjno1.com/images/logo/juanzeng.png$image
 

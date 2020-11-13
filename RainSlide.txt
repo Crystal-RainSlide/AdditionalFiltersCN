@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 9-Nov-2020
-! Last Modified: 9-Nov-2020/22:55:57+08:00
+! Last updated: 13-Nov-2020
+! Last Modified: 13-Nov-2020/17:41:48+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
