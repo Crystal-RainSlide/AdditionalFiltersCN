@@ -99,6 +99,10 @@ baidu.com/static/mapping/*.php
 ||dj.captcha.qq.com/caplog
 ||stdl.qq.com/stdl/qb/js/qblog.js
 
+! ||mat1.gtimg.com/js/speed_v1.9-min.js
+
+||mat1.gtimg.com/js/speed_*.js
+
 ! From mail.qq.com
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 

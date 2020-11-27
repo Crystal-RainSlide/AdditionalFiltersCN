@@ -14,6 +14,13 @@ wenku.baidu.com##.top-ads-banner-wrap
 
 ! 百度文库搜索页
 wenku.baidu.com##.search-aside-newadWrap
+! 红包
+! ||wkstatic.bdimg.com/static/ndpcwenku/static/ndview/img/extension.cff322ea4e37a471e85b7df94eb808b2.gif
+||wkstatic.bdimg.com/static/ndpcwenku/static/ndview/img/extension.*.gif
+! VIP
+wenku.baidu.com##.inner-vip, .vip-pop-wrap
+! 精品课程
+wenku.baidu.com##.relative-course-wrapper
 
 pan.baidu.com###bd > .bd-aside > img
 pan.baidu.com##.module-header a[href="http://photo.baidu.com/"]
@@ -29,6 +36,9 @@ www.zybang.com##.wgt_carousel_aniUnit
 
 ! 淘宝 Taobao
 www.taobao.com###smartbanner
+
+! 腾讯新闻 扫码领红包
+new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 
 ! Netease
 
@@ -193,8 +203,14 @@ www.iplaysoft.com##.widget_title:has-text(赞助)
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
+
+www.423down.com##.content :not(p) > a[href^="https://mp.weixin.qq.com/s"]:only-child
+
 ! 脚本之家
 www.jb51.net##.sidebox-recomm
+www.jb51.net##.topbarleft, .logom, .logor
+www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has(:scope > #txtlink, :scope > .topimg)
+
 
 ! cnBeta
 cnbeta.com##^script[data-turbolinks-eval]
@@ -285,6 +301,10 @@ xiazai.zol.com.cn##.down-dxlt
 ! 3DM
 3dmgame.com##.push_browser
 dl.3dmgame.com##.downllis > li:has(a.a_click:has-text(微端下载))
+! 页游广告
+||yeyou.3dmgame.com/tools/gamead$subdocument
+! 裁决战歌
+3dmgame.com##a[href="http://tj.shwswl.cn/3dm_cjzg.exe"]
 
 ! 谁家的下载代理叫 5566 来着…
 www.soft5566.com##.gameicon
@@ -299,21 +319,10 @@ www.3h3.com##.list-down > h3:has-text(高速下载)
 www.runoob.com##.sidebar-box:has(.adsbygoogle)
 
 ! 软件No1
-@@||www.rjno1.com/templates/moban/js/ads/show_ads.js$script,first-party
-@@||rjno1.com^$csp=script-src 'self' *;style-src
-
+||img.rjno1.com/images/logo/juanzeng.png
+||www.rjno1.com/wp-content/themes/moban/moban-img/index.png
 www.rjno1.com##body > img[style]:nth-child(1)
-www.rjno1.com##body > div[style]:nth-child(2)
-www.rjno1.com##body > div[id]:nth-child(4)
-www.rjno1.com##body > div[id]:nth-child(5)
-www.rjno1.com#@##site-top-bar
-www.rjno1.com#@##page
-www.rjno1.com###content:style(height: auto !important)
-
-||img.rjno1.com/images/logo/juanzeng.png$image
-
-www.pc0359.cn##.ad-download
-www.pc0359.cn###gaosuxiazai
+www.rjno1.com##.home-a-d1, .home-a-d2, .home-a-d3, .home-a-d4, .category-main-a-d1, .category-main-a-d2, .category-right-a-d1, .category-right-a-d2, .single-top-a-d1, .single-bottom-a-d1, .single-bottom-a-d2, .single-right-a-d1, .download-a-d1, .download-a-d2, .download-a-d3, .download-a-d4
 
 ! 亿品元素
 @@||a.epinv.com^$script

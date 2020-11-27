@@ -11,10 +11,6 @@
 
 ||cloudfront.net/audience.js
 
-! Google
-www.google.*##+js(set, rwt, noopFunc)
-www.google.*##+js(ra, onmousedown, #rso a)
-
 ! YouTube
 ||www.youtube.com/youtubei/*/log_event$xhr
 

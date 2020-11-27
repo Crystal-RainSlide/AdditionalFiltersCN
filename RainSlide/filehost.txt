@@ -15,6 +15,17 @@ uploadhaven.com###downloadNowBtn:style(display: block !important)
 ||use.fontawesome.com^$domain=uploadrar.com
 ||uploadrar.com/uploadrar_style/fonts/fonts.css
 
+uploadrar.com###commonId > .btn-success
+uploadrar.com##.banner1, .banner2, .banner3
+uploadrar.com##.txt
+uploadrar.com##.download2page > .download0page
+uploadrar.com##.fileoption > ul
+uploadrar.com##.sharefile
+uploadrar.com##.socialmedia
+uploadrar.com###news_last
+uploadrar.com##body.lastnewshere:style(padding: 0 !important)
+uploadrar.com##header, #sidebarphone, .menufooter, footer, #footer2
+
 ||dropgalaxy.com^$inline-script
 ||dropgalaxy.com/js/countdown.js$script
 ||dropgalaxy.com/assets/js/*$script

@@ -241,6 +241,9 @@ mooc.study.163.com##.j-search > .j-label
 ! 简书 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]
 
+
+||img.solidot.org//0/446/liiLIZF8Uh6yM.jpg$image
+
 ! 新京报
 www.bjnews.com.cn##.layer_mian
 
@@ -312,6 +315,9 @@ dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
 ! 游侠 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
+
+! 右键限制
+||www.portablesoft.org/statics/tt_gb/skin_js/gb.js
 
 
 kan.china.com##.pages a[href^="/recommend.shtml"]

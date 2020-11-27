@@ -9,9 +9,9 @@ www.baidu.com###qrcode
 
 baike.baidu.com##.wgt-baikeapp-promote-container
 
+baike.baidu.com##.appdownload
 pan.baidu.com##.app-download
 eyun.baidu.com##.client-download
-
 fanyi.baidu.com##.download-app
 
 passport.baidu.com##.app-download-link
@@ -155,6 +155,8 @@ www.bjnews.com.cn###follow
 ! 3DM
 www.3dmgame.com##.content a[href="https://www.3dmgame.com/app.html"]
 dl.3dmgame.com##.Content_L > a[href="https://www.3dmgame.com/app.html"]
+box.hyds360.com##.sdmimg
+||www.3dmgame.com/page/images/3dmapp.png$image
 
 ! 稻壳阅读器
 ! www.doc88.com###pageContainer.page_view > div[style]:not([class]):not([id]):has(> .dk-bg)

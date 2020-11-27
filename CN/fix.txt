@@ -15,7 +15,11 @@
 ! American Chemical Society
 @@||acs.org^
 
+! /banner-
 @@||ueditor.baidu.com/website/images/banner-bg.png
+
+! /ads.
+@@||www.raidrive.com/css/raidrive/ads.min.css$stylesheet
 
 ! jCleanList
 www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)

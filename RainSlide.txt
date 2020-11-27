@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 13-Nov-2020
-! Last Modified: 13-Nov-2020/17:41:48+08:00
+! Last updated: 27-Nov-2020
+! Last Modified: 27-Nov-2020/11:28:34+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -35,6 +35,11 @@ www.4399.com###addiv
 ! 天翼云 免登录下载
 cloud.189.cn##+js(set, application.headerView.isLogin, true)
 
+! 百度文库 顶栏与工具栏
+wenku.baidu.com##.tool-bar-wrapper
+wenku.baidu.com##.search-box-wrapper.small:style(position: static !important)
+wenku.baidu.com##.reader-topbar, .fix-recommend-wrapper .fixed:style(top: 0 !important)
+
 ! 知乎 za-js-sdk
 ||unpkg.zhimg.com/za-js-sdk^
 
@@ -46,6 +51,9 @@ cloud.189.cn##+js(set, application.headerView.isLogin, true)
 ! 顶部导航栏
 ! ||g.csdnimg.cn/common/csdn-toolbar/csdn-toolbar.js
 ||g.csdnimg.cn/common/csdn-toolbar/*
+
+! 底部工具栏
+blog.csdn.net###toolBarBox
 
 ! 用户信息相关
 ! ||g.csdnimg.cn/user-medal/1.0.5/user-medal.js
@@ -112,6 +120,17 @@ uploadhaven.com###downloadNowBtn:style(display: block !important)
 ||maxcdn.bootstrapcdn.com^$domain=uploadrar.com
 ||use.fontawesome.com^$domain=uploadrar.com
 ||uploadrar.com/uploadrar_style/fonts/fonts.css
+
+uploadrar.com###commonId > .btn-success
+uploadrar.com##.banner1, .banner2, .banner3
+uploadrar.com##.txt
+uploadrar.com##.download2page > .download0page
+uploadrar.com##.fileoption > ul
+uploadrar.com##.sharefile
+uploadrar.com##.socialmedia
+uploadrar.com###news_last
+uploadrar.com##body.lastnewshere:style(padding: 0 !important)
+uploadrar.com##header, #sidebarphone, .menufooter, footer, #footer2
 
 ||dropgalaxy.com^$inline-script
 ||dropgalaxy.com/js/countdown.js$script
