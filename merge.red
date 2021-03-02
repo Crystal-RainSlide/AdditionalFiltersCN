@@ -120,7 +120,7 @@ metadata-rainslide: make-metadata [
 	"7 days"
 ]
 
-foreach ruleset [ "CN" "Intl" ] [
+foreach ruleset [ "CN" "Intl" "Game" ] [
 	merge-ruleset ruleset ruleset metadata-additional-filters
 ]
 

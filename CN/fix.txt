@@ -75,6 +75,11 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
 
+! Fentai Foundry
+@@||img.hentai-foundry.com/themes/default/js/ads.js
+
+@@||portal.wifi.189.cn/ad_page/*$1p
+
 www.wangma.net.cn#@#.ad
 
 @@||uniapp.dcloud.io/api/*$xhr

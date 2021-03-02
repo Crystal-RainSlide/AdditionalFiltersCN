@@ -140,9 +140,6 @@ www.jammyfm.com##.share-toolbox
 
 www.dongqiudi.com###share
 
-www.4399.com###sharebtn
-www.7k7k.com##.start-game-share
-
 ||ue.17173cdn.com/a/lib/*/share/index.js
 
 www.icourse163.org###j-share.j-share

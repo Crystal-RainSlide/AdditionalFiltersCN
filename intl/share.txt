@@ -31,6 +31,8 @@
 ||widget.pushbullet.com/dynamic.js$script
 ||vk.com/js/api/share.js$script
 
+||share.pluso.ru^$script
+
 ##.sharedaddy
 
 ! BBC
@@ -55,6 +57,9 @@ sourceforge.net##.social-sharing-buttons
 
 ! APKPure
 ||cdnpure.com/static/share-button/*
+
+! Shit
+www.tiktok.com##.share-container
 
 ! 9GAG
 9gag.com##.share

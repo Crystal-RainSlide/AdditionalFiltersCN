@@ -3,6 +3,9 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! Google Translate
+translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
+
 ! APKPure
 apkpure.com##.aegon-link
 apkpure.com###ad-aegon-side
@@ -23,6 +26,8 @@ userstyles.org###top_android_button
 userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
 userstyles.org##.walking
+
+yadi.sk##.app-promo-banner
 
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 

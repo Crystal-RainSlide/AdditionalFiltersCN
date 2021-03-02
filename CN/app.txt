@@ -42,8 +42,10 @@ zybang.com##.question-view .main-body .main-con, .question-view .main-body foote
 zybang.com##.questionWarp > dl:style(box-sizing: border-box; width: 100% !important)
 zybang.com##.qb_wgt-question .qb-content, #good-answer:style(font-size: large !important)
 
+
+
 ! Google 翻译
-translate.google.cn##.app-download-bar
+translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
 
 ! 必应词典
 cn.bing.com##.b_hPanel:has(.ap_logo)
@@ -64,8 +66,7 @@ www.bilibili.com###fixed_app_download.home-app-download
 www.bilibili.com##.mobile
 
 ! 网易新闻
-news.163.com##.newsapp-qrcode
-news.163.com##.ntes-nav-mobile-title
+163.com##.newsapp-qrcode, .ntes-nav-mobile-title
 
 ! 网易云音乐
 music.163.com##.download, .m-multi

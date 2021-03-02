@@ -3,7 +3,10 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-*/cdn-cgi/trace$xhr
+*/cdn-cgi/trace^$xhr
+
+*/jquery.sudy.wp.visitcount.js^$script
+*/_visitcount^$xhr
 
 ! ||www.taoyisou.com/js/visit$xhr
 */js/visit$xhr
@@ -58,7 +61,7 @@
 ! ||fex.bdstatic.com/hunter/alog/speed.min.js
 */alog/*$script
 
-https://code.bdstatic.com/npm/spy-client^
+||code.bdstatic.com/npm/spy-client^
 
 ! pan.baidu.com
 ||pan.baidu.com/api/report/user^
@@ -69,11 +72,14 @@ https://code.bdstatic.com/npm/spy-client^
 
 ||jingyan.baidu.com/asyncreq/log^
 
-! wenku.baidu.com
+! 百度文库 wenku.baidu.com
 ||wkctj.baidu.com^
-||wenku.baidu.com/doc/interface/docCount
-||wkstatic.bdimg.com/static/wapyuedu/static/common/static/na/js/util/wapfelog_*.js
-||wkstatic.bdimg.com/static/wkcommon/widget/belongToTob/channel_entrance_logger/logger_*.js
+! ||edu-wenku.bdimg.com/v1/pc/browserdata/browserdata-min.js^
+||edu-wenku.bdimg.com/*/pc/browserdata/*
+
+! 百度文库搜索
+! ||wkstatic.bdimg.com/static/wkcommon/widget/belongtotob/channel_entrance_logger/logger_eead8a6.js
+||wkstatic.bdimg.com/static/wkcommon/widget/belongtotob/channel_entrance_logger/*
 
 ! ||user.hao123.com/static/mapping/hao.php
 ! ||hao123.baidu.com/static/mapping/bd.php
@@ -94,8 +100,22 @@ baidu.com/static/mapping/*.php
 
 ||aegis.qq.com^
 
+! ||report.huatuo.qq.com^
+! ||report.qqweb.qq.com^
+||report.*.qq.com^
 ||report.url.cn^
-||report.huatuo.qq.com^
+
+||wspeed.qq.com^
+||qzone.qq.com/wspeed.qq.com^
+||qzone.qq.com/proxy/domain/statistic.qzone.qq.com^
+
+! ||h5.qzone.qq.com/report/md^
+||qzone.qq.com/report/*$xhr,image
+
+! ||qzonestyle.gtimg.cn/ac/qzfl/release/expand/ping_sender.js^
+! ||qzs.qq.com/ac/qzfl/release/expand/ping_sender.js^
+*/ac/qzfl/release/expand/ping_sender.js^
+
 ||dj.captcha.qq.com/caplog
 ||stdl.qq.com/stdl/qb/js/qblog.js
 
@@ -119,9 +139,6 @@ baidu.com/static/mapping/*.php
 ||tajs.qq.com/stats$important
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
-
-! ||h5.qzone.qq.com/report/md^
-||qzone.qq.com/report/*$xhr,image
 
 ! Ali
 
@@ -206,16 +223,6 @@ baidu.com/static/mapping/*.php
 ! TapTap
 ||assets.tapimg.com/js/sa-*.js
 
-! 4399
-! 后缀是 .js，其实是图片…
-||trace4399.5054399.com/trace.js^
-||adtrace.5054399.com/click.js^
-www.4399.com##+js(set, tracking, trueFunc)
-www.4399.com##+js(set, tracead, trueFunc)
-www.4399.com##+js(ra, onmousedown, body[onmousedown="tracking(event);"])
-www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
-
-
 ! TOM Skype
 ||skype.gmw.cn^
 
@@ -247,13 +254,19 @@ www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
 ! ||event.csdn.net/logstores/csdn-pc-tracking-pageview/track_ua.gif
 ||event.csdn.net/logstores/*
+! ||g.csdnimg.cn/common/csdn-report/report.js
+||g.csdnimg.cn/common/csdn-report/*
 
 ! 推送数据收集
 ! 百度
 ! ||g.csdnimg.cn/baidu-search/1.0.3/baidu-search.js
 ||g.csdnimg.cn/baidu-search/*
-! 头条
+! 字节跳动
 ||s3a.pstatp.com/toutiao/push.js
+||i.snssdk.com/slardar/sdk.js
+||verify.snssdk.com/static/*$script
+! ||sf1-scmcdn-tos.pstatp.com/goofy/log-sdk/collect/core/collect.js
+||pstatp.com/goofy/log-sdk/*
 ! 阿里
 ||g.alicdn.com^$domain=csdn.net,important
 ||g.csdnimg.cn/track^$important

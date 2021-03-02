@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 27-Nov-2020
-! Last Modified: 27-Nov-2020/11:28:34+08:00
+! Last updated: 2-Mar-2021
+! Last Modified: 2-Mar-2021/15:58:04+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -50,13 +50,14 @@ outlook.live.com###app div[class]:last-child:has(> div[class]:only-child > div >
 ! Add the Microsoft Rewards extension
 www.bing.com###b_opalpers
 
+! Reddit
+old.reddit.com##.ad-container
+
 ! SourceForge
-sourceforge.net##.sterling
-sourceforge.net##.banner-sterling
-sourceforge.net###project-nel
-! sourceforge.net##.can-truncate.standard.nel
-sourceforge.net##.nel
+sourceforge.net##.sterling, .banner-sterling
+sourceforge.net###project-nel, .nel
 sourceforge.net##.stackcommerce-widget
+sourceforge.net###dlp-voip-quote
 
 ! pixiv
 www.pixiv.net##.premium-lead-premium-campaign
@@ -174,6 +175,10 @@ www.slant.co##._TMSAdsSidebarAdView
 www.slant.co##.AdContainer
 www.slant.co##._has-ads
 
+www.urbandictionary.com##.mug-ad
+
+www.sfgate.com##.adModule
+
 *$3p,script,domain=store.rg-adguard.net
 
 crystalmark.info###top-container-widget
@@ -183,10 +188,10 @@ compass-style.org##.advertisement
 surviv.io###ad-block-left
 surviv.io##.ui-stats-ad-container
 
+www.xmedia-recode.de##a[href="viren_pruf.php"]
+
 win7gadgets.com##.ads_subtitle
 win7gadgets.com##.gads
-
-www.faproulette.co##.wide-container > div[style]:not([id]):not([class])
 
 xhamster.com##.video-page .player-container:style(margin-right: 0 !important)
 xhamster.com##.video-page .comments-container .comments-wrap:style(margin-inline: auto !important)
@@ -213,6 +218,9 @@ www.siftheadsgames.com##+js(nobab)
 
 ##a[href^="https://www.digitalocean.com/?refcode=*"]
 
+! Google Translate
+translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
+
 ! APKPure
 apkpure.com##.aegon-link
 apkpure.com###ad-aegon-side
@@ -233,6 +241,8 @@ userstyles.org###top_android_button
 userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
 userstyles.org##.walking
+
+yadi.sk##.app-promo-banner
 
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 
@@ -349,6 +359,8 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ||widget.pushbullet.com/dynamic.js$script
 ||vk.com/js/api/share.js$script
 
+||share.pluso.ru^$script
+
 ##.sharedaddy
 
 ! BBC
@@ -373,6 +385,9 @@ sourceforge.net##.social-sharing-buttons
 
 ! APKPure
 ||cdnpure.com/static/share-button/*
+
+! Shit
+www.tiktok.com##.share-container
 
 ! 9GAG
 9gag.com##.share

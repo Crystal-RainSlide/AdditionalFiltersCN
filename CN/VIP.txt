@@ -1,0 +1,58 @@
+! Title: AdditionalFiltersCN - VIP
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+! 百度文库
+! ||wenku.baidu.com/coupon/promotion/vippop
+! ||wenku.baidu.com/goods/interface/getactinfo
+||wenku.baidu.com/coupon/*
+||wenku.baidu.com/goods/*
+
+! 首页 VIP 限时福利
+wenku.baidu.com##.fixed-activity-bar, .active-dialog-wrapper
+! 顶栏 VIP 活动
+wenku.baidu.com##.vip-activity-wrap-new
+! 右侧浮动红包
+wenku.baidu.com##.sidebar-wrapper > .ex-wrapper
+! VIP
+wenku.baidu.com##.inner-vip, .vip-card-wrap, .vip-pop-wrap
+
+! 百度网盘
+
+! 超级会员自动续费大礼包
+https://pan.baidu.com/box-static/disk-system/widget/pageModule/redPicketIcon^
+
+! 网盘问卷调查广告位展现 超级会员试用拉新 会员问卷调查
+https://pan.baidu.com/box-static/interface-widget-1/mainSmallBanner^
+
+! VIP 图标
+||pan.baidu.com/box-static/disk-header/header/img/user-level0.png
+||pan.baidu.com/box-static/disk-header/header/img/user-level1.png
+||pan.baidu.com/box-static/disk-share/widget/pageModule/init/image/p-vip-icon-all_*
+||pan.baidu.com/box-static/disk-share/widget/pageModule/share-person-info/images/vip-icon-all_*
+pan.baidu.com,yun.baidu.com##.JS-user-level
+
+pan.baidu.com,yun.baidu.com##.module-header-wrapper a[title="会员中心"]
+pan.baidu.com,yun.baidu.com##.module-header-wrapper [node-type="header-union"]
+pan.baidu.com,yun.baidu.com##.module-header-wrapper a[title="超级会员低价限时抢"]
+
+! 超级会员尊享15项特权
+pan.baidu.com,yun.baidu.com##.vip-notice, .vip-privilege
+
+! 开通会员，升至2T超大容量
+pan.baidu.com,yun.baidu.com##.get-capacity
+pan.baidu.com,yun.baidu.com##.aside-absolute-container div:has(> .get-capacity:only-child)
+
+! 删除文件对话框 会员特权提示和开通按钮
+pan.baidu.com,yun.baidu.com##.dialog-extra-body:has( > button[title="立即开通"])
+
+
+
+! QQ 空间 开通黄钻
+user.qzone.qq.com##.qz-btn-vip-open
+
+! yun.cn
+www.yun.cn##.vip-hint
+www.yun.cn##.user-info-panel .panel-content .hint-area
+www.yun.cn##.user-info-panel .panel-content .rights-panel

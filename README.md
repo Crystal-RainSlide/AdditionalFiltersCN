@@ -21,8 +21,9 @@ YEARS ago.
 
 All includes all the variants and specific rules in current category.
 
-- CN: [CN/all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
-- Intl: [Intl/all.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
+- [CN.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
+- [Intl.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
+- [Game.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game.txt)
 
 ## 类别 Variants
 
@@ -43,10 +44,18 @@ APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.co
 ---------------- | ---------
 　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
 　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt)
+　　　　会员 VIP             |    [VIP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/VIP.txt)
 　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/spam.txt)
 APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/app.txt)
 　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/share.txt)
 社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/social.txt)
+
+## Game
+
+　类别 Variant | 链接 Link
+-------------- | ---------
+　中文 CN   |   [CN.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/CN.txt)
+　国际 Intl | [Intl.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/Intl.txt)
 
 ## 针对性规则 Specific Rules
 
@@ -129,6 +138,7 @@ It is not suggested to use the raw.githack.com development mirror heavily, see h
 [BarbBlock uBO]:   https://paulgb.github.io/BarbBlock/blacklists/ublock-origin.txt
 [BarbBlock ADP]:   https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
 [BarbBlock hosts]: https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+
 #### 规则合并器 Rules Merger
 
 [merge.red](https://github.com/Crystal-RainSlide/AdditionalFiltersCN/blob/master/merge.red)

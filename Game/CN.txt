@@ -1,0 +1,66 @@
+! Title: AdditionalFiltersFlash - CN
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+! 4399
+! 后缀是 .js，其实是图片…
+||traceplay.5054399.com/trace.js^
+||adtrace.5054399.com/click.js^
+||related.5054399.com/related.js^
+||related.5054399.com/webgame.js^
+
+! www.4399.com##+js(set, tracking, trueFunc)
+! www.4399.com##+js(set, tracead, trueFunc)
+! www.4399.com##+js(set, traceadrelated, trueFunc)
+! www.4399.com##+js(set, traceadwebgame, trueFunc)
+
+4399.com##+js(ra, oncontextmenu, body)
+www.4399.com##+js(ra, onmousedown, body[onmousedown="tracking(event);"])
+www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
+www.4399.com##+js(ra, onclick, a[onclick^="return traceadrelated("])
+www.4399.com##+js(ra, onclick, a[onclick^="return traceadwebgame("])
+
+www.4399.com##.i_new, .i_hot
+
+! 域名检测
+||4399.com:8080/4399swf/js/chkDomain.js^
+
+! Flash 安装检测
+||www.4399.com/jss/flashopen1.js
+
+! 首页 顶部 页游推荐
+www.4399.com##body#skinbody > .top > .reco
+! 首页 手游
+www.4399.com##body#skinbody > .middle_1
+! 首页 热门推荐
+www.4399.com##body#skinbody > .p-forum
+
+! 免费赚游币Q币 玩策略类手游
+www.4399.com##.crumbs > .btn
+
+! 网游
+www.4399.com##.rgames
+www.4399.com##.ovhid
+u.4399.com##.app-recommend
+
+! 分享
+www.4399.com###sharebtn
+
+! 页游 闪艺
+www.4399.com##a[href*=".3000.com/"],a[href^="http://my.4399.com/"]:not([href="http://my.4399.com/"]),a[href^="http://news.4399.com/"]:not([href="http://news.4399.com/"]):style(opacity: .5; filter: grayscale(); transition: opacity .2s, filter .2s)
+www.4399.com##a[href*=".3000.com/"]:hover,a[href*=".3000.com/"]:focus,a[href^="http://my.4399.com/"]:not([href="http://my.4399.com/"]):hover,a[href^="http://my.4399.com/"]:not([href="http://my.4399.com/"]):focus,a[href^="http://news.4399.com/"]:not([href="http://news.4399.com/"]):hover,a[href^="http://news.4399.com/"]:not([href="http://news.4399.com/"]):focus:style(opacity: 1; filter: none)
+
+
+
+! 7K7K
+||analysis.7k7k.com^
+||www.7k7kjs.cn/static/common/pub.js
+
+! ||www.7k7kjs.cn/static/qike/play/js/play1.js
+
+! 精品页游 热门网游 网页游戏
+www.7k7k.com##.wrap_head_ad, .wrap_pagead, .wrap_ad2, .wrap_page_ad2
+
+! 分享
+www.7k7k.com##.start-game-share

@@ -5,6 +5,8 @@
 
 ! Red Dot & Hot & New Start
 
+! red dot
+
 www.baidu.com##.dot::before
 www.baidu.com##.title-content-index,.title-content-mark:style(filter: grayscale())
 www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
@@ -23,21 +25,26 @@ pan.baidu.com,yun.baidu.com##.neverVisited::after
 pan.baidu.com,yun.baidu.com##.redPoint
 
 wenku.baidu.com##.new b
-wenku.baidu.com##.ui-bz-hot-ic
-wenku.baidu.com##.ui-bz-new-ic
-wenku.baidu.com##.havenew-ic
+wenku.baidu.com##.ui-bz-hot-ic, .ui-bz-new-ic, .havenew-ic
+wenku.baidu.com##.red-dot::after
+wenku.baidu.com##.red-spot
+wenku.baidu.com##.app-btn-point
 
 www.hao123.com##.icon-new
 hao.qq.com, daohang.qq.com, 123.sogou.com##.i-new, .i-hot
 
+qzone.qq.com,show.qq.com##.ico_new
 qzone.qq.com##.sn-radio
 qzone.qq.com##.icon_app_new_cn
 qzone.qq.com##.icon_app_recommend
-qzone.qq.com,show.qq.com##.ico_new
 
 qzone.qq.com##.icon-red-dot
 
+h5.qzone.qq.com##.icon-new
+
 docs.qq.com##.dui-badge-dot
+
+mail.qq.com##.ico_rednew
 
 www.taobao.com##.hot
 
@@ -60,9 +67,6 @@ iqiyi.com##.iqp-logo-box
 
 www.fun.tv##.new > i, b > .new
 
-www.4399.com##.i_new
-www.4399.com##.i_hot
-
 www.oschina.net,gitee.com##.ui.red.label
 www.oschina.net###icon_mayun, .icon_mayun
 www.oschina.net##.giteetip
@@ -73,19 +77,12 @@ www.chinaz.com##.hot
 www.douban.com##img[src="https://img3.doubanio.com/f/shire/e49eca1517424a941871a2667a8957fd6c72d632/pics/new_menu.gif"]
 
 pinyin.sogou.com###zmeit_new
-
 www.w3cschool.cn##.hot-icon
-
 www.liaoxuefeng.com###ul-navbar > li > img
-
 club.kdnet.net##.nav-t-new.icon-try-con
-
 www.nuomi.com##.new-item-hot
-
 www.17173.com##.ico-game-hot1
-
 diy.zol.com.cn##.icon-hot
-
 cowtransfer.com##.redDot
 ! Red Dot & Hot & New End
 
@@ -109,6 +106,7 @@ pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
 ! Baidu Netdisk End
 
 ! 去你妈的注册弹窗
+douban.com###landing-bar
 douban.com##body > .ui-overlay-mask
 douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)
 
@@ -119,13 +117,14 @@ down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
 ! 你一个搜索引擎话怎么这么多
 cn.bing.com###ev_talkbox_wrapper
 
-! 取消各种限制
-www.souid.com##+js(ra, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
-
 ! 百度 部分页面的干扰内容
 ||baidu.com/xpage^
 
 ||baike.baidu.com/cms/global/home_config.json
+
+! 社区规则学习与测试 显示正确答案
+! 以下哪些内容适合发布在科星球？（多选）
+baike.baidu.com##.answer-box .answer-tips:style(display: block !important)
 
 ! ||exp.bdstatic.com/static/common-jquery/widget/js/logic/log^
 ||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg^
@@ -150,12 +149,12 @@ zhidao.baidu.com##.question-number-text-chain
 ||tieba.baidu.com/tbapp/user/getRecommendApp
 ||tieba.baidu.com/p/getLikeForum
 
-wenku.baidu.com###banurl
-wenku.baidu.com###share-tips
-wenku.baidu.com##.hot-box
-wenku.baidu.com##.newhotword
+! 百度文库
 ! 文档可以转存到百度网盘啦！
 wenku.baidu.com##.wangpan-tip
+! 水印
+wenku.baidu.com###reader-container > .reader-page > div[class^="__wm"][style*="data:image/svg+xml"]
+wenku.baidu.com###reader-container > .flow-ppt-mod .ppt-page-item > div[class^="__wm"][style*="data:image/svg+xml"]
 
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/question/api/hao123word
@@ -165,8 +164,16 @@ zhidao.baidu.com##.shop-entrance
 ! 腾讯视频 iframe 底部推荐
 v.qq.com##.txp_tipbar
 
+! 搜狐 Sohu
+www.sohu.com###fixed-view
+
 ! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
 user.qzone.qq.com##.fn_accessLog_tips
+
+h5.qzone.qq.com##.mod-native-tips-wrap
+h5.qzone.qq.com##li[global-hot="topbar.vip"]
+h5.qzone.qq.com##.gb-nav > li:style(width: 25% !important)
+h5.qzone.qq.com##.mod-pb-list .avatar.commend::before
 
 ! Zhihu
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
@@ -181,53 +188,34 @@ www.zhihu.com##.RelatedCommodities-list
 ! 登录后你可以：（弹幕动画）
 bilibili.com##.van-popper-login .title
 bilibili.com##.van-popper-login .img-panel
-
 ! 顶栏事件推送
 ||api.bilibili.com/x/web-show/res/locs^
-
 ! 站外播放器 顶部推荐
 player.bilibili.com##.bilibili-player-video-recommend
 ||data.bilibili.com/s/miniloader_online^
-
 ! 用户头像挂件
-www.bilibili.com##.user-face > .pendant
-
+www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
 ! 推荐直播
+www.bilibili.com###bili_live
+www.bilibili.com##.pop-live
 www.bilibili.com##.v-live-recommend
-
 ! 直播水印
 live.bilibili.com##.bilibili-live-player-video-logo
-
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
+
 ! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
-
-
-! 4399
-! 域名检测
-||4399.com/4399swf/js/chkDomain.js^
-
-! 页游 闪艺
-www.4399.com##a[href*=".3000.com/"],a[href^="http://my.4399.com/"]:not([href="http://my.4399.com/"]),a[href^="http://news.4399.com/"]:not([href="http://news.4399.com/"]):style(opacity: .5; filter: grayscale(); transition: opacity .2s, filter .2s)
-www.4399.com##a[href*=".3000.com/"]:hover,a[href*=".3000.com/"]:focus,a[href^="http://my.4399.com/"]:not([href="http://my.4399.com/"]):hover,a[href^="http://my.4399.com/"]:not([href="http://my.4399.com/"]):focus,a[href^="http://news.4399.com/"]:not([href="http://news.4399.com/"]):hover,a[href^="http://news.4399.com/"]:not([href="http://news.4399.com/"]):focus:style(opacity: 1; filter: none)
-
-! 首页 顶部 页游推荐
-www.4399.com##body#skinbody > .top > .reco
-! 首页 手游
-www.4399.com##body#skinbody > .middle_1
-! 首页 热门推荐
-www.4399.com##body#skinbody > .p-forum
-! 精品游戏推荐
-www.4399.com##.ovhid
-
 
 ! Gitee 服务 我知道了，不再自动展开
 gitee.com##+js(set, isClickGuide, true)
 
 ! 新浪视频 热搜
 ||video.sina.com.cn/interface/search_hot.php
+
+! 太平洋摄影部落
+dp.pconline.com.cn##+js(set, showAuthor, noopFunc)
 
 ! 智慧树
 ! 绑定手机号
@@ -371,3 +359,13 @@ hao.qq.com,daohang.qq.com,123.sogou.com###info_flow_coolsite div[class^="style_t
 www.duba.com##.main_box li > a.pic:style(filter: grayscale())
 ! Tip 新版奇迹 刀刀爆装…
 www.duba.com##.main_box li > .tip2
+
+! 取消各种限制
+www.souid.com##+js(ra, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
+! xuexi.la
+||lhpay.gzcl999.com/static/webjs/xuexi.la_wx_copy_pay.js
+! www.fwsir.com
+! ||www.fwsir.com/static/cpt/cpt.js
+! ||www.fwsir.com/static/cpt/pubuliu.js
+||www.fwsir.com/static/cpt/
+||www.fwsir.com/static/js/p.js

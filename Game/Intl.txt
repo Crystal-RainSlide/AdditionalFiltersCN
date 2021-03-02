@@ -1,0 +1,33 @@
+! Title: AdditionalFiltersFlash - Intl
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+! Newgrounds
+@@||www.ngads.com/gateway_v2.php
+
+||cdn.getsupernova.com/tags/supernovalauncher.js$script,redirect-rule=noop.js
+
+! https://miniclip.com
+||apis.google.com/js/platform.js$domain=miniclip.com
+||tubia.com^$domain=miniclip.com
+||vooxe.com^$domain=miniclip.com
+||miniclip.com/games/fbshare/*$subdocument
+||apollo.miniclip.com^
+||static.miniclipcdn.com/js/share.js
+miniclip.com##.promo-mast, .widget-push-ads
+
+! https://ninjakiwi.com
+||cdn.nkstatic.com/ads/
+
+! https://bigdino.com
+bigdino.com###header:style(height: auto !important)
+
+! http://www.notdoppler.com
+www.notdoppler.com##body > center > table:has(#notdoppler_728x90_ATF)
+
+! https://www.crazymonkeygames.com
+www.crazymonkeygames.com###advertisements
+www.crazymonkeygames.com###internal-updates:style(height: auto !important)
+
+y8.com##.div-gpt-ad-above,.div-gpt-ad-right-up, .div-gpt-ad-right-down
