@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 2-Mar-2021
-! Last Modified: 2-Mar-2021/15:58:04+08:00
+! Last updated: 30-Jun-2021
+! Last Modified: 30-Jun-2021/21:07:27+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -142,14 +142,14 @@ dropgalaxy.com##+js(nostif, /#(adblock|modalpop)/)
 
 megaup.net##.socialsider
 
-||fonts.geekzu.org/css$stylesheet
-||fonts.googleapis.com/css$stylesheet
-@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
+||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
+||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
+@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
 
 ||fonts.gstatic.com/s/googlesans/*
 
-||use.typekit.net^$third-party
+||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 
 ||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*
 

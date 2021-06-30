@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 2-Mar-2021
-! Last Modified: 2-Mar-2021/15:58:04+08:00
+! Last updated: 30-Jun-2021
+! Last Modified: 30-Jun-2021/21:07:27+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -252,7 +252,7 @@ itch.io##.app_banner
 ! ||www.google.com/images/cleardot.gif?
 ! ||mail.google.com/mail/images/cleardot.gif?
 ! ||mail.google.com/mail/u/0/images/cleardot.gif?
-*/images/cleardot.gif?
+! */images/cleardot.gif?
 
 ||cloudfront.net/audience.js
 

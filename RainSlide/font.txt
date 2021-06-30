@@ -4,14 +4,14 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-||fonts.geekzu.org/css$stylesheet
-||fonts.googleapis.com/css$stylesheet
-@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
+||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
+||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
+@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
 
 ||fonts.gstatic.com/s/googlesans/*
 
-||use.typekit.net^$third-party
+||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 
 ||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*
 

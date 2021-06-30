@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 2-Mar-2021
-! Last Modified: 2-Mar-2021/15:58:04+08:00
+! Last updated: 30-Jun-2021
+! Last Modified: 30-Jun-2021/21:07:26+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -889,6 +889,9 @@ baidu.com/static/mapping/*.php
 
 ! 携程
 ||u.ctrip.com/union/*$third-party
+
+! cli.im
+||static.clewm.net/public/cli_analytics.js^
 
 ! 脚本之家
 ||icws.jb51.net/tongji/tongji2.js

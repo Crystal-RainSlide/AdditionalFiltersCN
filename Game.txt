@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 2-Mar-2021
-! Last Modified: 2-Mar-2021/15:58:04+08:00
+! Last updated: 30-Jun-2021
+! Last Modified: 30-Jun-2021/21:07:27+08:00
 
 ! 4399
 ! 后缀是 .js，其实是图片…

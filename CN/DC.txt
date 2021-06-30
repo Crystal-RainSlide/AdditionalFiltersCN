@@ -323,6 +323,9 @@ baidu.com/static/mapping/*.php
 ! 携程
 ||u.ctrip.com/union/*$third-party
 
+! cli.im
+||static.clewm.net/public/cli_analytics.js^
+
 ! 脚本之家
 ||icws.jb51.net/tongji/tongji2.js
 ||icws.jb51.net/good/ssoft2019.js
