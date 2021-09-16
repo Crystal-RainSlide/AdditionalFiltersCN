@@ -77,8 +77,11 @@ www.chinaz.com##.hot
 www.douban.com##img[src="https://img3.doubanio.com/f/shire/e49eca1517424a941871a2667a8957fd6c72d632/pics/new_menu.gif"]
 
 pinyin.sogou.com###zmeit_new
+
+www.infoq.cn##.hot > img, .marked-dot::before
+www.nowcoder.com##.ico-nav-new
 www.w3cschool.cn##.hot-icon
-www.liaoxuefeng.com###ul-navbar > li > img
+www.liaoxuefeng.com###ul-navbar > li > a > img
 club.kdnet.net##.nav-t-new.icon-try-con
 www.nuomi.com##.new-item-hot
 www.17173.com##.ico-game-hot1
@@ -122,7 +125,10 @@ cn.bing.com###ev_talkbox_wrapper
 
 ||baike.baidu.com/cms/global/home_config.json
 
-! 社区规则学习与测试 显示正确答案
+! 登录后可以体验新版个人中心啦
+www.baidu.com##.guide-info-new
+
+! 百度百科 社区规则学习与测试 显示正确答案
 ! 以下哪些内容适合发布在科星球？（多选）
 baike.baidu.com##.answer-box .answer-tips:style(display: block !important)
 
@@ -167,6 +173,15 @@ v.qq.com##.txp_tipbar
 ! 搜狐 Sohu
 www.sohu.com###fixed-view
 
+! 微博 大家都在搜（搜索框 placeholder 热词）
+! weibo.com
+weibo.com##.gn_search_v2 > .placeholder
+! m.weibo.cn 主页
+m.weibo.cn##.m-search > .m-text-cut:style(color: transparent; user-select: none;)
+! m.weibo.cn 搜索页
+m.weibo.cn##.nt-search input[type="search"]::placeholder
+
+! QQ 空间
 ! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
 user.qzone.qq.com##.fn_accessLog_tips
 
@@ -204,6 +219,8 @@ live.bilibili.com##.bilibili-live-player-video-logo
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
+! 天翼云 VIP 标志
+cloud.189.cn##.vipIcon
 
 ! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
@@ -265,6 +282,9 @@ cloud.189.cn##.tips-save-box
 cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
 ! 奶牛快传 全屏视频背景
 ||background.cowtransfer.com^
+
+! 博客园 Banner
+www.cnblogs.com##.bannerbar
 
 ! CSDN
 

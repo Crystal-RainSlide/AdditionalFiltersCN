@@ -21,7 +21,7 @@
 ||sentry.io/api/*$xhr
 ||unpkg.zhimg.com/@cfe/sentry-script*$script
 
-! Baidu
+! 百度 Baidu
 ! ||hm.baidu.com/hm.js
 ||hm.baidu.com^
 @@||dwz.hm.baidu.com^
@@ -93,7 +93,7 @@ baidu.com/static/mapping/*.php
 ! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
 ||n3.zuoyebang.cc/napi/stat/*$image
 
-! Tencent
+! 腾讯 Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
 ! ||mp.weixin.qq.com/mp/report?$image
 ||qq.com/*/report?$image
@@ -115,6 +115,17 @@ baidu.com/static/mapping/*.php
 ! ||qzonestyle.gtimg.cn/ac/qzfl/release/expand/ping_sender.js^
 ! ||qzs.qq.com/ac/qzfl/release/expand/ping_sender.js^
 */ac/qzfl/release/expand/ping_sender.js^
+
+||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js^
+||h5.qzone.qq.com/iframe/report^
+
+||qzonestyle.gtimg.cn/qzone/v8/core/stat.js^
+||qzonestyle.gtimg.cn/qzone/v8/ic/stat_monitor.js^
+
+! ||user.qzone.qq.com/proxy/domain/analy.qzone.qq.com/cgi-bin/apptrace^$image
+*/cgi-bin/apptrace^$image
+||huatuospeed.weiyun.com/cgi-bin/r.cgi^$image
+||huatuocode.weiyun.com/code.cgi^$image
 
 ||dj.captcha.qq.com/caplog
 ||stdl.qq.com/stdl/qb/js/qblog.js
@@ -140,7 +151,7 @@ baidu.com/static/mapping/*.php
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
 
-! Ali
+! 阿里 Ali
 
 ! ||mmstat.com^
 
@@ -162,7 +173,7 @@ baidu.com/static/mapping/*.php
 
 ||ynuf.alipay.com/service/um.json$xhr,domain=v.youku.com
 
-! Netease
+! 网易 Netease
 ||analytics.163.com^$important
 ||analytics.126.net^
 ||log.study.163.com^
@@ -184,7 +195,7 @@ baidu.com/static/mapping/*.php
 ! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
 */analysis/js/analysis*.js
 
-! Netease Youdao
+! 网易有道 Netease Youdao
 ! rlogs.youdao.com/rlog.php
 ! rlogs.youdao.com/rlog.js
 ||rlogs.youdao.com^
@@ -205,10 +216,10 @@ baidu.com/static/mapping/*.php
 ||log.mix.sina.com.cn^
 ||sbeacon.sina.com.cn^
 
-! Sohu
+! 搜狐 Sohu
 ||statics.itc.cn/iwtReport^$script
 
-! Sougu
+! 搜狗 Sougu
 ! ||dlweb.sogoucdn.com/hhytrace/trace_*.js
 ||dlweb.sogoucdn.com/hhytrace/*
 ||pic.sogou.com/pics/wap/home/visits.jsp$xhr
@@ -216,6 +227,10 @@ baidu.com/static/mapping/*.php
 ! 站长之家 ChinaZ
 ||img.chinaz.com/2020/js/stat.min.js
 ||my.chinaz.com/js/uc1.js
+
+! 简书 Jianshu
+! ||tr.jianshu.com/fe/1/mon/atf$xhr
+||tr.jianshu.com^
 
 ! Bing
 ||bing.com/fd/ls/*

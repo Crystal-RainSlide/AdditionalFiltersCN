@@ -13,10 +13,15 @@
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 
-||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*
-
 ! ----
 
+! Microsoft
+||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*
+
+! Fandom
+||fonts.gstatic.com^$font,domain=fandom.com
+
+! Kongregate
 ||kongregate.com/stylesheets/open_sans.css
 ||kongregate.com/stylesheets/source_sans_pro.css
 ||konggames.com/stylesheets/open_sans.css

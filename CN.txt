@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 30-Jun-2021
-! Last Modified: 30-Jun-2021/21:07:26+08:00
+! Last updated: 16-Sep-2021
+! Last Modified: 16-Sep-2021/15:59:39+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -100,8 +100,8 @@ bing.com###b_opalpers
 www.infoq.cn##.nav .static
 
 ! 博客园
-www.cnblogs.com###ad_t2
-www.cnblogs.com###ad_text_under_commentbox
+www.cnblogs.com###cnblogs_c1, #cnblogs_c2
+www.cnblogs.com###ad_t2, #ad_text_under_commentbox
 www.cnblogs.com##.c_ad_block:not(.itnews)
 
 ! CSDN
@@ -206,6 +206,9 @@ www.423down.com##.content > .entry + h3
 www.jb51.net##.sidebox-recomm
 www.jb51.net##.topbarleft, .logom, .logor
 www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has(:scope > #txtlink, :scope > .topimg)
+
+! 腾讯云
+cloud.tencent.com##.has-sign
 
 
 ! cnBeta
@@ -368,6 +371,8 @@ tieba.baidu.com##.tbui_fbar_share
 
 ! QQ 空间
 qzone.qq.com##.f_item_ad
+user.qzone.qq.com###tab_applist_show > li[class]
+user.qzone.qq.com###tab_applist_show > li[data-recommend]
 
 ! 新浪邮箱
 ||m0.mail.sina.com.cn/apps/tab.php$subdocument
@@ -462,10 +467,11 @@ www.bilibili.com##.mobile
 music.163.com##.download, .m-multi
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
+! 腾讯视频
+y.qq.com##.popup_guide, .player_login__guide
 
 ! 高德地图
-ditu.amap.com###amapAppDownload
-ditu.amap.com###amap-result-banner
+amap.com###amapAppDownload, #amap-result-banner
 
 ! 百度地图
 map.baidu.com##.leadDownloadCard
@@ -508,6 +514,9 @@ www.lizhi.fm##.dlBanner
 
 ! OSChina
 www.oschina.net###btnDownloadApp
+
+! InfoQ
+www.infoq.cn##.com-app-download
 
 ! 爱词霸
 www.iciba.com##.common-top-nav-hot
@@ -588,7 +597,7 @@ translate.google.cn###gt-cn
 ||sentry.io/api/*$xhr
 ||unpkg.zhimg.com/@cfe/sentry-script*$script
 
-! Baidu
+! 百度 Baidu
 ! ||hm.baidu.com/hm.js
 ||hm.baidu.com^
 @@||dwz.hm.baidu.com^
@@ -660,7 +669,7 @@ baidu.com/static/mapping/*.php
 ! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
 ||n3.zuoyebang.cc/napi/stat/*$image
 
-! Tencent
+! 腾讯 Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
 ! ||mp.weixin.qq.com/mp/report?$image
 ||qq.com/*/report?$image
@@ -682,6 +691,17 @@ baidu.com/static/mapping/*.php
 ! ||qzonestyle.gtimg.cn/ac/qzfl/release/expand/ping_sender.js^
 ! ||qzs.qq.com/ac/qzfl/release/expand/ping_sender.js^
 */ac/qzfl/release/expand/ping_sender.js^
+
+||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js^
+||h5.qzone.qq.com/iframe/report^
+
+||qzonestyle.gtimg.cn/qzone/v8/core/stat.js^
+||qzonestyle.gtimg.cn/qzone/v8/ic/stat_monitor.js^
+
+! ||user.qzone.qq.com/proxy/domain/analy.qzone.qq.com/cgi-bin/apptrace^$image
+*/cgi-bin/apptrace^$image
+||huatuospeed.weiyun.com/cgi-bin/r.cgi^$image
+||huatuocode.weiyun.com/code.cgi^$image
 
 ||dj.captcha.qq.com/caplog
 ||stdl.qq.com/stdl/qb/js/qblog.js
@@ -707,7 +727,7 @@ baidu.com/static/mapping/*.php
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
 
-! Ali
+! 阿里 Ali
 
 ! ||mmstat.com^
 
@@ -729,7 +749,7 @@ baidu.com/static/mapping/*.php
 
 ||ynuf.alipay.com/service/um.json$xhr,domain=v.youku.com
 
-! Netease
+! 网易 Netease
 ||analytics.163.com^$important
 ||analytics.126.net^
 ||log.study.163.com^
@@ -751,7 +771,7 @@ baidu.com/static/mapping/*.php
 ! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
 */analysis/js/analysis*.js
 
-! Netease Youdao
+! 网易有道 Netease Youdao
 ! rlogs.youdao.com/rlog.php
 ! rlogs.youdao.com/rlog.js
 ||rlogs.youdao.com^
@@ -772,10 +792,10 @@ baidu.com/static/mapping/*.php
 ||log.mix.sina.com.cn^
 ||sbeacon.sina.com.cn^
 
-! Sohu
+! 搜狐 Sohu
 ||statics.itc.cn/iwtReport^$script
 
-! Sougu
+! 搜狗 Sougu
 ! ||dlweb.sogoucdn.com/hhytrace/trace_*.js
 ||dlweb.sogoucdn.com/hhytrace/*
 ||pic.sogou.com/pics/wap/home/visits.jsp$xhr
@@ -783,6 +803,10 @@ baidu.com/static/mapping/*.php
 ! 站长之家 ChinaZ
 ||img.chinaz.com/2020/js/stat.min.js
 ||my.chinaz.com/js/uc1.js
+
+! 简书 Jianshu
+! ||tr.jianshu.com/fe/1/mon/atf$xhr
+||tr.jianshu.com^
 
 ! Bing
 ||bing.com/fd/ls/*
@@ -1003,6 +1027,9 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 
 ! wikiHow
 @@||www.wikihow.com/images/*$image
+
+! Pastebin
+pastebin.com#@#.post-view
 
 ! Second Life
 @@||slm-assets.secondlife.com/assets/*$image
@@ -1298,8 +1325,11 @@ www.chinaz.com##.hot
 www.douban.com##img[src="https://img3.doubanio.com/f/shire/e49eca1517424a941871a2667a8957fd6c72d632/pics/new_menu.gif"]
 
 pinyin.sogou.com###zmeit_new
+
+www.infoq.cn##.hot > img, .marked-dot::before
+www.nowcoder.com##.ico-nav-new
 www.w3cschool.cn##.hot-icon
-www.liaoxuefeng.com###ul-navbar > li > img
+www.liaoxuefeng.com###ul-navbar > li > a > img
 club.kdnet.net##.nav-t-new.icon-try-con
 www.nuomi.com##.new-item-hot
 www.17173.com##.ico-game-hot1
@@ -1343,7 +1373,10 @@ cn.bing.com###ev_talkbox_wrapper
 
 ||baike.baidu.com/cms/global/home_config.json
 
-! 社区规则学习与测试 显示正确答案
+! 登录后可以体验新版个人中心啦
+www.baidu.com##.guide-info-new
+
+! 百度百科 社区规则学习与测试 显示正确答案
 ! 以下哪些内容适合发布在科星球？（多选）
 baike.baidu.com##.answer-box .answer-tips:style(display: block !important)
 
@@ -1388,6 +1421,15 @@ v.qq.com##.txp_tipbar
 ! 搜狐 Sohu
 www.sohu.com###fixed-view
 
+! 微博 大家都在搜（搜索框 placeholder 热词）
+! weibo.com
+weibo.com##.gn_search_v2 > .placeholder
+! m.weibo.cn 主页
+m.weibo.cn##.m-search > .m-text-cut:style(color: transparent; user-select: none;)
+! m.weibo.cn 搜索页
+m.weibo.cn##.nt-search input[type="search"]::placeholder
+
+! QQ 空间
 ! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
 user.qzone.qq.com##.fn_accessLog_tips
 
@@ -1425,6 +1467,8 @@ live.bilibili.com##.bilibili-live-player-video-logo
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
+! 天翼云 VIP 标志
+cloud.189.cn##.vipIcon
 
 ! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
@@ -1486,6 +1530,9 @@ cloud.189.cn##.tips-save-box
 cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
 ! 奶牛快传 全屏视频背景
 ||background.cowtransfer.com^
+
+! 博客园 Banner
+www.cnblogs.com##.bannerbar
 
 ! CSDN
 

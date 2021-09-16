@@ -62,6 +62,9 @@ pan.baidu.com,yun.baidu.com#@#.bd-aside
 ! wikiHow
 @@||www.wikihow.com/images/*$image
 
+! Pastebin
+pastebin.com#@#.post-view
+
 ! Second Life
 @@||slm-assets.secondlife.com/assets/*$image
 

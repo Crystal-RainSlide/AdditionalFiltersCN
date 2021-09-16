@@ -94,8 +94,8 @@ bing.com###b_opalpers
 www.infoq.cn##.nav .static
 
 ! 博客园
-www.cnblogs.com###ad_t2
-www.cnblogs.com###ad_text_under_commentbox
+www.cnblogs.com###cnblogs_c1, #cnblogs_c2
+www.cnblogs.com###ad_t2, #ad_text_under_commentbox
 www.cnblogs.com##.c_ad_block:not(.itnews)
 
 ! CSDN
@@ -200,6 +200,9 @@ www.423down.com##.content > .entry + h3
 www.jb51.net##.sidebox-recomm
 www.jb51.net##.topbarleft, .logom, .logor
 www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has(:scope > #txtlink, :scope > .topimg)
+
+! 腾讯云
+cloud.tencent.com##.has-sign
 
 
 ! cnBeta
@@ -362,6 +365,8 @@ tieba.baidu.com##.tbui_fbar_share
 
 ! QQ 空间
 qzone.qq.com##.f_item_ad
+user.qzone.qq.com###tab_applist_show > li[class]
+user.qzone.qq.com###tab_applist_show > li[data-recommend]
 
 ! 新浪邮箱
 ||m0.mail.sina.com.cn/apps/tab.php$subdocument

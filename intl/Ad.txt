@@ -49,7 +49,7 @@ old.reddit.com##.ad-container
 
 ! SourceForge
 sourceforge.net##.sterling, .banner-sterling
-sourceforge.net###project-nel, .nel
+sourceforge.net###nels, #project-nel, .nel
 sourceforge.net##.stackcommerce-widget
 sourceforge.net###dlp-voip-quote
 
@@ -163,15 +163,13 @@ www.heidisql.com##.bordered-box:has-text(Ads)
 
 www.ghacks.net##.ghacks_ad_code
 
-www.slant.co##._MasterComparePageContentAdView
-www.slant.co##._MasterComparePageTopContentAdView
-www.slant.co##._TMSAdsSidebarAdView
-www.slant.co##.AdContainer
-www.slant.co##._has-ads
+www.songfacts.com##.songfacts-song-inline-ads
 
 www.urbandictionary.com##.mug-ad
 
 www.sfgate.com##.adModule
+
+steamworkshopdownloader.io##.advert-body
 
 *$3p,script,domain=store.rg-adguard.net
 

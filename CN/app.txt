@@ -72,10 +72,11 @@ www.bilibili.com##.mobile
 music.163.com##.download, .m-multi
 music.163.com##.ban-img:style(display: flex; justify-content: center)
 
+! 腾讯视频
+y.qq.com##.popup_guide, .player_login__guide
 
 ! 高德地图
-ditu.amap.com###amapAppDownload
-ditu.amap.com###amap-result-banner
+amap.com###amapAppDownload, #amap-result-banner
 
 ! 百度地图
 map.baidu.com##.leadDownloadCard
@@ -118,6 +119,9 @@ www.lizhi.fm##.dlBanner
 
 ! OSChina
 www.oschina.net###btnDownloadApp
+
+! InfoQ
+www.infoq.cn##.com-app-download
 
 ! 爱词霸
 www.iciba.com##.common-top-nav-hot

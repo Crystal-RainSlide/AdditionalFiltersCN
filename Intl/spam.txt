@@ -25,34 +25,40 @@
 ||fonts.gstatic.com/s/notoserifsc/*
 ||fonts.gstatic.com/s/notoserifhk/*
 
+! SourceForge - Newsletter
 sourceforge.net###newsletter-floating
 
-! 将通知图标颜色设为灰色
+! WikiHow
+! Help us do more
+www.wikihow.com###contribute_footer_wrap
+! Pro Membership - Download PDFs
+www.wikihow.com##+js(set, mw.config.values.wgProMembership, 1)
+
+! Disqus - 将红色通知圆点设为灰色
 disqus.com##.unread .notification-icon:style(color: #656c7a !important)
 
-! Wikia Bar
+! Fandom
+! Wikia bar
 fandom.com###WikiaBar
 fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
-
+! mixed content footer
 fandom.com###mixed-content-footer
+! featured video
+fandom.com##.featured-video__wrapper
 
-
-||gamesfree.ca/arrowchat/*
-www.gamesfree.ca##.cactus-widget-demo
-
-! Show hidden content
+! Experts Exchange - Show hidden content
 www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
 www.experts-exchange.com##.interceptContainer
 
-! New
+! 9GAG - Red dot
 9gag.com##.nav-menu .new::after
 
-! Larger Close Button
+! RunKit - Larger Close Button
 npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
-! Use monospace for code
+! Userstyle.org - Use monospace for code
 userstyle.org###stylish-code:style(font-family: monospace !important)
 
-! Red Dot
+! xHamster - Red dot
 xhamster.com##.with-dot::before

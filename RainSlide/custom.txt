@@ -24,6 +24,23 @@
 ! 百度搜索右侧内容
 www.baidu.com###content_right
 
+! BiliBili Monitor
+! ||api.bilibili.com/open/monitor/report$image
+||api.bilibili.com/open/monitor/*
+
+! BiliBili SPAM
+www.bilibili.com##.ad-floor, .ad-report
+
+! BiliBili 弹出式气泡 登录
+www.bilibili.com##.van-popover:has(.unlogin-popover)
+www.bilibili.com##.unlogin-popover
+
+! BiliBili 首页
+www.bilibili.com##.first-screen
+www.bilibili.com##.storey-box
+www.bilibili.com##.primary-menu-itnl > .page-tab > .con .dynamic-update > i
+www.bilibili.com##.primary-menu-itnl > .channel-menu-itnl .name em:style(filter: grayscale())
+
 ! 4399
 www.4399.com###addiv
 

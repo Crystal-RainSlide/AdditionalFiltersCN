@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 30-Jun-2021
-! Last Modified: 30-Jun-2021/21:07:27+08:00
+! Last updated: 16-Sep-2021
+! Last Modified: 16-Sep-2021/15:59:39+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -55,7 +55,7 @@ old.reddit.com##.ad-container
 
 ! SourceForge
 sourceforge.net##.sterling, .banner-sterling
-sourceforge.net###project-nel, .nel
+sourceforge.net###nels, #project-nel, .nel
 sourceforge.net##.stackcommerce-widget
 sourceforge.net###dlp-voip-quote
 
@@ -169,15 +169,13 @@ www.heidisql.com##.bordered-box:has-text(Ads)
 
 www.ghacks.net##.ghacks_ad_code
 
-www.slant.co##._MasterComparePageContentAdView
-www.slant.co##._MasterComparePageTopContentAdView
-www.slant.co##._TMSAdsSidebarAdView
-www.slant.co##.AdContainer
-www.slant.co##._has-ads
+www.songfacts.com##.songfacts-song-inline-ads
 
 www.urbandictionary.com##.mug-ad
 
 www.sfgate.com##.adModule
+
+steamworkshopdownloader.io##.advert-body
 
 *$3p,script,domain=store.rg-adguard.net
 
@@ -496,34 +494,40 @@ www.intelrealsense.com##.social-links
 ||fonts.gstatic.com/s/notoserifsc/*
 ||fonts.gstatic.com/s/notoserifhk/*
 
+! SourceForge - Newsletter
 sourceforge.net###newsletter-floating
 
-! 将通知图标颜色设为灰色
+! WikiHow
+! Help us do more
+www.wikihow.com###contribute_footer_wrap
+! Pro Membership - Download PDFs
+www.wikihow.com##+js(set, mw.config.values.wgProMembership, 1)
+
+! Disqus - 将红色通知圆点设为灰色
 disqus.com##.unread .notification-icon:style(color: #656c7a !important)
 
-! Wikia Bar
+! Fandom
+! Wikia bar
 fandom.com###WikiaBar
 fandom.com##body.wikia-bar-visible:style(padding-bottom: 0 !important)
-
+! mixed content footer
 fandom.com###mixed-content-footer
+! featured video
+fandom.com##.featured-video__wrapper
 
-
-||gamesfree.ca/arrowchat/*
-www.gamesfree.ca##.cactus-widget-demo
-
-! Show hidden content
+! Experts Exchange - Show hidden content
 www.experts-exchange.com##.answer > .content.interceptContentScroll:style(display: block !important)
 www.experts-exchange.com##.interceptContainer
 
-! New
+! 9GAG - Red dot
 9gag.com##.nav-menu .new::after
 
-! Larger Close Button
+! RunKit - Larger Close Button
 npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
 npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
-! Use monospace for code
+! Userstyle.org - Use monospace for code
 userstyle.org###stylish-code:style(font-family: monospace !important)
 
-! Red Dot
+! xHamster - Red dot
 xhamster.com##.with-dot::before
