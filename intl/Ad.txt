@@ -185,8 +185,7 @@ www.xmedia-recode.de##a[href="viren_pruf.php"]
 win7gadgets.com##.ads_subtitle
 win7gadgets.com##.gads
 
-xhamster.com##.video-page .player-container:style(margin-right: 0 !important)
-xhamster.com##.video-page .comments-container .comments-wrap:style(margin-inline: auto !important)
+xhamster.com##.index-videos .thumb-list .wio-xright-rectangle ~ .thumb-list__item:style(margin-right: 0 !important)
 xhamster.com##.clipstore-bottom
 xhamster.com##.clipstore-results
 xhamster.com##div[class^="wih-"]

@@ -175,7 +175,9 @@ jandan.net###comments > .commentlist > .row
 juejin.im##.recommend-box
 
 ! V2EX
-! v2ex.com##.box:has(.adsbygoogle)
+! 广告容器元素
+v2ex.com##div:has(> script[src]:first-child + .adsbygoogle + script:last-child:has-text(window.adsbygoogle))
+! 侧栏图片广告
 v2ex.com##.box:has(> .inner > a:only-child > img[src*="/assets/sidebar/"])
 
 ! Engadget
@@ -269,14 +271,8 @@ www.crsky.com##.genral_li li a:style(color: initial !important)
 www.crsky.com##.hot
 
 ! 完美软件下载
-||www.wmzhe.com/static/wmzhe/js/tianmao11.js
-www.wmzhe.com##.hot
-www.wmzhe.com###search-form-input:style(box-sizing: border-box)
-www.wmzhe.com##.downl_title
-www.wmzhe.com##.downl_L
-www.wmzhe.com###download
-www.wmzhe.com##.downl_listC > p:first-child
-www.wmzhe.com##.downl_listC:style(border-top: none !important; margin-top: 0 !important)
+! 完美软件下载
+www.wmzhe.com##.ads, .aibyte_ad
 
 ! 多特
 ||img2.2345.com/duoteimg/js/newjs/clickdown_stat_ajax.js

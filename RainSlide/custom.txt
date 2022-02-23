@@ -36,8 +36,7 @@ www.bilibili.com##.van-popover:has(.unlogin-popover)
 www.bilibili.com##.unlogin-popover
 
 ! BiliBili 首页
-www.bilibili.com##.first-screen
-www.bilibili.com##.storey-box
+www.bilibili.com##.first-screen, .first-screen + .storey-box
 www.bilibili.com##.primary-menu-itnl > .page-tab > .con .dynamic-update > i
 www.bilibili.com##.primary-menu-itnl > .channel-menu-itnl .name em:style(filter: grayscale())
 

@@ -9,7 +9,7 @@
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
 
-||fonts.gstatic.com/s/googlesans/*
+||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 

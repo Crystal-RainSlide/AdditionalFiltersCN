@@ -6,10 +6,12 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 16-Sep-2021
-! Last Modified: 16-Sep-2021/15:59:39+08:00
+! Last updated: 23-Feb-2022
+! Last Modified: 23-Feb-2022/19:11:27+08:00
 
 ! 4399
+||www.4399.com/antijs/*
+
 ! 后缀是 .js，其实是图片…
 ||traceplay.5054399.com/trace.js^
 ||adtrace.5054399.com/click.js^
@@ -35,19 +37,17 @@ www.4399.com##.i_new, .i_hot
 ! Flash 安装检测
 ||www.4399.com/jss/flashopen1.js
 
-! 首页 顶部 页游推荐
-www.4399.com##body#skinbody > .top > .reco
-! 首页 手游
-www.4399.com##body#skinbody > .middle_1
-! 首页 热门推荐
-www.4399.com##body#skinbody > .p-forum
+! 首页 顶部 页游推荐；手游；热门推荐
+www.4399.com##body#skinbody > .top > .reco, body#skinbody > .middle_1, body#skinbody > .p-forum
 
 ! 免费赚游币Q币 玩策略类手游
 www.4399.com##.crumbs > .btn
 
+! 搜索
+so2.4399.com##.so-ad
+
 ! 网游
-www.4399.com##.rgames
-www.4399.com##.ovhid
+www.4399.com##.rgames, .ovhid
 u.4399.com##.app-recommend
 
 ! 分享

@@ -209,7 +209,8 @@ baidu.com/static/mapping/*.php
 ||jspassport.ssl.qhimg.com^$script,third-party
 
 ! Bilibili
-||s1.hdslb.com/bfs/seed/log/
+! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
+||hdslb.com/bfs/seed/log/*
 ||cm.bilibili.com/cm/api/$xhr
 
 ! Sina
@@ -223,6 +224,11 @@ baidu.com/static/mapping/*.php
 ! ||dlweb.sogoucdn.com/hhytrace/trace_*.js
 ||dlweb.sogoucdn.com/hhytrace/*
 ||pic.sogou.com/pics/wap/home/visits.jsp$xhr
+
+! 知网 Piwik 数据收集
+! ||piccache.cnki.net/kdn/kns8/scripts/common/min/piwikCommon80.min.js^
+! ||track.cnki.net/tracking/scripts/piwik.js^
+||track.cnki.net^
 
 ! 站长之家 ChinaZ
 ||img.chinaz.com/2020/js/stat.min.js
@@ -344,10 +350,6 @@ baidu.com/static/mapping/*.php
 ! 脚本之家
 ||icws.jb51.net/tongji/tongji2.js
 ||icws.jb51.net/good/ssoft2019.js
-
-! 完美软件下载
-||www.wmzhe.com/static/wmzhe/js/aibyte_tj.js
-||www.wmzhe.com/static/wmzhe/js/result.js
 
 ! 3DM
 ||work.3dmgame.com/js/statistics.js

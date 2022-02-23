@@ -6,7 +6,7 @@ Red [
 make-metadata: function [
 	metadata-series [series!]
 	return: [object!]
-] [
+][
 	ms: copy metadata-series
 	make object! [
 		title:       take ms
@@ -20,7 +20,7 @@ rejoin-metadata: function [
 	metadata [object!]
 	suffix [string!]
 	return: [string!]
-] [
+][
 	rejoin [
 		"! Title: "       metadata/title suffix LF
 		"! Description: " metadata/description  LF
@@ -44,7 +44,7 @@ clean-ruleset: function [
 	result: find/tail ruleset-str separator
 	either result <> none [
 		return result
-	] [
+	][
 		return ruleset-str
 	]
 ]
@@ -53,7 +53,7 @@ merge-ruleset: function [
 	ruleset-dir [string!]
 	ruleset-name [string!]
 	metadata [object!]
-] [
+][
 
 	ruleset-file: clean-path to file! :ruleset-dir
 
@@ -62,7 +62,7 @@ merge-ruleset: function [
 
 	either exists? working-dir [
 		prin "Start at " print to-local-file working-dir
-	] [
+	][
 		cause-error 'access 'cannot-open [ working-dir ]
 	]
 
@@ -76,10 +76,10 @@ merge-ruleset: function [
 		either all [
 			%.txt = suffix? file ; file's extention name matches *.txt
 			output-file <> file  ; file is not output-file itself
-		] [
+		][
 			prin "Join " print file
 			append output-result clean-ruleset read file
-		] [
+		][
 			prin "Ignore " print file
 		]
 	]
@@ -120,7 +120,7 @@ metadata-rainslide: make-metadata [
 	"7 days"
 ]
 
-foreach ruleset [ "CN" "Intl" "Game" ] [
+foreach ruleset [ "CN" "Intl" "Game" ][
 	merge-ruleset ruleset ruleset metadata-additional-filters
 ]
 

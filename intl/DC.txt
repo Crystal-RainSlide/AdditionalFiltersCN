@@ -17,6 +17,10 @@
 ! Microsoft Skype
 ||cdn.skype.com/*/telemetry$script
 
+! Visual Studio Marketplace
+! ||marketplace.visualstudio.com/_apis/customerintelligence/Events$xhr
+||marketplace.visualstudio.com/_apis/customerintelligence/*
+
 ! Duckduckgo
 ! Why? What does this do?
 ||duckduckgo.com/daily/

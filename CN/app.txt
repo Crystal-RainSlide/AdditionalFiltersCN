@@ -16,25 +16,16 @@ fanyi.baidu.com##.download-app
 
 passport.baidu.com##.app-download-link
 
-tieba.baidu.com##.u_app
-tieba.baidu.com##.app_download_box
+tieba.baidu.com##.u_app, .app_download_box
 
-wenku.baidu.com##.reader-download-app
-wenku.baidu.com##.qrHover
+wenku.baidu.com##.reader-download-app, .qrHover
 
 zhidao.baidu.com##.zhidao-app
 
 ||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
-zybang.com##.app-download
-zybang.com##.QRWarp
-
-zybang.com###rightAsideBannerFlow
-zybang.com###bottomBannerLink
-zybang.com##.bottomTextFlow
-zybang.com##.bottomBannerFlow
-zybang.com##.bottomBannerPlaceholder
+zybang.com##.app-download, .QRWarp, #rightAsideBannerFlow, #bottomBannerLink, .bottomTextFlow, .bottomBannerFlow, .bottomBannerPlaceholder
 
 zybang.com###aside
 zybang.com##.qb_wgt-navbar .layout .user-center:style(position: static !important; float: right)
@@ -62,8 +53,7 @@ fanyi.sogou.com###J_download_app
 wenwen.sogou.com##.sgww-xcx
 
 ! Bilibili
-www.bilibili.com###fixed_app_download.home-app-download
-www.bilibili.com##.mobile
+www.bilibili.com##.nav-link-item:has(.link[href="//app.bilibili.com"])
 
 ! 网易新闻
 163.com##.newsapp-qrcode, .ntes-nav-mobile-title

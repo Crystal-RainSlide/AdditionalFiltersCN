@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 16-Sep-2021
-! Last Modified: 16-Sep-2021/15:59:39+08:00
+! Last updated: 23-Feb-2022
+! Last Modified: 23-Feb-2022/19:11:27+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -191,8 +191,7 @@ www.xmedia-recode.de##a[href="viren_pruf.php"]
 win7gadgets.com##.ads_subtitle
 win7gadgets.com##.gads
 
-xhamster.com##.video-page .player-container:style(margin-right: 0 !important)
-xhamster.com##.video-page .comments-container .comments-wrap:style(margin-inline: auto !important)
+xhamster.com##.index-videos .thumb-list .wio-xright-rectangle ~ .thumb-list__item:style(margin-right: 0 !important)
 xhamster.com##.clipstore-bottom
 xhamster.com##.clipstore-results
 xhamster.com##div[class^="wih-"]
@@ -259,6 +258,10 @@ itch.io##.app_banner
 
 ! Microsoft Skype
 ||cdn.skype.com/*/telemetry$script
+
+! Visual Studio Marketplace
+! ||marketplace.visualstudio.com/_apis/customerintelligence/Events$xhr
+||marketplace.visualstudio.com/_apis/customerintelligence/*
 
 ! Duckduckgo
 ! Why? What does this do?

@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 16-Sep-2021
-! Last Modified: 16-Sep-2021/15:59:39+08:00
+! Last updated: 23-Feb-2022
+! Last Modified: 23-Feb-2022/19:11:27+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -37,8 +37,7 @@ www.bilibili.com##.van-popover:has(.unlogin-popover)
 www.bilibili.com##.unlogin-popover
 
 ! BiliBili 首页
-www.bilibili.com##.first-screen
-www.bilibili.com##.storey-box
+www.bilibili.com##.first-screen, .first-screen + .storey-box
 www.bilibili.com##.primary-menu-itnl > .page-tab > .con .dynamic-update > i
 www.bilibili.com##.primary-menu-itnl > .channel-menu-itnl .name em:style(filter: grayscale())
 
@@ -164,7 +163,7 @@ megaup.net##.socialsider
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
 
-||fonts.gstatic.com/s/googlesans/*
+||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 

@@ -31,7 +31,7 @@ wenku.baidu.com##.red-spot
 wenku.baidu.com##.app-btn-point
 
 www.hao123.com##.icon-new
-hao.qq.com, daohang.qq.com, 123.sogou.com##.i-new, .i-hot
+hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
 
 qzone.qq.com,show.qq.com##.ico_new
 qzone.qq.com##.sn-radio
@@ -66,6 +66,8 @@ iqiyi.com##.iqp-logo-box
 ||www.iqiyipic.com/common/fix/PCH5_iconfont200831/logombx.png
 
 www.fun.tv##.new > i, b > .new
+
+www.cnki.net##.outstand > sup, .red > sup
 
 www.oschina.net,gitee.com##.ui.red.label
 www.oschina.net###icon_mayun, .icon_mayun
@@ -287,6 +289,9 @@ cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !im
 www.cnblogs.com##.bannerbar
 
 ! CSDN
+
+! 选中和复制代码
+blog.csdn.net###content_views pre, #content_views pre code:style(user-select: auto !important)
 
 ! 首次访问登录弹窗
 ! ||g.csdnimg.cn/login-box/1.1.4/login-box.js

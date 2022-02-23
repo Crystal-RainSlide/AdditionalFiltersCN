@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 16-Sep-2021
-! Last Modified: 16-Sep-2021/15:59:39+08:00
+! Last updated: 23-Feb-2022
+! Last Modified: 23-Feb-2022/19:11:27+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -181,7 +181,9 @@ jandan.net###comments > .commentlist > .row
 juejin.im##.recommend-box
 
 ! V2EX
-! v2ex.com##.box:has(.adsbygoogle)
+! 广告容器元素
+v2ex.com##div:has(> script[src]:first-child + .adsbygoogle + script:last-child:has-text(window.adsbygoogle))
+! 侧栏图片广告
 v2ex.com##.box:has(> .inner > a:only-child > img[src*="/assets/sidebar/"])
 
 ! Engadget
@@ -275,14 +277,8 @@ www.crsky.com##.genral_li li a:style(color: initial !important)
 www.crsky.com##.hot
 
 ! 完美软件下载
-||www.wmzhe.com/static/wmzhe/js/tianmao11.js
-www.wmzhe.com##.hot
-www.wmzhe.com###search-form-input:style(box-sizing: border-box)
-www.wmzhe.com##.downl_title
-www.wmzhe.com##.downl_L
-www.wmzhe.com###download
-www.wmzhe.com##.downl_listC > p:first-child
-www.wmzhe.com##.downl_listC:style(border-top: none !important; margin-top: 0 !important)
+! 完美软件下载
+www.wmzhe.com##.ads, .aibyte_ad
 
 ! 多特
 ||img2.2345.com/duoteimg/js/newjs/clickdown_stat_ajax.js
@@ -411,25 +407,16 @@ fanyi.baidu.com##.download-app
 
 passport.baidu.com##.app-download-link
 
-tieba.baidu.com##.u_app
-tieba.baidu.com##.app_download_box
+tieba.baidu.com##.u_app, .app_download_box
 
-wenku.baidu.com##.reader-download-app
-wenku.baidu.com##.qrHover
+wenku.baidu.com##.reader-download-app, .qrHover
 
 zhidao.baidu.com##.zhidao-app
 
 ||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
 ||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
-zybang.com##.app-download
-zybang.com##.QRWarp
-
-zybang.com###rightAsideBannerFlow
-zybang.com###bottomBannerLink
-zybang.com##.bottomTextFlow
-zybang.com##.bottomBannerFlow
-zybang.com##.bottomBannerPlaceholder
+zybang.com##.app-download, .QRWarp, #rightAsideBannerFlow, #bottomBannerLink, .bottomTextFlow, .bottomBannerFlow, .bottomBannerPlaceholder
 
 zybang.com###aside
 zybang.com##.qb_wgt-navbar .layout .user-center:style(position: static !important; float: right)
@@ -457,8 +444,7 @@ fanyi.sogou.com###J_download_app
 wenwen.sogou.com##.sgww-xcx
 
 ! Bilibili
-www.bilibili.com###fixed_app_download.home-app-download
-www.bilibili.com##.mobile
+www.bilibili.com##.nav-link-item:has(.link[href="//app.bilibili.com"])
 
 ! 网易新闻
 163.com##.newsapp-qrcode, .ntes-nav-mobile-title
@@ -785,7 +771,8 @@ baidu.com/static/mapping/*.php
 ||jspassport.ssl.qhimg.com^$script,third-party
 
 ! Bilibili
-||s1.hdslb.com/bfs/seed/log/
+! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
+||hdslb.com/bfs/seed/log/*
 ||cm.bilibili.com/cm/api/$xhr
 
 ! Sina
@@ -799,6 +786,11 @@ baidu.com/static/mapping/*.php
 ! ||dlweb.sogoucdn.com/hhytrace/trace_*.js
 ||dlweb.sogoucdn.com/hhytrace/*
 ||pic.sogou.com/pics/wap/home/visits.jsp$xhr
+
+! 知网 Piwik 数据收集
+! ||piccache.cnki.net/kdn/kns8/scripts/common/min/piwikCommon80.min.js^
+! ||track.cnki.net/tracking/scripts/piwik.js^
+||track.cnki.net^
 
 ! 站长之家 ChinaZ
 ||img.chinaz.com/2020/js/stat.min.js
@@ -920,10 +912,6 @@ baidu.com/static/mapping/*.php
 ! 脚本之家
 ||icws.jb51.net/tongji/tongji2.js
 ||icws.jb51.net/good/ssoft2019.js
-
-! 完美软件下载
-||www.wmzhe.com/static/wmzhe/js/aibyte_tj.js
-||www.wmzhe.com/static/wmzhe/js/result.js
 
 ! 3DM
 ||work.3dmgame.com/js/statistics.js
@@ -1279,7 +1267,7 @@ wenku.baidu.com##.red-spot
 wenku.baidu.com##.app-btn-point
 
 www.hao123.com##.icon-new
-hao.qq.com, daohang.qq.com, 123.sogou.com##.i-new, .i-hot
+hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
 
 qzone.qq.com,show.qq.com##.ico_new
 qzone.qq.com##.sn-radio
@@ -1314,6 +1302,8 @@ iqiyi.com##.iqp-logo-box
 ||www.iqiyipic.com/common/fix/PCH5_iconfont200831/logombx.png
 
 www.fun.tv##.new > i, b > .new
+
+www.cnki.net##.outstand > sup, .red > sup
 
 www.oschina.net,gitee.com##.ui.red.label
 www.oschina.net###icon_mayun, .icon_mayun
@@ -1535,6 +1525,9 @@ cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !im
 www.cnblogs.com##.bannerbar
 
 ! CSDN
+
+! 选中和复制代码
+blog.csdn.net###content_views pre, #content_views pre code:style(user-select: auto !important)
 
 ! 首次访问登录弹窗
 ! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
