@@ -88,16 +88,23 @@ Some optional Rules for your choices. Not subscribe-able, please pick the useful
 
 提供者 Provider | 示例链接 Example Links
 --------------- | ----------------------
-[GitCDN] / [Alternative Domain][GitCDN Alternative] / [GitHub Repo](https://github.com/schme16/gitcdn.xyz) | https://gitcdn.xyz/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-[jsDelivr] / [GitHub Repo](https://github.com/jsdelivr/jsdelivr) | https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
-[Statically] / [GitHub Repo](https://github.com/staticallyio/statically) | https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-[raw.githack.com] / [GitHub Repo](https://github.com/neoascetic/rawgithack) | https://raw.githack.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[GitCDN] / [Alternative Domain][GitCDN Alternative] / [GitHub Repo][GitCDN Repo] | https://gitcdn.xyz/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt <br> https://gitcdn.link/repo/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[jsDelivr] / [GitHub Repo][jsdelivr Repo] | https://cdn.jsdelivr.net/gh/Crystal-RainSlide/AdditionalFiltersCN/CN.txt
+[Statically] / [GitHub Repo][Statically Repo] | https://cdn.staticaly.com/gh/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+[raw.githack.com] / [GitHub Repo][raw.githack.com Repo] | https://raw.githack.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 
 [GitCDN]: https://gitcdn.xyz
 [GitCDN Alternative]: https://gitcdn.link
 [jsDelivr]: https://www.jsdelivr.com/?docs=gh
 [Statically]: https://statically.io/
 [raw.githack.com]: https://raw.githack.com/
+
+[GitCDN Repo]:          https://github.com/schme16/gitcdn.xyz
+[jsdelivr Repo]:        https://github.com/jsdelivr/jsdelivr
+[Statically Repo]:      https://github.com/staticallyio/statically
+[raw.githack.com Repo]: https://github.com/neoascetic/rawgithack
+
+镜像更新有一定延迟。
 
 不建议大规模使用 raw.githack.com 的开发用镜像。参见 https://raw.githack.com/#development-in-production 。
 
