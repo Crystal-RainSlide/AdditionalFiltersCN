@@ -1,19 +1,27 @@
 # AdditionalFiltersCN
 
-主要为中国大陆网络服务制作的额外过滤列表，适用于浏览器拓展
-[uBlock Origin] 等。
-按照隐私、广告和干扰等分类整理。包含一些显而易见但长期未被处理的
-数据收集与追踪；哪怕初级网络开发者都能轻易发现并判定它们。
+主要为中国大陆网络服务制作的额外过滤列表，适用于浏览器拓展 [uBlock Origin] 等。
+按照隐私、广告和干扰等分类整理。包含一些显而易见但长期未被处理的数据收集与追踪；
+哪怕初级网络开发者都能轻易发现并判定它们。
 
-Additional Filters for browser extension based adblockers like
-[uBlock Origin].
+Additional Filters for browser extension based adblockers like [uBlock Origin].
 Mainly for Chinese mainland internet service, splitted into privacy,
 advertisement, interruption elements and so on.
-Including some obvious trackers which could be found & confirmed by
-novices in network development easily, and should been listed & blocked
-YEARS ago.
+Including some obvious trackers which could be found & confirmed by novices
+in network development easily, and should been listed & blocked YEARS ago.
 
 [uBlock Origin]: https://github.com/gorhill/uBlock
+
+此列表本是我为避免频繁地向各个过滤列表提交规则而创建的，随着列表的完善，
+更新可能会逐渐减少。但由于本列表的内容多数未被提交至其他列表，除非此情况有改变，
+否则不应认为本列表已经过时。
+
+This list was created to avoid frequent submission to various filter lists,
+As the list become more complete, updates may happen less frequently.
+However, since most of the content of this list has not been submitted to
+other lists, thus, unless this situation changes, otherwise this list should not
+be considered out of date.
+
 
 ## 全部 All
 
