@@ -13,11 +13,6 @@ pan.baidu.com##.phone-banner
 ! 百度不知道
 zhidao.baidu.com##.product-container
 
-! 作业帮
-! ||img.zuoyebang.cc^
-! @@||img.zuoyebang.cc/zyb_$image
-www.zybang.com##.wgt_carousel_aniUnit
-
 ! 淘宝 Taobao
 www.taobao.com###smartbanner
 

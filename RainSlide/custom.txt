@@ -7,9 +7,6 @@
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
 
-! Google Translate Banner
-||translate.google.com/translate_a/element.js$script
-
 ! translate.google.cn 不必要的与 Google.com 的连接
 ||accounts.google.com^$subdocument,domain=translate.google.cn
 ||ogs.google.com^$subdocument,domain=translate.google.cn

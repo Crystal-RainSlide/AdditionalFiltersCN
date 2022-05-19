@@ -90,8 +90,8 @@ baidu.com/static/mapping/*.php
 !   www.cnbeta.com/static/api/js/trans/logger.js
 */static/api/js/trans/logger.js
 
-! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
-||n3.zuoyebang.cc/napi/stat/*$image
+! ||n*.zuoyebang.cc/napi/stat/addnoticev1$image
+||zuoyebang.cc/napi/stat/*$image
 
 ! 腾讯 Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
@@ -381,6 +381,13 @@ baidu.com/static/mapping/*.php
 ||static.doc88.com/assets/pv.swf$important
 
 ||www.ruanyifeng.com/blog/stats.js
+
+! 学科网
+||zujuan.xkw.com/mainsitecontent/static/activity/ad.js
+||zujuan.xkw.com/mainsitecontent/static/common/lib/baidu_statistics.js
+||zujuan.xkw.com/mainsitecontent/static/common/lib/baidu_auto_push.js
+||zujuan.xkw.com/mainsitecontent/static/common/scripts/xkwTracker.js
+||io.xkw.com/iolog/track-log
 
 ! 跟谁学
 ||click.genshuixue.com^

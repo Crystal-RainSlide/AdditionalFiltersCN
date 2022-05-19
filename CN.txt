@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 23-Feb-2022
-! Last Modified: 23-Feb-2022/19:11:27+08:00
+! Last updated: 19-May-2022
+! Last Modified: 19-May-2022/16:31:15+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -18,11 +18,6 @@ pan.baidu.com##.phone-banner
 
 ! 百度不知道
 zhidao.baidu.com##.product-container
-
-! 作业帮
-! ||img.zuoyebang.cc^
-! @@||img.zuoyebang.cc/zyb_$image
-www.zybang.com##.wgt_carousel_aniUnit
 
 ! 淘宝 Taobao
 www.taobao.com###smartbanner
@@ -413,18 +408,6 @@ wenku.baidu.com##.reader-download-app, .qrHover
 
 zhidao.baidu.com##.zhidao-app
 
-||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
-||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
-||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
-zybang.com##.app-download, .QRWarp, #rightAsideBannerFlow, #bottomBannerLink, .bottomTextFlow, .bottomBannerFlow, .bottomBannerPlaceholder
-
-zybang.com###aside
-zybang.com##.qb_wgt-navbar .layout .user-center:style(position: static !important; float: right)
-zybang.com##.question-view .main-body .main-con, .question-view .main-body footer:style(margin-left: auto !important; margin-right: auto !important)
-zybang.com##.questionWarp > dl:style(box-sizing: border-box; width: 100% !important)
-zybang.com##.qb_wgt-question .qb-content, #good-answer:style(font-size: large !important)
-
-
 
 ! Google 翻译
 translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
@@ -652,8 +635,8 @@ baidu.com/static/mapping/*.php
 !   www.cnbeta.com/static/api/js/trans/logger.js
 */static/api/js/trans/logger.js
 
-! ||n3.zuoyebang.cc/napi/stat/addnoticev1$image
-||n3.zuoyebang.cc/napi/stat/*$image
+! ||n*.zuoyebang.cc/napi/stat/addnoticev1$image
+||zuoyebang.cc/napi/stat/*$image
 
 ! 腾讯 Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
@@ -944,6 +927,13 @@ baidu.com/static/mapping/*.php
 
 ||www.ruanyifeng.com/blog/stats.js
 
+! 学科网
+||zujuan.xkw.com/mainsitecontent/static/activity/ad.js
+||zujuan.xkw.com/mainsitecontent/static/common/lib/baidu_statistics.js
+||zujuan.xkw.com/mainsitecontent/static/common/lib/baidu_auto_push.js
+||zujuan.xkw.com/mainsitecontent/static/common/scripts/xkwTracker.js
+||io.xkw.com/iolog/track-log
+
 ! 跟谁学
 ||click.genshuixue.com^
 
@@ -956,6 +946,8 @@ baidu.com/static/mapping/*.php
 
 ! 广东中山图书馆
 ||gdslzstsg.superlib.libsou.com/visit_log.jspx
+
+@@||mirrorz.org/static/json/legacy/tongji.json
 
 ! 乘风
 ||g.$script,3p,badfilter
@@ -1055,7 +1047,7 @@ www.ruanyifeng.com##+js(nostif, checker)
 ! ||res.wx.qq.com/open/js/jweixin-*.js
 ! ||oschina.net/js/utils/jweixin-*.js
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
-*/jweixin-*.js$script
+*/jweixin-*.js^$script
 
 ||assets.gitee.com/assets/qrcode-weixin-*$image
 gitee.com##.qrcode.weixin
@@ -1305,10 +1297,7 @@ www.fun.tv##.new > i, b > .new
 
 www.cnki.net##.outstand > sup, .red > sup
 
-www.oschina.net,gitee.com##.ui.red.label
-www.oschina.net###icon_mayun, .icon_mayun
-www.oschina.net##.giteetip
-www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
+www.oschina.net##.small-header-box .nav-bar__tabs .tabs-item--new-show .tabs-link::before
 
 www.chinaz.com##.hot
 
@@ -1379,15 +1368,18 @@ jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
 
-! 动态图片 红包
-zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
-! 新人答题领红包
-zhidao.baidu.com##.exp-topwld-tip
-! 悬浮图片 赚积分 换礼品
-zhidao.baidu.com##.earn-points-exchange-gifts-bubble
-! 悬浮图片 申请认证
+! 百度知道 右侧 特别推荐
+! zhidao.baidu.com##.cms-slide
+
+! 百度知道 移除右侧内容（只有特别推荐和广告…）
+zhidao.baidu.com##.qb-section > .qb-side
+zhidao.baidu.com##.qb-section > .qb-content:style(float: none; display: block; margin: 0 auto; padding: 0 30px 30px; border: none)
+
+! 百度知道 赚积分 换礼品
+zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
+! 百度知道 申请认证
 zhidao.baidu.com##.jump-goto-star
-! #热议#
+! 百度知道 #热议#
 zhidao.baidu.com##.question-number-text-chain
 
 ||tieba.baidu.com/tbapp/user/getRecommendApp
@@ -1456,6 +1448,9 @@ www.bilibili.com##.v-live-recommend
 live.bilibili.com##.bilibili-live-player-video-logo
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
+
+! 搜狗 在您的Firefox中添加搜狗
+www.sogou.com##.sidebox2
 
 ! 天翼云 VIP 标志
 cloud.189.cn##.vipIcon

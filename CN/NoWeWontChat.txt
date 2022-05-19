@@ -6,7 +6,7 @@
 ! ||res.wx.qq.com/open/js/jweixin-*.js
 ! ||oschina.net/js/utils/jweixin-*.js
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
-*/jweixin-*.js$script
+*/jweixin-*.js^$script
 
 ||assets.gitee.com/assets/qrcode-weixin-*$image
 gitee.com##.qrcode.weixin

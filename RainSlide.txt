@@ -2,14 +2,11 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 23-Feb-2022
-! Last Modified: 23-Feb-2022/19:11:27+08:00
+! Last updated: 19-May-2022
+! Last Modified: 19-May-2022/16:31:15+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
-
-! Google Translate Banner
-||translate.google.com/translate_a/element.js$script
 
 ! translate.google.cn 不必要的与 Google.com 的连接
 ||accounts.google.com^$subdocument,domain=translate.google.cn

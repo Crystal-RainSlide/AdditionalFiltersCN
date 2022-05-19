@@ -22,18 +22,6 @@ wenku.baidu.com##.reader-download-app, .qrHover
 
 zhidao.baidu.com##.zhidao-app
 
-||yy-s.zuoyebang.cc/static/question/widget/qrcodeProxy/*
-||yy-s.zuoyebang.cc/static/question/widget/question/QRCode/*
-||yy-s.zuoyebang.cc/static/question/widget/question/fixed-guide/resource/images/qrcode_*.png
-zybang.com##.app-download, .QRWarp, #rightAsideBannerFlow, #bottomBannerLink, .bottomTextFlow, .bottomBannerFlow, .bottomBannerPlaceholder
-
-zybang.com###aside
-zybang.com##.qb_wgt-navbar .layout .user-center:style(position: static !important; float: right)
-zybang.com##.question-view .main-body .main-con, .question-view .main-body footer:style(margin-left: auto !important; margin-right: auto !important)
-zybang.com##.questionWarp > dl:style(box-sizing: border-box; width: 100% !important)
-zybang.com##.qb_wgt-question .qb-content, #good-answer:style(font-size: large !important)
-
-
 
 ! Google 翻译
 translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])

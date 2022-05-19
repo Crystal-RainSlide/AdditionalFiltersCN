@@ -69,10 +69,7 @@ www.fun.tv##.new > i, b > .new
 
 www.cnki.net##.outstand > sup, .red > sup
 
-www.oschina.net,gitee.com##.ui.red.label
-www.oschina.net###icon_mayun, .icon_mayun
-www.oschina.net##.giteetip
-www.oschina.net###headerNavMenu #menuList .gitee + .item:style(margin-left: 24px !important)
+www.oschina.net##.small-header-box .nav-bar__tabs .tabs-item--new-show .tabs-link::before
 
 www.chinaz.com##.hot
 
@@ -143,15 +140,18 @@ jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
 
-! 动态图片 红包
-zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
-! 新人答题领红包
-zhidao.baidu.com##.exp-topwld-tip
-! 悬浮图片 赚积分 换礼品
-zhidao.baidu.com##.earn-points-exchange-gifts-bubble
-! 悬浮图片 申请认证
+! 百度知道 右侧 特别推荐
+! zhidao.baidu.com##.cms-slide
+
+! 百度知道 移除右侧内容（只有特别推荐和广告…）
+zhidao.baidu.com##.qb-section > .qb-side
+zhidao.baidu.com##.qb-section > .qb-content:style(float: none; display: block; margin: 0 auto; padding: 0 30px 30px; border: none)
+
+! 百度知道 赚积分 换礼品
+zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
+! 百度知道 申请认证
 zhidao.baidu.com##.jump-goto-star
-! #热议#
+! 百度知道 #热议#
 zhidao.baidu.com##.question-number-text-chain
 
 ||tieba.baidu.com/tbapp/user/getRecommendApp
@@ -220,6 +220,9 @@ www.bilibili.com##.v-live-recommend
 live.bilibili.com##.bilibili-live-player-video-logo
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
+
+! 搜狗 在您的Firefox中添加搜狗
+www.sogou.com##.sidebox2
 
 ! 天翼云 VIP 标志
 cloud.189.cn##.vipIcon

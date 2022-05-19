@@ -3,6 +3,8 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+@@||mirrorz.org/static/json/legacy/tongji.json
+
 ! 乘风
 ||g.$script,3p,badfilter
 
