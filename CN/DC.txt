@@ -22,8 +22,6 @@
 ||unpkg.zhimg.com/@cfe/sentry-script*$script
 
 ! 百度 Baidu
-! ||hm.baidu.com/hm.js
-||hm.baidu.com^
 @@||dwz.hm.baidu.com^
 
 ||baidupcs.com/monitor.jpg^
@@ -64,13 +62,9 @@
 ||code.bdstatic.com/npm/spy-client^
 
 ! pan.baidu.com
-||pan.baidu.com/api/report/user^
 ||pan.baidu.com/box-static/disk-system/js/alog.js
 ||pan.baidu.com/box-static/disk-system/js/log.js
 ||pan.baidu.com/box-static/disk-system/js/dp.js
-||pan.baidu.com/pcloud/counter/refreshcount^
-
-||jingyan.baidu.com/asyncreq/log^
 
 ! 百度文库 wenku.baidu.com
 ||wkctj.baidu.com^
@@ -105,8 +99,6 @@ baidu.com/static/mapping/*.php
 ||report.*.qq.com^
 ||report.url.cn^
 
-||wspeed.qq.com^
-||qzone.qq.com/wspeed.qq.com^
 ||qzone.qq.com/proxy/domain/statistic.qzone.qq.com^
 
 ! ||h5.qzone.qq.com/report/md^
@@ -202,8 +194,6 @@ baidu.com/static/mapping/*.php
 ! ||shared.ydstatic.com/js/rlog/*
 */rlog/*$script
 
-||music.163.com/weapi/feedback/weblog
-
 ! ||js.passport.qihucdn.com/11.0.1.js
 ||js.passport.qihucdn.com/*$script,third-party
 ||jspassport.ssl.qhimg.com^$script,third-party
@@ -237,9 +227,6 @@ baidu.com/static/mapping/*.php
 ! 简书 Jianshu
 ! ||tr.jianshu.com/fe/1/mon/atf$xhr
 ||tr.jianshu.com^
-
-! Bing
-||bing.com/fd/ls/*
 
 ! TapTap
 ||assets.tapimg.com/js/sa-*.js
