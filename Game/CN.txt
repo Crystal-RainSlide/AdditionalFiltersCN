@@ -64,3 +64,8 @@ www.7k7k.com##.wrap_head_ad, .wrap_pagead, .wrap_ad2, .wrap_page_ad2
 
 ! 分享
 www.7k7k.com##.start-game-share
+
+
+! 联众
+flash.ourgame.com###game_page_ad
+

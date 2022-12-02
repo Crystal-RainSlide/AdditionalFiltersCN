@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 19-May-2022
-! Last Modified: 19-May-2022/16:31:15+08:00
+! Last updated: 2-Dec-2022
+! Last Modified: 2-Dec-2022/13:18:09+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -59,6 +59,9 @@ sourceforge.net###nels, #project-nel, .nel
 sourceforge.net##.stackcommerce-widget
 sourceforge.net###dlp-voip-quote
 
+! StackExchange
+stackexchange.com,stackoverflow.com##.js-freemium-cta
+
 ! pixiv
 www.pixiv.net##.premium-lead-premium-campaign
 www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
@@ -95,7 +98,7 @@ apkpure.com##.ad-box-auto
 ! XDA
 forum.xda-developers.com###honor-launch-banner
 
-fandom.com##.mcf-card-sponsored-content
+fandom.com##.top-ads-container, .mcf-card-sponsored-content
 
 css-tricks.com###all-ads
 css-tricks.com##.fem-ad
@@ -133,21 +136,15 @@ genius.com##marquee-ad
 
 ! NewGrounds
 www.newgrounds.com##.header-deck
-www.newgrounds.com##.GAR_header_topbar
-www.newgrounds.com##.pod:has-text(/MMO RPGs|Featured web games!/)
-www.newgrounds.com##.footer-ad-space
-www.newgrounds.com##.footer-shim.body-guts
-www.newgrounds.com##div[class^=ng-ad-container]
-||www.newgrounds.com/support/*$image
-
 ||server.cpmstar.com^$important
 
 www.agame.com##.advert
 www.agame.com##.show-sidebar .label-wrapper .mainContent, .show-sidebar .label-wrapper .bottomContent:style(margin-right: 0 !important)
 www.agame.com##.label-page-sidebar
 
-tvtropes.org##.proper-ad-unit
-tvtropes.org##.ad
+tvtropes.org##.ad, .proper-ad-unit
+
+||vice-web-statics-cdn.vice.com/vendor/ad-lib/*
 
 ||platformbot.xyz^
 
@@ -175,7 +172,12 @@ www.urbandictionary.com##.mug-ad
 
 www.sfgate.com##.adModule
 
-steamworkshopdownloader.io##.advert-body
+www.tutorialspoint.com###load, #load + .clear, #google-top-ads + br
+www.tutorialspoint.com##hr:has(+ #google-top-ads)
+
+www.codeproject.com##div[data-type="ad"], a[href^="https://useastadprovider.azurewebsites.net/api/AdRedirector"]
+
+www.howtogeek.com##.entry-content > div[data-nosnippet]
 
 *$3p,script,domain=store.rg-adguard.net
 
@@ -183,17 +185,12 @@ crystalmark.info###top-container-widget
 
 compass-style.org##.advertisement
 
-surviv.io###ad-block-left
-surviv.io##.ui-stats-ad-container
-
 www.xmedia-recode.de##a[href="viren_pruf.php"]
 
-win7gadgets.com##.ads_subtitle
-win7gadgets.com##.gads
+win7gadgets.com##.ads_subtitle, .gads
 
 xhamster.com##.index-videos .thumb-list .wio-xright-rectangle ~ .thumb-list__item:style(margin-right: 0 !important)
-xhamster.com##.clipstore-bottom
-xhamster.com##.clipstore-results
+xhamster.com##.clipstore-bottom, .clipstore-results
 xhamster.com##div[class^="wih-"]
 
 ||rusenov.com^$xhr
@@ -260,8 +257,8 @@ itch.io##.app_banner
 ||cdn.skype.com/*/telemetry$script
 
 ! Visual Studio Marketplace
-! ||marketplace.visualstudio.com/_apis/customerintelligence/Events$xhr
 ||marketplace.visualstudio.com/_apis/customerintelligence/*
+||marketplace.visualstudio.com/_apis/ClientTrace/*
 
 ! Duckduckgo
 ! Why? What does this do?
@@ -280,6 +277,9 @@ itch.io##.app_banner
 ! Yandex.Disk
 ||yadi.sk/monitoring.txt/*
 
+! Profitwell
+||cloudfront.net/js/profitwell.js^
+
 ! Bandcamp
 ||bandcamp.com/stat_record
 
@@ -294,6 +294,10 @@ itch.io##.app_banner
 
 ! Disqus
 ||disqus.com/count.js$script
+
+! Wix
+||static.parastorage.com/services/wix-perf-measure/*
+||frog.wix.com^
 
 ! FreeStyler.ws
 ||freestyler.ws/style/tracking
@@ -331,6 +335,8 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ! From stats.js in http://code.getadblock.com/releases/
 ! ||ping.getadblock.com/stats/
 ||ping.getadblock.com^
+
+||cdn.xsolla.net/network/xtracking-*.js
 
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||api.facebook.com^$third-party
@@ -397,6 +403,8 @@ blog.twitter.com##div[class$="__share--icons"]
 
 ! The White House
 www.whitehouse.gov##.editor__module-share
+
+www.techpowerup.com##.social-share
 
 ! mediabiasfactcheck.com
 */sharedaddy/sharing.min.js$script
@@ -497,8 +505,9 @@ www.intelrealsense.com##.social-links
 ||fonts.gstatic.com/s/notoserifsc/*
 ||fonts.gstatic.com/s/notoserifhk/*
 
-! SourceForge - Newsletter
-sourceforge.net###newsletter-floating
+! WordPress better-content-protector Plugin
+! ||www.fcportables.com/wp-content/plugins/better-content-protector/assets/js/content-protector-pack.min.js
+*/wp-content/plugins/better-content-protector/*
 
 ! WikiHow
 ! Help us do more
@@ -534,3 +543,8 @@ userstyle.org###stylish-code:style(font-family: monospace !important)
 
 ! xHamster - Red dot
 xhamster.com##.with-dot::before
+
+! Newsletter
+sourceforge.net###newsletter-floating
+www.wired.com##.newsletter-subscribe-form
+kotaku.com##.js_newsletter-form-inline

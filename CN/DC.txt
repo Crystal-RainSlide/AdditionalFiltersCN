@@ -24,6 +24,8 @@
 ! 百度 Baidu
 @@||dwz.hm.baidu.com^
 
+||mbd.baidu.com/ztbox^
+
 ||baidupcs.com/monitor.jpg^
 */baidu-tongji/*$script
 */baidu-tongji.js^$script
@@ -33,7 +35,7 @@
 */bd_stat.js^$script
 
 ! Abclite
-||dlswbr.baidu.com/heicha/mw/abclite-*-s.js
+||dlswbr.baidu.com/heicha/mw/abclite-*-s.js^
 
 ! ||cstm.baidu.com/baike/log/common$script
 ! wss://cstm.baidu.com/baike/log
@@ -146,22 +148,21 @@ baidu.com/static/mapping/*.php
 ! 阿里 Ali
 
 ! ||mmstat.com^
+! ||g.alicdn.com/alilog/*
 
-||g.alicdn.com/alilog/mlog/xwj_heat.js
-! g.alicdn.com/alilog/mlog/aplus_v2.js
-||g.alicdn.com/pecdn/mlog/agp_heat.min.js
-! s.tbcdn.cn/s/aplus_v2.js
-||g.alicdn.com/alilog/*
 */mlog/*
-*/aplus_v2.js
+
+! g.alicdn.com/alilog/mlog/aplus_v2.js
+! s.tbcdn.cn/s/aplus_v2.js
+*/aplus_v2.js^
 
 ! aeu.alicdn.com/js/cj/110.js
 !  af.alicdn.com/js/cj/110.js
-*.alicdn.com/js/cj/110.js
+*.alicdn.com/js/cj/110.js^
 
-||ynuf.alipay.com/uid
-||g.alicdn.com/security/umscript/*/um.js
-||g.alicdn.com/sd/ctl/ctl.js
+||ynuf.alipay.com/uid^
+||g.alicdn.com/security/umscript/*/um.js^
+||g.alicdn.com/sd/ctl/ctl.js^
 
 ||ynuf.alipay.com/service/um.json$xhr,domain=v.youku.com
 
@@ -172,9 +173,9 @@ baidu.com/static/mapping/*.php
 ||netease.com/track/*
 
 ! ||www.163.com/special/*/performance.js
-||163.com/*/performance.js
+||163.com/*/performance.js^
 
-||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
+! ||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
 ||hubble-js-bucket.nosdn.127.net/DATracker.*.js
 ||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
 
@@ -182,10 +183,10 @@ baidu.com/static/mapping/*.php
 ||vmonitor.ws.netease.com/web/performance$image
 
 ! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
-*/antanalysis.min.js
+*/antanalysis.min.js^
 
 ! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
-*/analysis/js/analysis*.js
+*/analysis/js/analysis*.js^
 
 ! 网易有道 Netease Youdao
 ! rlogs.youdao.com/rlog.php
@@ -290,8 +291,9 @@ baidu.com/static/mapping/*.php
 ! 智慧树
 ! ||collector.zhihuishu.com/video/web/collect$xhr
 ||collector.zhihuishu.com^
-! ||hilog.zhihuishu.com/public/jsonp/collect$xhr
+! ||hilog.zhihuishu.com/collect$xhr
 ||hilog.zhihuishu.com^
+
 ! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com/logstores/doc-preview-f2e/track$xhr
 ! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com^
 ||log.aliyuncs.com^
@@ -374,7 +376,7 @@ baidu.com/static/mapping/*.php
 ||zujuan.xkw.com/mainsitecontent/static/common/lib/baidu_statistics.js
 ||zujuan.xkw.com/mainsitecontent/static/common/lib/baidu_auto_push.js
 ||zujuan.xkw.com/mainsitecontent/static/common/scripts/xkwTracker.js
-||io.xkw.com/iolog/track-log
+||io.xkw.com/iolog/track-log%
 
 ! 跟谁学
 ||click.genshuixue.com^
@@ -382,9 +384,11 @@ baidu.com/static/mapping/*.php
 ! ||www.chinaso.com/feapi/log/lc^$xhr
 ||www.chinaso.com/feapi/log^
 
-||www.souid.com/templets/js/tongji2.js
+||static.ruiwen.com/cpt/cpt.js^
 
-||www.3h3.com/template/3h3/js/dxinfo.js
+||www.souid.com/templets/js/tongji2.js^
+
+||www.3h3.com/template/3h3/js/dxinfo.js^
 
 ! 广东中山图书馆
 ||gdslzstsg.superlib.libsou.com/visit_log.jspx

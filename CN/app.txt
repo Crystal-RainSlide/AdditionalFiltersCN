@@ -6,22 +6,16 @@
 ! 百度
 ||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
-
-baike.baidu.com##.wgt-baikeapp-promote-container
-
-baike.baidu.com##.appdownload
-pan.baidu.com##.app-download
+baike.baidu.com##.appdownload, .wgt-baikeapp-promote-container
 eyun.baidu.com##.client-download
-fanyi.baidu.com##.download-app
-
+fanyi.baidu.com##.sideQrContainer
+fanyi.baidu.com##.products-list:style(filter: grayscale(.5); opacity: .5)
 passport.baidu.com##.app-download-link
-
+pan.baidu.com##.app-download, .wp-main-download
+pan.baidu.com##a.wp-disk-header__right-item[href="https://pan.baidu.com/download"]
 tieba.baidu.com##.u_app, .app_download_box
-
 wenku.baidu.com##.reader-download-app, .qrHover
-
 zhidao.baidu.com##.zhidao-app
-
 
 ! Google 翻译
 translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
@@ -41,10 +35,14 @@ fanyi.sogou.com###J_download_app
 wenwen.sogou.com##.sgww-xcx
 
 ! Bilibili
-www.bilibili.com##.nav-link-item:has(.link[href="//app.bilibili.com"])
+bilibili.com##.bili-header li:has(> .download-client-trigger)
+bilibili.com##.nav-link-item:has(> span > .download-client-trigger)
 
 ! 网易新闻
 163.com##.newsapp-qrcode, .ntes-nav-mobile-title
+
+www.163.com##.post_side_logo
+www.163.com##.post_side_logo + .post_side_mod:style(margin-top: 0 !important)
 
 ! 网易云音乐
 music.163.com##.download, .m-multi
@@ -57,7 +55,8 @@ y.qq.com##.popup_guide, .player_login__guide
 amap.com###amapAppDownload, #amap-result-banner
 
 ! 百度地图
-map.baidu.com##.leadDownloadCard
+map.baidu.com###leadDownloadCard
+map.baidu.com###activity-banner-panel
 
 
 ! 京东

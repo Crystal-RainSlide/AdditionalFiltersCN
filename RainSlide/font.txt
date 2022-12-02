@@ -7,13 +7,17 @@
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
 ||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
+@@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
 @@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
+@@||fonts.geekzu.org/css?family=*Material+Symbols*$stylesheet
 
 ||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 
 ! ----
+
+||www.kernel.org/theme/fonts/*
 
 ! Microsoft
 ||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*

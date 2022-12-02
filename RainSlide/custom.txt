@@ -33,9 +33,14 @@ www.bilibili.com##.van-popover:has(.unlogin-popover)
 www.bilibili.com##.unlogin-popover
 
 ! BiliBili 首页
-www.bilibili.com##.first-screen, .first-screen + .storey-box
-www.bilibili.com##.primary-menu-itnl > .page-tab > .con .dynamic-update > i
-www.bilibili.com##.primary-menu-itnl > .channel-menu-itnl .name em:style(filter: grayscale())
+www.bilibili.com##.recommended-container
+www.bilibili.com##.bili-header__banner
+
+www.bilibili.com##.bili-header .bili-header__bar:style(position: static !important)
+www.bilibili.com##.bili-header .center-search-container .center-search__bar:style(z-index: 1 !important)
+www.bilibili.com##.bili-header .left-entry .entry-title .zhuzhan-icon, .bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry, .bili-header .right-entry__outside .right-entry-icon, .bili-header .right-entry__outside .right-entry-text:style(color: inherit !important)
+www.bilibili.com##.bili-footer:style(z-index: 0 !important)
+
 
 ! 4399
 www.4399.com###addiv
@@ -81,6 +86,9 @@ blog.csdn.net###toolBarBox
 
 ! Intl
 ! ----
+
+! LinkedIn
+||linkedin.com^$3p
 
 ! Mega
 mega.nz##.register-side-pane.container

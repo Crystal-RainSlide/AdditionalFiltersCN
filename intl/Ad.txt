@@ -89,7 +89,7 @@ apkpure.com##.ad-box-auto
 ! XDA
 forum.xda-developers.com###honor-launch-banner
 
-fandom.com##.mcf-card-sponsored-content
+fandom.com##.top-ads-container, .mcf-card-sponsored-content
 
 css-tricks.com###all-ads
 css-tricks.com##.fem-ad
@@ -127,21 +127,15 @@ genius.com##marquee-ad
 
 ! NewGrounds
 www.newgrounds.com##.header-deck
-www.newgrounds.com##.GAR_header_topbar
-www.newgrounds.com##.pod:has-text(/MMO RPGs|Featured web games!/)
-www.newgrounds.com##.footer-ad-space
-www.newgrounds.com##.footer-shim.body-guts
-www.newgrounds.com##div[class^=ng-ad-container]
-||www.newgrounds.com/support/*$image
-
 ||server.cpmstar.com^$important
 
 www.agame.com##.advert
 www.agame.com##.show-sidebar .label-wrapper .mainContent, .show-sidebar .label-wrapper .bottomContent:style(margin-right: 0 !important)
 www.agame.com##.label-page-sidebar
 
-tvtropes.org##.proper-ad-unit
-tvtropes.org##.ad
+tvtropes.org##.ad, .proper-ad-unit
+
+||vice-web-statics-cdn.vice.com/vendor/ad-lib/*
 
 ||platformbot.xyz^
 

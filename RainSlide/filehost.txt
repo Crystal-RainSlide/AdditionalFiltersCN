@@ -7,9 +7,6 @@
 zippyshare.com##.ramka_container
 zippyshare.com##.slickbox
 
-uploadhaven.com##.download-timer
-uploadhaven.com###downloadNowBtn:style(display: block !important)
-
 *$script,domain=uploadrar.com
 ||maxcdn.bootstrapcdn.com^$domain=uploadrar.com
 ||use.fontawesome.com^$domain=uploadrar.com

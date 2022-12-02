@@ -39,9 +39,6 @@ www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract
 ! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io
 ||tajs.qq.com^$domain=n2o.io,important
 
-! ublock-CingList
-pan.baidu.com,yun.baidu.com#@#.bd-aside
-
 ! ----
 
 ! Google Blog

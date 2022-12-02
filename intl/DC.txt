@@ -89,3 +89,5 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ! From stats.js in http://code.getadblock.com/releases/
 ! ||ping.getadblock.com/stats/
 ||ping.getadblock.com^
+
+||cdn.xsolla.net/network/xtracking-*.js

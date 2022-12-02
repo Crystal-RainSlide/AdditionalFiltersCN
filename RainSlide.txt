@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 19-May-2022
-! Last Modified: 19-May-2022/16:31:15+08:00
+! Last updated: 2-Dec-2022
+! Last Modified: 2-Dec-2022/13:18:09+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -34,9 +34,14 @@ www.bilibili.com##.van-popover:has(.unlogin-popover)
 www.bilibili.com##.unlogin-popover
 
 ! BiliBili 首页
-www.bilibili.com##.first-screen, .first-screen + .storey-box
-www.bilibili.com##.primary-menu-itnl > .page-tab > .con .dynamic-update > i
-www.bilibili.com##.primary-menu-itnl > .channel-menu-itnl .name em:style(filter: grayscale())
+www.bilibili.com##.recommended-container
+www.bilibili.com##.bili-header__banner
+
+www.bilibili.com##.bili-header .bili-header__bar:style(position: static !important)
+www.bilibili.com##.bili-header .center-search-container .center-search__bar:style(z-index: 1 !important)
+www.bilibili.com##.bili-header .left-entry .entry-title .zhuzhan-icon, .bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry, .bili-header .right-entry__outside .right-entry-icon, .bili-header .right-entry__outside .right-entry-text:style(color: inherit !important)
+www.bilibili.com##.bili-footer:style(z-index: 0 !important)
+
 
 ! 4399
 www.4399.com###addiv
@@ -83,6 +88,9 @@ blog.csdn.net###toolBarBox
 ! Intl
 ! ----
 
+! LinkedIn
+||linkedin.com^$3p
+
 ! Mega
 mega.nz##.register-side-pane.container
 mega.nz##.bottom-page.banners
@@ -126,9 +134,6 @@ igg-games.com,pcgamestorrents.com##.uk-section:style(padding: 15px 0 !important)
 zippyshare.com##.ramka_container
 zippyshare.com##.slickbox
 
-uploadhaven.com##.download-timer
-uploadhaven.com###downloadNowBtn:style(display: block !important)
-
 *$script,domain=uploadrar.com
 ||maxcdn.bootstrapcdn.com^$domain=uploadrar.com
 ||use.fontawesome.com^$domain=uploadrar.com
@@ -158,13 +163,17 @@ megaup.net##.socialsider
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
 ||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
+@@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
 @@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
+@@||fonts.geekzu.org/css?family=*Material+Symbols*$stylesheet
 
 ||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 
 ! ----
+
+||www.kernel.org/theme/fonts/*
 
 ! Microsoft
 ||ow2.res.office365.com/assets/mail/fonts/v1/fonts/segoe*

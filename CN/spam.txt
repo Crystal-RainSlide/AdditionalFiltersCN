@@ -15,7 +15,9 @@ dwz.cn##.new-icon > img
 baike.baidu.com,jingyan.baidu.com,zhidao.baidu.com##.new-icon
 zhidao.baidu.com##.menu-title-icon
 developer.baidu.com##.hot-icon
-fanyi.baidu.com##.icon-hotlk
+fanyi.baidu.com##.upgrade-tag
+fanyi.baidu.com##.collection-btn.new-edition-tip::after, .setting-btn.new-edition-tip::after
+
 index.baidu.com##.new
 site.baidu.com##.dot
 
@@ -96,16 +98,10 @@ www.panduoduo.net##.announcement-bar > a:style(color: #336699 !important; font-w
 ! Highlight End
 
 
-! Baidu Netdisk Start
+! Baidu Netdisk
 ||pan.baidu.com/share/hotrec
 ||pan.baidu.com/disk/cmsdata
-pan.baidu.com,yun.baidu.com##.module-hot-rec
-
-pan.baidu.com,yun.baidu.com##.context-menu > .list > li.separate[data-group="2"]
-pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(云冲印)
-pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(制作照片电影)
-pan.baidu.com,yun.baidu.com##.context-menu > .list > li:has-text(美化)
-! Baidu Netdisk End
+pan.baidu.com##.wp-header-cert__tooltip
 
 ! 去你妈的注册弹窗
 douban.com###landing-bar
@@ -147,6 +143,8 @@ jingyan.baidu.com##.magzine-list
 zhidao.baidu.com##.qb-section > .qb-side
 zhidao.baidu.com##.qb-section > .qb-content:style(float: none; display: block; margin: 0 auto; padding: 0 30px 30px; border: none)
 
+! 百度知道 红包
+zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
 ! 百度知道 赚积分 换礼品
 zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
 ! 百度知道 申请认证
@@ -321,8 +319,8 @@ bbs.csdn.net##.post_recommend
 bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
 bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
 
-! 殁飘遥，你这个盗窃狂怎么把自己链接搞到 CNBeta 上去了？
-www.cnbeta.com##.pageFooter .media > .links a[href="https://www.laomoit.com/"]
+! CNBeta
+||www.cnbeta.com/js/cbsw/regsw.js^
 
 ! 高速下载
 dl.3dmgame.com##.quickdown2
@@ -331,10 +329,6 @@ dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 
 ! 游侠 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
-
-! 右键限制
-||www.portablesoft.org/statics/tt_gb/skin_js/gb.js
-
 
 kan.china.com##.pages a[href^="/recommend.shtml"]
 kan.china.com###popup-news

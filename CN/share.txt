@@ -50,7 +50,7 @@ zhidao.baidu.com##.jump-share
 
 ! 网易 163
 ||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
-news.163.com##.post_topshare
+www.163.com,news.163.com##.post_top_share
 
 ! 新浪 Sina
 sina.com.cn##.tool-wb

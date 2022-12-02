@@ -24,6 +24,8 @@ new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
 
+www.163.com##.ad_module + div[class^="blank"]
+
 mail.163.com###adtag
 
 ! 有道 Youdao
@@ -190,8 +192,8 @@ www.iplaysoft.com##.widget_title:has-text(赞助)
 www.doc88.com##.columns-ad
 
 
-! www.423down.com##.content > .entry + h3:has(> a[href*="?"][rel~="external"]:only-child)
-www.423down.com##.content > .entry + h3
+! www.423down.com##.content > .entry ~ :is(img, a, p)
+www.423down.com##.content > .entry ~ :not(.post-related, .post-related ~ *)
 
 ! 脚本之家
 www.jb51.net##.sidebox-recomm
