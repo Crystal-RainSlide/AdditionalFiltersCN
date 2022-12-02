@@ -7,7 +7,7 @@
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 ! Last updated: 2-Dec-2022
-! Last Modified: 2-Dec-2022/13:18:09+08:00
+! Last Modified: 2-Dec-2022/13:29:30+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -423,8 +423,8 @@ fanyi.sogou.com###J_download_app
 wenwen.sogou.com##.sgww-xcx
 
 ! Bilibili
-bilibili.com##.bili-header li:has(> .download-client-trigger)
-bilibili.com##.nav-link-item:has(> span > .download-client-trigger)
+bilibili.com##.mini-header > .left-entry .download-entry
+bilibili.com##.mini-header > .left-entry > li:has(> .download-entry)
 
 ! 网易新闻
 163.com##.newsapp-qrcode, .ntes-nav-mobile-title
