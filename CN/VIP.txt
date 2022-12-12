@@ -25,6 +25,18 @@ wenku.baidu.com##.inner-vip, .vip-card-wrap, .vip-pop-wrap
 pan.baidu.com##.vipicon, .u-svip-button
 pan.baidu.com###show-buyvip-pack, .buyvip-pack
 pan.baidu.com##.app-user-vip-center
+pan.baidu.com##.rights-section
+
+! 百度网盘 - 新版
+pan.baidu.com##.web-header-ad-item,.u-svip-button--main
+pan.baidu.com##.wp-s-header-user__member-status-new-btn-wrap.is-notvip,.wp-s-header-user__member-status.is-notvip,.wp-s-header-user__drop-privilege
+pan.baidu.com##.nd-guide-svip-bar
+pan.baidu.com##.is-guide-svip > .u-dialog > .u-dialog__footer:style(padding-bottom: 24px !important)
+
+! 百度网盘 - 旧版
+pan.baidu.com##.module-header-wrapper [node-type="header-union"]
+pan.baidu.com##.vip-notice,.vip-privilege
+pan.baidu.com##.dialog-extra-body
 
 ! QQ 空间 开通黄钻
 user.qzone.qq.com##.qz-btn-vip-open

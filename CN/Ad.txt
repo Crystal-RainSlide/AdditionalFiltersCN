@@ -26,6 +26,9 @@ new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 
 www.163.com##.ad_module + div[class^="blank"]
 
+! 内页底部通栏
+163.com##.post_columnad_btm
+
 mail.163.com###adtag
 
 ! 有道 Youdao
