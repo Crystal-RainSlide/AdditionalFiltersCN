@@ -25,8 +25,9 @@
 ||fonts.gstatic.com/s/notoserifsc/*
 ||fonts.gstatic.com/s/notoserifhk/*
 
-! SourceForge - Newsletter
-sourceforge.net###newsletter-floating
+! WordPress better-content-protector Plugin
+! ||www.fcportables.com/wp-content/plugins/better-content-protector/assets/js/content-protector-pack.min.js
+*/wp-content/plugins/better-content-protector/*
 
 ! WikiHow
 ! Help us do more
@@ -62,3 +63,8 @@ userstyle.org###stylish-code:style(font-family: monospace !important)
 
 ! xHamster - Red dot
 xhamster.com##.with-dot::before
+
+! Newsletter
+sourceforge.net###newsletter-floating
+www.wired.com##.newsletter-subscribe-form
+kotaku.com##.js_newsletter-form-inline

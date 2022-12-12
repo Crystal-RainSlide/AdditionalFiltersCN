@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 2-Dec-2022
-! Last Modified: 2-Dec-2022/13:18:09+08:00
+! Last updated: 12-Dec-2022
+! Last Modified: 12-Dec-2022/19:46:16+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important

@@ -53,6 +53,9 @@ sourceforge.net###nels, #project-nel, .nel
 sourceforge.net##.stackcommerce-widget
 sourceforge.net###dlp-voip-quote
 
+! StackExchange
+stackexchange.com,stackoverflow.com##.js-freemium-cta
+
 ! pixiv
 www.pixiv.net##.premium-lead-premium-campaign
 www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
@@ -163,7 +166,12 @@ www.urbandictionary.com##.mug-ad
 
 www.sfgate.com##.adModule
 
-steamworkshopdownloader.io##.advert-body
+www.tutorialspoint.com###load, #load + .clear, #google-top-ads + br
+www.tutorialspoint.com##hr:has(+ #google-top-ads)
+
+www.codeproject.com##div[data-type="ad"], a[href^="https://useastadprovider.azurewebsites.net/api/AdRedirector"]
+
+www.howtogeek.com##.entry-content > div[data-nosnippet]
 
 *$3p,script,domain=store.rg-adguard.net
 
@@ -171,17 +179,12 @@ crystalmark.info###top-container-widget
 
 compass-style.org##.advertisement
 
-surviv.io###ad-block-left
-surviv.io##.ui-stats-ad-container
-
 www.xmedia-recode.de##a[href="viren_pruf.php"]
 
-win7gadgets.com##.ads_subtitle
-win7gadgets.com##.gads
+win7gadgets.com##.ads_subtitle, .gads
 
 xhamster.com##.index-videos .thumb-list .wio-xright-rectangle ~ .thumb-list__item:style(margin-right: 0 !important)
-xhamster.com##.clipstore-bottom
-xhamster.com##.clipstore-results
+xhamster.com##.clipstore-bottom, .clipstore-results
 xhamster.com##div[class^="wih-"]
 
 ||rusenov.com^$xhr

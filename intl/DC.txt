@@ -18,8 +18,8 @@
 ||cdn.skype.com/*/telemetry$script
 
 ! Visual Studio Marketplace
-! ||marketplace.visualstudio.com/_apis/customerintelligence/Events$xhr
 ||marketplace.visualstudio.com/_apis/customerintelligence/*
+||marketplace.visualstudio.com/_apis/ClientTrace/*
 
 ! Duckduckgo
 ! Why? What does this do?
@@ -38,6 +38,9 @@
 ! Yandex.Disk
 ||yadi.sk/monitoring.txt/*
 
+! Profitwell
+||cloudfront.net/js/profitwell.js^
+
 ! Bandcamp
 ||bandcamp.com/stat_record
 
@@ -52,6 +55,10 @@
 
 ! Disqus
 ||disqus.com/count.js$script
+
+! Wix
+||static.parastorage.com/services/wix-perf-measure/*
+||frog.wix.com^
 
 ! FreeStyler.ws
 ||freestyler.ws/style/tracking
