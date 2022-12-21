@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 12-Dec-2022
-! Last Modified: 12-Dec-2022/19:46:16+08:00
+! Last updated: 21-Dec-2022
+! Last Modified: 21-Dec-2022/18:10:36+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -55,7 +55,7 @@ old.reddit.com##.ad-container
 
 ! SourceForge
 sourceforge.net##.sterling, .banner-sterling
-sourceforge.net###nels, #project-nel, .nel
+sourceforge.net###nels, #project-nel, .nel, .nel-block
 sourceforge.net##.stackcommerce-widget
 sourceforge.net###dlp-voip-quote
 
@@ -204,6 +204,8 @@ www.gamesfree.ca###adContainer
 www.gamesfree.ca##.lol-carrousel-wrapper
 www.gamesfree.ca##.mobile-games-carrousel
 www.siftheadsgames.com##+js(nobab)
+
+soft112.com##.rec-app-cell
 
 ! Aff
 ! VULTR

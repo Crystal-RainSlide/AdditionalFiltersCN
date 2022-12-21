@@ -13,6 +13,9 @@
 
 ||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 
+@@||fonts.googleapis.com^$stylesheet,domain=analytics.google.com
+@@||fonts.gstatic.com/s/googlesans/*$font,domain=analytics.google.com
+
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 
 ! ----

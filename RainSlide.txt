@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 2-Dec-2022
-! Last Modified: 2-Dec-2022/13:18:09+08:00
+! Last updated: 21-Dec-2022
+! Last Modified: 21-Dec-2022/18:10:36+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -139,8 +139,8 @@ zippyshare.com##.slickbox
 ||use.fontawesome.com^$domain=uploadrar.com
 ||uploadrar.com/uploadrar_style/fonts/fonts.css
 
-uploadrar.com###commonId > .btn-success
-uploadrar.com##.banner1, .banner2, .banner3
+uploadrar.com##.mngez-premium-download
+uploadrar.com##.banner1,.banner3
 uploadrar.com##.txt
 uploadrar.com##.download2page > .download0page
 uploadrar.com##.fileoption > ul
@@ -168,6 +168,9 @@ megaup.net##.socialsider
 @@||fonts.geekzu.org/css?family=*Material+Symbols*$stylesheet
 
 ||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
+
+@@||fonts.googleapis.com^$stylesheet,domain=analytics.google.com
+@@||fonts.gstatic.com/s/googlesans/*$font,domain=analytics.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
 

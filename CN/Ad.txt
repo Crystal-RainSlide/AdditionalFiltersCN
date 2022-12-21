@@ -24,11 +24,13 @@ new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
 
+! 网易 ad_module 补充
 www.163.com##.ad_module + div[class^="blank"]
 
-! 内页底部通栏
-163.com##.post_columnad_btm
+! 网易号文章 顶部底部通栏广告
+www.163.com##.post_columnad_top, .post_columnad_btm
 
+! 网易邮箱
 mail.163.com###adtag
 
 ! 有道 Youdao
@@ -62,10 +64,7 @@ www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-b
 www.sohu.com##.allsee-item.bd-wrap
 
 ! Bilibili
-! 黑板报与手游广告（相关推荐首条内容）
-||api.bilibili.com/x/web-interface/archive/special/recommend
-! 手游广告的元素
-www.bilibili.com##.video-page-game-card
+www.bilibili.com##.video-page-special-card,.video-page-special-card-small
 
 ! 知乎
 ! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
@@ -80,9 +79,13 @@ www.xiami.com##.promotion-block
 ! 微软
 ! Edge 广告
 bing.com###b_notificationContainer_bop
+
 ! 随时了解全球重大新闻 获取 Bing + MSN 扩展
 ! cookie: uhf_hide_epb=true
-microsoft.com###epb
+microsoft.com,www.yammer.com###epb
+
+! 365 广告
+answers.microsoft.com##.m365_rail_unlock
 
 ! Add the Microsoft Rewards extension
 bing.com###b_opalpers

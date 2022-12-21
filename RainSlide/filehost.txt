@@ -12,8 +12,8 @@ zippyshare.com##.slickbox
 ||use.fontawesome.com^$domain=uploadrar.com
 ||uploadrar.com/uploadrar_style/fonts/fonts.css
 
-uploadrar.com###commonId > .btn-success
-uploadrar.com##.banner1, .banner2, .banner3
+uploadrar.com##.mngez-premium-download
+uploadrar.com##.banner1,.banner3
 uploadrar.com##.txt
 uploadrar.com##.download2page > .download0page
 uploadrar.com##.fileoption > ul

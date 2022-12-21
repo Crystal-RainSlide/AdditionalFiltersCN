@@ -51,6 +51,9 @@ music.163.com##.ban-img:style(display: flex; justify-content: center)
 ! 腾讯视频
 y.qq.com##.popup_guide, .player_login__guide
 
+! 腾讯软件中心
+pc.qq.com###J_banmgrbox
+
 ! 高德地图
 amap.com###amapAppDownload, #amap-result-banner
 
