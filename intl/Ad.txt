@@ -97,9 +97,7 @@ fandom.com##.top-ads-container, .mcf-card-sponsored-content
 css-tricks.com###all-ads
 css-tricks.com##.fem-ad
 
-www.accuweather.com###offers
-
-www.sololearn.com##+js(rc, hidden, body)
+ipinfo.io##.card-promotion
 
 uptodown.com##.banner-download
 uptodown.com##.gad

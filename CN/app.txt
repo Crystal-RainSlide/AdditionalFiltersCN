@@ -34,9 +34,12 @@ fanyi.sogou.com###J_download_app
 ! 搜狗问问小程序
 wenwen.sogou.com##.sgww-xcx
 
-! Bilibili
+! Bilibili 新版
 bilibili.com##.bili-header .left-entry .download-entry
 bilibili.com##.bili-header .left-entry > li:has(> .download-entry)
+! Bilibili 旧版
+bilibili.com##.download-client-trigger
+bilibili.com##.nav-link-item:has(.download-client-trigger)
 
 ! 网易新闻
 163.com##.newsapp-qrcode, .ntes-nav-mobile-title

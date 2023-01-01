@@ -31,4 +31,5 @@ uploadrar.com##header, #sidebarphone, .menufooter, footer, #footer2
 ! dropgalaxy.com##^script:min-text-length(1500)
 dropgalaxy.com##+js(nostif, /#(adblock|modalpop)/)
 
+||megaup.net/themes/flow/frontend_assets/js/retina/retina.js
 megaup.net##.socialsider

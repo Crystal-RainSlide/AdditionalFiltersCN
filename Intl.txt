@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 21-Dec-2022
-! Last Modified: 21-Dec-2022/18:10:36+08:00
+! Last updated: 1-Jan-2023
+! Last Modified: 1-Jan-2023/11:48:11+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -103,9 +103,7 @@ fandom.com##.top-ads-container, .mcf-card-sponsored-content
 css-tricks.com###all-ads
 css-tricks.com##.fem-ad
 
-www.accuweather.com###offers
-
-www.sololearn.com##+js(rc, hidden, body)
+ipinfo.io##.card-promotion
 
 uptodown.com##.banner-download
 uptodown.com##.gad
@@ -304,7 +302,21 @@ itch.io##.app_banner
 ! FreeStyler.ws
 ||freestyler.ws/style/tracking
 
+! https://ipinfo.io
+||ipinfo.io/rt$xhr
+! ||pixel.ipinfo.io/analytics/log$image
+||pixel.ipinfo.io^
+
+||www.getapp.com^$3p
+||www.g2.com^$3p
+||cdn.jsdelivr.net/npm/stackdriver-errors-js*$script,domain=ipinfo.io
+
 ||widget.uservoice.com^$script,3p
+
+! ||api.callstats.io/static/callstats-ws.min.js
+||api.callstats.io^$3p
+
+||f.convertkit.com^$3p
 
 ! ||ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/ga.js
 ||unity3d.com/*/ga.js
@@ -389,8 +401,7 @@ www.foxnews.com##.article-social
 www.scmp.com##.share
 
 ! SourceForge
-sourceforge.net##.share-text
-sourceforge.net##.social-sharing-buttons
+sourceforge.net##.share-text,.social-sharing-buttons
 
 ! APKPure
 ||cdnpure.com/static/share-button/*
@@ -417,6 +428,8 @@ mediabiasfactcheck.com##.sharedaddy
 userstyle.org###share_div
 
 neocities.org###shareButton
+
+img.ly##.share-sticky
 
 knowyourmeme.com##.tb-share-custom
 knowyourmeme.com###ctoolbar

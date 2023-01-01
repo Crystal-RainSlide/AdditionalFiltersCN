@@ -64,7 +64,10 @@ www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-b
 www.sohu.com##.allsee-item.bd-wrap
 
 ! Bilibili
+! 推荐视频
 www.bilibili.com##.video-page-special-card,.video-page-special-card-small
+! 评论区顶部
+www.bilibili.com##.reply-notice
 
 ! 知乎
 ! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest

@@ -63,7 +63,21 @@
 ! FreeStyler.ws
 ||freestyler.ws/style/tracking
 
+! https://ipinfo.io
+||ipinfo.io/rt$xhr
+! ||pixel.ipinfo.io/analytics/log$image
+||pixel.ipinfo.io^
+
+||www.getapp.com^$3p
+||www.g2.com^$3p
+||cdn.jsdelivr.net/npm/stackdriver-errors-js*$script,domain=ipinfo.io
+
 ||widget.uservoice.com^$script,3p
+
+! ||api.callstats.io/static/callstats-ws.min.js
+||api.callstats.io^$3p
+
+||f.convertkit.com^$3p
 
 ! ||ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/ga.js
 ||unity3d.com/*/ga.js

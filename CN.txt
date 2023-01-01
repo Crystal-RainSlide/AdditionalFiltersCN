@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 21-Dec-2022
-! Last Modified: 21-Dec-2022/18:10:36+08:00
+! Last updated: 1-Jan-2023
+! Last Modified: 1-Jan-2023/11:48:11+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -70,7 +70,10 @@ www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-b
 www.sohu.com##.allsee-item.bd-wrap
 
 ! Bilibili
+! 推荐视频
 www.bilibili.com##.video-page-special-card,.video-page-special-card-small
+! 评论区顶部
+www.bilibili.com##.reply-notice
 
 ! 知乎
 ! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
@@ -428,9 +431,12 @@ fanyi.sogou.com###J_download_app
 ! 搜狗问问小程序
 wenwen.sogou.com##.sgww-xcx
 
-! Bilibili
+! Bilibili 新版
 bilibili.com##.bili-header .left-entry .download-entry
 bilibili.com##.bili-header .left-entry > li:has(> .download-entry)
+! Bilibili 旧版
+bilibili.com##.download-client-trigger
+bilibili.com##.nav-link-item:has(.download-client-trigger)
 
 ! 网易新闻
 163.com##.newsapp-qrcode, .ntes-nav-mobile-title
@@ -1288,6 +1294,10 @@ music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 
 search.jd.com##.jdm-toolbar .tab-tip
 
+space.bilibili.com##.new-icon
+live.bilibili.com##.red-dot
+www.bilibili.com##.video-toolbar-v1 .toolbar-left .first-new-share::after
+
 iqiyi.com##.iqp-logo-box
 ||www.iqiyipic.com/common/fix/PCH5_iconfont200831/logombx.png
 
@@ -1427,17 +1437,16 @@ www.zhihu.com##.RelatedCommodities-list
 ! 登录后你可以：（弹幕动画）
 bilibili.com##.van-popper-login .title
 bilibili.com##.van-popper-login .img-panel
-! 顶栏事件推送
+! 顶栏
 ||api.bilibili.com/x/web-show/res/locs^
+bilibili.com##.loc-entry,.left-loc-entry
 ! 站外播放器 顶部推荐
 player.bilibili.com##.bilibili-player-video-recommend
 ||data.bilibili.com/s/miniloader_online^
 ! 用户头像挂件
 www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
 ! 推荐直播
-www.bilibili.com###bili_live
-www.bilibili.com##.pop-live
-www.bilibili.com##.v-live-recommend
+www.bilibili.com###live_recommand_report
 ! 直播水印
 live.bilibili.com##.bilibili-live-player-video-logo
 ! 搜索框 Placeholder

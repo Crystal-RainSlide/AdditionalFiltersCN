@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 21-Dec-2022
-! Last Modified: 21-Dec-2022/18:10:36+08:00
+! Last updated: 1-Jan-2023
+! Last Modified: 1-Jan-2023/11:48:11+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -37,10 +37,13 @@ www.bilibili.com##.unlogin-popover
 www.bilibili.com##.recommended-container
 www.bilibili.com##.bili-header__banner
 
-www.bilibili.com##.bili-header .bili-header__bar:style(position: static !important)
+www.bilibili.com##.bili-header .bili-header__bar:style(position: relative !important)
 www.bilibili.com##.bili-header .center-search-container .center-search__bar:style(z-index: 1 !important)
 www.bilibili.com##.bili-header .left-entry .entry-title .zhuzhan-icon, .bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry, .bili-header .right-entry__outside .right-entry-icon, .bili-header .right-entry__outside .right-entry-text:style(color: inherit !important)
-www.bilibili.com##.bili-footer:style(z-index: 0 !important)
+
+! 知乎
+||static.zhihu.com/heifetz/main.signflow.*.js
+||static.zhihu.com/heifetz/column.signflow.*.js^
 
 
 ! 4399
@@ -88,24 +91,28 @@ blog.csdn.net###toolBarBox
 ! Intl
 ! ----
 
+! Facebook
+||www.facebook.com/login.php$image,3p
+
+! Instagram
+||www.instagram.com/static/bundles/es6/EmbedSDK.js/*
+||www.instagram.com/embed.js
+
+! Bing
+||bing.com/BingDSWM.js^
+
 ! LinkedIn
 ||linkedin.com^$3p
-
-! Mega
-mega.nz##.register-side-pane.container
-mega.nz##.bottom-page.banners
-mega.nz##.bottom-page.banner-control
-mega.nz##.bottom-page.content > .bottom-page.startpage > :not(.bottom-menu)
-mega.nz##.bottom-page.content > .bottom-page.startpage > .bottom-menu:style(margin-top: 118px)
 
 ! Genius Lyircs - Apple Music Player
 ||assets.genius.com/javascripts/compiled/apple_music_player-*.js
 
-marketplace.secondlife.com###ads
-marketplace.secondlife.com##.advertisement
+marketplace.secondlife.com###ads,.advertisement
 
-||disroot.org/user/themes/disroot/images/header-background.jpg^$image
-||cloud.disroot.org/apps/theming/image/background^$image
+! RARBG Recommended torrents
+185.37.100.123,rarbg.to,rarbgprx.org##div.content-rounded > table.lista-rounded:only-child > tbody > tr > td:only-child > div[align="center"]:first-child:has( > table:only-child > tbody > tr:only-child > td.lista > a:only-child > img:only-child)
+185.37.100.123,rarbg.to,rarbgprx.org##div.content-rounded > table.lista-rounded:only-child > tbody > tr:has(> td.block[align="center"]:only-child > b:only-child:has-text(Recommended torrents))
+185.37.100.123,rarbg.to,rarbgprx.org##.lista > tbody > tr:has(> td > table > tbody > tr > td > a[href^="/v_p_n_"])
 
 ! IGGGAMES & PCGamesTorrents
 
@@ -158,10 +165,14 @@ uploadrar.com##header, #sidebarphone, .menufooter, footer, #footer2
 ! dropgalaxy.com##^script:min-text-length(1500)
 dropgalaxy.com##+js(nostif, /#(adblock|modalpop)/)
 
+||megaup.net/themes/flow/frontend_assets/js/retina/retina.js
 megaup.net##.socialsider
 
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
 ||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
+
+! @@||fonts.gstatic.com/s/materialicons/*
+! @@||fonts.gstatic.com/s/materialsymbols/*
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
 @@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
