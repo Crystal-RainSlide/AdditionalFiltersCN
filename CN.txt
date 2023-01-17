@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 1-Jan-2023
-! Last Modified: 1-Jan-2023/11:48:11+08:00
+! Last updated: 17-Jan-2023
+! Last Modified: 17-Jan-2023/20:15:34+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -1251,10 +1251,7 @@ fanyi.baidu.com##.collection-btn.new-edition-tip::after, .setting-btn.new-editio
 index.baidu.com##.new
 site.baidu.com##.dot
 
-pan.baidu.com,yun.baidu.com##.find-light-icon
-pan.baidu.com,yun.baidu.com##.newIcon
-pan.baidu.com,yun.baidu.com##.neverVisited::after
-pan.baidu.com,yun.baidu.com##.redPoint
+pan.baidu.com##.u-badge,.is-dot
 
 wenku.baidu.com##.new b
 wenku.baidu.com##.ui-bz-hot-ic, .ui-bz-new-ic, .havenew-ic
@@ -1295,7 +1292,7 @@ music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 search.jd.com##.jdm-toolbar .tab-tip
 
 space.bilibili.com##.new-icon
-live.bilibili.com##.red-dot
+live.bilibili.com##.red-dot,.msg-hinter,.icon-red,.guard-ent
 www.bilibili.com##.video-toolbar-v1 .toolbar-left .first-new-share::after
 
 iqiyi.com##.iqp-logo-box
@@ -1435,10 +1432,9 @@ www.zhihu.com##.RelatedCommodities-list
 
 ! Bilibili
 ! 登录后你可以：（弹幕动画）
-bilibili.com##.van-popper-login .title
-bilibili.com##.van-popper-login .img-panel
+bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
 ! 顶栏
-||api.bilibili.com/x/web-show/res/locs^
+! ||api.bilibili.com/x/web-show/res/locs^
 bilibili.com##.loc-entry,.left-loc-entry
 ! 站外播放器 顶部推荐
 player.bilibili.com##.bilibili-player-video-recommend

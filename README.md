@@ -114,9 +114,11 @@ Some optional Rules for your choices. Not subscribe-able, please pick the useful
 
 镜像更新有一定延迟。
 
-不建议大规模使用 raw.githack.com 的开发用镜像。参见 https://raw.githack.com/#development-in-production 。
+不建议大规模使用 raw.githack.com 的开发用镜像。参见[官方 FAQ][GitHack FAQ]。
 
-It is not suggested to use the raw.githack.com development mirror heavily, see https://raw.githack.com/#development-in-production .
+It is not suggested to use the raw.githack.com development mirror heavily, see [GitHack FAQ].
+
+[GitHack FAQ]: https://raw.githack.com/faq#development-in-production
 
 ## 其他规则列表 Other Rulesets
 
