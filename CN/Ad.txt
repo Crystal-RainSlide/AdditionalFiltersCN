@@ -64,6 +64,10 @@ www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-b
 www.sohu.com##.allsee-item.bd-wrap
 
 ! Bilibili
+! 广告通用
+www.bilibili.com##.ad-report
+! 右侧推荐视频列表底部广告
+www.bilibili.com##.ad-floor-exp
 ! 推荐视频
 www.bilibili.com##.video-page-special-card,.video-page-special-card-small
 ! 评论区顶部
@@ -200,7 +204,6 @@ www.iplaysoft.com##.widget_title:has-text(赞助)
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
-
 ! www.423down.com##.content > .entry ~ :is(img, a, p)
 www.423down.com##.content > .entry ~ :not(.post-related, .post-related ~ *)
 
@@ -212,15 +215,12 @@ www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has
 ! 腾讯云
 cloud.tencent.com##.has-sign
 
-
 ! cnBeta
-cnbeta.com##^script[data-turbolinks-eval]
-cnbeta.com##^script:has-text(请将我们加入广告屏蔽插件的白名单)
-cnbeta.com##+js(set, JB, noopFunc)
-cnbeta.com##+js(set, document.write, noopFunc)
-cnbeta.com##body:style(padding-bottom: 0 !important)
-
-123.sogou.com##.adword:style(height: 6px !important)
+! www.cnbeta.com.tw##body > div:has-text(帮助cnBeta.COM更好地生产内容，请将我们加入广告屏蔽插件的白名单，非常感谢。)
+www.cnbeta.com.tw##body > div[id][style]:not(class)
+www.cnbeta.com.tw##body:style(padding-bottom: 0 !important)
+www.cnbeta.com.tw##+js(set, JB, noopFunc)
+www.cnbeta.com.tw##a[href="https://www.laomoit.com/"]
 
 ! SegmentFault
 segmentfault.com##.mb25

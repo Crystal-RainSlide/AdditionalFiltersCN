@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 17-Jan-2023
-! Last Modified: 17-Jan-2023/20:15:34+08:00
+! Last updated: 30-Jan-2023
+! Last Modified: 30-Jan-2023/16:24:29+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -70,6 +70,10 @@ www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-b
 www.sohu.com##.allsee-item.bd-wrap
 
 ! Bilibili
+! 广告通用
+www.bilibili.com##.ad-report
+! 右侧推荐视频列表底部广告
+www.bilibili.com##.ad-floor-exp
 ! 推荐视频
 www.bilibili.com##.video-page-special-card,.video-page-special-card-small
 ! 评论区顶部
@@ -206,7 +210,6 @@ www.iplaysoft.com##.widget_title:has-text(赞助)
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
-
 ! www.423down.com##.content > .entry ~ :is(img, a, p)
 www.423down.com##.content > .entry ~ :not(.post-related, .post-related ~ *)
 
@@ -218,15 +221,12 @@ www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has
 ! 腾讯云
 cloud.tencent.com##.has-sign
 
-
 ! cnBeta
-cnbeta.com##^script[data-turbolinks-eval]
-cnbeta.com##^script:has-text(请将我们加入广告屏蔽插件的白名单)
-cnbeta.com##+js(set, JB, noopFunc)
-cnbeta.com##+js(set, document.write, noopFunc)
-cnbeta.com##body:style(padding-bottom: 0 !important)
-
-123.sogou.com##.adword:style(height: 6px !important)
+! www.cnbeta.com.tw##body > div:has-text(帮助cnBeta.COM更好地生产内容，请将我们加入广告屏蔽插件的白名单，非常感谢。)
+www.cnbeta.com.tw##body > div[id][style]:not(class)
+www.cnbeta.com.tw##body:style(padding-bottom: 0 !important)
+www.cnbeta.com.tw##+js(set, JB, noopFunc)
+www.cnbeta.com.tw##a[href="https://www.laomoit.com/"]
 
 ! SegmentFault
 segmentfault.com##.mb25
@@ -818,7 +818,7 @@ baidu.com/static/mapping/*.php
 ! more info:
 ! https://yryz.net/post/isp-dns-hijack-cnbeta.html
 ! https://www.v2ex.com/t/302123
-||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
+||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com.tw,important
 
 ! CSDN
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
@@ -1053,13 +1053,14 @@ www.ruanyifeng.com##+js(nostif, checker)
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js^$script
 
+! Gitee
 ||assets.gitee.com/assets/qrcode-weixin-*$image
 gitee.com##.qrcode.weixin
 
 ! 新京报
 www.bjnews.com.cn###v4_wxin
 
-! ZAKER ZAKER小程序
+! ZAKER
 www.myzaker.com##.btn_zaker_mp
 
 ! 异次元软件世界
@@ -1073,8 +1074,6 @@ www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 10
 ! 安全内参
 ||www.secrss.com/wx_qrcode.jpg
 www.secrss.com##.qrcode
-
-||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js
 
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
@@ -1189,7 +1188,8 @@ www.geekpark.net##.share-wrap
 ||g.csdnimg.cn/??sharewx/*/sharewx.js
 
 ! cnBeta
-www.cnbeta.com##.article-share-code
+||www.cnbeta.com.tw/js/util_libs/social-share/jquery.share.js
+www.cnbeta.com.tw##.article-share-code
 
 ! 站长之家 ChinaZ
 www.chinaz.com##.cz-leftside-title
@@ -1387,7 +1387,7 @@ zhidao.baidu.com##.question-number-text-chain
 ||tieba.baidu.com/p/getLikeForum
 
 ! 百度文库
-! 文档可以转存到百度网盘啦！
+! 文档可以转存到百度网盘啦
 wenku.baidu.com##.wangpan-tip
 ! 水印
 wenku.baidu.com###reader-container > .reader-page > div[class^="__wm"][style*="data:image/svg+xml"]
@@ -1431,6 +1431,8 @@ www.zhihu.com##.RelatedCommodities-title
 www.zhihu.com##.RelatedCommodities-list
 
 ! Bilibili
+! 阻止B站往链接里加 spmid
+||hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js^
 ! 登录后你可以：（弹幕动画）
 bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
 ! 顶栏
@@ -1445,6 +1447,8 @@ www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
 www.bilibili.com###live_recommand_report
 ! 直播水印
 live.bilibili.com##.bilibili-live-player-video-logo
+! 直播底部滚动活动
+live.bilibili.com##.flip-view
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
@@ -1549,7 +1553,8 @@ bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
 bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
 
 ! CNBeta
-||www.cnbeta.com/js/cbsw/regsw.js^
+||www.cnbeta.com.tw/js/cbsw/regsw.js^
+||www.cnbeta.com.tw/sw.js^
 
 ! 高速下载
 dl.3dmgame.com##.quickdown2

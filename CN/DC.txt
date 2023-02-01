@@ -257,7 +257,7 @@ baidu.com/static/mapping/*.php
 ! more info:
 ! https://yryz.net/post/isp-dns-hijack-cnbeta.html
 ! https://www.v2ex.com/t/302123
-||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com,important
+||static.googles.com/adserver/adlogger_tracker.php$subdocument,domain=www.cnbeta.com.tw,important
 
 ! CSDN
 ! ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track

@@ -29,6 +29,9 @@
 ! ||www.fcportables.com/wp-content/plugins/better-content-protector/assets/js/content-protector-pack.min.js
 */wp-content/plugins/better-content-protector/*
 
+! MDN: dot
+developer.mozilla.org##.top-level-entry-container .top-level-entry-dot ~ .top-level-entry::after
+
 ! WikiHow
 ! Help us do more
 www.wikihow.com###contribute_footer_wrap

@@ -116,7 +116,8 @@ www.geekpark.net##.share-wrap
 ||g.csdnimg.cn/??sharewx/*/sharewx.js
 
 ! cnBeta
-www.cnbeta.com##.article-share-code
+||www.cnbeta.com.tw/js/util_libs/social-share/jquery.share.js
+www.cnbeta.com.tw##.article-share-code
 
 ! 站长之家 ChinaZ
 www.chinaz.com##.cz-leftside-title

@@ -72,7 +72,7 @@ techcrunch.com##.sidebar
 techcrunch.com##.content-wrap .content:style(width:auto !important)
 techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !important)
 
-！ Softpedia
+! Softpedia
 www.softpedia.com##.flashsale
 
 ! Slate

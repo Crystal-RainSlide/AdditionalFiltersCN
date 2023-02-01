@@ -157,7 +157,7 @@ zhidao.baidu.com##.question-number-text-chain
 ||tieba.baidu.com/p/getLikeForum
 
 ! 百度文库
-! 文档可以转存到百度网盘啦！
+! 文档可以转存到百度网盘啦
 wenku.baidu.com##.wangpan-tip
 ! 水印
 wenku.baidu.com###reader-container > .reader-page > div[class^="__wm"][style*="data:image/svg+xml"]
@@ -201,6 +201,8 @@ www.zhihu.com##.RelatedCommodities-title
 www.zhihu.com##.RelatedCommodities-list
 
 ! Bilibili
+! 阻止B站往链接里加 spmid
+||hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js^
 ! 登录后你可以：（弹幕动画）
 bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
 ! 顶栏
@@ -215,6 +217,8 @@ www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
 www.bilibili.com###live_recommand_report
 ! 直播水印
 live.bilibili.com##.bilibili-live-player-video-logo
+! 直播底部滚动活动
+live.bilibili.com##.flip-view
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
@@ -319,7 +323,8 @@ bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
 bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
 
 ! CNBeta
-||www.cnbeta.com/js/cbsw/regsw.js^
+||www.cnbeta.com.tw/js/cbsw/regsw.js^
+||www.cnbeta.com.tw/sw.js^
 
 ! 高速下载
 dl.3dmgame.com##.quickdown2

@@ -8,13 +8,14 @@
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js^$script
 
+! Gitee
 ||assets.gitee.com/assets/qrcode-weixin-*$image
 gitee.com##.qrcode.weixin
 
 ! 新京报
 www.bjnews.com.cn###v4_wxin
 
-! ZAKER ZAKER小程序
+! ZAKER
 www.myzaker.com##.btn_zaker_mp
 
 ! 异次元软件世界
@@ -28,5 +29,3 @@ www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 10
 ! 安全内参
 ||www.secrss.com/wx_qrcode.jpg
 www.secrss.com##.qrcode
-
-||static.panmeme.com/pansubsite/pc/weixingongzhonghao.js

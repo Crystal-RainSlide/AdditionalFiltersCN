@@ -16,18 +16,32 @@
 ||www.google.com/recaptcha/*$script,domain=sourceforge.net,important
 
 ! CN
-! ----
+! ------------------------------------------------------------------------------
 
 ! 百度搜索右侧内容
 www.baidu.com###content_right
 
+! ------------------------------------------------------------------------------
+
+! 知乎 za-js-sdk
+||unpkg.zhimg.com/za-js-sdk^
+
+! 知乎 自动弹出登录框
+||static.zhihu.com/heifetz/main.signflow.*.js^
+||static.zhihu.com/heifetz/column.signflow.*.js^
+
+! ------------------------------------------------------------------------------
+
 ! BiliBili
-! Bilibili 热搜
+
+! 热搜
 ||app.bilibili.com/x/topic/web/dynamic/rcmd^
 ||api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd^
 ||api.bilibili.com/x/web-interface/search/square^
 ||api.bilibili.com/x/web-interface/wbi/search/square^
-! 顶栏
+
+! 顶栏大清洗
+
 ! 新版
 bilibili.com##.bili-header .right-entry--vip
 bilibili.com##.bili-header .right-entry > .v-popover-wrap:has(> .right-entry--vip)
@@ -37,7 +51,11 @@ bilibili.com##.bili-header .left-entry > li:not(:first-child)
 bilibili.com##.bili-header .bili-header__bar:style(position: relative !important)
 ! 旧版
 bilibili.com##.nav-link .nav-link-ul .nav-link-item:not(:first-child)
-! 首页
+! 古代旧版
+bilibili.com##.nav-items-ctnr, .showmore-link
+
+! 首页大清洗
+
 ! 内测
 www.bilibili.com##.bili-feed4-layout, .header-channel
 www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
@@ -48,32 +66,11 @@ www.bilibili.com##.first-screen, .storey-box
 ! APP下载入口
 www.bilibili.com##.qrcode-wrapper_biliapp
 
-! 知乎
-||static.zhihu.com/heifetz/main.signflow.*.js
-||static.zhihu.com/heifetz/column.signflow.*.js^
+! ------------------------------------------------------------------------------
 
+! CSDN
 
-! 4399
-www.4399.com###addiv
-
-! 智慧树登录页背景动画
-||passport.zhihuishu.com/assets/js/three/wallbgcanvas.js
-||passport.zhihuishu.com/assets/js/three/three.min.js
-
-! 天翼云 免登录下载
-cloud.189.cn##+js(set, application.headerView.isLogin, true)
-
-! 百度文库 顶栏与工具栏
-wenku.baidu.com##.tool-bar-wrapper
-wenku.baidu.com##.search-box-wrapper.small:style(position: static !important)
-wenku.baidu.com##.reader-topbar, .fix-recommend-wrapper .fixed:style(top: 0 !important)
-
-! 知乎 za-js-sdk
-||unpkg.zhimg.com/za-js-sdk^
-
-！CSDN
-
-！Service Worker
+! Service Worker
 ||csdn.net/sw.js
 
 ! 顶部导航栏
@@ -89,6 +86,22 @@ blog.csdn.net###toolBarBox
 ! ||g.csdnimg.cn/user-tooltip/2.1/user-tooltip.js
 ||g.csdnimg.cn/user-tooltip/*
 
+! ------------------------------------------------------------------------------
+
+! 百度文库 顶栏与工具栏
+wenku.baidu.com##.tool-bar-wrapper
+wenku.baidu.com##.search-box-wrapper.small:style(position: static !important)
+wenku.baidu.com##.reader-topbar, .fix-recommend-wrapper .fixed:style(top: 0 !important)
+
+! 天翼云 免登录下载
+cloud.189.cn##+js(set, application.headerView.isLogin, true)
+
+! 4399
+www.4399.com###addiv
+
+! 智慧树登录页背景动画
+||passport.zhihuishu.com/assets/js/three/wallbgcanvas.js^
+||passport.zhihuishu.com/assets/js/three/three.min.js^
 
 ! 0DayDown - 用不着 jQuery 却调用了…
 ||www.0daydown.com/wp-content/themes/d8/js/jquery.js
@@ -96,7 +109,7 @@ blog.csdn.net###toolBarBox
 ||china.com^
 
 ! Intl
-! ----
+! ------------------------------------------------------------------------------
 
 ! Facebook
 ||www.facebook.com/login.php$image,3p
@@ -113,6 +126,9 @@ blog.csdn.net###toolBarBox
 
 ! Genius Lyircs - Apple Music Player
 ||assets.genius.com/javascripts/compiled/apple_music_player-*.js
+
+
+marketplace.visualstudio.com##.vsCodeDownloadLinkContainer
 
 marketplace.secondlife.com###ads,.advertisement
 
