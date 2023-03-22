@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 30-Jan-2023
-! Last Modified: 30-Jan-2023/16:24:29+08:00
+! Last updated: 22-Mar-2023
+! Last Modified: 22-Mar-2023/19:17:12+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -89,7 +89,6 @@ blog.csdn.net###toolBarBox
 
 ! ------------------------------------------------------------------------------
 
-
 ! 百度文库 顶栏与工具栏
 wenku.baidu.com##.tool-bar-wrapper
 wenku.baidu.com##.search-box-wrapper.small:style(position: static !important)
@@ -128,6 +127,9 @@ www.4399.com###addiv
 
 ! Genius Lyircs - Apple Music Player
 ||assets.genius.com/javascripts/compiled/apple_music_player-*.js
+
+
+marketplace.visualstudio.com##.vsCodeDownloadLinkContainer
 
 marketplace.secondlife.com###ads,.advertisement
 
@@ -191,14 +193,13 @@ dropgalaxy.com##+js(nostif, /#(adblock|modalpop)/)
 megaup.net##.socialsider
 
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
-||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
 
-! @@||fonts.gstatic.com/s/materialicons/*
-! @@||fonts.gstatic.com/s/materialsymbols/*
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
-@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
-@@||fonts.geekzu.org/css?family=*Material+Symbols*$stylesheet
+@@||fonts.googleapis.com/css2?family=*Material+Icons*$stylesheet
+@@||fonts.googleapis.com/css2?family=*Material+Symbols*$stylesheet
+! @@||fonts.gstatic.com/s/materialicons/*
+! @@||fonts.gstatic.com/s/materialsymbols/*
 
 ||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 

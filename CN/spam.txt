@@ -65,11 +65,6 @@ space.bilibili.com##.new-icon
 live.bilibili.com##.red-dot,.msg-hinter,.icon-red,.guard-ent
 www.bilibili.com##.video-toolbar-v1 .toolbar-left .first-new-share::after
 
-iqiyi.com##.iqp-logo-box
-||www.iqiyipic.com/common/fix/PCH5_iconfont200831/logombx.png
-
-www.fun.tv##.new > i, b > .new
-
 www.cnki.net##.outstand > sup, .red > sup
 
 www.oschina.net##.small-header-box .nav-bar__tabs .tabs-item--new-show .tabs-link::before
@@ -213,6 +208,8 @@ player.bilibili.com##.bilibili-player-video-recommend
 ||data.bilibili.com/s/miniloader_online^
 ! 用户头像挂件
 www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
+! 大家围观的主播
+www.bilibili.com##.pop-live-small-mode
 ! 推荐直播
 www.bilibili.com###live_recommand_report
 ! 直播水印

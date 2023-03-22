@@ -217,6 +217,7 @@ cloud.tencent.com##.has-sign
 
 ! cnBeta
 ! www.cnbeta.com.tw##body > div:has-text(帮助cnBeta.COM更好地生产内容，请将我们加入广告屏蔽插件的白名单，非常感谢。)
+www.cnbeta.com.tw##.tac
 www.cnbeta.com.tw##body > div[id][style]:not(class)
 www.cnbeta.com.tw##body:style(padding-bottom: 0 !important)
 www.cnbeta.com.tw##+js(set, JB, noopFunc)
@@ -226,6 +227,9 @@ www.cnbeta.com.tw##a[href="https://www.laomoit.com/"]
 segmentfault.com##.mb25
 segmentfault.com##.card:has(> .card-body > .side-promote-link)
 segmentfault.com##.card:has(> div[id^="OA_holder_"])
+
+! 凤凰网
+||9fum.ifeng.com^
 
 ! 果壳网
 www.guokr.com###app > div[class*="ArticleBottomAppAd"]

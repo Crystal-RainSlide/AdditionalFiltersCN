@@ -5,14 +5,13 @@
 ! ------------------------------------------------------------------------------
 
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
-||fonts.geekzu.org/css$stylesheet,domain=~fonts.google.com
 
-! @@||fonts.gstatic.com/s/materialicons/*
-! @@||fonts.gstatic.com/s/materialsymbols/*
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
-@@||fonts.geekzu.org/css?family=*Material+Icons*$stylesheet
-@@||fonts.geekzu.org/css?family=*Material+Symbols*$stylesheet
+@@||fonts.googleapis.com/css2?family=*Material+Icons*$stylesheet
+@@||fonts.googleapis.com/css2?family=*Material+Symbols*$stylesheet
+! @@||fonts.gstatic.com/s/materialicons/*
+! @@||fonts.gstatic.com/s/materialsymbols/*
 
 ||fonts.gstatic.com/s/googlesans/*$domain=~fonts.google.com
 

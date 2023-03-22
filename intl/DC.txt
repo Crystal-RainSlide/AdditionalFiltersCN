@@ -62,6 +62,7 @@
 
 ! FreeStyler.ws
 ||freestyler.ws/style/tracking
+||freestyler.ws/php/sharrre.php
 
 ! https://ipinfo.io
 ||ipinfo.io/rt$xhr

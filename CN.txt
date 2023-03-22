@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 30-Jan-2023
-! Last Modified: 30-Jan-2023/16:24:29+08:00
+! Last updated: 22-Mar-2023
+! Last Modified: 22-Mar-2023/19:17:12+08:00
 
 ! 百度文库 精品课程
 wenku.baidu.com##.relative-course-wrapper
@@ -223,6 +223,7 @@ cloud.tencent.com##.has-sign
 
 ! cnBeta
 ! www.cnbeta.com.tw##body > div:has-text(帮助cnBeta.COM更好地生产内容，请将我们加入广告屏蔽插件的白名单，非常感谢。)
+www.cnbeta.com.tw##.tac
 www.cnbeta.com.tw##body > div[id][style]:not(class)
 www.cnbeta.com.tw##body:style(padding-bottom: 0 !important)
 www.cnbeta.com.tw##+js(set, JB, noopFunc)
@@ -232,6 +233,9 @@ www.cnbeta.com.tw##a[href="https://www.laomoit.com/"]
 segmentfault.com##.mb25
 segmentfault.com##.card:has(> .card-body > .side-promote-link)
 segmentfault.com##.card:has(> div[id^="OA_holder_"])
+
+! 凤凰网
+||9fum.ifeng.com^
 
 ! 果壳网
 www.guokr.com###app > div[class*="ArticleBottomAppAd"]
@@ -461,7 +465,6 @@ amap.com###amapAppDownload, #amap-result-banner
 map.baidu.com###leadDownloadCard
 map.baidu.com###activity-banner-panel
 
-
 ! 京东
 www.jd.com##.mobile_static
 
@@ -583,6 +586,7 @@ translate.google.cn###gt-cn
 ||unpkg.zhimg.com/@cfe/sentry-script*$script
 
 ! 百度 Baidu
+||hm.baidu.com^
 @@||dwz.hm.baidu.com^
 
 ||mbd.baidu.com/ztbox^
@@ -594,6 +598,11 @@ translate.google.cn###gt-cn
 
 ! ||static.ctfile.com/js/bd_stat.js
 */bd_stat.js^$script
+
+! https://live.baidu.com
+! ||hmcdn.baidu.com/static/tongji/plugins/UrlChangeTracker.js
+||hmcdn.baidu.com/static/tongji/*
+||tiebac.baidu.com/bdlive/log/h5report^
 
 ! Abclite
 ||dlswbr.baidu.com/heicha/mw/abclite-*-s.js^
@@ -869,18 +878,6 @@ baidu.com/static/mapping/*.php
 
 ! ---
 
-! 爱奇艺 iqiyi
-||msg.qy.net^
-
-! 芒果 TV
-||log.mgtv.com^
-
-! 风行
-! ||static.funshion.com/open/fis/js/v12/common/log/thirdlog_a0ffe888c6.js
-||static.funshion.com/*/common/log^
-
-! ---
-
 ! KaFan
 ||a.ikafan.com/*/tj.js
 
@@ -974,13 +971,6 @@ baidu.com/static/mapping/*.php
 ! /ads.
 @@||www.raidrive.com/css/raidrive/ads.min.css$stylesheet
 
-! jCleanList
-www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
-www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
-@@||btrace.video.qq.com/kvcollect?*load*$badfilter
-@@||pv.funshion.com/*/video/*$xhr
-@@||www.wangma.net.cn/UploadFiles/Advert/*$image
-
 ! https://d301sr5gafysq2.cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
 ! /[\/_\.\?\&\-]ad[sv]?\d*[\/_\.\-]/
 @@||cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
@@ -993,8 +983,8 @@ www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract
 ! ----
 
 ! Google Blog
-@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adwords.max.png$domain=www.blog.google
-@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Adsense.max.png$domain=www.blog.google
+! /ad
+@@||storage.googleapis.com/gweb-uniblog-publish-prod/images/Ad*$domain=www.blog.google
 
 ! bugs.chromium.org
 ! /popup_
@@ -1002,6 +992,7 @@ www.baidu.com#@##\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract
 
 ! 超星
 @@||ananas.chaoxing.com/video/*$media
+! _ad
 @@||chaoxing.com/schoolCourseInfo/display_add$xhr
 ! /pop.js^
 @@||mobilelearn.chaoxing.com/xinfanya/js/common/pop.js^$script
@@ -1021,9 +1012,6 @@ pastebin.com#@#.post-view
 ! mp.weixin.qq.com 概率性
 @@||res.wx.qq.com/mmbizwap/*$script
 
-! Sougu
-@@||sogoucdn.com^*&referer=$image
-
 ! Baidu Jingyan
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
@@ -1031,22 +1019,12 @@ jingyan.baidu.com#@##like-btn
 ! Fentai Foundry
 @@||img.hentai-foundry.com/themes/default/js/ads.js
 
-@@||portal.wifi.189.cn/ad_page/*$1p
-
-www.wangma.net.cn#@#.ad
+@@||portal.wifi.189.cn/ad_page/*$first-party
 
 @@||uniapp.dcloud.io/api/*$xhr
 
-! CSP 规则的注意是谁想出来的…
-! 阮一峰网站的页面里 暂时没有很多需要干掉的内联脚本
-! 但这条规则，为保留一个有用的内联脚本，特意计算一个 hash
-! 其实，hash 根本顶不了多久，加个空格就变了
-! 还搞得浏览器拓展插入的内容脚本没法运行
-! 哪天要是这条破 CSP 规则更新了，我这还得跟着更新这条 badfilter 规则
-! Fuck !
-||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws=',badfilter
-www.ruanyifeng.com###container::before
-www.ruanyifeng.com##+js(nostif, checker)
+! 任你购
+@@/js/omni_v3.js$script,domain=www.030buy.jp|rennigou.jp
 
 ! ||res.wx.qq.com/open/js/jweixin-*.js
 ! ||oschina.net/js/utils/jweixin-*.js
@@ -1207,12 +1185,6 @@ club.kdnet.net##.new-share-main
 
 public.renren.com###Share
 
-www.juzimi.com###jushare
-
-www.jammyfm.com##.share-toolbox
-
-www.dongqiudi.com###share
-
 ||ue.17173cdn.com/a/lib/*/share/index.js
 
 www.icourse163.org###j-share.j-share
@@ -1221,17 +1193,6 @@ www.icourse163.org##.m-coulshar
 www.icourse163.org##.course-share
 www.icourse163.org###j-coushare
 mooc.study.163.com###j-coushare
-
-www.360doc.com###fenxiangLayer.sharelist_new
-
-! Video Site Start
-v.youku.com##.fn-share
-
-www.iqiyi.com##.footer-shareBox
-
-v.qq.com##.action_share.action_item
-! Video Site End
-
 
 ! Red Dot & Hot & New Start
 
@@ -1294,11 +1255,6 @@ search.jd.com##.jdm-toolbar .tab-tip
 space.bilibili.com##.new-icon
 live.bilibili.com##.red-dot,.msg-hinter,.icon-red,.guard-ent
 www.bilibili.com##.video-toolbar-v1 .toolbar-left .first-new-share::after
-
-iqiyi.com##.iqp-logo-box
-||www.iqiyipic.com/common/fix/PCH5_iconfont200831/logombx.png
-
-www.fun.tv##.new > i, b > .new
 
 www.cnki.net##.outstand > sup, .red > sup
 
@@ -1443,6 +1399,8 @@ player.bilibili.com##.bilibili-player-video-recommend
 ||data.bilibili.com/s/miniloader_online^
 ! 用户头像挂件
 www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
+! 大家围观的主播
+www.bilibili.com##.pop-live-small-mode
 ! 推荐直播
 www.bilibili.com###live_recommand_report
 ! 直播水印

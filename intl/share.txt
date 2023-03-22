@@ -3,6 +3,8 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! Facebook
+||facebook.com^$subdocument
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||api.facebook.com^$third-party
 ||badge.facebook.com^$third-party
@@ -16,77 +18,25 @@
 ||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
 ||graph.facebook.com^$third-party
 
-||facebook.com^$subdocument
+! Twitter
+||platform.twitter.com/widgets.js
 
-||platform.twitter.com/widgets.js$script
+! Google+
+! ||apis.google.com/js/platform.js
+! ||apis.google.com/js/plusone.js
+||apis.google.com/js/$domain=~google.com|~googleapis.com
 
-! ||apis.google.com/js/platform.js$script
-! ||apis.google.com/js/plusone.js$script
-||apis.google.com/js/$domain=~google.com,~googleapis.com
+! Instagram
+||badges.instagram.com^
 
-||badges.instagram.com^$third-party
-||assets.pinterest.com/js/pinit.js$third-party
-||sharethis.com^$script,third-party
-||static.addtoany.com^$script
-||widget.pushbullet.com/dynamic.js$script
-||vk.com/js/api/share.js$script
+! VK
+||vk.com/js/api/share.js
 
-||share.pluso.ru^$script
+! Pinterest
+||assets.pinterest.com/js/pinit.js
 
-##.sharedaddy
+! Pushbullet
+||widget.pushbullet.com/dynamic.js
 
-! BBC
-www.bbc.com##.sharetools
-www.bbc.com##.share-tools--event-tag
-www.bbc.com##.share
-www.bbc.com##.share + div:style(margin-top: 32px)
-
-! Bloomberg
-www.bloomberg.com##.share-article-button
-
-! Fox News
-www.foxnews.com##.social-icons
-www.foxnews.com##.article-social
-
-! South China Morning Post
-www.scmp.com##.share
-
-! SourceForge
-sourceforge.net##.share-text,.social-sharing-buttons
-
-! APKPure
-||cdnpure.com/static/share-button/*
-
-! Shit
-www.tiktok.com##.share-container
-
-! 9GAG
-9gag.com##.share
-
-blog.twitter.com##div[class$="__share--icons"]
-
-! The White House
-www.whitehouse.gov##.editor__module-share
-
-www.techpowerup.com##.social-share
-
-! mediabiasfactcheck.com
-*/sharedaddy/sharing.min.js$script
-*/add-to-any/addtoany.min.js$script
-mediabiasfactcheck.com##.addtoany_content
-mediabiasfactcheck.com##.sharedaddy
-
-userstyle.org###share_div
-
-neocities.org###shareButton
-
-img.ly##.share-sticky
-
-knowyourmeme.com##.tb-share-custom
-knowyourmeme.com###ctoolbar
-
-www.softwareok.com##form[name="Testform"]
-
-||kongcdn.com/compiled-assets/shared/facebookconnect_*
-
-igg-games.com,pcgamestorrents.com##.addtoany_share_save_container
+||sharethis.com^$third-party
+||static.addtoany.com^$third-party

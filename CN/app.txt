@@ -64,7 +64,6 @@ amap.com###amapAppDownload, #amap-result-banner
 map.baidu.com###leadDownloadCard
 map.baidu.com###activity-banner-panel
 
-
 ! 京东
 www.jd.com##.mobile_static
 

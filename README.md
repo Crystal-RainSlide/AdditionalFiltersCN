@@ -37,40 +37,38 @@ All includes all the variants and specific rules in current category.
 
 ### CN
 
-　　类别 Variant | 链接 Link
----------------- | ---------
-　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
-　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt)
-　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/spam.txt)
-APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/app.txt)
-　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/share.txt)
-社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/social.txt)
+　　　　类别 Variant         | 链接 Link
+---------------------------- | ---------
+　　数据收集 Data Collection |    [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
+　　　　广告 Advertisement   |    [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt)
+　　　　干扰 Spam            |  [Spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Spam.txt)
+APP 与客户端 App & Client    |   [APP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/APP.txt)
+　　分享按钮 Share buttons   | [Share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Share.txt)
+　　会员相关 VIP             |   [VIP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/VIP.txt)
 
 ### Intl
 
-　　类别 Variant | 链接 Link
----------------- | ---------
-　　数据收集 Data Collection |     [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
-　　　　广告 Advertisement   |     [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt)
-　　　　会员 VIP             |    [VIP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/VIP.txt)
-　　　　干扰 Spam            |   [spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/spam.txt)
-APP 与客户端 App & Client    |    [app.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/app.txt)
-　　分享按钮 Share buttons   |  [share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/share.txt)
-社交媒体按钮 Social icons    | [social.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/social.txt)
+　　　　类别 Variant         | 链接 Link
+---------------------------- | ---------
+　　数据收集 Data Collection |    [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
+　　　　广告 Advertisement   |    [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt)
+　　　　干扰 Spam            |  [Spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Spam.txt)
+APP 与客户端 App & Client    |   [APP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/APP.txt)
+　　分享按钮 Share buttons   | [Share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Share.txt)
 
 ## Game
 
-　类别 Variant | 链接 Link
--------------- | ---------
-　中文 CN   |   [CN.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/CN.txt)
-　国际 Intl | [Intl.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/Intl.txt)
+类别 Variant | 链接 Link
+------------ | ---------
+中文 CN      |   [CN.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/CN.txt)
+国际 Intl    | [Intl.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/Intl.txt)
 
 ## 针对性规则 Specific Rules
 
 ### CN
 
-名称 Name | 链接 Link
---------- | ---------
+名称 Name   | 链接 Link
+----------- | ---------
 微信 WeChat | [NoWeWontChat.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/NoWeWontChat.txt)
 修复 Fixes  | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt)
 
@@ -124,19 +122,16 @@ It is not suggested to use the raw.githack.com development mirror heavily, see [
 
 ### CN
 
-主页 Homepage | 链接 Link
-------------- | ---------
-[乘风]        | 广告过滤规则：[rule.txt][乘风 广告过滤规则] <br> 视频广告过滤规则：[mv.txt][乘风 视频广告过滤规则]
-[jCleanList]  | [jCleanList_all.txt]
-[QuarkList]   | [quarklist.txt]
+主页 Homepage     | 链接 Link
+----------------- | ---------
+[乘风]            | 广告过滤规则：[rule.txt][乘风 广告过滤规则] <br> 视频广告过滤规则：[mv.txt][乘风 视频广告过滤规则]
+[QuarkList]       | [quarklist.txt]
 [ublock-CingList] | [ublock-CingList.txt]
+[jCleanList]      | [jCleanList_all.txt]
 
 [乘风]:                  https://gitee.com/xinggsf/Adblock-Rule/
 [乘风 广告过滤规则]:     https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt
 [乘风 视频广告过滤规则]: https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt
-
-[jCleanList]:         https://github.com/jiayiming/jCleanList
-[jCleanList_all.txt]: https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt
 
 [QuarkList]:     https://n2o.io/p/quarklist/
 [quarklist.txt]: https://n2o.io/p/quarklist/dist/quarklist.txt
@@ -144,17 +139,20 @@ It is not suggested to use the raw.githack.com development mirror heavily, see [
 [ublock-CingList]:     https://github.com/dupontjoy/customization/tree/master/Rules/uBlock
 [ublock-CingList.txt]: https://raw.githubusercontent.com/dupontjoy/customization/master/Rules/uBlock/%5Brule%5Dublock-CingList.txt
 
+[jCleanList]:         https://github.com/jiayiming/jCleanList
+[jCleanList_all.txt]: https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt
+
 ### Intl
 
 主页 Homepage | 链接 Link
 ------------- | ---------
 [BarbBlock] [GitHub][BarbBlock GitHub] | [ublock-origin.txt][BarbBlock uBO] <br> [adblock-plus.txt][BarbBlock ADP] <br> [hosts][BarbBlock hosts]
 
-[BarbBlock]: https://paulgb.github.io/BarbBlock/
+[BarbBlock]:        https://paulgb.github.io/BarbBlock/
 [BarbBlock GitHub]: https://github.com/paulgb/BarbBlock
-[BarbBlock uBO]:   https://paulgb.github.io/BarbBlock/blacklists/ublock-origin.txt
-[BarbBlock ADP]:   https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
-[BarbBlock hosts]: https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+[BarbBlock uBO]:    https://paulgb.github.io/BarbBlock/blacklists/ublock-origin.txt
+[BarbBlock ADP]:    https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
+[BarbBlock hosts]:  https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
 
 #### 规则合并器 Rules Merger
 

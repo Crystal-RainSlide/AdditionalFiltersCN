@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 30-Jan-2023
-! Last Modified: 30-Jan-2023/16:24:29+08:00
+! Last updated: 22-Mar-2023
+! Last Modified: 22-Mar-2023/19:17:12+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -157,10 +157,13 @@ www.mediafire.com##.header:style(position: static !important;margin: 12px auto 0
 www.mediafire.com##.center:style(position: static !important;margin: 0 auto)
 www.mediafire.com##.DLExtraInfo-wrap:style(position: static !important;margin: 0 auto)
 
-winaero.com##.recommended-inline
-winaero.com##a[href^="https://winaero.com/idx.php"]
+www.makeuseof.com##.adsninja-ad-zone
 
-www.heidisql.com##.bordered-box:has-text(Ads)
+tvtropes.org##.fad, .sb-fad-unit
+
+gizmodo.com##.ad-container, #commerce-inset-wrapper
+
+www.notebookcheck.net##div[id^="div-gpt-ad"], #footer > div[id*="-ad-"]
 
 www.ghacks.net##.ghacks_ad_code
 
@@ -202,8 +205,6 @@ www.gamesfree.ca###adContainer
 www.gamesfree.ca##.lol-carrousel-wrapper
 www.gamesfree.ca##.mobile-games-carrousel
 www.siftheadsgames.com##+js(nobab)
-
-soft112.com##.rec-app-cell
 
 ! Aff
 ! VULTR
@@ -301,6 +302,7 @@ itch.io##.app_banner
 
 ! FreeStyler.ws
 ||freestyler.ws/style/tracking
+||freestyler.ws/php/sharrre.php
 
 ! https://ipinfo.io
 ||ipinfo.io/rt$xhr
@@ -352,6 +354,8 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 
 ||cdn.xsolla.net/network/xtracking-*.js
 
+! Facebook
+||facebook.com^$subdocument
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||api.facebook.com^$third-party
 ||badge.facebook.com^$third-party
@@ -365,138 +369,28 @@ konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
 ||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
 ||graph.facebook.com^$third-party
 
-||facebook.com^$subdocument
+! Twitter
+||platform.twitter.com/widgets.js
 
-||platform.twitter.com/widgets.js$script
+! Google+
+! ||apis.google.com/js/platform.js
+! ||apis.google.com/js/plusone.js
+||apis.google.com/js/$domain=~google.com|~googleapis.com
 
-! ||apis.google.com/js/platform.js$script
-! ||apis.google.com/js/plusone.js$script
-||apis.google.com/js/$domain=~google.com,~googleapis.com
+! Instagram
+||badges.instagram.com^
 
-||badges.instagram.com^$third-party
-||assets.pinterest.com/js/pinit.js$third-party
-||sharethis.com^$script,third-party
-||static.addtoany.com^$script
-||widget.pushbullet.com/dynamic.js$script
-||vk.com/js/api/share.js$script
+! VK
+||vk.com/js/api/share.js
 
-||share.pluso.ru^$script
+! Pinterest
+||assets.pinterest.com/js/pinit.js
 
-##.sharedaddy
+! Pushbullet
+||widget.pushbullet.com/dynamic.js
 
-! BBC
-www.bbc.com##.sharetools
-www.bbc.com##.share-tools--event-tag
-www.bbc.com##.share
-www.bbc.com##.share + div:style(margin-top: 32px)
-
-! Bloomberg
-www.bloomberg.com##.share-article-button
-
-! Fox News
-www.foxnews.com##.social-icons
-www.foxnews.com##.article-social
-
-! South China Morning Post
-www.scmp.com##.share
-
-! SourceForge
-sourceforge.net##.share-text,.social-sharing-buttons
-
-! APKPure
-||cdnpure.com/static/share-button/*
-
-! Shit
-www.tiktok.com##.share-container
-
-! 9GAG
-9gag.com##.share
-
-blog.twitter.com##div[class$="__share--icons"]
-
-! The White House
-www.whitehouse.gov##.editor__module-share
-
-www.techpowerup.com##.social-share
-
-! mediabiasfactcheck.com
-*/sharedaddy/sharing.min.js$script
-*/add-to-any/addtoany.min.js$script
-mediabiasfactcheck.com##.addtoany_content
-mediabiasfactcheck.com##.sharedaddy
-
-userstyle.org###share_div
-
-neocities.org###shareButton
-
-img.ly##.share-sticky
-
-knowyourmeme.com##.tb-share-custom
-knowyourmeme.com###ctoolbar
-
-www.softwareok.com##form[name="Testform"]
-
-||kongcdn.com/compiled-assets/shared/facebookconnect_*
-
-igg-games.com,pcgamestorrents.com##.addtoany_share_save_container
-
-! Buzzfeed
-www.buzzfeed.com##.connect-with-us
-
-! Duckduckgo
-duckduckgo.com##.social
-duckduckgo.com#@#.social__link
-duckduckgo.com#@#.social__icon
-
-! Archive.org
-archive.org##.social_button
-
-ubuntu.com##.p-footer__nav-col:has(.twitter-icon)
-canonical.com##.p-divider__block:has(a[href="https://twitter.com/Canonical"])
-
-! Reuters
-www.reuters.com##.SocialTool_container
-
-! Fox News
-www.foxnews.com##.footer-lower > .social-icons
-
-! SourceForge
-sourceforge.net##.social-icons
-
-! APKPure
-apkpure.com##.facebook-like
-apkpure.com##.social-network
-
-! APKMirror
-www.apkmirror.com##^#sidebar > .listWidget:has(.pushbullet-subscribe-widget)
-www.apkmirror.com##^#sidebar > .gooWidget
-
-! MDN
-developer.mozilla.org##.footer-social:has(.icon-twitter)
-developer.mozilla.org##.footer-social:has(.icon-instagram)
-
-! NewGrounds
-www.newgrounds.com##.footer-social-icons
-
-! Fandom
-fandom.com##.wds-is-follow-us
-
-chinadigitaltimes.net###footer_social
-
-www.mediafire.com##.social-cont
-
-surviv.io###social-share-block-wrapper
-
-winaero.com##.social-media-container
-
-||freestyler.ws/php/sharrre.php$xmlhttprequest
-freestyler.ws##.follow-us-block
-
-fanboy.co.nz##.sf-menu > li:has( > ul > li > a[href="https://twitter.com/fanboynz"])
-
-minidayz.com##.social-widget
-
-www.intelrealsense.com##.social-links
+||sharethis.com^$third-party
+||static.addtoany.com^$third-party
 
 ! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
 ! （每个约 20 MB）
@@ -524,6 +418,9 @@ www.intelrealsense.com##.social-links
 ! ||www.fcportables.com/wp-content/plugins/better-content-protector/assets/js/content-protector-pack.min.js
 */wp-content/plugins/better-content-protector/*
 
+! MDN: dot
+developer.mozilla.org##.top-level-entry-container .top-level-entry-dot ~ .top-level-entry::after
+
 ! WikiHow
 ! Help us do more
 www.wikihow.com###contribute_footer_wrap
@@ -548,10 +445,6 @@ www.experts-exchange.com##.interceptContainer
 
 ! 9GAG - Red dot
 9gag.com##.nav-menu .new::after
-
-! RunKit - Larger Close Button
-npm.runkit.com###register-banner > button:style(font-size: 3em; font-weight: bold; margin-right: 1ch !important; color: red !important; background-color: white !important; opacity: 1 !important)
-npm.runkit.com###register-banner > *:style(vertical-align: middle)
 
 ! Userstyle.org - Use monospace for code
 userstyle.org###stylish-code:style(font-family: monospace !important)

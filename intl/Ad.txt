@@ -151,10 +151,13 @@ www.mediafire.com##.header:style(position: static !important;margin: 12px auto 0
 www.mediafire.com##.center:style(position: static !important;margin: 0 auto)
 www.mediafire.com##.DLExtraInfo-wrap:style(position: static !important;margin: 0 auto)
 
-winaero.com##.recommended-inline
-winaero.com##a[href^="https://winaero.com/idx.php"]
+www.makeuseof.com##.adsninja-ad-zone
 
-www.heidisql.com##.bordered-box:has-text(Ads)
+tvtropes.org##.fad, .sb-fad-unit
+
+gizmodo.com##.ad-container, #commerce-inset-wrapper
+
+www.notebookcheck.net##div[id^="div-gpt-ad"], #footer > div[id*="-ad-"]
 
 www.ghacks.net##.ghacks_ad_code
 
@@ -196,8 +199,6 @@ www.gamesfree.ca###adContainer
 www.gamesfree.ca##.lol-carrousel-wrapper
 www.gamesfree.ca##.mobile-games-carrousel
 www.siftheadsgames.com##+js(nobab)
-
-soft112.com##.rec-app-cell
 
 ! Aff
 ! VULTR
