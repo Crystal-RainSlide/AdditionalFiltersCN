@@ -26,23 +26,26 @@ www.microsoft.com##.m-hero
 ||acdn.adnxs.com/ast/static/*/ast.js$script
 ||onerm.olsvc.com/api/*/promo$xmlhttprequest
 
-! 屏蔽模块可能导致加载阻塞
-! ||^/owamail/*/scripts/owa.MessageAdList.js$script
-! ||res.office365.com/owamail/*/scripts/owa.initializeAdCmp.js$script
-! ||res.office365.com/owamail/*/scripts/owa.Ads*$script
-! ||res.office365.com/owamail/*/scripts/owa.vendors~Ads$script
-
-! 左侧 Office 365 广告
-outlook.live.com###app .ms-FocusZone.customScrollBar.disableTextSelection + div:has(button img[src$="/premium-diamond-01.svg"])
-! 左侧邮件列表
-outlook.live.com###app div[role="region"][aria-label][tabindex][data-min-width][data-min-height][data-max-width][data-max-height] > div[tabindex][class] > div[class]:only-child > div[draggable][class]:only-child > div[role="complementary"][aria-multiselectable][aria-label][class]:only-child > div.customScrollBar:only-child > div[class]:only-child > div[class]:first-child
-! 右侧广告空白
-outlook.live.com###app div[tabindex][role="region"][aria-label] ~ div[class]:last-child:has(> div[class]:only-child > div > #owaadbar0)
-! 底部广告空白
-outlook.live.com###app div[class]:last-child:has(> div[class]:only-child > div > #owaadbar1)
-
 ! Add the Microsoft Rewards extension
 www.bing.com###b_opalpers
+
+! ------------------------------------------------------------------------------
+
+! Outlook: .fbAdCallToAction in MessageList
+outlook.live.com###MainModule #notificationBarText + div:last-child > div[data-app-section="MessageList"] > .customScrollBar > div[draggable="false"]:only-child > div[role="region"]:only-child > div[role="listbox"]:only-child .customScrollBar > div:only-child > div:first-child:matches-css(position: absolute):has(> div[data-animatable="true"] .fbAdCallToAction)
+
+! Outlook: Microsoft 365 Button in NavigationPane
+outlook.live.com###MainModule > div:only-child > div:only-child > div[data-app-section="NavigationPane"] > div:only-child > div:only-child > .ms-FocusZone.customScrollBar.disableTextSelection + div:last-child:has(> button img[src$="/leftNavUpsellIcons/premium-diamond-01.svg"])
+
+! Outlook: Right Ad Bar
+outlook.live.com###MainModule > div:only-child > div:only-child > div:last-child:has(> div:only-child > div > #owaadbar0)
+
+! Outlook: Bottom Ad Bar
+outlook.live.com###MainModule + div:last-child:has(> div:only-child > div > #owaadbar1)
+
+! Ad Bars may also be located by: img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"]
+
+! ------------------------------------------------------------------------------
 
 ! Reddit
 old.reddit.com##.ad-container

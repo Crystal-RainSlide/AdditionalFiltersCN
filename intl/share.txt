@@ -21,11 +21,6 @@
 ! Twitter
 ||platform.twitter.com/widgets.js
 
-! Google+
-! ||apis.google.com/js/platform.js
-! ||apis.google.com/js/plusone.js
-||apis.google.com/js/$domain=~google.com|~googleapis.com
-
 ! Instagram
 ||badges.instagram.com^
 
