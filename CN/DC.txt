@@ -207,8 +207,10 @@ baidu.com/static/mapping/*.php
 
 ! Bilibili
 ! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
-||hdslb.com/bfs/seed/log/*
-||cm.bilibili.com/cm/api/$xhr
+! ||hdslb.com/bfs/seed/log/*
+
+||api.bilibili.com/x/web-frontend/data/collector$xhr
+||cm.bilibili.com/cm/api/*$xhr
 
 ! Sina
 ||log.mix.sina.com.cn^

@@ -32,3 +32,5 @@ yadi.sk##.app-promo-banner
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 
 itch.io##.app_banner
+
+bandcamp.com###app-promo

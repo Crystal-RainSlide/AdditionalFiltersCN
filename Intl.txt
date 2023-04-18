@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 10-Apr-2023
-! Last Modified: 10-Apr-2023/18:39:49+08:00
+! Last updated: 18-Apr-2023
+! Last Modified: 18-Apr-2023/14:48:05+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -245,6 +245,8 @@ yadi.sk##.app-promo-banner
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 
 itch.io##.app_banner
+
+bandcamp.com###app-promo
 
 ! cleardot.gif
 ! ||www.google.com/images/cleardot.gif?

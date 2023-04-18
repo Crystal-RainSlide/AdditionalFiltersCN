@@ -6,52 +6,15 @@
 ! Red Dot & Hot & New Start
 
 ! red dot
-
-www.baidu.com##.dot::before
-www.baidu.com##.title-content-index,.title-content-mark:style(filter: grayscale())
-www.baidu.com##tr > td > .opr-toplist1-new.c-text-danger:style(color: inherit !important; background-color: inherit !important)
-
-dwz.cn##.new-icon > img
-baike.baidu.com,jingyan.baidu.com,zhidao.baidu.com##.new-icon
-zhidao.baidu.com##.menu-title-icon
-developer.baidu.com##.hot-icon
-fanyi.baidu.com##.upgrade-tag
-fanyi.baidu.com##.collection-btn.new-edition-tip::after, .setting-btn.new-edition-tip::after
-
-index.baidu.com##.new
-site.baidu.com##.dot
-
-pan.baidu.com##.u-badge,.is-dot
-
-wenku.baidu.com##.new b
-wenku.baidu.com##.ui-bz-hot-ic, .ui-bz-new-ic, .havenew-ic
-wenku.baidu.com##.red-dot::after
-wenku.baidu.com##.red-spot
-wenku.baidu.com##.app-btn-point
-
-www.hao123.com##.icon-new
-hao.qq.com,daohang.qq.com,123.sogou.com##.i-new, .i-hot
-
 qzone.qq.com,show.qq.com##.ico_new
 qzone.qq.com##.sn-radio
-qzone.qq.com##.icon_app_new_cn
-qzone.qq.com##.icon_app_recommend
-
-qzone.qq.com##.icon-red-dot
-
+qzone.qq.com##.icon_app_new_cn,.icon_app_recommend,.icon-red-dot
 h5.qzone.qq.com##.icon-new
 
 docs.qq.com##.dui-badge-dot
-
 mail.qq.com##.ico_rednew
 
-www.taobao.com##.hot
-
-pic.sogou.com##.ico-new
-pic.sogou.com##.ico-hot
-fanyi.sogou.com##.icon-free
-help.sogou.com##img[alt="new"]
-map.sogou.com##.nav-new
+www.zhihu.com##.TopSearch-hot:style(filter: grayscale())
 
 mail.163.com##.nui-ico-new3
 
@@ -71,27 +34,8 @@ www.oschina.net##.small-header-box .nav-bar__tabs .tabs-item--new-show .tabs-lin
 
 www.chinaz.com##.hot
 
-www.douban.com##img[src="https://img3.doubanio.com/f/shire/e49eca1517424a941871a2667a8957fd6c72d632/pics/new_menu.gif"]
-
-pinyin.sogou.com###zmeit_new
-
-www.infoq.cn##.hot > img, .marked-dot::before
-www.nowcoder.com##.ico-nav-new
-www.w3cschool.cn##.hot-icon
-www.liaoxuefeng.com###ul-navbar > li > a > img
-club.kdnet.net##.nav-t-new.icon-try-con
-www.nuomi.com##.new-item-hot
-www.17173.com##.ico-game-hot1
-diy.zol.com.cn##.icon-hot
-cowtransfer.com##.redDot
+36kr.com##.live-new-icon
 ! Red Dot & Hot & New End
-
-
-! Highlight Start
-www.oschina.net##.mayun.event.menu-item:style(font-weight: 400 !important; color: #fff !important)
-
-www.panduoduo.net##.announcement-bar > a:style(color: #336699 !important; font-weight: normal !important;)
-! Highlight End
 
 
 ! Baidu Netdisk
