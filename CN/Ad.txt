@@ -144,21 +144,6 @@ ping.chinaz.com##.col-4:style(width: 40% !important)
 ||static.tapdb.net/tapad/*
 
 
-! 中国大学 MOOC
-www.icourse163.org##.coupon
-www.icourse163.org##.j-kaoyan-link
-www.icourse163.org##.j-learning-plan
-www.icourse163.org###j-recommend-content
-www.icourse163.org##.um-recommend-modal
-
-! 一整个侧边栏
-www.icourse163.org##.u-s-imgRec
-www.icourse163.org##.main-box:style(width: 100% !important;float: none !important;)
-www.icourse163.org##.g-mn2c:style(margin-right: 0 !important)
-www.icourse163.org##.course-panel-body-wrapper:style(width: 100% !important;)
-www.icourse163.org##.m-hometop:style(margin-bottom: 10px !important)
-www.icourse163.org##.course-panel-wrapper > .course-panel-foot-wrapper:style(margin-top: 10px !important)
-
 ! 人民网
 people.com.cn##.zh_banner,.cont_banner,.banner01,.banner02,.banner03
 
@@ -372,10 +357,6 @@ gitee.com##.ent-poster
 ! Premium Content Promotion End
 
 ! House Advertisement Start
-
-! 中国大学 MOOC
-www.icourse163.org###j-activityBanner
-www.icourse163.org###j-activityRightBanner
 
 ! 网易公开课
 open.163.com##.advertisement

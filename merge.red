@@ -26,8 +26,6 @@ rejoin-metadata: function [
 		"! Description: " metadata/description  LF
 		"! Homepage: "    metadata/homepage     LF
 		"! Expire: "      metadata/expire       LF
-; Hey, how could you two managed to hold two different names on this tiny little timestamp.
-		"! Last updated: "  ( to string! now/date ) LF ; uBlock filters
 		"! Last Modified: " ( to string! now )      LF ; AdBlock Plus
 	]
 ]

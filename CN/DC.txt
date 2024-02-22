@@ -309,9 +309,6 @@ baidu.com/static/mapping/*.php
 ! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com^
 ||log.aliyuncs.com^
 
-! 中国大学 MOOC
-||edu-cms.nosdn.127.net/topics/js/sentry*$script
-
 ! 雨课堂
 ! ||www.yuketang.cn/video-log/log/unified/
 ||www.yuketang.cn/*-log/*

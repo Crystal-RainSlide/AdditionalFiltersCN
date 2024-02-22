@@ -6,8 +6,7 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 23-Feb-2024
-! Last Modified: 23-Feb-2024/7:22:00+08:00
+! Last Modified: 23-Feb-2024/7:32:11+08:00
 
 ! 百度不知道
 zhidao.baidu.com##.product-container
@@ -149,21 +148,6 @@ ping.chinaz.com##.col-4:style(width: 40% !important)
 ! TapTap
 ||static.tapdb.net/tapad/*
 
-
-! 中国大学 MOOC
-www.icourse163.org##.coupon
-www.icourse163.org##.j-kaoyan-link
-www.icourse163.org##.j-learning-plan
-www.icourse163.org###j-recommend-content
-www.icourse163.org##.um-recommend-modal
-
-! 一整个侧边栏
-www.icourse163.org##.u-s-imgRec
-www.icourse163.org##.main-box:style(width: 100% !important;float: none !important;)
-www.icourse163.org##.g-mn2c:style(margin-right: 0 !important)
-www.icourse163.org##.course-panel-body-wrapper:style(width: 100% !important;)
-www.icourse163.org##.m-hometop:style(margin-bottom: 10px !important)
-www.icourse163.org##.course-panel-wrapper > .course-panel-foot-wrapper:style(margin-top: 10px !important)
 
 ! 人民网
 people.com.cn##.zh_banner,.cont_banner,.banner01,.banner02,.banner03
@@ -378,10 +362,6 @@ gitee.com##.ent-poster
 ! Premium Content Promotion End
 
 ! House Advertisement Start
-
-! 中国大学 MOOC
-www.icourse163.org###j-activityBanner
-www.icourse163.org###j-activityRightBanner
 
 ! 网易公开课
 open.163.com##.advertisement
@@ -859,9 +839,6 @@ baidu.com/static/mapping/*.php
 ! ||imm-f2e-log.cn-hangzhou.log.aliyuncs.com^
 ||log.aliyuncs.com^
 
-! 中国大学 MOOC
-||edu-cms.nosdn.127.net/topics/js/sentry*$script
-
 ! 雨课堂
 ! ||www.yuketang.cn/video-log/log/unified/
 ||www.yuketang.cn/*-log/*
@@ -1160,13 +1137,6 @@ public.renren.com###Share
 
 ||ue.17173cdn.com/a/lib/*/share/index.js
 
-www.icourse163.org###j-share.j-share
-www.icourse163.org###j-courseshare
-www.icourse163.org##.m-coulshar
-www.icourse163.org##.course-share
-www.icourse163.org###j-coushare
-mooc.study.163.com###j-coushare
-
 ! Red Dot & Hot & New Start
 
 fanyi.baidu.com##.new-domain-wrapper::before
@@ -1324,23 +1294,11 @@ cloud.189.cn##.vipIcon
 ! 网易云音乐 VIP 标志
 music.163.com##.brand-vip.brand-tag
 
-! Gitee 服务 我知道了，不再自动展开
-gitee.com##+js(set, isClickGuide, true)
-
 ! 新浪视频 热搜
 ||video.sina.com.cn/interface/search_hot.php
 
 ! 太平洋摄影部落
 dp.pconline.com.cn##+js(set, showAuthor, noopFunc)
-
-! 智慧树
-! 绑定手机号
-www.icourse163.org##.bind-phone-modal
-! 隐私协议
-www.icourse163.org##.privacy-info-container
-mooc.study.163.com##.ui-common-privacy
-! 搜索框 Placeholder 推广
-mooc.study.163.com##.j-search > .j-label
 
 ! 简书 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]

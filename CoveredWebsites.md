@@ -19,7 +19,6 @@ SegmentFault | segmentfault.com
 界面新闻 | jiemian.com
 新京报 | bjnews.com.cn
 InfoQ | infoq.cn
-中国大学 MOOC | icourse163.org
 虾米音乐 | xiami.com
 作业帮 | zybang.com
 iPlaysoft | iplaysoft.com
