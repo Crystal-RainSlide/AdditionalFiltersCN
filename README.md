@@ -22,6 +22,13 @@ However, since most of the content of this list has not been submitted to
 other lists, thus, unless this situation changes, otherwise this list should not
 be considered out of date.
 
+安装 [AGLint](https://github.com/AdguardTeam/AGLint) 以便检查代码：
+- 官方安装指南：<!---->https://github.com/AdguardTeam/AGLint?tab=readme-ov-file#installation--usage
+- VSCode 拓展：<!---->https://marketplace.visualstudio.com/items?itemName=adguard.adblock
+
+Install [AGLint](https://github.com/AdguardTeam/AGLint) for linting support:
+- Offical install guide: https://github.com/AdguardTeam/AGLint?tab=readme-ov-file#installation--usage
+- VSCode extension: https://marketplace.visualstudio.com/items?itemName=adguard.adblock
 
 ## 全部 All
 

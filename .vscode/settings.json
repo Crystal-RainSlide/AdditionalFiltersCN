@@ -1,8 +1,8 @@
 {
-	"search.exclude": {
-		"/CN.txt": true,
-		"/Intl.txt": true,
-		"/Game.txt": true,
-		"/RainSlide.txt": true
-	}
+	// https://marketplace.visualstudio.com/items?itemName=adguard.adblock
+	"files.associations": { "*.txt": "adblock" },
+
+	// Readonly & exclude in search for built txt files
+	"files.readonlyInclude": { "*.txt": true },
+	"search.exclude": { "*.txt": true },
 }

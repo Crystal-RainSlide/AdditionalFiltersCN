@@ -1,2 +1,0 @@
-! iOS 添加百度到桌面
-||m.baidu.com/se/static/js/modules/safariicon/*
