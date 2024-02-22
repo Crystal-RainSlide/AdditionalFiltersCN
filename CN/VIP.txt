@@ -8,40 +8,22 @@ fanyi.baidu.com##.vip-btn
 
 ! 百度文库
 ! ||wenku.baidu.com/coupon/promotion/vippop
-! ||wenku.baidu.com/goods/interface/getactinfo
 ||wenku.baidu.com/coupon/*
-||wenku.baidu.com/goods/*
-
-! 首页 VIP 限时福利
-wenku.baidu.com##.fixed-activity-bar, .active-dialog-wrapper
 ! 顶栏 VIP 活动
 wenku.baidu.com##.vip-activity-wrap-new
-! 右侧浮动红包
-wenku.baidu.com##.sidebar-wrapper > .ex-wrapper
-! VIP
-wenku.baidu.com##.inner-vip, .vip-card-wrap, .vip-pop-wrap
+! VIP特权
+wenku.baidu.com##.vip-privilege
+! VIP特价购买文档提示
+wenku.baidu.com##.pay-layer-wrapper
+! VIP主题
+wenku.baidu.com##.bg-theme-wrap
 
 ! 百度网盘
-pan.baidu.com##.vipicon, .u-svip-button
-pan.baidu.com###show-buyvip-pack, .buyvip-pack
-pan.baidu.com##.app-user-vip-center
-pan.baidu.com##.rights-section
-
-! 百度网盘 - 新版
-pan.baidu.com##.web-header-ad-item,.u-svip-button--main
+pan.baidu.com##.vipicon, .u-svip-button, .u-svip-button--main
+pan.baidu.com##.web-header-ad-item
 pan.baidu.com##.wp-s-header-user__member-status-new-btn-wrap.is-notvip,.wp-s-header-user__member-status.is-notvip,.wp-s-header-user__drop-privilege
 pan.baidu.com##.nd-guide-svip-bar
 pan.baidu.com##.is-guide-svip > .u-dialog > .u-dialog__footer:style(padding-bottom: 24px !important)
 
-! 百度网盘 - 旧版
-pan.baidu.com##.module-header-wrapper [node-type="header-union"]
-pan.baidu.com##.vip-notice,.vip-privilege
-pan.baidu.com##.dialog-extra-body
-
-! QQ 空间 开通黄钻
+! QQ空间 用户名右侧 开通黄钻
 user.qzone.qq.com##.qz-btn-vip-open
-
-! yun.cn
-www.yun.cn##.vip-hint
-www.yun.cn##.user-info-panel .panel-content .hint-area
-www.yun.cn##.user-info-panel .panel-content .rights-panel

@@ -6,6 +6,8 @@
 
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
 
+@@||fonts.googleapis.com^$domain=nicovideo.jp|store.steampowered.com|toho-vote.info
+
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
 @@||fonts.googleapis.com/css2?family=*Material+Icons*$stylesheet
@@ -19,6 +21,8 @@
 @@||fonts.gstatic.com/s/googlesans/*$font,domain=analytics.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
+
+@@||use.typekit.net^$domain=sparanoid.com
 
 ! ----
 

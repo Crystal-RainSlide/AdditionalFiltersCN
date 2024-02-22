@@ -5,7 +5,8 @@
 
 ! Red Dot & Hot & New Start
 
-! red dot
+fanyi.baidu.com##.new-domain-wrapper::before
+
 qzone.qq.com,show.qq.com##.ico_new
 qzone.qq.com##.sn-radio
 qzone.qq.com##.icon_app_new_cn,.icon_app_recommend,.icon-red-dot
@@ -13,6 +14,10 @@ h5.qzone.qq.com##.icon-new
 
 docs.qq.com##.dui-badge-dot
 mail.qq.com##.ico_rednew
+
+! QQ音乐 抢特权
+||y.qq.com/mediastyle/yqq/extra/mark_1.png
+y.qq.com##.top_nav__mark
 
 www.zhihu.com##.TopSearch-hot:style(filter: grayscale())
 
@@ -22,26 +27,15 @@ music.163.com##.hot
 music.163.com##.m-subnav .nav a em span
 music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
 
-search.jd.com##.jdm-toolbar .tab-tip
-
-space.bilibili.com##.new-icon
-live.bilibili.com##.red-dot,.msg-hinter,.icon-red,.guard-ent
-www.bilibili.com##.video-toolbar-v1 .toolbar-left .first-new-share::after
-
-www.cnki.net##.outstand > sup, .red > sup
-
-www.oschina.net##.small-header-box .nav-bar__tabs .tabs-item--new-show .tabs-link::before
+fanyi.youdao.com##.ic_new_tag
 
 www.chinaz.com##.hot
 
+www.gcores.com##.navLayout_item_append
+
 36kr.com##.live-new-icon
+
 ! Red Dot & Hot & New End
-
-
-! Baidu Netdisk
-||pan.baidu.com/share/hotrec
-||pan.baidu.com/disk/cmsdata
-pan.baidu.com##.wp-header-cert__tooltip
 
 ! 去你妈的注册弹窗
 douban.com###landing-bar
@@ -60,9 +54,6 @@ cn.bing.com###ev_talkbox_wrapper
 
 ||baike.baidu.com/cms/global/home_config.json
 
-! 登录后可以体验新版个人中心啦
-www.baidu.com##.guide-info-new
-
 ! 百度百科 社区规则学习与测试 显示正确答案
 ! 以下哪些内容适合发布在科星球？（多选）
 baike.baidu.com##.answer-box .answer-tips:style(display: block !important)
@@ -75,6 +66,12 @@ jingyan.baidu.com##.wgt-common-nav
 jingyan.baidu.com###auto-app-placehold
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.magzine-list
+
+! 百度网盘 游戏
+pan.baidu.com##.wp-s-header .gameEntry
+
+! 百度贴吧 爱逛的吧
+! ||tieba.baidu.com/p/getLikeForum
 
 ! 百度知道 右侧 特别推荐
 ! zhidao.baidu.com##.cms-slide
@@ -91,16 +88,6 @@ zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
 zhidao.baidu.com##.jump-goto-star
 ! 百度知道 #热议#
 zhidao.baidu.com##.question-number-text-chain
-
-||tieba.baidu.com/tbapp/user/getRecommendApp
-||tieba.baidu.com/p/getLikeForum
-
-! 百度文库
-! 文档可以转存到百度网盘啦
-wenku.baidu.com##.wangpan-tip
-! 水印
-wenku.baidu.com###reader-container > .reader-page > div[class^="__wm"][style*="data:image/svg+xml"]
-wenku.baidu.com###reader-container > .flow-ppt-mod .ppt-page-item > div[class^="__wm"][style*="data:image/svg+xml"]
 
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/question/api/hao123word
@@ -120,6 +107,9 @@ weibo.com##.gn_search_v2 > .placeholder
 m.weibo.cn##.m-search > .m-text-cut:style(color: transparent; user-select: none;)
 ! m.weibo.cn 搜索页
 m.weibo.cn##.nt-search input[type="search"]::placeholder
+
+! 腾讯文档 水印
+docs.qq.com###watermark-container
 
 ! QQ 空间
 ! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
@@ -142,8 +132,6 @@ www.zhihu.com##.RelatedCommodities-list
 ! Bilibili
 ! 阻止B站往链接里加 spmid
 ||hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js^
-! 登录后你可以：（弹幕动画）
-bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
 ! 顶栏
 ! ||api.bilibili.com/x/web-show/res/locs^
 bilibili.com##.loc-entry,.left-loc-entry
@@ -237,12 +225,6 @@ www.cnblogs.com##.bannerbar
 
 ! 选中和复制代码
 blog.csdn.net###content_views pre, #content_views pre code:style(user-select: auto !important)
-
-! 首次访问登录弹窗
-! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
-||g.csdnimg.cn/login-box/*
-csdn.net##.login-mark
-csdn.net##.login-box
 
 ! 恶意劫持剪贴板
 ! https://g.csdnimg.cn/copyright/1.0.3/copyright.js

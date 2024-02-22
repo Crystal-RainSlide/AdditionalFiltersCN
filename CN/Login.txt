@@ -1,0 +1,24 @@
+! Title: AdditionalFiltersCN - Login
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+tieba.baidu.com##.tieba-custom-pass-login:remove-attr(style)
+
+! CSDN 登录后您可以享受以下权益
+blog.csdn.net##.passport-login-tip-container
+
+! 掘金 登录掘金领取礼包
+juejin.cn##.bottom-login-guide
+
+! Bilibili 登录后你可以：（弹幕动画）
+bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
+
+! 优酷 登录优酷，尊享品质观影体验
+i.youku.com##.promotelogin_infobottom
+
+! CSDN 首次访问登录弹窗
+! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
+||g.csdnimg.cn/login-box/*
+csdn.net##.login-mark
+csdn.net##.login-box

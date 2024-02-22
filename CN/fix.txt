@@ -3,34 +3,37 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-@@||mirrorz.org/static/json/legacy/tongji.json
-
-! 乘风
-||g.$script,3p,badfilter
-
-@@*$stylesheet,badfilter
-@@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net,badfilter
-
-@@||g.csdnimg.cn/$script,badfilter
-
-! ||acs.$domain=~youku.com|~tudou.com
-! American Chemical Society
-@@||acs.org^
-
-! /banner-
-@@||ueditor.baidu.com/website/images/banner-bg.png
-
-! /ads.
-@@||www.raidrive.com/css/raidrive/ads.min.css$stylesheet
-
-! https://d301sr5gafysq2.cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
-! /[\/_\.\?\&\-]ad[sv]?\d*[\/_\.\-]/
-@@||cloudfront.net/frontbucket/parcel/present/basic.ad955169.js
+! 乘风广告过滤规则误杀过多，已不再维护。
 
 ! QuarkList
 @@||n2o.io^$badfilter
 ! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io
 ||tajs.qq.com^$domain=n2o.io,important
+
+! ----
+
+! MirrorZ
+! /tongji.js
+@@||mirrorz.org/static/json/legacy/tongji.json^
+
+! mp.weixin.qq.com 概率性
+@@||res.wx.qq.com/mmbizwap/*$script
+
+! Baidu 经验
+jingyan.baidu.com#@#.follow-btn
+jingyan.baidu.com#@##like-btn
+
+! 超星
+! 白名单所有视频文件，避免概率性误杀
+@@||ananas.chaoxing.com/video/*$media
+! _ad
+@@||chaoxing.com/schoolCourseInfo/display_add$xhr
+! /pop.js^
+@@||mobilelearn.chaoxing.com/xinfanya/js/common/pop.js^$script
+
+@@||portal.wifi.189.cn/ad_page/*$first-party
+
+@@||uniapp.dcloud.io/api/*$xhr
 
 ! ----
 
@@ -40,14 +43,7 @@
 
 ! bugs.chromium.org
 ! /popup_
-@@*/static/js/graveyard/popup_controller.js
-
-! 超星
-@@||ananas.chaoxing.com/video/*$media
-! _ad
-@@||chaoxing.com/schoolCourseInfo/display_add$xhr
-! /pop.js^
-@@||mobilelearn.chaoxing.com/xinfanya/js/common/pop.js^$script
+@@*/static/js/graveyard/popup_controller.js^
 
 ! Userstyles
 @@||userstyles.org/ui/images/icons/*$image
@@ -58,22 +54,11 @@
 ! Pastebin
 pastebin.com#@#.post-view
 
+! 任你购
+@@/js/omni_v3.js$script,domain=www.030buy.jp|rennigou.jp
+
 ! Second Life
 @@||slm-assets.secondlife.com/assets/*$image
 
-! mp.weixin.qq.com 概率性
-@@||res.wx.qq.com/mmbizwap/*$script
-
-! Baidu Jingyan
-jingyan.baidu.com#@#.follow-btn
-jingyan.baidu.com#@##like-btn
-
-! Fentai Foundry
+! Hentai Foundry
 @@||img.hentai-foundry.com/themes/default/js/ads.js
-
-@@||portal.wifi.189.cn/ad_page/*$first-party
-
-@@||uniapp.dcloud.io/api/*$xhr
-
-! 任你购
-@@/js/omni_v3.js$script,domain=www.030buy.jp|rennigou.jp

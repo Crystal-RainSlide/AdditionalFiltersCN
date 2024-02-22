@@ -39,8 +39,6 @@ baike.baidu.com###side-share
 
 jingyan.baidu.com###w-share
 
-wenku.baidu.com##.share-btn-wrap
-
 zhidao.baidu.com##.share-area
 zhidao.baidu.com##.jump-share
 

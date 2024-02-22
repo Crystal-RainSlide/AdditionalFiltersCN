@@ -4,32 +4,14 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-zippyshare.com##.ramka_container
-zippyshare.com##.slickbox
+||www.youtube.com^$subdocument,domain=dropgalaxy.com|mega4upload.com
 
-*$script,domain=uploadrar.com
-||maxcdn.bootstrapcdn.com^$domain=uploadrar.com
-||use.fontawesome.com^$domain=uploadrar.com
-||uploadrar.com/uploadrar_style/fonts/fonts.css
+dropgalaxy.com###dns + div
 
-uploadrar.com##.mngez-premium-download
-uploadrar.com##.banner1,.banner3
-uploadrar.com##.txt
-uploadrar.com##.download2page > .download0page
-uploadrar.com##.fileoption > ul
-uploadrar.com##.sharefile
-uploadrar.com##.socialmedia
-uploadrar.com###news_last
-uploadrar.com##body.lastnewshere:style(padding: 0 !important)
-uploadrar.com##header, #sidebarphone, .menufooter, footer, #footer2
+mega4upload.com##.compare_table
+mega4upload.com###shareUrlsTabs, #shareUrlsContent
 
-||dropgalaxy.com^$inline-script
-||dropgalaxy.com/js/countdown.js$script
-||dropgalaxy.com/assets/js/*$script
-||dropgalaxy.com/assets/styles/webfonts/*$font
-
-! dropgalaxy.com##^script:min-text-length(1500)
-dropgalaxy.com##+js(nostif, /#(adblock|modalpop)/)
-
-||megaup.net/themes/flow/frontend_assets/js/retina/retina.js
-megaup.net##.socialsider
+||frdl.to/xfst_theme2/img/*.jpg$image
+frdl.to##form center:has(>img.img-fluid:only-child)
+frdl.to##b:last-child:style(display: contents)
+frdl.to##.copyright:style(margin-top: 0 !important)

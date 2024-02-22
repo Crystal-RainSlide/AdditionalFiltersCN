@@ -57,14 +57,14 @@ bilibili.com##.nav-items-ctnr, .showmore-link
 ! 首页大清洗
 
 ! 内测
-www.bilibili.com##.bili-feed4-layout, .header-channel
-www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
+! www.bilibili.com##.bili-feed4-layout, .header-channel
+! www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
 ! 新版
-www.bilibili.com##.bili-layout, .bili-header__banner
+! www.bilibili.com##.bili-layout, .bili-header__banner
 ! 旧版
-www.bilibili.com##.first-screen, .storey-box
+! www.bilibili.com##.first-screen, .storey-box
 ! APP下载入口
-www.bilibili.com##.qrcode-wrapper_biliapp
+! www.bilibili.com##.qrcode-wrapper_biliapp
 
 ! ------------------------------------------------------------------------------
 
@@ -87,11 +87,6 @@ blog.csdn.net###toolBarBox
 ||g.csdnimg.cn/user-tooltip/*
 
 ! ------------------------------------------------------------------------------
-
-! 百度文库 顶栏与工具栏
-wenku.baidu.com##.tool-bar-wrapper
-wenku.baidu.com##.search-box-wrapper.small:style(position: static !important)
-wenku.baidu.com##.reader-topbar, .fix-recommend-wrapper .fixed:style(top: 0 !important)
 
 ! 天翼云 免登录下载
 cloud.189.cn##+js(set, application.headerView.isLogin, true)

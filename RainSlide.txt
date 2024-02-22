@@ -2,8 +2,8 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 22-Mar-2023
-! Last Modified: 22-Mar-2023/19:17:12+08:00
+! Last updated: 23-Feb-2024
+! Last Modified: 23-Feb-2024/7:22:00+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -58,14 +58,14 @@ bilibili.com##.nav-items-ctnr, .showmore-link
 ! 首页大清洗
 
 ! 内测
-www.bilibili.com##.bili-feed4-layout, .header-channel
-www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
+! www.bilibili.com##.bili-feed4-layout, .header-channel
+! www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
 ! 新版
-www.bilibili.com##.bili-layout, .bili-header__banner
+! www.bilibili.com##.bili-layout, .bili-header__banner
 ! 旧版
-www.bilibili.com##.first-screen, .storey-box
+! www.bilibili.com##.first-screen, .storey-box
 ! APP下载入口
-www.bilibili.com##.qrcode-wrapper_biliapp
+! www.bilibili.com##.qrcode-wrapper_biliapp
 
 ! ------------------------------------------------------------------------------
 
@@ -88,11 +88,6 @@ blog.csdn.net###toolBarBox
 ||g.csdnimg.cn/user-tooltip/*
 
 ! ------------------------------------------------------------------------------
-
-! 百度文库 顶栏与工具栏
-wenku.baidu.com##.tool-bar-wrapper
-wenku.baidu.com##.search-box-wrapper.small:style(position: static !important)
-wenku.baidu.com##.reader-topbar, .fix-recommend-wrapper .fixed:style(top: 0 !important)
 
 ! 天翼云 免登录下载
 cloud.189.cn##+js(set, application.headerView.isLogin, true)
@@ -162,37 +157,21 @@ igg-games.com,pcgamestorrents.com##.uk-section:style(padding: 15px 0 !important)
 ||igg-games.com/wp-content/themes/iggtheme/fonts/*
 ||pcgamestorrents.com/wp-content/themes/iggtheme/fonts/*
 
-zippyshare.com##.ramka_container
-zippyshare.com##.slickbox
+||www.youtube.com^$subdocument,domain=dropgalaxy.com|mega4upload.com
 
-*$script,domain=uploadrar.com
-||maxcdn.bootstrapcdn.com^$domain=uploadrar.com
-||use.fontawesome.com^$domain=uploadrar.com
-||uploadrar.com/uploadrar_style/fonts/fonts.css
+dropgalaxy.com###dns + div
 
-uploadrar.com##.mngez-premium-download
-uploadrar.com##.banner1,.banner3
-uploadrar.com##.txt
-uploadrar.com##.download2page > .download0page
-uploadrar.com##.fileoption > ul
-uploadrar.com##.sharefile
-uploadrar.com##.socialmedia
-uploadrar.com###news_last
-uploadrar.com##body.lastnewshere:style(padding: 0 !important)
-uploadrar.com##header, #sidebarphone, .menufooter, footer, #footer2
+mega4upload.com##.compare_table
+mega4upload.com###shareUrlsTabs, #shareUrlsContent
 
-||dropgalaxy.com^$inline-script
-||dropgalaxy.com/js/countdown.js$script
-||dropgalaxy.com/assets/js/*$script
-||dropgalaxy.com/assets/styles/webfonts/*$font
-
-! dropgalaxy.com##^script:min-text-length(1500)
-dropgalaxy.com##+js(nostif, /#(adblock|modalpop)/)
-
-||megaup.net/themes/flow/frontend_assets/js/retina/retina.js
-megaup.net##.socialsider
+||frdl.to/xfst_theme2/img/*.jpg$image
+frdl.to##form center:has(>img.img-fluid:only-child)
+frdl.to##b:last-child:style(display: contents)
+frdl.to##.copyright:style(margin-top: 0 !important)
 
 ||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
+
+@@||fonts.googleapis.com^$domain=nicovideo.jp|store.steampowered.com|toho-vote.info
 
 @@||fonts.googleapis.com/css?family=*Material+Icons*$stylesheet
 @@||fonts.googleapis.com/css?family=*Material+Symbols*$stylesheet
@@ -207,6 +186,8 @@ megaup.net##.socialsider
 @@||fonts.gstatic.com/s/googlesans/*$font,domain=analytics.google.com
 
 ||use.typekit.net^$domain=~typekit.net|~typekit.com|~adobe.com
+
+@@||use.typekit.net^$domain=sparanoid.com
 
 ! ----
 

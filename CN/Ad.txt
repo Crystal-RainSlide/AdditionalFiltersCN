@@ -3,13 +3,6 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-! 百度文库 精品课程
-wenku.baidu.com##.relative-course-wrapper
-
-pan.baidu.com###bd > .bd-aside > img
-pan.baidu.com##.module-header a[href="http://photo.baidu.com/"]
-pan.baidu.com##.phone-banner
-
 ! 百度不知道
 zhidao.baidu.com##.product-container
 
@@ -114,12 +107,8 @@ www.cnblogs.com##.c_ad_block:not(.itnews)
 ! ||kunpeng.csdn.net/ad/json/536
 ||kunpeng.csdn.net/ad/*
 
-! ||g.csdnimg.cn/common/redpack/redpack.js
-||g.csdnimg.cn/common/redpack/*
-csdn.net###csdn-redpack
-
-blog.csdn.net##.recommend-ad-box
-blog.csdn.net###blogColumnPayAdvert, .column-advert-box, .middle-advert-box
+blog.csdn.net###blogColumnPayAdvert
+blog.csdn.net###footerRightAds
 blog.csdn.net##body > div:has(.adblock)
 
 bbs.csdn.net##.bbs_feed_ad_box
@@ -216,12 +205,11 @@ www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has
 cloud.tencent.com##.has-sign
 
 ! cnBeta
-! www.cnbeta.com.tw##body > div:has-text(帮助cnBeta.COM更好地生产内容，请将我们加入广告屏蔽插件的白名单，非常感谢。)
-www.cnbeta.com.tw##.tac
-www.cnbeta.com.tw##body > div[id][style]:not([class])
-www.cnbeta.com.tw##body:style(padding-bottom: 0 !important)
-www.cnbeta.com.tw##+js(set, JB, noopFunc)
-www.cnbeta.com.tw##a[href="https://www.laomoit.com/"]
+! cnbeta.com.tw##body > div:has-text(帮助cnBeta.COM更好地生产内容，请将我们加入广告屏蔽插件的白名单，非常感谢。)
+cnbeta.com.tw##.tac
+cnbeta.com.tw##body > div[id][style]:not([class])
+cnbeta.com.tw##body:style(padding-bottom: 0 !important)
+cnbeta.com.tw##+js(set, JB, noopFunc)
 
 ! SegmentFault
 segmentfault.com##.mb25

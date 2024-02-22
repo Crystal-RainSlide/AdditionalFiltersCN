@@ -6,8 +6,8 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last updated: 18-Apr-2023
-! Last Modified: 18-Apr-2023/14:48:05+08:00
+! Last updated: 23-Feb-2024
+! Last Modified: 23-Feb-2024/7:22:00+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -81,6 +81,9 @@ techcrunch.com##.sidebar
 techcrunch.com##.content-wrap .content:style(width:auto !important)
 techcrunch.com##.close-button:style(right: auto !important; margin-right: 0 !important)
 
+! Smashing Magazine
+www.smashingmagazine.com##.sponsors,.c-promotion-box
+
 ! Softpedia
 www.softpedia.com##.flashsale
 
@@ -101,10 +104,15 @@ apkpure.com##.ad-box-auto
 ! XDA
 forum.xda-developers.com###honor-launch-banner
 
+! Fandom
 fandom.com##.top-ads-container, .mcf-card-sponsored-content
 
+! CSS Tricks
 css-tricks.com###all-ads
 css-tricks.com##.fem-ad
+
+www.geeksforgeeks.org##body:remove-class(body-for-ad-blocker)
+www.geeksforgeeks.org###adBlockerModal
 
 ipinfo.io##.card-promotion
 
@@ -241,6 +249,8 @@ userstyles.org##.android_button_banner
 userstyles.org##.walking
 
 yadi.sk##.app-promo-banner
+
+cn.nytimes.com##.download
 
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 

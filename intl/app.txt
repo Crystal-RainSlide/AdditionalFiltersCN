@@ -29,6 +29,8 @@ userstyles.org##.walking
 
 yadi.sk##.app-promo-banner
 
+cn.nytimes.com##.download
+
 fandom.com##.wds-global-footer__column:has(.wds-is-fandom-stores)
 
 itch.io##.app_banner

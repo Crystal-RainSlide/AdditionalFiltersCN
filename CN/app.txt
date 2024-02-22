@@ -6,22 +6,20 @@
 ! 百度
 ||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
 www.baidu.com###qrcode
-baike.baidu.com##.appdownload, .wgt-baikeapp-promote-container
-eyun.baidu.com##.client-download
+baike.baidu.com##div[class^="index-module_appPromote__"]
 fanyi.baidu.com##.sideQrContainer
 fanyi.baidu.com##.products-list:style(filter: grayscale(.5); opacity: .5)
-passport.baidu.com##.app-download-link
-pan.baidu.com##.app-download, .wp-main-download
-pan.baidu.com##a.wp-disk-header__right-item[href="https://pan.baidu.com/download"]
-tieba.baidu.com##.u_app, .app_download_box
-wenku.baidu.com##.reader-download-app, .qrHover
+tieba.baidu.com##.app_download_box
+wenku.baidu.com##.tool-bar-wrap .btns-wrap .small-btn:has(> .tag-pc-client)
 zhidao.baidu.com##.zhidao-app
 
-! Google 翻译
-translate.google.*##div[jsname]:has( > div[jsname] > [role="button"][aria-label="iOS"])
+! https://www.baidu.com/s?wd=翻译 扫码下载百度翻译APP
+www.baidu.com##.op-guide
 
-! 必应词典
-cn.bing.com##.b_hPanel:has(.ap_logo)
+! 有道
+! 使用网易有道翻译 Windows版提高你的工作效率
+fanyi.youdao.com##.download_ch
+fanyi.youdao.com##.translate-tab-container:style(margin-bottom: 24px !important)
 
 ! 搜狗
 ||www.sogou.com/web/index/images/erweima2.png$image
@@ -50,9 +48,6 @@ www.163.com##.post_side_logo + .post_side_mod:style(margin-top: 0 !important)
 ! 网易云音乐
 music.163.com##.download, .m-multi
 music.163.com##.ban-img:style(display: flex; justify-content: center)
-
-! 腾讯视频
-y.qq.com##.popup_guide, .player_login__guide
 
 ! 腾讯软件中心
 pc.qq.com###J_banmgrbox
@@ -92,6 +87,9 @@ www.4399.com###randtip, .p-1ad, .p-2ad, .p-3ad, .p-4ad, .p-5ad
 ! 南方周末
 ||www.infzm.com/web/images/download-app.png$image
 www.infzm.com##.nfzm-app,.scan-btn,.fixed-popup
+
+! 界面新闻
+www.jiemian.com##.loadApp_icon,.wechat_official-icon
 
 ! 澎湃新闻
 www.thepaper.cn##.rtapp_down
