@@ -6,7 +6,7 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 5-Jul-2025/15:34:08+08:00
+! Last Modified: 5-Jul-2025/15:35:17+08:00
 
 ! 百度不知道
 zhidao.baidu.com##.product-container
@@ -1355,7 +1355,7 @@ wenku.baidu.com##.bg-theme-wrap
 
 ! 百度网盘
 pan.baidu.com##.vipicon, .u-svip-button, .u-svip-button--main
-pan.baidu.com##.module-header-wrapper is:(.vip-notice, vip-privilege)
+pan.baidu.com##.module-header-wrapper :is(.vip-notice, vip-privilege)
 pan.baidu.com##.web-header-ad-item
 pan.baidu.com##.wp-s-header-user__member-status-new-btn-wrap.is-notvip,.wp-s-header-user__member-status.is-notvip,.wp-s-header-user__drop-privilege
 pan.baidu.com##.nd-guide-svip-bar
