@@ -6,6 +6,7 @@
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
+*/particles.min.js$script
 
 ! translate.google.cn 不必要的与 Google.com 的连接
 ||accounts.google.com^$subdocument,domain=translate.google.cn

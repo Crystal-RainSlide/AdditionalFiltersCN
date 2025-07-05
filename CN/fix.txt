@@ -5,6 +5,8 @@
 
 ! 乘风广告过滤规则误杀过多，已不再维护。
 
+taobao.com#@#+js(set-constant, aplus, {})
+
 ! QuarkList
 @@||n2o.io^$badfilter
 ! ||tajs.qq.com^$third-party,domain=~qq.com|~n2o.io

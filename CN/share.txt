@@ -134,10 +134,3 @@ club.kdnet.net##.new-share-main
 public.renren.com###Share
 
 ||ue.17173cdn.com/a/lib/*/share/index.js
-
-www.icourse163.org###j-share.j-share
-www.icourse163.org###j-courseshare
-www.icourse163.org##.m-coulshar
-www.icourse163.org##.course-share
-www.icourse163.org###j-coushare
-mooc.study.163.com###j-coushare

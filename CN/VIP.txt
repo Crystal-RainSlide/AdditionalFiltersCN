@@ -20,6 +20,7 @@ wenku.baidu.com##.bg-theme-wrap
 
 ! 百度网盘
 pan.baidu.com##.vipicon, .u-svip-button, .u-svip-button--main
+pan.baidu.com##.module-header-wrapper is:(.vip-notice, vip-privilege)
 pan.baidu.com##.web-header-ad-item
 pan.baidu.com##.wp-s-header-user__member-status-new-btn-wrap.is-notvip,.wp-s-header-user__member-status.is-notvip,.wp-s-header-user__drop-privilege
 pan.baidu.com##.nd-guide-svip-bar

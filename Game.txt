@@ -6,7 +6,7 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 23-Feb-2024/7:32:11+08:00
+! Last Modified: 5-Jul-2025/15:34:08+08:00
 
 ! 4399
 ||www.4399.com/antijs/*

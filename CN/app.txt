@@ -19,7 +19,8 @@ www.baidu.com##.op-guide
 ! 有道
 ! 使用网易有道翻译 Windows版提高你的工作效率
 fanyi.youdao.com##.download_ch
-fanyi.youdao.com##.translate-tab-container:style(margin-bottom: 24px !important)
+! 顶部 立即免费下载 弹窗
+fanyi.youdao.com##.top-nav > .top-area > .nav_list > .nav_item > .client
 
 ! 搜狗
 ||www.sogou.com/web/index/images/erweima2.png$image

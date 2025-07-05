@@ -12,7 +12,7 @@ www.taobao.com###smartbanner
 ! 腾讯新闻 扫码领红包
 new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 
-! Netease
+! 网易
 
 ! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
 */js/sspAd.*.min.js
@@ -178,14 +178,6 @@ www.iplaysoft.com##.widget_title:has-text(赞助)
 ! 道客巴巴
 www.doc88.com##.columns-ad
 
-! www.423down.com##.content > .entry ~ :is(img, a, p)
-www.423down.com##.content > .entry ~ :not(.post-related, .post-related ~ *)
-
-! 脚本之家
-www.jb51.net##.sidebox-recomm
-www.jb51.net##.topbarleft, .logom, .logor
-www.jb51.net###container > .pt10.clearfix:first-child > .clearfix:only-child:has(:scope > #txtlink, :scope > .topimg)
-
 ! 腾讯云
 cloud.tencent.com##.has-sign
 
@@ -218,111 +210,6 @@ www.easyicon.net##.page_big_adv
 club.kdnet.net##a[href^="//super1.kdnet.net//"]
 club.kdnet.net##.ad-banner-left
 club.kdnet.net##.links
-
-! 华军
-||soft.onlinedown.net/js/suggest.js
-||soft.onlinedown.net/js/popbox3.js
-
-soft.onlinedown.net##.hotSearch
-
-soft.onlinedown.net###NavWYPL
-soft.onlinedown.net###ItemWYPL
-soft.onlinedown.net###ItemCNXH
-soft.onlinedown.net###softjs
-
-soft.onlinedown.net##.soft_rightA
-soft.onlinedown.net##.soft_rightB
-soft.onlinedown.net##.softDownIf > .left:style(float: none;margin: 0 auto)
-soft.onlinedown.net##.sortsList.downdecail > .left:style(float: none;margin: 0 auto)
-! 华军推荐
-soft.onlinedown.net##.Friendlink
-! 弹框软件推荐
-soft.onlinedown.net###bzPopBox
-
-! 西西软件园
-www.cr173.com###full_downad
-www.cr173.com###downhelp
-www.cr173.com##.m-soft-ad
-www.cr173.com##.downurl
-www.cr173.com##.down_link_main:style(width: 100% !important)
-
-! 非凡软件站
-www.crsky.com##.Gs_d
-www.crsky.com##.Adown_dli
-www.crsky.com##.Imdown
-www.crsky.com##.genral_li li a:style(color: initial !important)
-www.crsky.com##.hot
-
-! 完美软件下载
-! 完美软件下载
-www.wmzhe.com##.ads, .aibyte_ad
-
-! 多特
-||img2.2345.com/duoteimg/js/newjs/clickdown_stat_ajax.js
-www.duote.com##.fast-down-btn
-www.duote.com##.hot-words
-
-! 闪电下载吧
-www.sdbeta.com##a[href^="https://www.sdbeta.com/zhdown.php"]
-
-! ZOL
-xiazai.zol.com.cn##.box-top-xiazai
-xiazai.zol.com.cn##.down-dxlt
-
-! 3DM
-3dmgame.com##.push_browser
-dl.3dmgame.com##.downllis > li:has(a.a_click:has-text(微端下载))
-! 页游广告
-||yeyou.3dmgame.com/tools/gamead$subdocument
-! 裁决战歌
-3dmgame.com##a[href="http://tj.shwswl.cn/3dm_cjzg.exe"]
-
-! 谁家的下载代理叫 5566 来着…
-www.soft5566.com##.gameicon
-www.soft5566.com##.n1_content > span:first-of-type
-www.soft5566.com###sharebtn
-
-||www.opdown.com/js/record.js
-||www.opdown.com/js/op.js
-
-www.3h3.com##.list-down > h3:has-text(高速下载)
-
-www.runoob.com##.sidebar-box:has(.adsbygoogle)
-
-! 软件No1
-||img.rjno1.com/images/logo/juanzeng.png
-||www.rjno1.com/wp-content/themes/moban/moban-img/index.png
-www.rjno1.com##body > img[style]:nth-child(1)
-www.rjno1.com##.home-a-d1, .home-a-d2, .home-a-d3, .home-a-d4, .category-main-a-d1, .category-main-a-d2, .category-right-a-d1, .category-right-a-d2, .single-top-a-d1, .single-bottom-a-d1, .single-bottom-a-d2, .single-right-a-d1, .download-a-d1, .download-a-d2, .download-a-d3, .download-a-d4
-
-! 亿品元素
-@@||a.epinv.com^$script
-||b.epinv.com^$subdocument
-
-www.epinv.com##iframe
-www.epinv.com##[class^="epinv_"]
-www.epinv.com##.nobg.topblock
-www.epinv.com###content > .space
-www.epinv.com##.footbar
-www.epinv.com##.bdlianjie
-
-www.4243.net###mainshadow
-www.4243.net##a[href^="https://w.url.cn/"]
-www.4243.net##.jianju
-
-||www.souid.com/templets/js/bmh-content-media.js
-||mhtj.baomihua.com^
-
-! ||www.atplay.cn/banner/js/ADHub2.0.js
-*/banner/js/ADHub2.0.js
-||www.atplay.cn/banner/*
-||www.atplay.cn/password/*
-
-||tencentbaidu.info^
-
-||static.pgyer.com/*/assets/js/adAdsense.js
-||static.pgyer.com/image/view/admin_ads/*$image
-||www.pgyer.com/app/getAdAdsense
 
 ! Premium Content Promotion Start
 

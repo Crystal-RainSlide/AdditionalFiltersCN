@@ -1,0 +1,151 @@
+! Title: AdditionalFiltersCN - 下载站
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+www.423down.com##.excerpt > li:has(a[href="https://www.423down.com/news/activity"]):style(font-size: 13px; > h2 > a { font-size: 16px; } &:not(:hover) { opacity: .75; > .pic { filter: grayscale(.75); } })
+
+
+! 脚本之家
+
+! 置顶下载链接
+www.jb51.net##.main-Right:style(display: flex; flex-direction: column; > #download { order: -1; min-height: auto !important; })
+! 黯淡：人气软件、相关文章、右侧 相关推荐、装机必备、最近更新
+www.jb51.net###rqrj, #rjzx, .xgtj-list, .zjbb-list, .zjgx-list:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+
+! 华军软件园主站（www.onlinedown.net）
+
+! 所有 .qrcode_show 超链接 点击后弹出二维码广告
+||7onudz.yzhy20.cn/res/onlinedown/js/qrcode.js
+www.onlinedown.net##.qrcode_show:remove-attr(onclick)
+! 底栏
+www.onlinedown.net##.g-bottom-banner
+! 右侧 站内广告
+www.onlinedown.net##.m-con-right > .ads, .m-con-right a[href="https://www.onlinedown.net/special-offer-2"]
+
+! hot
+||res.njxzwh.com/onlinedown/images/aihot.png$image
+
+! 置顶下载链接、移除空白高度
+www.onlinedown.net##.g-main-con > .m-con-left:style(display: inline-flex !important; flex-direction: column; > .download-box { order: -1; min-height: auto !important; })
+! 黯淡：热搜词、相关专题、右侧 装机必备、右侧 华军热搜
+www.onlinedown.net##.m-search-hot, .pc-down_special, #zjbb, #tags:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+! 加大加粗红色：下载服务协议见页面底部
+! www.onlinedown.net##.g-main-top > .m-sw-center > .sw-param > .sw-param-right > .xieyi:style(font-size: 24px !important; font-weight: bold !important; color: red !important)
+
+
+! 华军纯净下载（soft.onlinedown.net）
+
+||bigdata.downza.com/js/xingzhi.js
+||soft.onlinedown.net/js/suggest.js
+
+# 安全下载
+soft.onlinedown.net##.onedownbtn2:has(> .down_gaosu)
+soft.onlinedown.net##.downBox-l > h4:has-text(安全下载地址)
+soft.onlinedown.net##.downBox-l > div:has-text(优先使用Win工具箱下载，更安全高效)
+soft.onlinedown.net##.downBox-l > div:has-text(优先使用Win工具箱下载，更安全高效) + .down-center
+soft.onlinedown.net##.downBox-r
+# 广告：精品杀毒软件、用户好评软件
+soft.onlinedown.net###softjs
+# 广告：其他用户还下载了
+soft.onlinedown.net##.soft_rightA
+! 底栏
+soft.onlinedown.net##.base
+
+! 置顶下载链接
+soft.onlinedown.net##.downdecail .left:style(display: flex; flex-direction: column; > #down { order: -1; })
+! 黯淡：热搜词、相关下载、猜你喜欢、华军推荐、右侧 热搜推荐、编辑推荐、热门关键词
+soft.onlinedown.net##.hotSearch, #ItemXGXZ, #ItemCNXH, .Friendlink, .soft_rightB:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+
+! 完美软件下载
+||www.wmzhe.com/static/wmzhe/js/result.js
+||www.wmzhe.com/static/wmzhe/js/aibyte_tj.js
+www.wmzhe.com##.ads
+www.wmzhe.com##.soft_btns_fast
+www.wmzhe.com##.download_fixd
+www.wmzhe.com##.paramBox:style(display: flex; width: auto !important)
+www.wmzhe.com##.soft_btns:style(display: flex; margin: 0 !important; > li { margin-right: 30px !important; })
+
+
+! 西西软件园
+www.cr173.com###full_downad
+www.cr173.com###downhelp
+www.cr173.com##.m-soft-ad
+www.cr173.com##.downurl
+www.cr173.com##.down_link_main:style(width: 100% !important)
+
+! 非凡软件站
+www.crsky.com##.Gs_d
+www.crsky.com##.Adown_dli
+www.crsky.com##.Imdown
+www.crsky.com##.genral_li li a:style(color: initial !important)
+www.crsky.com##.hot
+
+! 多特
+||img2.2345.com/duoteimg/js/newjs/clickdown_stat_ajax.js
+www.duote.com##.fast-down-btn
+www.duote.com##.hot-words
+
+! 闪电下载吧
+www.sdbeta.com##a[href^="https://www.sdbeta.com/zhdown.php"]
+
+! ZOL
+xiazai.zol.com.cn##.box-top-xiazai
+xiazai.zol.com.cn##.down-dxlt
+
+! 3DM
+3dmgame.com##.push_browser
+dl.3dmgame.com##.downllis > li:has(a.a_click:has-text(微端下载))
+! 页游广告
+||yeyou.3dmgame.com/tools/gamead$subdocument
+! 裁决战歌
+3dmgame.com##a[href="http://tj.shwswl.cn/3dm_cjzg.exe"]
+
+! 谁家的下载代理叫 5566 来着…
+www.soft5566.com##.gameicon
+www.soft5566.com##.n1_content > span:first-of-type
+www.soft5566.com###sharebtn
+
+||www.opdown.com/js/record.js
+||www.opdown.com/js/op.js
+
+www.3h3.com##.list-down > h3:has-text(高速下载)
+
+www.runoob.com##.sidebar-box:has(.adsbygoogle)
+
+! 软件No1
+||img.rjno1.com/images/logo/juanzeng.png
+||www.rjno1.com/wp-content/themes/moban/moban-img/index.png
+www.rjno1.com##body > img[style]:nth-child(1)
+www.rjno1.com##.home-a-d1, .home-a-d2, .home-a-d3, .home-a-d4, .category-main-a-d1, .category-main-a-d2, .category-right-a-d1, .category-right-a-d2, .single-top-a-d1, .single-bottom-a-d1, .single-bottom-a-d2, .single-right-a-d1, .download-a-d1, .download-a-d2, .download-a-d3, .download-a-d4
+
+! 亿品元素
+@@||a.epinv.com^$script
+||b.epinv.com^$subdocument
+
+www.epinv.com##iframe
+www.epinv.com##[class^="epinv_"]
+www.epinv.com##.nobg.topblock
+www.epinv.com###content > .space
+www.epinv.com##.footbar
+www.epinv.com##.bdlianjie
+
+www.4243.net###mainshadow
+www.4243.net##a[href^="https://w.url.cn/"]
+www.4243.net##.jianju
+
+||www.souid.com/templets/js/bmh-content-media.js
+||mhtj.baomihua.com^
+
+! ||www.atplay.cn/banner/js/ADHub2.0.js
+*/banner/js/ADHub2.0.js
+||www.atplay.cn/banner/*
+||www.atplay.cn/password/*
+
+||tencentbaidu.info^
+
+||static.pgyer.com/*/assets/js/adAdsense.js
+||static.pgyer.com/image/view/admin_ads/*$image
+||www.pgyer.com/app/getAdAdsense

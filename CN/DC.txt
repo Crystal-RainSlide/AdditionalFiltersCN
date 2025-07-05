@@ -197,6 +197,13 @@ baidu.com/static/mapping/*.php
 */antanalysis.min.js^
 */analysis/js/analysis*.js^
 
+! clientlog.k.163.com/api/feedback/weblog/sys
+! clientlogusf.music.163.com/api/feedback/weblog
+||163.com/api/feedback/weblog^
+
+! extends ||ac.dun.163.com^ in EasyPrivacy
+||ac.dun.163yun.com/v3/b^
+
 ! 网易有道 Netease Youdao
 ! rlogs.youdao.com/rlog.php
 ! rlogs.youdao.com/rlog.js
