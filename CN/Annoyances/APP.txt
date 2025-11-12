@@ -3,24 +3,14 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-! 百度
-||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
-www.baidu.com###qrcode
-baike.baidu.com##div[class^="index-module_appPromote__"]
-fanyi.baidu.com##.sideQrContainer
-fanyi.baidu.com##.products-list:style(filter: grayscale(.5); opacity: .5)
-tieba.baidu.com##.app_download_box
-wenku.baidu.com##.tool-bar-wrap .btns-wrap .small-btn:has(> .tag-pc-client)
-zhidao.baidu.com##.zhidao-app
-
-! https://www.baidu.com/s?wd=翻译 扫码下载百度翻译APP
-www.baidu.com##.op-guide
-
 ! 有道
 ! 使用网易有道翻译 Windows版提高你的工作效率
 fanyi.youdao.com##.download_ch
 ! 顶部 立即免费下载 弹窗
 fanyi.youdao.com##.top-nav > .top-area > .nav_list > .nav_item > .client
+
+! 搜狐 扫码打开手机搜狐网 APP
+www.sohu.com##.phone-scan
 
 ! 搜狗
 ||www.sogou.com/web/index/images/erweima2.png$image
@@ -33,32 +23,11 @@ fanyi.sogou.com###J_download_app
 ! 搜狗问问小程序
 wenwen.sogou.com##.sgww-xcx
 
-! Bilibili 新版
-bilibili.com##.bili-header .left-entry .download-entry
-bilibili.com##.bili-header .left-entry > li:has(> .download-entry)
-! Bilibili 旧版
-bilibili.com##.download-client-trigger
-bilibili.com##.nav-link-item:has(.download-client-trigger)
-
-! 网易新闻
-163.com##.newsapp-qrcode, .ntes-nav-mobile-title
-
-www.163.com##.post_side_logo
-www.163.com##.post_side_logo + .post_side_mod:style(margin-top: 0 !important)
-
-! 网易云音乐
-music.163.com##.download, .m-multi
-music.163.com##.ban-img:style(display: flex; justify-content: center)
-
 ! 腾讯软件中心
 pc.qq.com###J_banmgrbox
 
 ! 高德地图
 amap.com###amapAppDownload, #amap-result-banner
-
-! 百度地图
-map.baidu.com###leadDownloadCard
-map.baidu.com###activity-banner-panel
 
 ! 京东
 www.jd.com##.mobile_static

@@ -1,0 +1,80 @@
+! Title: AdditionalFiltersCN - 哔哩哔哩 Bilibili
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+! 阻止B站往链接里加 spmid
+||hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js^
+
+! data.bilibili.com & /seed/log/report/log-reporter.js
+! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
+! https://github.com/uBlockOrigin/uAssets/issues/29273
+@@||data.bilibili.com^$xhr,ping,badfilter
+@@||data.bilibili.com/v2/log/web?$xhr,1p,badfilter
+||data.bilibili.com^
+@@||data.bilibili.com/log/web?*|0.0.tianma.dislike.click|*
+@@||data.bilibili.com/log/web?*|0.0.tianma.dislike-cancel.click|*
+bilibili.com##+js(trusted-suppress-native-method, navigator.sendBeacon, '/data\.bilibili\.com\/(?!log\/web\?.+0\.0\.tianma\.dislike(-cancel)?\.click)/', prevent)
+
+! CoMmercial
+! cm.bilibili.com & /cm/cm-sdk/static/js/bili-collect.js
+@@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$badfilter
+||s1.hdslb.com/bfs/cm/*
+||cm.bilibili.com^
+
+! /user-fingerprint/bili-user-fingerprint.min.js
+! ||s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js
+||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/*
+
+! /b-mirror/biliMirror.umd.mini.js
+! ||s1.hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.umd.mini.js
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/*
+
+! Biligame Impression
+! ||impression.biligame.com/api/impression/bilibili_pc
+||impression.biligame.com^
+
+! Click Interface API
+||api.bilibili.com/x/click-interface/click/now^
+! Data Collector API
+||api.bilibili.com/x/web-frontend/data/collector$xhr
+
+! 广告通用
+www.bilibili.com##.ad-report
+! 右侧推荐视频列表底部广告
+www.bilibili.com##.ad-floor-exp
+! 推荐视频
+www.bilibili.com##.video-page-special-card,.video-page-special-card-small
+! 评论区顶部
+www.bilibili.com##.reply-notice
+
+! 顶栏
+! ||api.bilibili.com/x/web-show/res/locs^
+bilibili.com##.loc-entry,.left-loc-entry
+! 站外播放器 顶部推荐
+player.bilibili.com##.bilibili-player-video-recommend
+||data.bilibili.com/s/miniloader_online^
+! 用户头像挂件
+www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
+! 大家围观的主播
+www.bilibili.com##.pop-live-small-mode
+! 推荐直播
+www.bilibili.com###live_recommand_report
+! 直播水印
+live.bilibili.com##.bilibili-live-player-video-logo
+! 直播底部滚动活动
+live.bilibili.com##.flip-view
+! 搜索框 Placeholder
+||api.bilibili.com/x/web-interface/search/default
+
+! APP 新版
+bilibili.com##.bili-header .left-entry .download-entry
+bilibili.com##.bili-header .left-entry > li:has(> .download-entry)
+! APP 旧版
+bilibili.com##.download-client-trigger
+bilibili.com##.nav-link-item:has(.download-client-trigger)
+
+! Bilibili 登录后你可以：（弹幕动画）
+bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
+
+

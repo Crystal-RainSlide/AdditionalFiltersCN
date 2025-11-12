@@ -6,10 +6,7 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 5-Jul-2025/15:35:17+08:00
-
-! 百度不知道
-zhidao.baidu.com##.product-container
+! Last Modified: 12-Nov-2025/13:48:44+08:00
 
 ! 淘宝 Taobao
 www.taobao.com###smartbanner
@@ -17,59 +14,10 @@ www.taobao.com###smartbanner
 ! 腾讯新闻 扫码领红包
 new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 
-! 网易
-
-! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
-*/js/sspAd.*.min.js
-
-! 网易 ad_module 补充
-www.163.com##.ad_module + div[class^="blank"]
-
-! 网易号文章 顶部底部通栏广告
-www.163.com##.post_columnad_top, .post_columnad_btm
-
-! 网易邮箱
-mail.163.com###adtag
-
-! 有道 Youdao
-! youdao ad sdk
-||shared.ydstatic.com/js/yadk/*
-! yadk template sdk
-||shared.ydstatic.com/js/yatdk/*
-
-||dict.youdao.com/infoline
-||ke.youdao.com/api/course/*
-||www.huihui.cn/deals/channel.json
-||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
-! ||oimage*.ydstatic.com/image?id=*&product=*$image
-
-www.youdao.com##li:has-text(/背单词|精品课|人工翻译|惠惠/)
-www.youdao.com###more
-www.youdao.com###wljb
-www.youdao.com###margin3
-www.youdao.com###doc2
-www.youdao.com###callback
-
-fanyi.youdao.com##li:has-text(/有道翻译蛋|人工翻译/)
-fanyi.youdao.com##.rengong__guide
-fanyi.youdao.com###transMan
-fanyi.youdao.com##.inside__products
-fanyi.youdao.com##.side__nav
-
 ! Sohu
 www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-bottom, .god-channel-top, #god_fix_1
 ! www.sohu.com##.allsee-item:not(:has(.allsee-image,.allsee-title))
 www.sohu.com##.allsee-item.bd-wrap
-
-! Bilibili
-! 广告通用
-www.bilibili.com##.ad-report
-! 右侧推荐视频列表底部广告
-www.bilibili.com##.ad-floor-exp
-! 推荐视频
-www.bilibili.com##.video-page-special-card,.video-page-special-card-small
-! 评论区顶部
-www.bilibili.com##.reply-notice
 
 ! 知乎
 ! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
@@ -216,23 +164,14 @@ club.kdnet.net##a[href^="//super1.kdnet.net//"]
 club.kdnet.net##.ad-banner-left
 club.kdnet.net##.links
 
+c.biancheng.net###ad-arc-top, #ad-bottom-weixin
+
+www.iplaysoft.com##.entry-recommend-posts
+
 ! Premium Content Promotion Start
 
-! 百度贴吧 Baidu Tieba
-tieba.baidu.com###hot_thread
-tieba.baidu.com###hot_forum
-tieba.baidu.com##.banner
-tieba.baidu.com###celebrity
-tieba.baidu.com##.user_score
-tieba.baidu.com##.rank
-tieba.baidu.com##.member_rank
-tieba.baidu.com###media_item
-tieba.baidu.com###adide_platform
-tieba.baidu.com##.r-top-sec
-tieba.baidu.com##.top-sec
-tieba.baidu.com###spage_liveshow_slide
-tieba.baidu.com##.tbui_fbar_down
-tieba.baidu.com##.tbui_fbar_share
+! 腾讯文档 会员皮肤
+docs.qq.com##.help-center-wrapper > .skin-container
 
 ! QQ 空间
 qzone.qq.com##.f_item_ad
@@ -242,41 +181,27 @@ user.qzone.qq.com###tab_applist_show > li[data-recommend]
 ! 新浪邮箱
 ||m0.mail.sina.com.cn/apps/tab.php$subdocument
 
-! 码云
-gitee.com##.wallet-banner
-gitee.com##.ent-poster
+! 新浪博客 顶栏广告残余
+blog.sina.com.cn##.nsinatopbar .horn
+! 新浪博客 广告 热门商品
+blog.sina.com.cn###hotShangPin
+! 新浪博客 样式修复
+blog.sina.com.cn##.sinabloghead:style(height: 175px !important)
+blog.sina.com.cn###column_1 > style:has-text(#module_901):remove()
+
+! Gitee 增值服务
+gitee.com##.git-project-service
 
 ! Premium Content Promotion End
-
-! House Advertisement Start
-
-! 网易公开课
-open.163.com##.advertisement
-open.163.com##.comment:style(margin-top: 0 !important)
-
-c.biancheng.net###ad-arc-top, #ad-bottom-weixin
-
-www.iplaysoft.com##.entry-recommend-posts
-! House Advertisement End
-
-! 百度
-||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
-www.baidu.com###qrcode
-baike.baidu.com##div[class^="index-module_appPromote__"]
-fanyi.baidu.com##.sideQrContainer
-fanyi.baidu.com##.products-list:style(filter: grayscale(.5); opacity: .5)
-tieba.baidu.com##.app_download_box
-wenku.baidu.com##.tool-bar-wrap .btns-wrap .small-btn:has(> .tag-pc-client)
-zhidao.baidu.com##.zhidao-app
-
-! https://www.baidu.com/s?wd=翻译 扫码下载百度翻译APP
-www.baidu.com##.op-guide
 
 ! 有道
 ! 使用网易有道翻译 Windows版提高你的工作效率
 fanyi.youdao.com##.download_ch
 ! 顶部 立即免费下载 弹窗
 fanyi.youdao.com##.top-nav > .top-area > .nav_list > .nav_item > .client
+
+! 搜狐 扫码打开手机搜狐网 APP
+www.sohu.com##.phone-scan
 
 ! 搜狗
 ||www.sogou.com/web/index/images/erweima2.png$image
@@ -289,32 +214,11 @@ fanyi.sogou.com###J_download_app
 ! 搜狗问问小程序
 wenwen.sogou.com##.sgww-xcx
 
-! Bilibili 新版
-bilibili.com##.bili-header .left-entry .download-entry
-bilibili.com##.bili-header .left-entry > li:has(> .download-entry)
-! Bilibili 旧版
-bilibili.com##.download-client-trigger
-bilibili.com##.nav-link-item:has(.download-client-trigger)
-
-! 网易新闻
-163.com##.newsapp-qrcode, .ntes-nav-mobile-title
-
-www.163.com##.post_side_logo
-www.163.com##.post_side_logo + .post_side_mod:style(margin-top: 0 !important)
-
-! 网易云音乐
-music.163.com##.download, .m-multi
-music.163.com##.ban-img:style(display: flex; justify-content: center)
-
 ! 腾讯软件中心
 pc.qq.com###J_banmgrbox
 
 ! 高德地图
 amap.com###amapAppDownload, #amap-result-banner
-
-! 百度地图
-map.baidu.com###leadDownloadCard
-map.baidu.com###activity-banner-panel
 
 ! 京东
 www.jd.com##.mobile_static
@@ -421,6 +325,358 @@ www.jammyfm.com##.qr-section
 ! Google Translate
 translate.google.cn###gt-cn
 
+! CSDN 首次访问登录弹窗
+! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
+||g.csdnimg.cn/login-box/*
+csdn.net##.login-mark
+csdn.net##.login-box
+
+! CSDN 登录后您可以享受以下权益
+blog.csdn.net##.passport-login-tip-container
+
+! 掘金 登录掘金领取礼包
+juejin.cn##.bottom-login-guide
+
+! 优酷 登录优酷，尊享品质观影体验
+i.youku.com##.promotelogin_infobottom
+
+! 机核
+www.gcores.com##.gnav_signinHint
+
+! needShareButton
+! https://github.com/DzmVasileusky/needShareButton
+*/needsharebutton/needsharebutton.js$script
+
+! 新浪 Sina
+sina.com.cn##.tool-wb
+sina.com.cn##.tool-wx
+sina.com.cn##.tool-share
+
+! ||news.sina.com.cn/268/2014/0919/bshare_update.js
+||news.sina.com.cn/*/bshare_update.js
+
+! 搜狐 Sohu
+www.sohu.com###share
+
+photo.blog.sina.com.cn###sharePhoto
+
+! 腾讯新闻
+new.qq.com##.share
+new.qq.com##.share-title
+
+! BIE 别的
+www.biede.com##.share-component,.social-share,.share-post
+
+! 凤凰网
+! 凤凰网使用多个页面结构有巨大差异的子域名，但采用相对统一的方式提供分享功能。
+! 选中分享 #spam
+ifeng.com##body > div[class^="select_share-"]
+
+! 页面两侧分享
+ifeng.com##div[class^="articleLeftShare-"]
+
+! 部分分享没有统一的最近父级元素，但应当都在 .bottom_affix-* 之下
+! 微博 微信 朋友圈 QQ空间
+ifeng.com##div[class^="bottom_affix-"] span[data-item="sina"]
+ifeng.com##div[class^="bottom_affix-"] span[data-item="wechat"]
+ifeng.com##div[class^="bottom_affix-"] span[data-item="cof"]
+ifeng.com##div[class^="bottom_affix-"] span[data-item="qqzone"]
+
+! 澎湃新闻
+www.thepaper.cn##.newsct_share_detail
+
+! 界面新闻
+www.jiemian.com##.article-share
+
+! FT 中文网
+www.ftchinese.com##.icon-wechat,.icon-weibo,.icon-linkedin,.icon-twitter,.icon-facebook
+
+! 新华网
+www.xinhuanet.com##.fllow1-wap
+www.xinhuanet.com##.fllow1-wap + .p-right:style(float: right !important)
+
+! 人民网
+people.com.cn###ops_share
+
+! 光明网
+gmw.cn###share
+
+! 封面新闻
+www.thecover.cn###share_icons
+
+! 极客公园
+www.geekpark.net##.share-wrap
+
+! CSDN
+||g.csdnimg.cn/??sharewx/*/sharewx.js
+
+! cnBeta
+||www.cnbeta.com.tw/js/util_libs/social-share/jquery.share.js
+www.cnbeta.com.tw##.article-share-code
+
+! 站长之家 ChinaZ
+www.chinaz.com##.cz-leftside-title
+www.chinaz.com##.cz_share
+
+! 异次元软件世界​
+||cdn.iplaysoft.com/common/lib/socialshare/*
+www.iplaysoft.com###socialshare
+
+www.doc88.com##.share
+
+club.kdnet.net##.new-share-main
+
+2014.renren.com##.jiathis_style
+
+public.renren.com###Share
+
+||ue.17173cdn.com/a/lib/*/share/index.js
+
+! QQ空间 用户名右侧 开通黄钻
+user.qzone.qq.com##.qz-btn-vip-open
+
+! 天翼云 VIP 标志
+cloud.189.cn##.vipIcon
+
+! ||res.wx.qq.com/open/js/jweixin-*.js
+! ||oschina.net/js/utils/jweixin-*.js
+! ||www.yuketang.cn/static/js/libs/jweixin-*.js
+*/jweixin-*.js^$script
+
+! 新京报
+www.bjnews.com.cn###v4_wxin
+
+! ZAKER
+www.myzaker.com##.btn_zaker_mp
+
+! 异次元软件世界
+www.iplaysoft.com##.popWxgzh:not(.ipsicon)
+www.iplaysoft.com##.elevator > li:has(#elevator_social)
+
+www.iplaysoft.com###elevator_social:style(width: 230px !important;)
+www.iplaysoft.com###elevator_social > .float-left:nth-of-type(1)
+www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 100% !important)
+
+! 安全内参
+||www.secrss.com/wx_qrcode.jpg
+www.secrss.com##.qrcode
+
+! Red Dot & "Hot" & "New" Start
+qzone.qq.com,show.qq.com##.ico_new
+qzone.qq.com##.sn-radio
+qzone.qq.com##.icon_app_new_cn,.icon_app_recommend,.icon-red-dot
+h5.qzone.qq.com##.icon-new
+
+docs.qq.com##.dui-badge-dot
+mail.qq.com##.ico_rednew
+
+! QQ音乐 抢特权
+||y.qq.com/mediastyle/yqq/extra/mark_1.png
+y.qq.com##.top_nav__mark
+
+www.zhihu.com##.TopSearch-hot:style(filter: grayscale())
+
+www.chinaz.com##.hot
+
+! 模力方舟
+gitee.com###gitee-blog > .ui.image
+
+www.gcores.com##.navLayout_item_append
+
+36kr.com##.live-new-icon
+
+! Red Dot & "Hot" & "New" End
+
+! 去你妈的注册弹窗
+douban.com###landing-bar
+douban.com##body > .ui-overlay-mask
+douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)
+
+! 去你妈的网友推荐
+dl.3dmgame.com##.downlwrap > .downl_L > .downl_list > .list_r
+down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
+
+! 你一个搜索引擎话怎么这么多
+cn.bing.com###ev_talkbox_wrapper
+
+! 腾讯视频 iframe 底部推荐
+v.qq.com##.txp_tipbar
+
+! 搜狐 Sohu
+! 劣质内容：大家都在看，热门精选
+www.sohu.com###articleAllsee, .hot-atlas
+! 劣质内容：搜狐号 文章评论区下方 推荐阅读
+www.sohu.com###groomRead
+
+
+! 微博 大家都在搜（搜索框 placeholder 热词）
+! weibo.com
+weibo.com##.gn_search_v2 > .placeholder
+! m.weibo.cn 主页
+m.weibo.cn##.m-search > .m-text-cut:style(color: transparent; user-select: none;)
+! m.weibo.cn 搜索页
+m.weibo.cn##.nt-search input[type="search"]::placeholder
+
+! 腾讯文档 水印
+docs.qq.com###watermark-container
+
+! QQ 空间
+! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
+user.qzone.qq.com##.fn_accessLog_tips
+
+h5.qzone.qq.com##.mod-native-tips-wrap
+h5.qzone.qq.com##li[global-hot="topbar.vip"]
+h5.qzone.qq.com##.gb-nav > li:style(width: 25% !important)
+h5.qzone.qq.com##.mod-pb-list .avatar.commend::before
+
+! QQ 看点快报 热点推荐
+kuaibao.qq.com##.recomm-card
+
+! Zhihu
+||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
+www.zhihu.com##.Popover-content:has-text(知乎热搜)
+www.zhihu.com##.ReadingMembership
+
+! 右侧相关推荐
+www.zhihu.com##.RelatedCommodities-title
+www.zhihu.com##.RelatedCommodities-list
+
+! 搜狗 在您的Firefox中添加搜狗
+www.sogou.com##.sidebox2
+
+! 新浪视频 热搜
+||video.sina.com.cn/interface/search_hot.php
+
+! 太平洋摄影部落
+dp.pconline.com.cn##+js(set, showAuthor, noopFunc)
+
+! 简书 简书钻
+www.jianshu.com##header span[aria-label="简书钻"]
+
+! Solidot
+||img.solidot.org//0/446/liiLIZF8Uh6yM.jpg$image
+
+! 新京报
+www.bjnews.com.cn##.layer_mian
+
+! 超星
+||chaoxing.com/ananas/space/exam/js/enc_js_work.js
+! ||chaoxing.com/ananas/space/exam/js/enc_js_exam.js
+
+! 现在，屏蔽 initdatawithviewer 将导致视频无法加载
+! 请使用 Header Editor 将：
+! https?:\/\/mooc\d+-\d+\.chaoxing.com\/richvideo\/initdatawithviewer.*
+! 重定向至：
+! data:application/json,[]
+! Redirector 尚未支持重定向至 Data URI，但应该快了：
+! https://github.com/einaregilsson/Redirector/issues/178
+! ||chaoxing.com/richvideo/initdatawithviewer
+
+! 批改网 光标样式
+www.pigai.org##body:style(cursor: unset !important)
+||www.halnedu.com/pcexam/assets/js/index.js
+
+! PCBeta
+||www.pcbeta.com/data/cache/ggk.js
+
+! 189云盘 试试转存到云盘，文件永久保存，极速安全。
+cloud.189.cn##.tips-save-box
+
+! 奶牛快传 全宽文件列表
+cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
+! 奶牛快传 全屏视频背景
+||background.cowtransfer.com^
+
+! 博客园 Banner
+www.cnblogs.com##.bannerbar
+
+! CSDN
+
+! 选中和复制代码
+blog.csdn.net###content_views pre, #content_views pre code:style(user-select: auto !important)
+
+! 恶意劫持剪贴板
+! https://g.csdnimg.cn/copyright/1.0.3/copyright.js
+https://g.csdnimg.cn/copyright/*
+
+!   CSDN 博客
+!     记录你的技术成长历程…
+blog.csdn.net###writeGuide
+!     打赏
+blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
+!     抢沙发
+blog.csdn.net##.comment-sofa-flag
+!     一键三连按钮的提示：点赞Mark关注该博主, 随时了解TA的最新博文
+blog.csdn.net##.triplet-prompt
+!  论坛
+!     强加在每条发言下的关联推荐
+bbs.csdn.net##.post_recommend
+bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
+bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
+
+! CNBeta
+||www.cnbeta.com.tw/js/cbsw/regsw.js^
+||www.cnbeta.com.tw/sw.js^
+
+! 3DM 高速下载
+dl.3dmgame.com##.quickdown2
+dl.3dmgame.com###feedback + .bown_bt_title
+dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
+
+! 游侠 手机游戏 小游戏
+down.ali213.net##.otherGameContainer
+
+! 一些不必要的提示
+www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
+icopy.site###backToMainSite
+
+! 文字链脚本
+||static.yxdown.com/all/js/pb2.js
+
+! ----
+
+! 导航网站
+
+! 设为首页
+www.hao123.com,hao.qq.com,daohang.qq.com,123.sogou.com###setHome
+www.265.com##a[site-c-category="button-set-homepage"]
+
+! 红字
+www.hao123.com##.g-red:style(color: inherit !important)
+hao.qq.com,daohang.qq.com,123.sogou.com##.m-body li > a[style]:style(color: inherit !important; font-weight: inherit !important)
+www.duba.com##.second_nav li > a[style*="color"], .main_box li > a[style*="color"]:style(color: inherit !important)
+www.265.com##a[style="color: #ff0000"],a[style="color: #1155cc"],a[style="color:#1155cc"]:style(color: inherit !important)
+
+! 搜索框热搜图标
+www.hao123.com##.hotword
+hao.qq.com,daohang.qq.com###engineKeyWord ~ .tri-button + div:not([id]):not([class])
+
+! APP 手机扫码有好礼
+www.hao123.com###head-wise
+! 推荐
+www.hao123.com###headJoke
+! Tip 狂省百元 全场特价…
+www.hao123.com##.tips_link
+www.hao123.com##.g_tips-r
+
+! 您有未读消息，点击查看
+hao.qq.com,daohang.qq.com,123.sogou.com###info_flow_coolsite div[class^="style_tips__"]:has-text(未读消息)
+
+! 图片
+www.duba.com##.main_box li > a.pic:style(filter: grayscale())
+! Tip 新版奇迹 刀刀爆装…
+www.duba.com##.main_box li > .tip2
+
+! 取消各种限制
+www.souid.com##+js(ra, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
+! xuexi.la
+||lhpay.gzcl999.com/static/webjs/xuexi.la_wx_copy_pay.js
+! www.fwsir.com
+! ||www.fwsir.com/static/cpt/cpt.js
+! ||www.fwsir.com/static/cpt/pubuliu.js
+||www.fwsir.com/static/cpt/
+||www.fwsir.com/static/js/p.js
+
 */cdn-cgi/trace^$xhr
 
 */jquery.sudy.wp.visitcount.js^$script
@@ -431,84 +687,6 @@ translate.google.cn###gt-cn
 ||js.sentry-cdn.com^$script
 ||sentry.io/api/*$xhr
 ||unpkg.zhimg.com/@cfe/sentry-script*$script
-
-! 百度 Baidu
-
-! 百度统计
-||hm.baidu.com^
-@@||dwz.hm.baidu.com^
-*/baidu-tongji/*$script
-*/baidu-tongji.js^$script
-*/baidutongji.js^$script
-! ||static.ctfile.com/js/bd_stat.js
-*/bd_stat.js^$script
-
-! heicha / abclite / acs
-! ||dlswbr.baidu.com/heicha/mw/abclite-2096-s.js
-! ||miaowu.baidu.com/sdk/heicha/mw/abclite-2096-s.js
-! ||miaowu.baidu.com/sdk/heicha/mm/2030/acs-2030.js
-||miaowu.baidu.com/sdk/heicha/*
-*/heicha/mw/abclite-*.js
-
-! hector
-! ||hectorstatic.baidu.com/1371300bc53d20f8.js
-! ||hector.baidu.com/a.js
-||hector.baidu.com^
-||hectorstatic.baidu.com^
-
-! 百度站长
-! ||zz.bdstatic.com/linksubmit/push.js
-||zz.bdstatic.com^$script,third-party
-||push.zhanzhang.baidu.com^
-
-! msite
-! msite.baidu.com/sdk/c.js
-||msite.baidu.com^
-||ae.bdstatic.com/msite/*
-
-! alog
-! ||fex.bdstatic.com/hunter/alog/speed.min.js
-*/alog/*$script
-
-! spy-client
-! https://code.bdstatic.com/npm/spy-client@1.0.3/dist/spy-client.min.js
-||code.bdstatic.com/npm/spy-client^$domain=~haokan.baidu.com
-
-! ||staticiot.cdn.bcebos.com/union/badjs-sdk-min-2.0.0.js
-||staticiot.cdn.bcebos.com/union/badjs-sdk-*
-
-||mbd.baidu.com/ztbox^
-
-||baidupcs.com/monitor.jpg^
-
-! https://live.baidu.com
-! ||hmcdn.baidu.com/static/tongji/plugins/UrlChangeTracker.js
-||hmcdn.baidu.com/static/tongji/*
-||tiebac.baidu.com/bdlive/log/h5report^
-
-! ||cstm.baidu.com/baike/log/common$script
-! wss://cstm.baidu.com/baike/log
-||cstm.baidu.com^
-
-||bkclick.n.shifen.com^
-
-||xiongzhang.baidu.com/xzhstatistics/rp^
-||www.baidu.com/con^
-||nc.baidu.com/api/blades/cp^
-||image.baidu.com/pv/pv.gif^
-||pan.baidu.com/api/analytics^
-
-! ||user.hao123.com/static/mapping/hao.php
-! ||hao123.baidu.com/static/mapping/bd.php
-hao123.com/static/mapping/*.php
-baidu.com/static/mapping/*.php
-
-! gss0.baidu.com/*/static/api/js/trans/logger.js
-!   www.cnbeta.com/static/api/js/trans/logger.js
-*/static/api/js/trans/logger.js
-
-! ||n*.zuoyebang.cc/napi/stat/addnoticev1$image
-||zuoyebang.cc/napi/stat/*$image
 
 ! 腾讯 Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
@@ -566,6 +744,10 @@ baidu.com/static/mapping/*.php
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
 
+! From www.163.com
+||browsertdidticket.m.qq.com^
+||gatherer.m.qq.com/event/report^
+
 ! 阿里 Ali
 
 ! 杀伤力太大…
@@ -587,58 +769,15 @@ baidu.com/static/mapping/*.php
 
 ||ynuf.alipay.com/service/um.json$xhr,domain=v.youku.com
 
-
 ! 字节跳动
 ! ||s3.pstatp.com/pgc/tech/collect/collect-autotrack-rangers.js
 ||pstatp.com/pgc/tech/collect/*
 */collect/collect-autotrack-rangers.js$script
 
-
-! 网易 Netease
-||analytics.163.com^
-||analytics.126.net^
-||log.study.163.com^
-||netease.com/track/*
-
-! ||www.163.com/special/*/performance.js
-||163.com/*/performance.js^
-
-! ||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
-||hubble-js-bucket.nosdn.127.net/DATracker.*.js
-||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
-
-||g.163.com/a$image
-||vmonitor.ws.netease.com/web/performance$image
-
-! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
-! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
-*/antanalysis.min.js^
-*/analysis/js/analysis*.js^
-
-! clientlog.k.163.com/api/feedback/weblog/sys
-! clientlogusf.music.163.com/api/feedback/weblog
-||163.com/api/feedback/weblog^
-
-! extends ||ac.dun.163.com^ in EasyPrivacy
-||ac.dun.163yun.com/v3/b^
-
-! 网易有道 Netease Youdao
-! rlogs.youdao.com/rlog.php
-! rlogs.youdao.com/rlog.js
-||rlogs.youdao.com^
-! ||shared.ydstatic.com/js/rlog/*
-/rlog/*$script
-
+! 奇虎 360
 ! ||js.passport.qihucdn.com/11.0.1.js
 ||js.passport.qihucdn.com/*$script,third-party
 ||jspassport.ssl.qhimg.com^$script,third-party
-
-! Bilibili
-! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
-! ||hdslb.com/bfs/seed/log/*
-
-||api.bilibili.com/x/web-frontend/data/collector$xhr
-||cm.bilibili.com/cm/api/*$xhr
 
 ! Sina
 ||log.mix.sina.com.cn^
@@ -664,6 +803,9 @@ baidu.com/static/mapping/*.php
 ! 简书 Jianshu
 ! ||tr.jianshu.com/fe/1/mon/atf$xhr
 ||tr.jianshu.com^
+
+! Gitee
+||gitee.com/*/access/add_access_log^$xhr
 
 ! TapTap
 ||assets.tapimg.com/js/sa-*.js
@@ -715,6 +857,8 @@ baidu.com/static/mapping/*.php
 ||verify.snssdk.com/static/*$script
 ! CSDN - 阿里
 ||g.alicdn.com^$domain=csdn.net,important
+
+! ---
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID
@@ -811,9 +955,14 @@ taobao.com#@#+js(set-constant, aplus, {})
 ! mp.weixin.qq.com 概率性
 @@||res.wx.qq.com/mmbizwap/*$script
 
-! Baidu 经验
+! 百度经验
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
+
+! 网易云音乐 回到顶部
+music.163.com#@##g_backtop
+
+t.bilibili.com#@#.back-top
 
 ! 超星
 ! 白名单所有视频文件，避免概率性误杀
@@ -855,52 +1004,318 @@ pastebin.com#@#.post-view
 ! Hentai Foundry
 @@||img.hentai-foundry.com/themes/default/js/ads.js
 
+
+! DC
+
+! 网易 Netease
+||ac.dun.163yun.com^
+||analytics.163.com^
+||analytics.126.net^
+||log.study.163.com^
+||netease.com/track/*
+
+! ||www.163.com/special/*/performance.js
+||163.com/*/performance.js^
+
+! ||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
+||hubble-js-bucket.nosdn.127.net/DATracker.*.js
+||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
+
+||g.163.com/a$image
+||vmonitor.ws.netease.com/web/performance$image
+
+! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
+! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
+*/antanalysis.min.js^
+*/analysis/js/analysis*.js^
+
+! Generated By NetEase Analytic Manager
+! ||static.ws.126.net/163/frontend/antnest/NTM-KFGT6I8U-30.js
+||static.ws.126.net/163/frontend/antnest/*
+
+! clientlog.k.163.com/api/feedback/weblog/sys
+! clientlogusf.music.163.com/api/feedback/weblog
+||163.com/api/feedback/weblog^
+
+! extends ||ac.dun.163.com^ in EasyPrivacy
+||ac.dun.163yun.com/v3/b^
+
+! 网易有道 Netease Youdao
+! rlogs.youdao.com/rlog.php
+! rlogs.youdao.com/rlog.js
+||rlogs.youdao.com^
+! ||shared.ydstatic.com/js/rlog/*
+/rlog/*$script
+
+! Ad
+
+! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
+||static.ws.126.net/*/js/sspAd.*.min.js
+
+! ||static.ws.126.net/163/f2e/modules/adtracker2022/adtracker2022.8be547ac.js
+||static.ws.126.net/163/f2e/modules/adtracker2022/*
+
+
+! #region 网易主站
+
+! 首页
+! ||game.weixin.qq.com/cgi-bin/minigame/static/pc-gamesdk-alpha/wxgamesdkframe.html$subdocument,domain=www.163.com
+||game.weixin.qq.com^$subdocument,domain=www.163.com
+www.163.com##.ad_300, .ad_860, .ad_1200
+
+! 网易 ad_module 补充屏蔽
+www.163.com##.ad_module + div[class^="blank"]
+
+! 网易号文章 顶部底部通栏广告
+! www.163.com##.post_columnad_top
+www.163.com##.post_columnad_btm
+
+! APP
+! 顶栏 移动端 - 二维码
+163.com##.ntes-nav-mobile-title + .qrcode-img
+! 返回顶部按钮附近 - 二维码
+163.com##.newsapp-qrcode
+! 网易新闻页面右侧 https://www.163.com/news/article/*
+www.163.com##.post_side_logo
+www.163.com##.post_side_logo + .post_side_mod:style(margin-top: 0 !important)
+
+! 分享 JS
+||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
+
+! 网易主站 左侧悬浮分享
+163.com##.post_top_share
+
+! 网易娱乐 娱乐图集 右上角分享
+ent.163.com##.share, .share-more
+! #endregion
+
+! #region 网易云音乐
+! 下载客户端
+music.163.com##.download
+! 下载客户端 修复样式 居中 banner
+music.163.com##.ban-img:style(display: flex; justify-content: center)
+music.163.com##.n-ban .dots:style(position: relative !important; top: -20px !important; margin: auto)
+! 音质按钮（客户端）
+music.163.com###g_player > .ctrl > .icn-audioquality
+
+! 黑胶 VIP 广告
+music.163.com##.dis_vip_card
+
+! VIP 标志
+music.163.com##.brand-vip.brand-tag
+
+! 歌单 小白点
+music.163.com##.m-subnav .nav a em span
+music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
+! #endregion
+
+! #region 有道 Youdao
+! youdao ad sdk
+||shared.ydstatic.com/js/yadk/*
+! yadk template sdk
+||shared.ydstatic.com/js/yatdk/*
+
+||dict.youdao.com/infoline
+||ke.youdao.com/api/course/*
+||www.huihui.cn/deals/channel.json
+||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
+! ||oimage*.ydstatic.com/image?id=*&product=*$image
+
+www.youdao.com###more
+www.youdao.com###wljb
+www.youdao.com###margin3
+www.youdao.com###doc2
+www.youdao.com###callback
+
+fanyi.youdao.com##.rengong__guide
+fanyi.youdao.com###transMan
+fanyi.youdao.com##.inside__products
+fanyi.youdao.com##.side__nav
+fanyi.youdao.com##.ic_new_tag
+! #endregion
+
+! 网易邮箱
+mail.163.com###adtag
+mail.163.com##.nui-ico-new3
+
+! 网易公开课
+open.163.com##.advertisement
+open.163.com##.comment:style(margin-top: 0 !important)
+
+
+! #region DC
+
+! 百度统计
+||hm.baidu.com^
+@@||dwz.hm.baidu.com^
+*/baidu-tongji/*$script
+*/baidu-tongji.js^$script
+*/baidutongji.js^$script
+! ||static.ctfile.com/js/bd_stat.js
+*/bd_stat.js^$script
+
+! heicha / abclite / acs
+! ||dlswbr.baidu.com/heicha/mw/abclite-2096-s.js
+! ||miaowu.baidu.com/sdk/heicha/mw/abclite-2096-s.js
+! ||miaowu.baidu.com/sdk/heicha/mm/2030/acs-2030.js
+||miaowu.baidu.com/sdk/heicha/*
+*/heicha/mw/abclite-*.js
+
+! hector
+! ||hectorstatic.baidu.com/1371300bc53d20f8.js
+! ||hector.baidu.com/a.js
+||hector.baidu.com^
+||hectorstatic.baidu.com^
+
+! 百度站长
+! ||zz.bdstatic.com/linksubmit/push.js
+||zz.bdstatic.com^$script,third-party
+||push.zhanzhang.baidu.com^
+
+! msite
+! msite.baidu.com/sdk/c.js
+||msite.baidu.com^
+||ae.bdstatic.com/msite/*
+
+! alog
+! ||fex.bdstatic.com/hunter/alog/speed.min.js
+*/alog/*$script
+
+! spy-client
+! https://code.bdstatic.com/npm/spy-client@1.0.3/dist/spy-client.min.js
+||code.bdstatic.com/npm/spy-client^$domain=~haokan.baidu.com
+
+! ||staticiot.cdn.bcebos.com/union/badjs-sdk-min-2.0.0.js
+||staticiot.cdn.bcebos.com/union/badjs-sdk-*
+
+||mbd.baidu.com/ztbox^
+
+||baidupcs.com/monitor.jpg^
+
+! https://live.baidu.com
+! ||hmcdn.baidu.com/static/tongji/plugins/UrlChangeTracker.js
+||hmcdn.baidu.com/static/tongji/*
+||tiebac.baidu.com/bdlive/log/h5report^
+
+! ||cstm.baidu.com/baike/log/common$script
+! wss://cstm.baidu.com/baike/log
+||cstm.baidu.com^
+
+||bkclick.n.shifen.com^
+
+||xiongzhang.baidu.com/xzhstatistics/rp^
+||www.baidu.com/con^
+||nc.baidu.com/api/blades/cp^
+||image.baidu.com/pv/pv.gif^
+||pan.baidu.com/api/analytics^
+
+! ||user.hao123.com/static/mapping/hao.php
+! ||hao123.baidu.com/static/mapping/bd.php
+hao123.com/static/mapping/*.php
+baidu.com/static/mapping/*.php
+
+! gss0.baidu.com/*/static/api/js/trans/logger.js
+!   www.cnbeta.com/static/api/js/trans/logger.js
+*/static/api/js/trans/logger.js
+
+! ||n*.zuoyebang.cc/napi/stat/addnoticev1$image
+||zuoyebang.cc/napi/stat/*$image
+
+! #endregion
+
+! #region 百度贴吧 Baidu Tieba
+! APP
+tieba.baidu.com##.app_download_box
+
+! Login
 tieba.baidu.com##.tieba-custom-pass-login:remove-attr(style)
 
-! CSDN 登录后您可以享受以下权益
-blog.csdn.net##.passport-login-tip-container
+! 爱逛的吧
+! ||tieba.baidu.com/p/getLikeForum
 
-! 掘金 登录掘金领取礼包
-juejin.cn##.bottom-login-guide
+! SPAM
+tieba.baidu.com###hot_thread
+tieba.baidu.com###hot_forum
+tieba.baidu.com##.banner
+tieba.baidu.com###celebrity
+tieba.baidu.com##.user_score
+tieba.baidu.com##.rank
+tieba.baidu.com##.member_rank
+tieba.baidu.com###media_item
+tieba.baidu.com###adide_platform
+tieba.baidu.com##.r-top-sec
+tieba.baidu.com##.top-sec
+tieba.baidu.com###spage_liveshow_slide
+tieba.baidu.com##.tbui_fbar_down
+tieba.baidu.com##.tbui_fbar_share
+! #endregion
 
-! Bilibili 登录后你可以：（弹幕动画）
-bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
+! #region 百度知道
+! 广告
+zhidao.baidu.com##.product-container
 
-! 优酷 登录优酷，尊享品质观影体验
-i.youku.com##.promotelogin_infobottom
+! APP
+zhidao.baidu.com##.zhidao-app
 
-! CSDN 首次访问登录弹窗
-! ||g.csdnimg.cn/login-box/1.1.4/login-box.js
-||g.csdnimg.cn/login-box/*
-csdn.net##.login-mark
-csdn.net##.login-box
+zhidao.baidu.com##.share-area
+zhidao.baidu.com##.jump-share
 
-! ||res.wx.qq.com/open/js/jweixin-*.js
-! ||oschina.net/js/utils/jweixin-*.js
-! ||www.yuketang.cn/static/js/libs/jweixin-*.js
-*/jweixin-*.js^$script
+! 移除右侧内容（只有特别推荐和广告…）
+zhidao.baidu.com##.qb-section > .qb-side
+zhidao.baidu.com##.qb-section > .qb-content:style(float: none; display: block; margin: 0 auto; padding: 0 30px 30px; border: none)
 
-! Gitee
-||assets.gitee.com/assets/qrcode-weixin-*$image
-gitee.com##.qrcode.weixin
+! 右侧 特别推荐
+! zhidao.baidu.com##.cms-slide
 
-! 新京报
-www.bjnews.com.cn###v4_wxin
+! 红包
+zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
+! 赚积分 换礼品
+zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
+! 申请认证
+zhidao.baidu.com##.jump-goto-star
+! #热议#
+zhidao.baidu.com##.question-number-text-chain
 
-! ZAKER
-www.myzaker.com##.btn_zaker_mp
+||zhidao.baidu.com/question/api/recommend
+||zhidao.baidu.com/question/api/hao123word
+||zhidao.baidu.com/s/toutu/questionnaire.js
+zhidao.baidu.com##.shop-entrance
+! #endregion
 
-! 异次元软件世界
-www.iplaysoft.com##.popWxgzh:not(.ipsicon)
-www.iplaysoft.com##.elevator > li:has(#elevator_social)
+! #region 百度文库
+! APP
+wenku.baidu.com##.tool-bar-wrap .btns-wrap .small-btn:has(> .tag-pc-client)
 
-www.iplaysoft.com###elevator_social:style(width: 230px !important;)
-www.iplaysoft.com###elevator_social > .float-left:nth-of-type(1)
-www.iplaysoft.com###elevator_social > .float-left:nth-of-type(2):style(width: 100% !important)
+! ||wenku.baidu.com/coupon/promotion/vippop
+||wenku.baidu.com/coupon/*
+! 顶栏 VIP 活动
+wenku.baidu.com##.vip-activity-wrap-new
+! VIP特权
+wenku.baidu.com##.vip-privilege
+! VIP特价购买文档提示
+wenku.baidu.com##.pay-layer-wrapper
+! VIP主题
+wenku.baidu.com##.bg-theme-wrap
+! #endregion
 
-! 安全内参
-||www.secrss.com/wx_qrcode.jpg
-www.secrss.com##.qrcode
+! #region APP
+! 百度搜索
+||bdstatic.com/*/static/superman/img/qrcode/*$image,domain=www.baidu.com
+www.baidu.com###qrcode
+
+! 百度搜索 https://www.baidu.com/s?wd=翻译 扫码下载百度翻译APP
+www.baidu.com##.op-guide
+
+baike.baidu.com##div[class^="index-module_appPromote__"]
+fanyi.baidu.com##.sideQrContainer
+fanyi.baidu.com##.products-list:style(filter: grayscale(.5); opacity: .5)
+
+! 百度地图
+map.baidu.com###leadDownloadCard
+map.baidu.com###activity-banner-panel
+! #endregion
+
+! #region Share
 
 ! bshare
 ! ||static.bshare.cn/b/bshareC0.js
@@ -938,150 +1353,28 @@ baike.baidu.com###side-share
 
 jingyan.baidu.com###w-share
 
-zhidao.baidu.com##.share-area
-zhidao.baidu.com##.jump-share
+! #endregion
 
-! needShareButton
-! https://github.com/DzmVasileusky/needShareButton
-*/needsharebutton/needsharebutton.js$script
-
-! 网易 163
-||static.ws.126.net/f2e/news/res/js/share_to.*.min.js
-www.163.com,news.163.com##.post_top_share
-
-! 新浪 Sina
-sina.com.cn##.tool-wb
-sina.com.cn##.tool-wx
-sina.com.cn##.tool-share
-
-! ||news.sina.com.cn/268/2014/0919/bshare_update.js
-||news.sina.com.cn/*/bshare_update.js
-
-! 搜狐 Sohu
-www.sohu.com###share
-
-photo.blog.sina.com.cn###sharePhoto
-
-! 腾讯新闻
-new.qq.com##.share
-new.qq.com##.share-title
-
-! BIE 别的
-www.biede.com##.share-component,.social-share,.share-post
-
-! 凤凰网
-! 凤凰网使用多个页面结构有巨大差异的子域名，但采用相对统一的方式提供分享功能。
-! 选中分享 #spam
-ifeng.com##body > div[class^="select_share-"]
-
-! 页面两侧分享
-ifeng.com##div[class^="articleLeftShare-"]
-
-! 部分分享没有统一的最近父级元素，但应当都在 .bottom_affix-* 之下
-! 微博 微信 朋友圈 QQ空间
-ifeng.com##div[class^="bottom_affix-"] span[data-item="sina"]
-ifeng.com##div[class^="bottom_affix-"] span[data-item="wechat"]
-ifeng.com##div[class^="bottom_affix-"] span[data-item="cof"]
-ifeng.com##div[class^="bottom_affix-"] span[data-item="qqzone"]
-
-! 澎湃新闻
-www.thepaper.cn##.newsct_share_detail
-
-! 界面新闻
-www.jiemian.com##.article-share
-
-! FT 中文网
-www.ftchinese.com##.icon-wechat,.icon-weibo,.icon-linkedin,.icon-twitter,.icon-facebook
-
-! 新华网
-www.xinhuanet.com##.fllow1-wap
-www.xinhuanet.com##.fllow1-wap + .p-right:style(float: right !important)
-
-! 人民网
-people.com.cn###ops_share
-
-! 光明网
-gmw.cn###share
-
-! 封面新闻
-www.thecover.cn###share_icons
-
-! 极客公园
-www.geekpark.net##.share-wrap
-
-! CSDN
-||g.csdnimg.cn/??sharewx/*/sharewx.js
-
-! cnBeta
-||www.cnbeta.com.tw/js/util_libs/social-share/jquery.share.js
-www.cnbeta.com.tw##.article-share-code
-
-! 站长之家 ChinaZ
-www.chinaz.com##.cz-leftside-title
-www.chinaz.com##.cz_share
-
-! 异次元软件世界​
-||cdn.iplaysoft.com/common/lib/socialshare/*
-www.iplaysoft.com###socialshare
-
-www.doc88.com##.share
-
-club.kdnet.net##.new-share-main
-
-2014.renren.com##.jiathis_style
-
-public.renren.com###Share
-
-||ue.17173cdn.com/a/lib/*/share/index.js
-
-! Red Dot & Hot & New Start
-
+! #region VIP
+! 百度翻译
+fanyi.baidu.com##.vip-btn
 fanyi.baidu.com##.new-domain-wrapper::before
 
-qzone.qq.com,show.qq.com##.ico_new
-qzone.qq.com##.sn-radio
-qzone.qq.com##.icon_app_new_cn,.icon_app_recommend,.icon-red-dot
-h5.qzone.qq.com##.icon-new
+! 百度网盘
+pan.baidu.com##.vipicon, .u-svip-button, .u-svip-button--main
+pan.baidu.com##.module-header-wrapper :is(.vip-notice, vip-privilege)
+pan.baidu.com##.web-header-ad-item
+pan.baidu.com##.wp-s-header-user__member-status-new-btn-wrap.is-notvip,.wp-s-header-user__member-status.is-notvip,.wp-s-header-user__drop-privilege
+pan.baidu.com##.nd-guide-svip-bar
+pan.baidu.com##.is-guide-svip > .u-dialog > .u-dialog__footer:style(padding-bottom: 24px !important)
+! #endregion
 
-docs.qq.com##.dui-badge-dot
-mail.qq.com##.ico_rednew
-
-! QQ音乐 抢特权
-||y.qq.com/mediastyle/yqq/extra/mark_1.png
-y.qq.com##.top_nav__mark
-
-www.zhihu.com##.TopSearch-hot:style(filter: grayscale())
-
-mail.163.com##.nui-ico-new3
-
-music.163.com##.hot
-music.163.com##.m-subnav .nav a em span
-music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
-
-fanyi.youdao.com##.ic_new_tag
-
-www.chinaz.com##.hot
-
-www.gcores.com##.navLayout_item_append
-
-36kr.com##.live-new-icon
-
-! Red Dot & Hot & New End
-
-! 去你妈的注册弹窗
-douban.com###landing-bar
-douban.com##body > .ui-overlay-mask
-douban.com##.ui-overlay-show, .ui-overlay-show body:style(width: initial !important; height: initial !important; overflow: initial !important)
-
-! 去你妈的网友推荐
-dl.3dmgame.com##.downlwrap > .downl_L > .downl_list > .list_r
-down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
-
-! 你一个搜索引擎话怎么这么多
-cn.bing.com###ev_talkbox_wrapper
-
-! 百度 部分页面的干扰内容
+! 部分页面的干扰内容
 ||baidu.com/xpage^
+
+! 文字链脚本
+||gh.bdstatic.com/static/gh/js/ll/m_word.js
+! ||entry.baidu.com/rp/wordner
 
 ||baike.baidu.com/cms/global/home_config.json
 
@@ -1089,6 +1382,7 @@ cn.bing.com###ev_talkbox_wrapper
 ! 以下哪些内容适合发布在科星球？（多选）
 baike.baidu.com##.answer-box .answer-tips:style(display: block !important)
 
+! 百度经验
 ! ||exp.bdstatic.com/static/common-jquery/widget/js/logic/log^
 ||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg^
 ||exp.bdstatic.com/static/activity/widget/ui/redbox^
@@ -1101,68 +1395,51 @@ jingyan.baidu.com##.magzine-list
 ! 百度网盘 游戏
 pan.baidu.com##.wp-s-header .gameEntry
 
-! 百度贴吧 爱逛的吧
-! ||tieba.baidu.com/p/getLikeForum
-
-! 百度知道 右侧 特别推荐
-! zhidao.baidu.com##.cms-slide
-
-! 百度知道 移除右侧内容（只有特别推荐和广告…）
-zhidao.baidu.com##.qb-section > .qb-side
-zhidao.baidu.com##.qb-section > .qb-content:style(float: none; display: block; margin: 0 auto; padding: 0 30px 30px; border: none)
-
-! 百度知道 红包
-zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
-! 百度知道 赚积分 换礼品
-zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
-! 百度知道 申请认证
-zhidao.baidu.com##.jump-goto-star
-! 百度知道 #热议#
-zhidao.baidu.com##.question-number-text-chain
-
-||zhidao.baidu.com/question/api/recommend
-||zhidao.baidu.com/question/api/hao123word
-||zhidao.baidu.com/s/toutu/questionnaire.js
-zhidao.baidu.com##.shop-entrance
-
-! 腾讯视频 iframe 底部推荐
-v.qq.com##.txp_tipbar
-
-! 搜狐 Sohu
-www.sohu.com###fixed-view
-
-! 微博 大家都在搜（搜索框 placeholder 热词）
-! weibo.com
-weibo.com##.gn_search_v2 > .placeholder
-! m.weibo.cn 主页
-m.weibo.cn##.m-search > .m-text-cut:style(color: transparent; user-select: none;)
-! m.weibo.cn 搜索页
-m.weibo.cn##.nt-search input[type="search"]::placeholder
-
-! 腾讯文档 水印
-docs.qq.com###watermark-container
-
-! QQ 空间
-! 看看大家都看了什么？开通黄钻可查看1000人的访问轨迹。
-user.qzone.qq.com##.fn_accessLog_tips
-
-h5.qzone.qq.com##.mod-native-tips-wrap
-h5.qzone.qq.com##li[global-hot="topbar.vip"]
-h5.qzone.qq.com##.gb-nav > li:style(width: 25% !important)
-h5.qzone.qq.com##.mod-pb-list .avatar.commend::before
-
-! Zhihu
-||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
-www.zhihu.com##.Popover-content:has-text(知乎热搜)
-www.zhihu.com##.ReadingMembership
-
-! 右侧相关推荐
-www.zhihu.com##.RelatedCommodities-title
-www.zhihu.com##.RelatedCommodities-list
-
-! Bilibili
 ! 阻止B站往链接里加 spmid
 ||hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js^
+
+! data.bilibili.com & /seed/log/report/log-reporter.js
+! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
+! https://github.com/uBlockOrigin/uAssets/issues/29273
+@@||data.bilibili.com^$xhr,ping,badfilter
+@@||data.bilibili.com/v2/log/web?$xhr,1p,badfilter
+||data.bilibili.com^
+@@||data.bilibili.com/log/web?*|0.0.tianma.dislike.click|*
+@@||data.bilibili.com/log/web?*|0.0.tianma.dislike-cancel.click|*
+bilibili.com##+js(trusted-suppress-native-method, navigator.sendBeacon, '/data\.bilibili\.com\/(?!log\/web\?.+0\.0\.tianma\.dislike(-cancel)?\.click)/', prevent)
+
+! CoMmercial
+! cm.bilibili.com & /cm/cm-sdk/static/js/bili-collect.js
+@@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$badfilter
+||s1.hdslb.com/bfs/cm/*
+||cm.bilibili.com^
+
+! /user-fingerprint/bili-user-fingerprint.min.js
+! ||s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js
+||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/*
+
+! /b-mirror/biliMirror.umd.mini.js
+! ||s1.hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.umd.mini.js
+||hdslb.com/bfs/seed/jinkela/short/b-mirror/*
+
+! Biligame Impression
+! ||impression.biligame.com/api/impression/bilibili_pc
+||impression.biligame.com^
+
+! Click Interface API
+||api.bilibili.com/x/click-interface/click/now^
+! Data Collector API
+||api.bilibili.com/x/web-frontend/data/collector$xhr
+
+! 广告通用
+www.bilibili.com##.ad-report
+! 右侧推荐视频列表底部广告
+www.bilibili.com##.ad-floor-exp
+! 推荐视频
+www.bilibili.com##.video-page-special-card,.video-page-special-card-small
+! 评论区顶部
+www.bilibili.com##.reply-notice
+
 ! 顶栏
 ! ||api.bilibili.com/x/web-show/res/locs^
 bilibili.com##.loc-entry,.left-loc-entry
@@ -1182,187 +1459,23 @@ live.bilibili.com##.flip-view
 ! 搜索框 Placeholder
 ||api.bilibili.com/x/web-interface/search/default
 
-! 搜狗 在您的Firefox中添加搜狗
-www.sogou.com##.sidebox2
+! APP 新版
+bilibili.com##.bili-header .left-entry .download-entry
+bilibili.com##.bili-header .left-entry > li:has(> .download-entry)
+! APP 旧版
+bilibili.com##.download-client-trigger
+bilibili.com##.nav-link-item:has(.download-client-trigger)
 
-! 天翼云 VIP 标志
-cloud.189.cn##.vipIcon
-
-! 网易云音乐 VIP 标志
-music.163.com##.brand-vip.brand-tag
-
-! 新浪视频 热搜
-||video.sina.com.cn/interface/search_hot.php
-
-! 太平洋摄影部落
-dp.pconline.com.cn##+js(set, showAuthor, noopFunc)
-
-! 简书 简书钻
-www.jianshu.com##header span[aria-label="简书钻"]
+! Bilibili 登录后你可以：（弹幕动画）
+bilibili.com##.van-popper-login .title, .van-popper-login .img-panel
 
 
-||img.solidot.org//0/446/liiLIZF8Uh6yM.jpg$image
 
-! 新京报
-www.bjnews.com.cn##.layer_mian
+! .qrcode_show 超链接 点击后弹出二维码广告
+! ||9mam0s.yzhy20.cn/res/onlinedown/js/qrcode.js
+! ||6yj5ly.yzhy20.cn/res/downza/js/qrcode.js
+||yzhy20.cn/res/*/js/qrcode.js
 
-! QQ 看点快报 热点推荐
-kuaibao.qq.com##.recomm-card
-
-! 超星
-||chaoxing.com/ananas/space/exam/js/enc_js_work.js
-! ||chaoxing.com/ananas/space/exam/js/enc_js_exam.js
-
-! 现在，屏蔽 initdatawithviewer 将导致视频无法加载
-! 请使用 Header Editor 将：
-! https?:\/\/mooc\d+-\d+\.chaoxing.com\/richvideo\/initdatawithviewer.*
-! 重定向至：
-! data:application/json,[]
-! Redirector 尚未支持重定向至 Data URI，但应该快了：
-! https://github.com/einaregilsson/Redirector/issues/178
-! ||chaoxing.com/richvideo/initdatawithviewer
-
-! 批改网 光标样式
-www.pigai.org##body:style(cursor: unset !important)
-||www.halnedu.com/pcexam/assets/js/index.js
-
-! PCBeta
-||www.pcbeta.com/data/cache/ggk.js
-
-! 189云盘 试试转存到云盘，文件永久保存，极速安全。
-cloud.189.cn##.tips-save-box
-
-! 奶牛快传 全宽文件列表
-cowtransfer.com##.new-cow-area.panel-mode:style(min-width: calc(50% - 176px) !important)
-! 奶牛快传 全屏视频背景
-||background.cowtransfer.com^
-
-! 博客园 Banner
-www.cnblogs.com##.bannerbar
-
-! CSDN
-
-! 选中和复制代码
-blog.csdn.net###content_views pre, #content_views pre code:style(user-select: auto !important)
-
-! 恶意劫持剪贴板
-! https://g.csdnimg.cn/copyright/1.0.3/copyright.js
-https://g.csdnimg.cn/copyright/*
-
-!   CSDN 博客
-!     记录你的技术成长历程…
-blog.csdn.net###writeGuide
-!     打赏
-blog.csdn.net##.to-reward svg.hover-hide:style(filter: grayscale())
-!     抢沙发
-blog.csdn.net##.comment-sofa-flag
-!     一键三连按钮的提示：点赞Mark关注该博主, 随时了解TA的最新博文
-blog.csdn.net##.triplet-prompt
-!  论坛
-!     强加在每条发言下的关联推荐
-bbs.csdn.net##.post_recommend
-bbs.csdn.net##.topic_wrap .topic_r:style(padding-bottom: 36px !important)
-bbs.csdn.net##.mod_topic_wrap .control:style(bottom: 0 !important)
-
-! CNBeta
-||www.cnbeta.com.tw/js/cbsw/regsw.js^
-||www.cnbeta.com.tw/sw.js^
-
-! 3DM 高速下载
-dl.3dmgame.com##.quickdown2
-dl.3dmgame.com###feedback + .bown_bt_title
-dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
-
-! 游侠 手机游戏 小游戏
-down.ali213.net##.otherGameContainer
-
-kan.china.com##.pages a[href^="/recommend.shtml"]
-kan.china.com###popup-news
-kan.china.com##.badge-number
-kan.china.com###page-idle-mask, #page-idle-box
-
-! ----
-
-! 一些不必要的提示
-www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
-icopy.site###backToMainSite
-
-! ----
-
-! 文字链脚本
-||gh.bdstatic.com/static/gh/js/ll/m_word.js
-! ||entry.baidu.com/rp/wordner
-||static.yxdown.com/all/js/pb2.js
-
-! ----
-
-! 导航网站
-
-! 设为首页
-www.hao123.com,hao.qq.com,daohang.qq.com,123.sogou.com###setHome
-www.265.com##a[site-c-category="button-set-homepage"]
-
-! 红字
-www.hao123.com##.g-red:style(color: inherit !important)
-hao.qq.com,daohang.qq.com,123.sogou.com##.m-body li > a[style]:style(color: inherit !important; font-weight: inherit !important)
-www.duba.com##.second_nav li > a[style*="color"], .main_box li > a[style*="color"]:style(color: inherit !important)
-www.265.com##a[style="color: #ff0000"],a[style="color: #1155cc"],a[style="color:#1155cc"]:style(color: inherit !important)
-
-! 搜索框热搜图标
-www.hao123.com##.hotword
-hao.qq.com,daohang.qq.com###engineKeyWord ~ .tri-button + div:not([id]):not([class])
-
-! APP 手机扫码有好礼
-www.hao123.com###head-wise
-! 推荐
-www.hao123.com###headJoke
-! Tip 狂省百元 全场特价…
-www.hao123.com##.tips_link
-www.hao123.com##.g_tips-r
-
-! 您有未读消息，点击查看
-hao.qq.com,daohang.qq.com,123.sogou.com###info_flow_coolsite div[class^="style_tips__"]:has-text(未读消息)
-
-! 图片
-www.duba.com##.main_box li > a.pic:style(filter: grayscale())
-! Tip 新版奇迹 刀刀爆装…
-www.duba.com##.main_box li > .tip2
-
-! 取消各种限制
-www.souid.com##+js(ra, onmousemove|oncontextmenu|ondragstart|onselectstart|onselect|oncopy|onbeforecopy|onmouseup, body)
-! xuexi.la
-||lhpay.gzcl999.com/static/webjs/xuexi.la_wx_copy_pay.js
-! www.fwsir.com
-! ||www.fwsir.com/static/cpt/cpt.js
-! ||www.fwsir.com/static/cpt/pubuliu.js
-||www.fwsir.com/static/cpt/
-||www.fwsir.com/static/js/p.js
-
-! 百度翻译
-fanyi.baidu.com##.vip-btn
-
-! 百度文库
-! ||wenku.baidu.com/coupon/promotion/vippop
-||wenku.baidu.com/coupon/*
-! 顶栏 VIP 活动
-wenku.baidu.com##.vip-activity-wrap-new
-! VIP特权
-wenku.baidu.com##.vip-privilege
-! VIP特价购买文档提示
-wenku.baidu.com##.pay-layer-wrapper
-! VIP主题
-wenku.baidu.com##.bg-theme-wrap
-
-! 百度网盘
-pan.baidu.com##.vipicon, .u-svip-button, .u-svip-button--main
-pan.baidu.com##.module-header-wrapper :is(.vip-notice, vip-privilege)
-pan.baidu.com##.web-header-ad-item
-pan.baidu.com##.wp-s-header-user__member-status-new-btn-wrap.is-notvip,.wp-s-header-user__member-status.is-notvip,.wp-s-header-user__drop-privilege
-pan.baidu.com##.nd-guide-svip-bar
-pan.baidu.com##.is-guide-svip > .u-dialog > .u-dialog__footer:style(padding-bottom: 24px !important)
-
-! QQ空间 用户名右侧 开通黄钻
-user.qzone.qq.com##.qz-btn-vip-open
 
 www.423down.com##.excerpt > li:has(a[href="https://www.423down.com/news/activity"]):style(font-size: 13px; > h2 > a { font-size: 16px; } &:not(:hover) { opacity: .75; > .pic { filter: grayscale(.75); } })
 
@@ -1370,15 +1483,32 @@ www.423down.com##.excerpt > li:has(a[href="https://www.423down.com/news/activity
 ! 脚本之家
 
 ! 置顶下载链接
-www.jb51.net##.main-Right:style(display: flex; flex-direction: column; > #download { order: -1; min-height: auto !important; })
+www.jb51.net##.main-Right:style(display: flex; flex-direction: column; > #download { order: -1; })
 ! 黯淡：人气软件、相关文章、右侧 相关推荐、装机必备、最近更新
 www.jb51.net###rqrj, #rjzx, .xgtj-list, .zjbb-list, .zjgx-list:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
 
 
+! 下载之家
+
+! 右侧 广告
+||img3.downza.cn/download/202411/093752-6735547039c56.jpg$image
+
+! 安全下载
+www.downza.cn##.u-btn-safe
+www.downza.cn##.safe-down
+! 底栏
+www.downza.cn##.m-fixed-btn-box
+! 广告 热门搜索、右侧 百科推荐、装机必备
+www.downza.cn##.search-hot, .baike-recommend, .install-necessary
+
+! 置顶下载链接
+www.downza.cn##.m-coll1-left:style(display: flex; flex-direction: column; > .download-url-box { order: -1; margin: 0 0 20px !important; })
+! 黯淡：查看更多、推荐下载
+www.downza.cn##.search-hot, .tags-box, .links:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+
 ! 华军软件园主站（www.onlinedown.net）
 
-! 所有 .qrcode_show 超链接 点击后弹出二维码广告
-||7onudz.yzhy20.cn/res/onlinedown/js/qrcode.js
 www.onlinedown.net##.qrcode_show:remove-attr(onclick)
 ! 底栏
 www.onlinedown.net##.g-bottom-banner
@@ -1418,6 +1548,24 @@ soft.onlinedown.net##.base
 soft.onlinedown.net##.downdecail .left:style(display: flex; flex-direction: column; > #down { order: -1; })
 ! 黯淡：热搜词、相关下载、猜你喜欢、华军推荐、右侧 热搜推荐、编辑推荐、热门关键词
 soft.onlinedown.net##.hotSearch, #ItemXGXZ, #ItemCNXH, .Friendlink, .soft_rightB:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+
+! 下载吧
+! 黯淡：相关教程、右侧专题
+www.xiazaiba.com##.course-relate, .detail-inter:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+! ZOL 下载
+||icon.zol.com.cn/public/js/zmtch.js
+
+! 底栏
+xiazai.zol.com.cn##.fixed-bar
+! 高速下载
+xiazai.zol.com.cn###downBoxGaosu
+
+! 置顶下载链接，修复样式
+xiazai.zol.com.cn##.main:style(display: flex; flex-direction: column; > .main-fl > .downLoad { order: -1; margin: 20px 15px; > .down-right { height: auto !important; } })
+xiazai.zol.com.cn##.main-fl:style(display: contents)
+xiazai.zol.com.cn##.bgWhite:style(min-height: auto !important)
 
 
 ! 完美软件下载

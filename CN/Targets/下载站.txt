@@ -3,21 +3,44 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! .qrcode_show 超链接 点击后弹出二维码广告
+! ||9mam0s.yzhy20.cn/res/onlinedown/js/qrcode.js
+! ||6yj5ly.yzhy20.cn/res/downza/js/qrcode.js
+||yzhy20.cn/res/*/js/qrcode.js
+
+
 www.423down.com##.excerpt > li:has(a[href="https://www.423down.com/news/activity"]):style(font-size: 13px; > h2 > a { font-size: 16px; } &:not(:hover) { opacity: .75; > .pic { filter: grayscale(.75); } })
 
 
 ! 脚本之家
 
 ! 置顶下载链接
-www.jb51.net##.main-Right:style(display: flex; flex-direction: column; > #download { order: -1; min-height: auto !important; })
+www.jb51.net##.main-Right:style(display: flex; flex-direction: column; > #download { order: -1; })
 ! 黯淡：人气软件、相关文章、右侧 相关推荐、装机必备、最近更新
 www.jb51.net###rqrj, #rjzx, .xgtj-list, .zjbb-list, .zjgx-list:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
 
 
+! 下载之家
+
+! 右侧 广告
+||img3.downza.cn/download/202411/093752-6735547039c56.jpg$image
+
+! 安全下载
+www.downza.cn##.u-btn-safe
+www.downza.cn##.safe-down
+! 底栏
+www.downza.cn##.m-fixed-btn-box
+! 广告 热门搜索、右侧 百科推荐、装机必备
+www.downza.cn##.search-hot, .baike-recommend, .install-necessary
+
+! 置顶下载链接
+www.downza.cn##.m-coll1-left:style(display: flex; flex-direction: column; > .download-url-box { order: -1; margin: 0 0 20px !important; })
+! 黯淡：查看更多、推荐下载
+www.downza.cn##.search-hot, .tags-box, .links:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+
 ! 华军软件园主站（www.onlinedown.net）
 
-! 所有 .qrcode_show 超链接 点击后弹出二维码广告
-||7onudz.yzhy20.cn/res/onlinedown/js/qrcode.js
 www.onlinedown.net##.qrcode_show:remove-attr(onclick)
 ! 底栏
 www.onlinedown.net##.g-bottom-banner
@@ -57,6 +80,24 @@ soft.onlinedown.net##.base
 soft.onlinedown.net##.downdecail .left:style(display: flex; flex-direction: column; > #down { order: -1; })
 ! 黯淡：热搜词、相关下载、猜你喜欢、华军推荐、右侧 热搜推荐、编辑推荐、热门关键词
 soft.onlinedown.net##.hotSearch, #ItemXGXZ, #ItemCNXH, .Friendlink, .soft_rightB:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+
+! 下载吧
+! 黯淡：相关教程、右侧专题
+www.xiazaiba.com##.course-relate, .detail-inter:style(---:0; &:not(:hover) { opacity: .25; filter: grayscale(.75) })
+
+! ZOL 下载
+||icon.zol.com.cn/public/js/zmtch.js
+
+! 底栏
+xiazai.zol.com.cn##.fixed-bar
+! 高速下载
+xiazai.zol.com.cn###downBoxGaosu
+
+! 置顶下载链接，修复样式
+xiazai.zol.com.cn##.main:style(display: flex; flex-direction: column; > .main-fl > .downLoad { order: -1; margin: 20px 15px; > .down-right { height: auto !important; } })
+xiazai.zol.com.cn##.main-fl:style(display: contents)
+xiazai.zol.com.cn##.bgWhite:style(min-height: auto !important)
 
 
 ! 完美软件下载

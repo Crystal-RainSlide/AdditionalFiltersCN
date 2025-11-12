@@ -21,9 +21,14 @@ taobao.com#@#+js(set-constant, aplus, {})
 ! mp.weixin.qq.com 概率性
 @@||res.wx.qq.com/mmbizwap/*$script
 
-! Baidu 经验
+! 百度经验
 jingyan.baidu.com#@#.follow-btn
 jingyan.baidu.com#@##like-btn
+
+! 网易云音乐 回到顶部
+music.163.com#@##g_backtop
+
+t.bilibili.com#@#.back-top
 
 ! 超星
 ! 白名单所有视频文件，避免概率性误杀

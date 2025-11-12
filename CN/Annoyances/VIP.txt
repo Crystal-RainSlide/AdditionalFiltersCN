@@ -1,0 +1,10 @@
+! Title: AdditionalFiltersCN - VIP
+! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
+! Expire: 7 days
+! ------------------------------------------------------------------------------
+
+! QQ空间 用户名右侧 开通黄钻
+user.qzone.qq.com##.qz-btn-vip-open
+
+! 天翼云 VIP 标志
+cloud.189.cn##.vipIcon

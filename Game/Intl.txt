@@ -6,6 +6,19 @@
 ! Newgrounds
 @@||www.ngads.com/gateway_v2.php
 
+||coolbuddy.com/HtmlAds.ashx
+
+konggames.com##+js(acis, window.NREUM)
+konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
+||cdn2.kongcdn.com/compiled-assets/metriks_*
+||www.kongregate.com/*/metrics.json
+
+||gamesfree.ca/js/ads.js$script,important
+www.gamesfree.ca###adContainer
+www.gamesfree.ca##.lol-carrousel-wrapper
+www.gamesfree.ca##.mobile-games-carrousel
+www.siftheadsgames.com##+js(nobab)
+
 ||cdn.getsupernova.com/tags/supernovalauncher.js$script,redirect-rule=noop.js
 
 ! https://miniclip.com

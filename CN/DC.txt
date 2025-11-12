@@ -14,84 +14,6 @@
 ||sentry.io/api/*$xhr
 ||unpkg.zhimg.com/@cfe/sentry-script*$script
 
-! 百度 Baidu
-
-! 百度统计
-||hm.baidu.com^
-@@||dwz.hm.baidu.com^
-*/baidu-tongji/*$script
-*/baidu-tongji.js^$script
-*/baidutongji.js^$script
-! ||static.ctfile.com/js/bd_stat.js
-*/bd_stat.js^$script
-
-! heicha / abclite / acs
-! ||dlswbr.baidu.com/heicha/mw/abclite-2096-s.js
-! ||miaowu.baidu.com/sdk/heicha/mw/abclite-2096-s.js
-! ||miaowu.baidu.com/sdk/heicha/mm/2030/acs-2030.js
-||miaowu.baidu.com/sdk/heicha/*
-*/heicha/mw/abclite-*.js
-
-! hector
-! ||hectorstatic.baidu.com/1371300bc53d20f8.js
-! ||hector.baidu.com/a.js
-||hector.baidu.com^
-||hectorstatic.baidu.com^
-
-! 百度站长
-! ||zz.bdstatic.com/linksubmit/push.js
-||zz.bdstatic.com^$script,third-party
-||push.zhanzhang.baidu.com^
-
-! msite
-! msite.baidu.com/sdk/c.js
-||msite.baidu.com^
-||ae.bdstatic.com/msite/*
-
-! alog
-! ||fex.bdstatic.com/hunter/alog/speed.min.js
-*/alog/*$script
-
-! spy-client
-! https://code.bdstatic.com/npm/spy-client@1.0.3/dist/spy-client.min.js
-||code.bdstatic.com/npm/spy-client^$domain=~haokan.baidu.com
-
-! ||staticiot.cdn.bcebos.com/union/badjs-sdk-min-2.0.0.js
-||staticiot.cdn.bcebos.com/union/badjs-sdk-*
-
-||mbd.baidu.com/ztbox^
-
-||baidupcs.com/monitor.jpg^
-
-! https://live.baidu.com
-! ||hmcdn.baidu.com/static/tongji/plugins/UrlChangeTracker.js
-||hmcdn.baidu.com/static/tongji/*
-||tiebac.baidu.com/bdlive/log/h5report^
-
-! ||cstm.baidu.com/baike/log/common$script
-! wss://cstm.baidu.com/baike/log
-||cstm.baidu.com^
-
-||bkclick.n.shifen.com^
-
-||xiongzhang.baidu.com/xzhstatistics/rp^
-||www.baidu.com/con^
-||nc.baidu.com/api/blades/cp^
-||image.baidu.com/pv/pv.gif^
-||pan.baidu.com/api/analytics^
-
-! ||user.hao123.com/static/mapping/hao.php
-! ||hao123.baidu.com/static/mapping/bd.php
-hao123.com/static/mapping/*.php
-baidu.com/static/mapping/*.php
-
-! gss0.baidu.com/*/static/api/js/trans/logger.js
-!   www.cnbeta.com/static/api/js/trans/logger.js
-*/static/api/js/trans/logger.js
-
-! ||n*.zuoyebang.cc/napi/stat/addnoticev1$image
-||zuoyebang.cc/napi/stat/*$image
-
 ! 腾讯 Tencent
 ! ||baas.browser.qq.com/report/functions/report?$image
 ! ||mp.weixin.qq.com/mp/report?$image
@@ -148,6 +70,10 @@ baidu.com/static/mapping/*.php
 ||s.pc.qq.com/guanjia/js/tj.js
 ||guanjia.qq.com/assets/js/*$script
 
+! From www.163.com
+||browsertdidticket.m.qq.com^
+||gatherer.m.qq.com/event/report^
+
 ! 阿里 Ali
 
 ! 杀伤力太大…
@@ -169,58 +95,15 @@ baidu.com/static/mapping/*.php
 
 ||ynuf.alipay.com/service/um.json$xhr,domain=v.youku.com
 
-
 ! 字节跳动
 ! ||s3.pstatp.com/pgc/tech/collect/collect-autotrack-rangers.js
 ||pstatp.com/pgc/tech/collect/*
 */collect/collect-autotrack-rangers.js$script
 
-
-! 网易 Netease
-||analytics.163.com^
-||analytics.126.net^
-||log.study.163.com^
-||netease.com/track/*
-
-! ||www.163.com/special/*/performance.js
-||163.com/*/performance.js^
-
-! ||hubble-js-bucket.nosdn.127.net/DATracker.sync.1.6.11.js
-||hubble-js-bucket.nosdn.127.net/DATracker.*.js
-||ursdoccdn.nosdn.127.net/webzj_cdn/gaq.js
-
-||g.163.com/a$image
-||vmonitor.ws.netease.com/web/performance$image
-
-! ||static.ws.126.net/163/frontend/libs/antanalysis.min.js
-! ||static.ws.126.net/f2e/products/analysis/js/analysis*.js
-*/antanalysis.min.js^
-*/analysis/js/analysis*.js^
-
-! clientlog.k.163.com/api/feedback/weblog/sys
-! clientlogusf.music.163.com/api/feedback/weblog
-||163.com/api/feedback/weblog^
-
-! extends ||ac.dun.163.com^ in EasyPrivacy
-||ac.dun.163yun.com/v3/b^
-
-! 网易有道 Netease Youdao
-! rlogs.youdao.com/rlog.php
-! rlogs.youdao.com/rlog.js
-||rlogs.youdao.com^
-! ||shared.ydstatic.com/js/rlog/*
-/rlog/*$script
-
+! 奇虎 360
 ! ||js.passport.qihucdn.com/11.0.1.js
 ||js.passport.qihucdn.com/*$script,third-party
 ||jspassport.ssl.qhimg.com^$script,third-party
-
-! Bilibili
-! ||s1.hdslb.com/bfs/seed/log/report/log-reporter.js
-! ||hdslb.com/bfs/seed/log/*
-
-||api.bilibili.com/x/web-frontend/data/collector$xhr
-||cm.bilibili.com/cm/api/*$xhr
 
 ! Sina
 ||log.mix.sina.com.cn^
@@ -246,6 +129,9 @@ baidu.com/static/mapping/*.php
 ! 简书 Jianshu
 ! ||tr.jianshu.com/fe/1/mon/atf$xhr
 ||tr.jianshu.com^
+
+! Gitee
+||gitee.com/*/access/add_access_log^$xhr
 
 ! TapTap
 ||assets.tapimg.com/js/sa-*.js
@@ -297,6 +183,8 @@ baidu.com/static/mapping/*.php
 ||verify.snssdk.com/static/*$script
 ! CSDN - 阿里
 ||g.alicdn.com^$domain=csdn.net,important
+
+! ---
 
 ! 超星
 ! 上传：个人 ID、课程 ID、班级 ID、章节 ID

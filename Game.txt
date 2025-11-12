@@ -6,27 +6,39 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 5-Jul-2025/15:34:08+08:00
+! Last Modified: 12-Nov-2025/13:48:44+08:00
+
+! MHHF 灵动游戏
+
+! 用户活动监控
+! https://www.mhhf.com/lib/originalc.js?v=202211231126
+www.mhhf.com##+js(set, user_active_time_plus, noopFunc, runAt, 3)
+www.mhhf.com##+js(set, update_msg_nums, noopFunc, runAt, 3)
+
+! 广告容器
+www.mhhf.com##.adv
+
 
 ! 4399
 ||www.4399.com/antijs/*
 
 ! 后缀是 .js，其实是图片…
-||traceplay.5054399.com/trace.js^
 ||adtrace.5054399.com/click.js^
 ||related.5054399.com/related.js^
 ||related.5054399.com/webgame.js^
+! ||trace4399.5054399.com/trace.js^
+! ||tracenews.5054399.com/trace.js^
+! ||traceplay.5054399.com/trace.js^
+||5054399.com/trace.js^
 
-! www.4399.com##+js(set, tracking, trueFunc)
-! www.4399.com##+js(set, tracead, trueFunc)
-! www.4399.com##+js(set, traceadrelated, trueFunc)
-! www.4399.com##+js(set, traceadwebgame, trueFunc)
+www.4399.com##+js(set, tracking, trueFunc)
+www.4399.com##+js(set, my_trace, noopFunc)
+www.4399.com##+js(set, tracead, trueFunc)
+www.4399.com##+js(set, traceadrelated, trueFunc)
+www.4399.com##+js(set, traceadwebgame, trueFunc)
 
-4399.com##+js(ra, oncontextmenu, body)
-www.4399.com##+js(ra, onmousedown, body[onmousedown="tracking(event);"])
-www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
-www.4399.com##+js(ra, onclick, a[onclick^="return traceadrelated("])
-www.4399.com##+js(ra, onclick, a[onclick^="return traceadwebgame("])
+4399.com##body:remove-attr(oncontextmenu)
+4399.com##body[onmousedown="tracking(event);"]:remove-attr(onmousedown)
 
 www.4399.com##.i_new, .i_hot
 
@@ -77,6 +89,19 @@ flash.ourgame.com###game_page_ad
 
 ! Newgrounds
 @@||www.ngads.com/gateway_v2.php
+
+||coolbuddy.com/HtmlAds.ashx
+
+konggames.com##+js(acis, window.NREUM)
+konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
+||cdn2.kongcdn.com/compiled-assets/metriks_*
+||www.kongregate.com/*/metrics.json
+
+||gamesfree.ca/js/ads.js$script,important
+www.gamesfree.ca###adContainer
+www.gamesfree.ca##.lol-carrousel-wrapper
+www.gamesfree.ca##.mobile-games-carrousel
+www.siftheadsgames.com##+js(nobab)
 
 ||cdn.getsupernova.com/tags/supernovalauncher.js$script,redirect-rule=noop.js
 

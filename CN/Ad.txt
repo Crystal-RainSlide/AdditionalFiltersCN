@@ -3,68 +3,16 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-! 百度不知道
-zhidao.baidu.com##.product-container
-
 ! 淘宝 Taobao
 www.taobao.com###smartbanner
 
 ! 腾讯新闻 扫码领红包
 new.qq.com##.fixed-bar > a[href="//new.qq.com/hb_index.htm"]
 
-! 网易
-
-! ||static.ws.126.net/f2e/products/post1603/js/sspAd.1244514.min.js
-*/js/sspAd.*.min.js
-
-! 网易 ad_module 补充
-www.163.com##.ad_module + div[class^="blank"]
-
-! 网易号文章 顶部底部通栏广告
-www.163.com##.post_columnad_top, .post_columnad_btm
-
-! 网易邮箱
-mail.163.com###adtag
-
-! 有道 Youdao
-! youdao ad sdk
-||shared.ydstatic.com/js/yadk/*
-! yadk template sdk
-||shared.ydstatic.com/js/yatdk/*
-
-||dict.youdao.com/infoline
-||ke.youdao.com/api/course/*
-||www.huihui.cn/deals/channel.json
-||c.youdao.com/www/banner.html$subdocument,domain=www.youdao.com
-! ||oimage*.ydstatic.com/image?id=*&product=*$image
-
-www.youdao.com##li:has-text(/背单词|精品课|人工翻译|惠惠/)
-www.youdao.com###more
-www.youdao.com###wljb
-www.youdao.com###margin3
-www.youdao.com###doc2
-www.youdao.com###callback
-
-fanyi.youdao.com##li:has-text(/有道翻译蛋|人工翻译/)
-fanyi.youdao.com##.rengong__guide
-fanyi.youdao.com###transMan
-fanyi.youdao.com##.inside__products
-fanyi.youdao.com##.side__nav
-
 ! Sohu
 www.sohu.com##.adA, .adL, .adR, .godA, .godL, .godR, .god-banner, .god-article-bottom, .god-channel-top, #god_fix_1
 ! www.sohu.com##.allsee-item:not(:has(.allsee-image,.allsee-title))
 www.sohu.com##.allsee-item.bd-wrap
-
-! Bilibili
-! 广告通用
-www.bilibili.com##.ad-report
-! 右侧推荐视频列表底部广告
-www.bilibili.com##.ad-floor-exp
-! 推荐视频
-www.bilibili.com##.video-page-special-card,.video-page-special-card-small
-! 评论区顶部
-www.bilibili.com##.reply-notice
 
 ! 知乎
 ! ||www.zhihu.com/api/v4/growth/mobile_top_banner$xmlhttprequest
@@ -211,23 +159,14 @@ club.kdnet.net##a[href^="//super1.kdnet.net//"]
 club.kdnet.net##.ad-banner-left
 club.kdnet.net##.links
 
+c.biancheng.net###ad-arc-top, #ad-bottom-weixin
+
+www.iplaysoft.com##.entry-recommend-posts
+
 ! Premium Content Promotion Start
 
-! 百度贴吧 Baidu Tieba
-tieba.baidu.com###hot_thread
-tieba.baidu.com###hot_forum
-tieba.baidu.com##.banner
-tieba.baidu.com###celebrity
-tieba.baidu.com##.user_score
-tieba.baidu.com##.rank
-tieba.baidu.com##.member_rank
-tieba.baidu.com###media_item
-tieba.baidu.com###adide_platform
-tieba.baidu.com##.r-top-sec
-tieba.baidu.com##.top-sec
-tieba.baidu.com###spage_liveshow_slide
-tieba.baidu.com##.tbui_fbar_down
-tieba.baidu.com##.tbui_fbar_share
+! 腾讯文档 会员皮肤
+docs.qq.com##.help-center-wrapper > .skin-container
 
 ! QQ 空间
 qzone.qq.com##.f_item_ad
@@ -237,19 +176,15 @@ user.qzone.qq.com###tab_applist_show > li[data-recommend]
 ! 新浪邮箱
 ||m0.mail.sina.com.cn/apps/tab.php$subdocument
 
-! 码云
-gitee.com##.wallet-banner
-gitee.com##.ent-poster
+! 新浪博客 顶栏广告残余
+blog.sina.com.cn##.nsinatopbar .horn
+! 新浪博客 广告 热门商品
+blog.sina.com.cn###hotShangPin
+! 新浪博客 样式修复
+blog.sina.com.cn##.sinabloghead:style(height: 175px !important)
+blog.sina.com.cn###column_1 > style:has-text(#module_901):remove()
+
+! Gitee 增值服务
+gitee.com##.git-project-service
 
 ! Premium Content Promotion End
-
-! House Advertisement Start
-
-! 网易公开课
-open.163.com##.advertisement
-open.163.com##.comment:style(margin-top: 0 !important)
-
-c.biancheng.net###ad-arc-top, #ad-bottom-weixin
-
-www.iplaysoft.com##.entry-recommend-posts
-! House Advertisement End

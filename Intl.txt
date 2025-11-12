@@ -6,7 +6,7 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 5-Jul-2025/15:34:08+08:00
+! Last Modified: 12-Nov-2025/13:48:44+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -198,6 +198,13 @@ compass-style.org##.advertisement
 
 www.xmedia-recode.de##a[href="viren_pruf.php"]
 
+www.foobar2000.org##.navad
+
+www.eloshapes.com##.side-column > div > div[id^="promos-"]
+
+lucide.dev##.floating-ad
+lucide.dev##.VPCarbonAds
+
 win7gadgets.com##.ads_subtitle, .gads
 
 xhamster.com##.index-videos .thumb-list .wio-xright-rectangle ~ .thumb-list__item:style(margin-right: 0 !important)
@@ -208,13 +215,7 @@ xhamster.com##div[class^="wih-"]
 www.boundhub.com##noindex
 ! www.boundhub.com##.to1p,.pl2ace,.o3pt,.tabl4e,.spon5sor
 
-||coolbuddy.com/HtmlAds.ashx
 
-||gamesfree.ca/js/ads.js$script,important
-www.gamesfree.ca###adContainer
-www.gamesfree.ca##.lol-carrousel-wrapper
-www.gamesfree.ca##.mobile-games-carrousel
-www.siftheadsgames.com##+js(nobab)
 
 ! Aff
 ! VULTR
@@ -349,11 +350,6 @@ bandcamp.com###app-promo
 ||symbolab.com/detailedLog$xhr
 
 ||www.sololearn.com/Scripts/fngprnt.js
-
-konggames.com##+js(acis, window.NREUM)
-konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
-||cdn2.kongcdn.com/compiled-assets/metriks_*
-||www.kongregate.com/*/metrics.json
 
 ||getadblock.com/js/log.js
 ! ||getadblock.com/js/user.js

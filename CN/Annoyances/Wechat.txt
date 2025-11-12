@@ -8,10 +8,6 @@
 ! ||www.yuketang.cn/static/js/libs/jweixin-*.js
 */jweixin-*.js^$script
 
-! Gitee
-||assets.gitee.com/assets/qrcode-weixin-*$image
-gitee.com##.qrcode.weixin
-
 ! 新京报
 www.bjnews.com.cn###v4_wxin
 

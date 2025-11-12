@@ -1,12 +1,9 @@
-! Title: AdditionalFiltersCN - SPAM
+! Title: AdditionalFiltersCN - Annoyances
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-! Red Dot & Hot & New Start
-
-fanyi.baidu.com##.new-domain-wrapper::before
-
+! Red Dot & "Hot" & "New" Start
 qzone.qq.com,show.qq.com##.ico_new
 qzone.qq.com##.sn-radio
 qzone.qq.com##.icon_app_new_cn,.icon_app_recommend,.icon-red-dot
@@ -21,21 +18,16 @@ y.qq.com##.top_nav__mark
 
 www.zhihu.com##.TopSearch-hot:style(filter: grayscale())
 
-mail.163.com##.nui-ico-new3
-
-music.163.com##.hot
-music.163.com##.m-subnav .nav a em span
-music.163.com##.m-subnav .nav a em:style(padding: 0 13px !important)
-
-fanyi.youdao.com##.ic_new_tag
-
 www.chinaz.com##.hot
+
+! 模力方舟
+gitee.com###gitee-blog > .ui.image
 
 www.gcores.com##.navLayout_item_append
 
 36kr.com##.live-new-icon
 
-! Red Dot & Hot & New End
+! Red Dot & "Hot" & "New" End
 
 ! 去你妈的注册弹窗
 douban.com###landing-bar
@@ -49,56 +41,15 @@ down.ali213.net##.common_down_l > .common_down_l_one > h4 ~ *
 ! 你一个搜索引擎话怎么这么多
 cn.bing.com###ev_talkbox_wrapper
 
-! 百度 部分页面的干扰内容
-||baidu.com/xpage^
-
-||baike.baidu.com/cms/global/home_config.json
-
-! 百度百科 社区规则学习与测试 显示正确答案
-! 以下哪些内容适合发布在科星球？（多选）
-baike.baidu.com##.answer-box .answer-tips:style(display: block !important)
-
-! ||exp.bdstatic.com/static/common-jquery/widget/js/logic/log^
-||exp.bdstatic.com/static/common-jquery/widget/js/logic/msg^
-||exp.bdstatic.com/static/activity/widget/ui/redbox^
-jingyan.baidu.com###my-income
-jingyan.baidu.com##.wgt-common-nav
-jingyan.baidu.com###auto-app-placehold
-jingyan.baidu.com##.wgt-income-money
-jingyan.baidu.com##.magzine-list
-
-! 百度网盘 游戏
-pan.baidu.com##.wp-s-header .gameEntry
-
-! 百度贴吧 爱逛的吧
-! ||tieba.baidu.com/p/getLikeForum
-
-! 百度知道 右侧 特别推荐
-! zhidao.baidu.com##.cms-slide
-
-! 百度知道 移除右侧内容（只有特别推荐和广告…）
-zhidao.baidu.com##.qb-section > .qb-side
-zhidao.baidu.com##.qb-section > .qb-content:style(float: none; display: block; margin: 0 auto; padding: 0 30px 30px; border: none)
-
-! 百度知道 红包
-zhidao.baidu.com###answer-bar.exp-answerbtn-yh::after
-! 百度知道 赚积分 换礼品
-zhidao.baidu.com##.receive-awards-bubble, .earn-points-exchange-gifts-bubble
-! 百度知道 申请认证
-zhidao.baidu.com##.jump-goto-star
-! 百度知道 #热议#
-zhidao.baidu.com##.question-number-text-chain
-
-||zhidao.baidu.com/question/api/recommend
-||zhidao.baidu.com/question/api/hao123word
-||zhidao.baidu.com/s/toutu/questionnaire.js
-zhidao.baidu.com##.shop-entrance
-
 ! 腾讯视频 iframe 底部推荐
 v.qq.com##.txp_tipbar
 
 ! 搜狐 Sohu
-www.sohu.com###fixed-view
+! 劣质内容：大家都在看，热门精选
+www.sohu.com###articleAllsee, .hot-atlas
+! 劣质内容：搜狐号 文章评论区下方 推荐阅读
+www.sohu.com###groomRead
+
 
 ! 微博 大家都在搜（搜索框 placeholder 热词）
 ! weibo.com
@@ -120,6 +71,9 @@ h5.qzone.qq.com##li[global-hot="topbar.vip"]
 h5.qzone.qq.com##.gb-nav > li:style(width: 25% !important)
 h5.qzone.qq.com##.mod-pb-list .avatar.commend::before
 
+! QQ 看点快报 热点推荐
+kuaibao.qq.com##.recomm-card
+
 ! Zhihu
 ||www.zhihu.com/api/*/hot_recommendation$xmlhttprequest
 www.zhihu.com##.Popover-content:has-text(知乎热搜)
@@ -129,36 +83,8 @@ www.zhihu.com##.ReadingMembership
 www.zhihu.com##.RelatedCommodities-title
 www.zhihu.com##.RelatedCommodities-list
 
-! Bilibili
-! 阻止B站往链接里加 spmid
-||hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js^
-! 顶栏
-! ||api.bilibili.com/x/web-show/res/locs^
-bilibili.com##.loc-entry,.left-loc-entry
-! 站外播放器 顶部推荐
-player.bilibili.com##.bilibili-player-video-recommend
-||data.bilibili.com/s/miniloader_online^
-! 用户头像挂件
-www.bilibili.com##.bili-avatar-pendent, .user-face > .pendant
-! 大家围观的主播
-www.bilibili.com##.pop-live-small-mode
-! 推荐直播
-www.bilibili.com###live_recommand_report
-! 直播水印
-live.bilibili.com##.bilibili-live-player-video-logo
-! 直播底部滚动活动
-live.bilibili.com##.flip-view
-! 搜索框 Placeholder
-||api.bilibili.com/x/web-interface/search/default
-
 ! 搜狗 在您的Firefox中添加搜狗
 www.sogou.com##.sidebox2
-
-! 天翼云 VIP 标志
-cloud.189.cn##.vipIcon
-
-! 网易云音乐 VIP 标志
-music.163.com##.brand-vip.brand-tag
 
 ! 新浪视频 热搜
 ||video.sina.com.cn/interface/search_hot.php
@@ -169,14 +95,11 @@ dp.pconline.com.cn##+js(set, showAuthor, noopFunc)
 ! 简书 简书钻
 www.jianshu.com##header span[aria-label="简书钻"]
 
-
+! Solidot
 ||img.solidot.org//0/446/liiLIZF8Uh6yM.jpg$image
 
 ! 新京报
 www.bjnews.com.cn##.layer_mian
-
-! QQ 看点快报 热点推荐
-kuaibao.qq.com##.recomm-card
 
 ! 超星
 ||chaoxing.com/ananas/space/exam/js/enc_js_work.js
@@ -245,22 +168,11 @@ dl.3dmgame.com###feedback + .bown_bt_title + .dowm_box
 ! 游侠 手机游戏 小游戏
 down.ali213.net##.otherGameContainer
 
-kan.china.com##.pages a[href^="/recommend.shtml"]
-kan.china.com###popup-news
-kan.china.com##.badge-number
-kan.china.com###page-idle-mask, #page-idle-box
-
-! ----
-
 ! 一些不必要的提示
 www.3h3.com##+js(set, _pageinfo.no_legal_gm, '')
 icopy.site###backToMainSite
 
-! ----
-
 ! 文字链脚本
-||gh.bdstatic.com/static/gh/js/ll/m_word.js
-! ||entry.baidu.com/rp/wordner
 ||static.yxdown.com/all/js/pb2.js
 
 ! ----

@@ -3,25 +3,37 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! MHHF 灵动游戏
+
+! 用户活动监控
+! https://www.mhhf.com/lib/originalc.js?v=202211231126
+www.mhhf.com##+js(set, user_active_time_plus, noopFunc, runAt, 3)
+www.mhhf.com##+js(set, update_msg_nums, noopFunc, runAt, 3)
+
+! 广告容器
+www.mhhf.com##.adv
+
+
 ! 4399
 ||www.4399.com/antijs/*
 
 ! 后缀是 .js，其实是图片…
-||traceplay.5054399.com/trace.js^
 ||adtrace.5054399.com/click.js^
 ||related.5054399.com/related.js^
 ||related.5054399.com/webgame.js^
+! ||trace4399.5054399.com/trace.js^
+! ||tracenews.5054399.com/trace.js^
+! ||traceplay.5054399.com/trace.js^
+||5054399.com/trace.js^
 
-! www.4399.com##+js(set, tracking, trueFunc)
-! www.4399.com##+js(set, tracead, trueFunc)
-! www.4399.com##+js(set, traceadrelated, trueFunc)
-! www.4399.com##+js(set, traceadwebgame, trueFunc)
+www.4399.com##+js(set, tracking, trueFunc)
+www.4399.com##+js(set, my_trace, noopFunc)
+www.4399.com##+js(set, tracead, trueFunc)
+www.4399.com##+js(set, traceadrelated, trueFunc)
+www.4399.com##+js(set, traceadwebgame, trueFunc)
 
-4399.com##+js(ra, oncontextmenu, body)
-www.4399.com##+js(ra, onmousedown, body[onmousedown="tracking(event);"])
-www.4399.com##+js(ra, onclick, a[onclick^="return tracead("])
-www.4399.com##+js(ra, onclick, a[onclick^="return traceadrelated("])
-www.4399.com##+js(ra, onclick, a[onclick^="return traceadwebgame("])
+4399.com##body:remove-attr(oncontextmenu)
+4399.com##body[onmousedown="tracking(event);"]:remove-attr(onmousedown)
 
 www.4399.com##.i_new, .i_hot
 

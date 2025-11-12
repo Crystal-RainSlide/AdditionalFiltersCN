@@ -96,11 +96,6 @@
 
 ||www.sololearn.com/Scripts/fngprnt.js
 
-konggames.com##+js(acis, window.NREUM)
-konggames.com##+js(set, window._gaq._createAsyncTracker, noopFunc)
-||cdn2.kongcdn.com/compiled-assets/metriks_*
-||www.kongregate.com/*/metrics.json
-
 ||getadblock.com/js/log.js
 ! ||getadblock.com/js/user.js
 ||getadblockpremium.com/js/log.js
