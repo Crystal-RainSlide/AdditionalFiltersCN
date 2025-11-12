@@ -22,6 +22,8 @@ However, since most of the content of this list has not been submitted to
 other lists, thus, unless this situation changes, otherwise this list should not
 be considered out of date.
 
+## 开发 Development
+
 安装 [AGLint](https://github.com/AdguardTeam/AGLint) 以便检查代码：
 - 官方安装指南：<!---->https://github.com/AdguardTeam/AGLint?tab=readme-ov-file#installation--usage
 - VSCode 拓展：<!---->https://marketplace.visualstudio.com/items?itemName=adguard.adblock
@@ -30,60 +32,21 @@ Install [AGLint](https://github.com/AdguardTeam/AGLint) for linting support:
 - Offical install guide: https://github.com/AdguardTeam/AGLint?tab=readme-ov-file#installation--usage
 - VSCode extension: https://marketplace.visualstudio.com/items?itemName=adguard.adblock
 
-## 全部 All
+## 链接 Links
 
-“全部”包含当前大类下下所有类别与针对性规则。
-
-All includes all the variants and specific rules in current category.
+使用这些链接添加对应的规则：
 
 - [CN.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt)
 - [Intl.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt)
 - [Game.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game.txt)
 
-## 类别 Variants
+## 关于修复 About Fixes
 
-### CN
+备注：本来，修复 [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt) 主要针对 [Easylist filter lists] 和 [Fanboy Lists]，
+现在，修复会覆盖下面的“其他规则列表”中的规则。
 
-　　　　类别 Variant         | 链接 Link
----------------------------- | ---------
-　　数据收集 Data Collection |    [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/DC.txt)
-　　　　广告 Advertisement   |    [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Ad.txt)
-　　　　干扰 Spam            |  [Spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Spam.txt)
-APP 与客户端 App & Client    |   [APP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/APP.txt)
-　　分享按钮 Share buttons   | [Share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/Share.txt)
-　　会员相关 VIP             |   [VIP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/VIP.txt)
-
-### Intl
-
-　　　　类别 Variant         | 链接 Link
----------------------------- | ---------
-　　数据收集 Data Collection |    [DC.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/DC.txt)
-　　　　广告 Advertisement   |    [Ad.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Ad.txt)
-　　　　干扰 Spam            |  [Spam.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Spam.txt)
-APP 与客户端 App & Client    |   [APP.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/APP.txt)
-　　分享按钮 Share buttons   | [Share.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl/Share.txt)
-
-## Game
-
-类别 Variant | 链接 Link
------------- | ---------
-中文 CN      |   [CN.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/CN.txt)
-国际 Intl    | [Intl.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Game/Intl.txt)
-
-## 针对性规则 Specific Rules
-
-### CN
-
-名称 Name   | 链接 Link
------------ | ---------
-微信 WeChat | [NoWeWontChat.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/NoWeWontChat.txt)
-修复 Fixes  | [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt)
-
-备注：本来，修复主要针对 [Easylist filter lists] 和 [Fanboy Lists]，
-现在，修复会覆盖下面的其他规则列表中的规则。
-
-P.S. Originally, Fixes is mainly for [Easylist filter lists] and [Fanboy Lists],
-now, all the rules listed in Other Rulesets are covered.
+P.S. Originally, [fix.txt](https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN/fix.txt) is mainly for [Easylist filter lists] and [Fanboy Lists],
+now, all the rules listed below in "Other Rulesets" are covered.
 
 [Easylist filter lists]: https://easylist.to/
 [Fanboy Lists]: https://fanboy.co.nz/

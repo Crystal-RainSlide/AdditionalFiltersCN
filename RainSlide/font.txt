@@ -4,7 +4,7 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
+||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com,~youtube.com
 
 @@||fonts.googleapis.com^$domain=nicovideo.jp|store.steampowered.com|toho-vote.info
 
@@ -45,3 +45,7 @@
 
 ||pad.disroot.org/static/font/*
 @@||pad.disroot.org/static/font/fontawesome-etherpad.woff
+
+||react.dev/fonts/*
+
+||fonts.thu.fail^$font,domain=mirrorz.org

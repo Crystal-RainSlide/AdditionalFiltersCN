@@ -16,7 +16,7 @@ make-metadata: function [
 	]
 ]
 
-rejoin-metadata: function [
+parse-metadata: function [
 	metadata [object!]
 	suffix [string!]
 	return: [string!]
@@ -26,7 +26,7 @@ rejoin-metadata: function [
 		"! Description: " metadata/description  LF
 		"! Homepage: "    metadata/homepage     LF
 		"! Expire: "      metadata/expire       LF
-		"! Last Modified: " ( to string! now )      LF ; AdBlock Plus
+		"! Last Modified: " ( to string! now )  LF ; For AdBlock Plus
 	]
 ]
 
@@ -37,61 +37,72 @@ comment {
 separator: append ( append/dup "! " #"-" 78 ) LF
 
 clean-ruleset: function [
+	"Remove the header from a ruleset"
 	ruleset-str [string!]
+	return: [string!]
 ][
 	result: find/tail ruleset-str separator
-	either result <> none [
-		return result
-	][
-		return ruleset-str
-	]
+	either result <> none
+		[ return result ]
+		[ return ruleset-str ]
 ]
 
-merge-ruleset: function [
+build-ruleset: function [
 	ruleset-dir [string!]
 	ruleset-name [string!]
 	metadata [object!]
 ][
 
-	ruleset-file: clean-path to file! :ruleset-dir
+	; "CN" -> %/<current dir>/CN
+	ruleset-bare-path: clean-path to file! :ruleset-dir
 
-	working-dir: dirize ruleset-file
-	output-file: append ruleset-file ".txt"
+	ruleset-dir: dirize ruleset-bare-path        ; %/<cd>/CN -> %/<cd>/CN/
+	output-file: append ruleset-bare-path ".txt" ; %/<cd>/CN -> %/<cd>/CN.txt
 
-	either exists? working-dir [
-		prin "Start at " print to-local-file working-dir
-	][
-		cause-error 'access 'cannot-open [ working-dir ]
-	]
+	; check & log ruleset-dir
+	either exists? ruleset-dir
+		[ prin "Start at " print to-local-file ruleset-dir ]
+		[ cause-error 'access 'cannot-open [ ruleset-dir ] ]
 
-	output-result: rejoin-metadata metadata ruleset-name
+	; prepare merged-ruleset string
+	merged-ruleset: parse-metadata metadata ruleset-name
 
-	old-dir: what-dir
-	change-dir working-dir
+	; cd & traverse ruleset-dir
+	saved-dir: what-dir
+	change-dir ruleset-dir
 
-	; traverse the working directory
-	foreach file read working-dir [
+	parse-file: function [ file [file!] ][
 		either all [
 			%.txt = suffix? file ; file's extention name matches *.txt
 			output-file <> file  ; file is not output-file itself
 		][
 			prin "	Add " print file
-			append output-result clean-ruleset read file
+			append merged-ruleset clean-ruleset read file
 		][
 			prin "	Ignore " print file
 		]
 	]
 
-	change-dir old-dir
+	foreach depth-1 read ruleset-dir [
+		either not dir? depth-1
+		[ parse-file depth-1 ]
+		[ foreach depth-2 read depth-1 [
+			insert depth-2 depth-1
+			either not dir? depth-2
+			[ parse-file depth-2 ]
+			[ prin "	Ignore deep dir " print depth-2 ] ; Stop at depth 2
+		] ]
+	]
+
+	change-dir saved-dir
 
 	; write the output
-	; Till now, 2020-1-24, as far as I know, there is no offical way
-	; to write a text file with specified line break, but this /binary
-	; trick will write text file with LF perfectly.
-	write/binary output-file to-binary output-result
+	; As far as I know, there is no offical way to specify line break when
+	; writing a text file. but /binary will write them with LF anyway.
+	write/binary output-file to-binary merged-ruleset
 
 	; This will use CRLF on Windows:
-	; write output-file output-result
+	; write output-file merged-ruleset
 
 	print "End"
 
@@ -110,16 +121,12 @@ metadata-additional-filters: make-metadata [
 
 	"7 days"
 ]
+foreach ruleset [ "CN" "Intl" "Game" ]
+	[ build-ruleset ruleset ruleset metadata-additional-filters ]
 
-metadata-rainslide: make-metadata [
+build-ruleset "RainSlide" "" make-metadata [
 	"RainSlide's Custom Rules"
 	"Some custom rules excluded from AdditionalFiltersCN."
 	https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 	"7 days"
 ]
-
-foreach ruleset [ "CN" "Intl" "Game" ][
-	merge-ruleset ruleset ruleset metadata-additional-filters
-]
-
-merge-ruleset "RainSlide" "" metadata-rainslide

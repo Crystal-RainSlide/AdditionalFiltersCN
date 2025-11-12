@@ -11,6 +11,8 @@ dropgalaxy.com###dns + div
 mega4upload.com##.compare_table
 mega4upload.com###shareUrlsTabs, #shareUrlsContent
 
+mega4upload.net##.popup-content > #post
+
 ||frdl.to/xfst_theme2/img/*.jpg$image
 frdl.to##form center:has(>img.img-fluid:only-child)
 frdl.to##b:last-child:style(display: contents)

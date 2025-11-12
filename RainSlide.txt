@@ -2,7 +2,7 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 5-Jul-2025/15:34:08+08:00
+! Last Modified: 12-Nov-2025/13:48:44+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -35,13 +35,31 @@ www.baidu.com###content_right
 
 ! BiliBili
 
-! 热搜
-||app.bilibili.com/x/topic/web/dynamic/rcmd^
-||api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd^
-||api.bilibili.com/x/web-interface/search/square^
-||api.bilibili.com/x/web-interface/wbi/search/square^
+! 1. 首页大清洗
 
-! 顶栏大清洗
+! 内测
+! www.bilibili.com##.bili-feed4-layout, .header-channel
+! www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
+! 新版
+! www.bilibili.com##.bili-layout, .bili-header__banner
+! 旧版
+! www.bilibili.com##.first-screen, .storey-box
+! APP下载入口
+! www.bilibili.com##.qrcode-wrapper_biliapp
+
+! 1.1 首页盈利
+
+! OGV（番剧、国创、综艺、动画，Occupationally Generated Video）
+||api.bilibili.com/x/web-interface/index/ogv/rcmd^
+! PUGV（课程，Professional User Generated Video）
+||api.bilibili.com/pugv/app/web/floor/switch^
+
+! 直播、漫画、电竞（web-show）
+||api.live.bilibili.com/xlive/web-interface/v1/webMain/getMoreRecList^
+||manga.bilibili.com/twirp/comic.v1.MainStation/Feed^
+||api.bilibili.com/x/web-show/res/locs^
+
+! 2. 顶栏大清洗
 
 ! 新版
 bilibili.com##.bili-header .right-entry--vip
@@ -54,18 +72,6 @@ bilibili.com##.bili-header .bili-header__bar:style(position: relative !important
 bilibili.com##.nav-link .nav-link-ul .nav-link-item:not(:first-child)
 ! 古代旧版
 bilibili.com##.nav-items-ctnr, .showmore-link
-
-! 首页大清洗
-
-! 内测
-! www.bilibili.com##.bili-feed4-layout, .header-channel
-! www.bilibili.com##.palette-button-wrap:style(left: 90% !important)
-! 新版
-! www.bilibili.com##.bili-layout, .bili-header__banner
-! 旧版
-! www.bilibili.com##.first-screen, .storey-box
-! APP下载入口
-! www.bilibili.com##.qrcode-wrapper_biliapp
 
 ! ------------------------------------------------------------------------------
 
@@ -92,7 +98,7 @@ blog.csdn.net###toolBarBox
 ! 天翼云 免登录下载
 cloud.189.cn##+js(set, application.headerView.isLogin, true)
 
-! 4399
+! 4399 #addiv
 www.4399.com###addiv
 
 ! 智慧树登录页背景动画
@@ -103,6 +109,8 @@ www.4399.com###addiv
 ||www.0daydown.com/wp-content/themes/d8/js/jquery.js
 
 ||china.com^
+
+||hao.360.com^
 
 ! Intl
 ! ------------------------------------------------------------------------------
@@ -123,15 +131,13 @@ www.4399.com###addiv
 ! Genius Lyircs - Apple Music Player
 ||assets.genius.com/javascripts/compiled/apple_music_player-*.js
 
+! AdBlock
+||getadblock.com^
 
 marketplace.visualstudio.com##.vsCodeDownloadLinkContainer
 
 marketplace.secondlife.com###ads,.advertisement
 
-! RARBG Recommended torrents
-185.37.100.123,rarbg.to,rarbgprx.org##div.content-rounded > table.lista-rounded:only-child > tbody > tr > td:only-child > div[align="center"]:first-child:has( > table:only-child > tbody > tr:only-child > td.lista > a:only-child > img:only-child)
-185.37.100.123,rarbg.to,rarbgprx.org##div.content-rounded > table.lista-rounded:only-child > tbody > tr:has(> td.block[align="center"]:only-child > b:only-child:has-text(Recommended torrents))
-185.37.100.123,rarbg.to,rarbgprx.org##.lista > tbody > tr:has(> td > table > tbody > tr > td > a[href^="/v_p_n_"])
 
 ! IGGGAMES & PCGamesTorrents
 
@@ -164,12 +170,14 @@ dropgalaxy.com###dns + div
 mega4upload.com##.compare_table
 mega4upload.com###shareUrlsTabs, #shareUrlsContent
 
+mega4upload.net##.popup-content > #post
+
 ||frdl.to/xfst_theme2/img/*.jpg$image
 frdl.to##form center:has(>img.img-fluid:only-child)
 frdl.to##b:last-child:style(display: contents)
 frdl.to##.copyright:style(margin-top: 0 !important)
 
-||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com
+||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com,~youtube.com
 
 @@||fonts.googleapis.com^$domain=nicovideo.jp|store.steampowered.com|toho-vote.info
 
@@ -211,6 +219,13 @@ frdl.to##.copyright:style(margin-top: 0 !important)
 ||pad.disroot.org/static/font/*
 @@||pad.disroot.org/static/font/fontawesome-etherpad.woff
 
+||react.dev/fonts/*
+
+||fonts.thu.fail^$font,domain=mirrorz.org
+
 rsload.net##a[href="https://rsload.net/tutvce.html"]
 rsload.net##center
 rsload.net##center + br
+
+! ChinaDSL 论坛在每行后添加的、用于干扰爬虫的文本
+www.chinadsl.net##.pcb .jammer

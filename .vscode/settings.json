@@ -5,4 +5,16 @@
 	// Readonly & exclude in search for built txt files
 	"files.readonlyInclude": { "*.txt": true },
 	"search.exclude": { "*.txt": true },
+
+	// https://open-vsx.org/extension/3xpo/regionfolding
+	// https://marketplace.visualstudio.com/items?itemName=3xpo.regionfolding
+	"3xpo.regionfolder": {
+		"[adblock]": {
+			"foldStart":      "! #region [NAME]",
+			"foldStartRegex": "![\\s]*#region([\\s+].*)?",
+			"foldEnd":        "! #endregion",
+			"foldEndRegex":   "![\\s]*#endregion",
+			"disableFolding": false
+		}
+	},
 }

@@ -7,3 +7,6 @@
 rsload.net##a[href="https://rsload.net/tutvce.html"]
 rsload.net##center
 rsload.net##center + br
+
+! ChinaDSL 论坛在每行后添加的、用于干扰爬虫的文本
+www.chinadsl.net##.pcb .jammer
