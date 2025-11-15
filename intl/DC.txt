@@ -27,6 +27,14 @@
 ||duckduckgo.com/weekly/
 ||duckduckgo.com/monthly/
 
+! StackExchange GPS Tracking
+||askubuntu.com/Content/Js/misc/copy.en.Js
+||mathoverflow.net/Content/Js/misc/copy.en.Js
+||serverfault.com/Content/Js/misc/copy.en.Js
+||stackexchange.com/Content/Js/misc/copy.en.Js
+||stackoverflow.com/Content/Js/misc/copy.en.Js
+||superuser.com/Content/Js/misc/copy.en.Js
+
 ! Yandex
 ! ||yastatic.net/nearest.js
 

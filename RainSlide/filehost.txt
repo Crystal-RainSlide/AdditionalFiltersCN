@@ -4,6 +4,17 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
+! megaup.net
+||megaup.net/themes/spirit/assets/frontend/img/background.jpg$image,redirect=2x2.png
+||megaup.net/themes/flow/frontend_assets/socialsider-v1.0/*
+megaup.net##.socialsider
+
+! terminal.lc
+||terminal.lc/assets/css/s.css
+||terminal.lc/assets/img/static.gif$image,redirect=1x1.gif
+terminal.lc##.noise, .overlay
+
+
 ||www.youtube.com^$subdocument,domain=dropgalaxy.com|mega4upload.com
 
 dropgalaxy.com###dns + div

@@ -6,7 +6,7 @@
 !     which should be found & listed & blocked YEARS ago.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 12-Nov-2025/13:48:44+08:00
+! Last Modified: 15-Nov-2025/14:45:59+08:00
 
 ! AOL
 ||o.aolcdn.com/ads/*$important
@@ -56,21 +56,11 @@ outlook.live.com###MainModule + div:last-child:has(> div:only-child > div > #owa
 old.reddit.com##.ad-container
 
 ! SourceForge
-sourceforge.net##.sterling, .banner-sterling
-sourceforge.net###nels, #project-nel, .nel, .nel-block
-sourceforge.net##.stackcommerce-widget
-sourceforge.net###dlp-voip-quote
+sourceforge.net##.main-nav-link
+sourceforge.net###floating-content
 
-! StackExchange
-stackexchange.com,stackoverflow.com##.js-freemium-cta
-
-! pixiv
-www.pixiv.net##.premium-lead-premium-campaign
-www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
-
-! www.pixiv.net###js-mount-point-header.with-ad:style(min-height: 64px !important)
-www.pixiv.net##+js(rc, with-ad)
-www.pixiv.net###column-misc > .ad + .item:style(margin-top: 0 !important)
+! Pixiv - Premium ad in Header
+www.pixiv.net##iframe[src^="https://imp.pixiv.net/premium_lp?"] + a[href^="/premium/lead/lp?"]
 
 ! NPR
 www.npr.org###main-sidebar:has(> #ad-standard-wrap:only-child)
@@ -99,9 +89,6 @@ www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
 
 ! APKPure
 apkpure.com##.ad-box-auto
-
-! XDA
-forum.xda-developers.com###honor-launch-banner
 
 ! Fandom
 fandom.com##.top-ads-container, .mcf-card-sponsored-content
@@ -282,6 +269,14 @@ bandcamp.com###app-promo
 ||duckduckgo.com/weekly/
 ||duckduckgo.com/monthly/
 
+! StackExchange GPS Tracking
+||askubuntu.com/Content/Js/misc/copy.en.Js
+||mathoverflow.net/Content/Js/misc/copy.en.Js
+||serverfault.com/Content/Js/misc/copy.en.Js
+||stackexchange.com/Content/Js/misc/copy.en.Js
+||stackoverflow.com/Content/Js/misc/copy.en.Js
+||superuser.com/Content/Js/misc/copy.en.Js
+
 ! Yandex
 ! ||yastatic.net/nearest.js
 
@@ -397,34 +392,9 @@ bandcamp.com###app-promo
 ||sharethis.com^$third-party
 ||static.addtoany.com^$third-party
 
-! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
-! （每个约 20 MB）
-! Google 怎么想的啊。
-||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+TC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+SC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+HK$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+JP$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+TC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+SC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+HK$stylesheet
-||fonts.gstatic.com/s/notosansjp/*
-||fonts.gstatic.com/s/notosanskr/*
-||fonts.gstatic.com/s/notosanstc/*
-||fonts.gstatic.com/s/notosanssc/*
-||fonts.gstatic.com/s/notosanshk/*
-||fonts.gstatic.com/s/notoserifjp/*
-||fonts.gstatic.com/s/notoseriftc/*
-||fonts.gstatic.com/s/notoserifsc/*
-||fonts.gstatic.com/s/notoserifhk/*
-
 ! WordPress better-content-protector Plugin
 ! ||www.fcportables.com/wp-content/plugins/better-content-protector/assets/js/content-protector-pack.min.js
 */wp-content/plugins/better-content-protector/*
-
-! MDN: dot
-developer.mozilla.org##.top-level-entry-container .top-level-entry-dot ~ .top-level-entry::after
 
 ! WikiHow
 ! Help us do more
@@ -434,6 +404,12 @@ www.wikihow.com##+js(set, mw.config.values.wgProMembership, 1)
 
 ! Disqus - 将红色通知圆点设为灰色
 disqus.com##.unread .notification-icon:style(color: #656c7a !important)
+
+! Sourceforge Download page - no countdown & no redirect
+sourceforge.net##+js(set, SF.noCountDown, true)
+sourceforge.net##+js(set, SF.noRedirect, true)
+sourceforge.net##+js(set, SF.pspRedirect, false)
+sourceforge.net##+js(set, SF.pdlpRedirect, false)
 
 ! Fandom
 ! Wikia bar
@@ -458,6 +434,5 @@ userstyle.org###stylish-code:style(font-family: monospace !important)
 xhamster.com##.with-dot::before
 
 ! Newsletter
-sourceforge.net###newsletter-floating
 www.wired.com##.newsletter-subscribe-form
 kotaku.com##.js_newsletter-form-inline

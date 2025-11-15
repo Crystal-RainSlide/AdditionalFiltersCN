@@ -2,7 +2,7 @@
 ! Description: Some custom rules excluded from AdditionalFiltersCN.
 ! Homepage: https://github.com/Crystal-RainSlide/AdditionalFiltersCN
 ! Expire: 7 days
-! Last Modified: 12-Nov-2025/13:48:44+08:00
+! Last Modified: 15-Nov-2025/14:45:59+08:00
 
 ! 网页粒子背景插件
 */canvas-nest.min.js$script
@@ -163,6 +163,17 @@ igg-games.com,pcgamestorrents.com##.uk-section:style(padding: 15px 0 !important)
 ||igg-games.com/wp-content/themes/iggtheme/fonts/*
 ||pcgamestorrents.com/wp-content/themes/iggtheme/fonts/*
 
+! megaup.net
+||megaup.net/themes/spirit/assets/frontend/img/background.jpg$image,redirect=2x2.png
+||megaup.net/themes/flow/frontend_assets/socialsider-v1.0/*
+megaup.net##.socialsider
+
+! terminal.lc
+||terminal.lc/assets/css/s.css
+||terminal.lc/assets/img/static.gif$image,redirect=1x1.gif
+terminal.lc##.noise, .overlay
+
+
 ||www.youtube.com^$subdocument,domain=dropgalaxy.com|mega4upload.com
 
 dropgalaxy.com###dns + div
@@ -177,7 +188,7 @@ frdl.to##form center:has(>img.img-fluid:only-child)
 frdl.to##b:last-child:style(display: contents)
 frdl.to##.copyright:style(margin-top: 0 !important)
 
-||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com,~youtube.com
+||fonts.googleapis.com/css$stylesheet,domain=~fonts.google.com|~youtube.com
 
 @@||fonts.googleapis.com^$domain=nicovideo.jp|store.steampowered.com|toho-vote.info
 

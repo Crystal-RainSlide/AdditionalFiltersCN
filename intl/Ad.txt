@@ -51,21 +51,11 @@ outlook.live.com###MainModule + div:last-child:has(> div:only-child > div > #owa
 old.reddit.com##.ad-container
 
 ! SourceForge
-sourceforge.net##.sterling, .banner-sterling
-sourceforge.net###nels, #project-nel, .nel, .nel-block
-sourceforge.net##.stackcommerce-widget
-sourceforge.net###dlp-voip-quote
+sourceforge.net##.main-nav-link
+sourceforge.net###floating-content
 
-! StackExchange
-stackexchange.com,stackoverflow.com##.js-freemium-cta
-
-! pixiv
-www.pixiv.net##.premium-lead-premium-campaign
-www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
-
-! www.pixiv.net###js-mount-point-header.with-ad:style(min-height: 64px !important)
-www.pixiv.net##+js(rc, with-ad)
-www.pixiv.net###column-misc > .ad + .item:style(margin-top: 0 !important)
+! Pixiv - Premium ad in Header
+www.pixiv.net##iframe[src^="https://imp.pixiv.net/premium_lp?"] + a[href^="/premium/lead/lp?"]
 
 ! NPR
 www.npr.org###main-sidebar:has(> #ad-standard-wrap:only-child)
@@ -94,9 +84,6 @@ www.textnow.com##img[src="assets/images/icon/EnableCalling.png"]
 
 ! APKPure
 apkpure.com##.ad-box-auto
-
-! XDA
-forum.xda-developers.com###honor-launch-banner
 
 ! Fandom
 fandom.com##.top-ads-container, .mcf-card-sponsored-content

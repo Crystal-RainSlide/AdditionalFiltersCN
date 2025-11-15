@@ -3,34 +3,9 @@
 ! Expire: 7 days
 ! ------------------------------------------------------------------------------
 
-! 屏蔽被 cn.bandisoft.com 等网站大胆采用的 Noto CJK 系列 WebFont，节约流量/带宽
-! （每个约 20 MB）
-! Google 怎么想的啊。
-||fonts.googleapis.com/css?family=Noto+Sans+JP$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+KR$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+TC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+SC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Sans+HK$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+JP$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+TC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+SC$stylesheet
-||fonts.googleapis.com/css?family=Noto+Serif+HK$stylesheet
-||fonts.gstatic.com/s/notosansjp/*
-||fonts.gstatic.com/s/notosanskr/*
-||fonts.gstatic.com/s/notosanstc/*
-||fonts.gstatic.com/s/notosanssc/*
-||fonts.gstatic.com/s/notosanshk/*
-||fonts.gstatic.com/s/notoserifjp/*
-||fonts.gstatic.com/s/notoseriftc/*
-||fonts.gstatic.com/s/notoserifsc/*
-||fonts.gstatic.com/s/notoserifhk/*
-
 ! WordPress better-content-protector Plugin
 ! ||www.fcportables.com/wp-content/plugins/better-content-protector/assets/js/content-protector-pack.min.js
 */wp-content/plugins/better-content-protector/*
-
-! MDN: dot
-developer.mozilla.org##.top-level-entry-container .top-level-entry-dot ~ .top-level-entry::after
 
 ! WikiHow
 ! Help us do more
@@ -40,6 +15,12 @@ www.wikihow.com##+js(set, mw.config.values.wgProMembership, 1)
 
 ! Disqus - 将红色通知圆点设为灰色
 disqus.com##.unread .notification-icon:style(color: #656c7a !important)
+
+! Sourceforge Download page - no countdown & no redirect
+sourceforge.net##+js(set, SF.noCountDown, true)
+sourceforge.net##+js(set, SF.noRedirect, true)
+sourceforge.net##+js(set, SF.pspRedirect, false)
+sourceforge.net##+js(set, SF.pdlpRedirect, false)
 
 ! Fandom
 ! Wikia bar
@@ -64,6 +45,5 @@ userstyle.org###stylish-code:style(font-family: monospace !important)
 xhamster.com##.with-dot::before
 
 ! Newsletter
-sourceforge.net###newsletter-floating
 www.wired.com##.newsletter-subscribe-form
 kotaku.com##.js_newsletter-form-inline
