@@ -43,7 +43,7 @@
 
 ! spy-client
 ! https://code.bdstatic.com/npm/spy-client@1.0.3/dist/spy-client.min.js
-||code.bdstatic.com/npm/spy-client^$domain=~haokan.baidu.com
+||code.bdstatic.com/npm/spy-client^$domain=~haokan.baidu.com|~mbd.baidu.com
 
 ! ||staticiot.cdn.bcebos.com/union/badjs-sdk-min-2.0.0.js
 ||staticiot.cdn.bcebos.com/union/badjs-sdk-*
